@@ -778,7 +778,6 @@ const questions = [
     ],
     "a": 3
   },
-[
   {
     "q": "A gift card is a type of (Select the most appropriate option from among the following.)",
     "o": [
@@ -1072,6 +1071,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

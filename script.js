@@ -222,8 +222,11 @@ const questions = [
 
 {q:"Business Facilitator cannot?",o:["Handle cash","Verify borrower","Identify activity","Monitor loans"],a:0},
 
-{q:"RRB area of operation is?",o:["Few districts","Unlimited","State decided","Sponsor bank decided"],a:0}
+{q:"RRB area of operation is?",o:["Few districts","Unlimited","State decided","Sponsor bank decided"],a:0},
 
+{q:"Development Financial Institutions mainly provide?",o:["Guidance","Credit guarantee","Refinance to banks","Technology support"],a:2},
+
+{q:"Which is NOT a main cause of customer complaints?",o:["Poor facilities","Staff attitude","Workload issues","Non-standard procedures"],a:3}
 ];
 
 
@@ -282,6 +285,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

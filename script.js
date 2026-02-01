@@ -278,7 +278,6 @@ const questions = [
     ],
     "a": 2
   },
-[
   {
     "q": "The cardinal principles of lending include ____ (i) safety of funds (ii) liquidity (iii) diversification of risk (iv) security",
     "o": [
@@ -529,7 +528,6 @@ const questions = [
     ],
     "a": 3
   },
-[
   {
     "q": "RBI has stipulated “Officially Valid Documents” for the purpose of _____.",
     "o": [
@@ -780,7 +778,6 @@ const questions = [
     ],
     "a": 3
   },
-[
   {
     "q": "A Gift card is a type of _____.",
     "o": [
@@ -1087,6 +1084,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

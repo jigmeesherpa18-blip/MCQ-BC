@@ -27,7 +27,7 @@ const timerInterval = setInterval(() => {
 }, 1000);
 
 /************** QUESTIONS 1–50 **************/
-const questionsBlock1 =
+const questionsBlock1 ="
        [
   {
     "q": "The definition of financial inclusion currently in use includes delivery of financial services. Which one of the following is not a feature of financial services?",
@@ -1029,7 +1029,7 @@ const questionsBlock1 =
     ],
     "a": 0
   }
-];
+];"
 /************** SUBMIT **************/
 document.getElementById("quizForm").addEventListener("submit",function(e){
   e.preventDefault();
@@ -1072,6 +1072,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

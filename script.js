@@ -1,32 +1,27 @@
-document.addEventListener("DOMContentLoaded", function () {
-/************** SHUFFLE FUNCTION **************/
-function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-}
-/************** TIMER (50 MIN) **************/
-let totalTime = 50 * 60;
-const timerEl = document.getElementById("timer-box");
+document.addEventListener("DOMContentLoaded", () => {
 
-const timerInterval = setInterval(() => {
-  // timer countdown
-  let m = Math.floor(totalTime / 60);
-  let s = totalTime % 60;
-  if (timerEl) {
-  timerEl.innerText = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
-}
+  const quizForm = document.getElementById("quizForm");
+  const nameInput = document.getElementById("studentName");
+  const resultDiv = document.getElementById("result");
+  const quizDiv = document.getElementById("quiz");
 
-  if (totalTime <= 0) {
-    clearInterval(timerInterval);
-    alert("Time is up! Test will be submitted automatically.");
-    document.getElementById("quizForm").dispatchEvent(new Event("submit"));
-  }
-  totalTime--;
-}, 1000);
+  /* ========= TIMER ========= */
+  let totalTime = 50 * 60;
+  const timerSpan = document.getElementById("timer");
 
-/************** QUESTIONS 1–50 **************/
+  const timerInterval = setInterval(() => {
+    const m = Math.floor(totalTime / 60);
+    const s = totalTime % 60;
+    timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
+
+    if (totalTime <= 0) {
+      clearInterval(timerInterval);
+      quizForm.requestSubmit();
+    }
+    totalTime--;
+  }, 1000);
+
+  /************** QUESTIONS 1–50 **************/
 const questions = [
   {
     "q": "The definition of financial inclusion currently in use includes delivery of financial services. Which one of the following is not a feature of delivery of financial services? (Select the most appropriate option from among the following:)",
@@ -1024,93 +1019,73 @@ const questions = [
     "a": 0
   }
 ];
-renderQuestions();
-  function renderQuestions() {
-  const container = document.getElementById("questionsContainer");
-  if (!container) return;
-
-  let html = "";
-
+/* ========= RENDER ========= */
   questions.forEach((q, i) => {
-    html += `<div class="question">
-      <p><b>${i + 1}. ${q.q}</b></p>`;
-    q.o.forEach((opt, idx) => {
-      html += `
+    const div = document.createElement("div");
+    div.className = "question";
+
+    div.innerHTML =
+      `<p><b>${i + 1}. ${q.q}</b></p>` +
+      q.o.map((opt, idx) => `
         <label>
           <input type="radio" name="q${i}" value="${idx}">
           ${opt}
-        </label><br>`;
-    });
-    html += `</div>`;
+        </label><br>
+      `).join("");
+
+    quizDiv.appendChild(div);
   });
 
-  container.innerHTML = html;
-}
+  /* ========= SUBMIT ========= */
+  quizForm.addEventListener("submit", e => {
+    e.preventDefault();
+    clearInterval(timerInterval);
 
-  const quizDiv = document.getElementById("quiz");
+    const name = nameInput.value.trim();
+    if (!name) {
+      alert("Enter student name");
+      return;
+    }
 
-questions.forEach((q, i) => {
-  const div = document.createElement("div");
-  div.innerHTML = `<p><b>${i+1}. ${q.q}</b></p>` +
-    q.o.map((opt, idx) =>
-      `<label>
-        <input type="radio" name="q${i}" value="${idx}">
-        ${opt}
-      </label><br>`
-    ).join("");
-  quizDiv.appendChild(div);
+    let score = 0;
+
+    questions.forEach((item, i) => {
+      document.getElementsByName(`q${i}`).forEach(o => {
+        if (Number(o.value) === item.a) o.parentElement.style.color = "green";
+        if (o.checked && Number(o.value) === item.a) score++;
+        o.disabled = true;
+      });
+    });
+
+    const percent = ((score / questions.length) * 100).toFixed(2);
+    const result = percent >= 50 ? "PASS" : "FAIL";
+
+ /*
+const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSeqcnSME6H5EFdv16cnKlCRhry5YxcSO0bEpIgcr17fKcAtyA/formResponse";
+
+const formData = new FormData();
+formData.append("entry.846732875", name);
+formData.append("entry.1048864389", score);
+formData.append("entry.821591012", percent);
+formData.append("entry.827534288", result);
+
+fetch(formURL, {
+  method: "POST",
+  mode: "no-cors",
+  body: formData
+});
+*/
+ resultDiv.innerHTML = `
+      <hr>
+      <b>Name:</b> ${name}<br>
+      <b>Score:</b> ${score}/${questions.length}<br>
+      <b>Percentage:</b> ${percent}%<br>
+      <b>Result:</b> ${result}
+    `;
+  });
+
 });
 
-/************** SUBMIT **************/
-quizForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  clearInterval(timerInterval);
-
-  const name = nameInput.value.trim();
-  if (!name) {
-    alert("Enter student name");
-    return;
-  }
-
-  let score = 0;
-
-  questions.forEach((item, i) => {
-    const options = document.getElementsByName(`q${i}`);
-    options.forEach(o => {
-      if (Number(o.value) === item.a) {
-        o.parentElement.style.color = "green";
-      }
-      if (o.checked && Number(o.value) === item.a) score++;
-      o.disabled = true;
-    });
-  });
-
-  const percent = ((score / questions.length) * 100).toFixed(2);
-  const result = percent >= 50 ? "PASS" : "FAIL";
-
-  // ✅ SEND TO GOOGLE FORM
-  const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSeqcnSME6H5EFdv16cnKlCRhry5YxcSO0bEpIgcr17fKcAtyA/formResponse";
-
-  const formData = new FormData();
-  formData.append("entry.846732875", name);
-  formData.append("entry.1048864389", score);
-  formData.append("entry.821591012", percent);
-  formData.append("entry.827534288", result);
-
-  fetch(formURL, {
-    method: "POST",
-    mode: "no-cors",
-    body: formData
-  });
-
-  resultDiv.innerHTML = `
-    <hr>
-    <b>Name:</b> ${name}<br>
-    <b>Score:</b> ${score}/${questions.length}<br>
-    <b>Percentage:</b> ${percent}%<br>
-    <b>Result:</b> ${result}
-  `;
-});
 
 
 

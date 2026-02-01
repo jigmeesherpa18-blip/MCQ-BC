@@ -28,8 +28,7 @@ const timerInterval = setInterval(() => {
 
 /************** QUESTIONS 1–50 **************/
 const questions = [
-[
-  {
+ {
     "q": "The definition of financial inclusion currently in use includes delivery of financial services. Which one of the following is not a feature of financial services?",
     "o": [
       "The services include the provision of savings, credit, insurance and remittance facilities",
@@ -1088,6 +1087,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

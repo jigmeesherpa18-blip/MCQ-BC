@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function () {
 /************** SHUFFLE FUNCTION **************/
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -5,7 +6,6 @@ function shuffle(arr) {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
 }
-
 /************** TIMER (50 MIN) **************/
 let totalTime = 50 * 60;
 const timerEl = document.getElementById("timer");
@@ -1024,6 +1024,21 @@ const questions = [
     "a": 0
   }
 ];
+ 
+  const quizDiv = document.getElementById("quiz");
+
+questions.forEach((q, i) => {
+  const div = document.createElement("div");
+  div.innerHTML = `<p><b>${i+1}. ${q.q}</b></p>` +
+    q.o.map((opt, idx) =>
+      `<label>
+        <input type="radio" name="q${i}" value="${idx}">
+        ${opt}
+      </label><br>`
+    ).join("");
+  quizDiv.appendChild(div);
+});
+
 /************** SUBMIT **************/
 document.getElementById("quizForm").addEventListener("submit",function(e){
   e.preventDefault();
@@ -1044,26 +1059,30 @@ document.getElementById("quizForm").addEventListener("submit",function(e){
 
   const percent=(score/questions.length)*100;
   const result=percent>50?"PASS ✅":"FAIL ❌";
-// ===== SEND RESULT TO GOOGLE SHEETS =====
-const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSeqcnSME6H5EFdv16cnKlCRhry5YxcSO0bEpIgcr17fKcAtyA/formResponse";
+// ===== SEND RESULT TO GOOGLE FORM =====
+    const formURL =
+      "https://docs.google.com/forms/d/e/1FAIpQLSeqcnSME6H5EFdv16cnKlCRhry5YxcSO0bEpIgcr17fKcAtyA/formResponse";
 
-const formData = new FormData();
-formData.append("entry.846732875", name);                 // Student Name
-formData.append("entry.1048864389", score);               // Score
-formData.append("entry.821591012", percent.toFixed(2));   // Percentage
-formData.append("entry.827534288", result);               // PASS / FAIL
+    const formData = new FormData();
+    formData.append("entry.846732875", name);
+    formData.append("entry.1048864389", score);
+    formData.append("entry.821591012", percent.toFixed(2));
+    formData.append("entry.827534288", result);
 
-fetch(formURL, {
-  method: "POST",
-  mode: "no-cors",
-  body: formData
-});
+    fetch(formURL, {
+      method: "POST",
+      mode: "no-cors",
+      body: formData
+    });
 
-  document.getElementById("result").innerHTML=
-    `<hr><b>Name:</b> ${name}<br>
-     <b>Score:</b> ${score}/${questions.length}<br>
-     <b>Percentage:</b> ${percent.toFixed(2)}%<br>
-     <b>Result:</b> ${result}`;
+    document.getElementById("result").innerHTML = `
+      <hr>
+      <b>Name:</b> ${name}<br>
+      <b>Score:</b> ${score}/${questions.length}<br>
+      <b>Percentage:</b> ${percent.toFixed(2)}%<br>
+      <b>Result:</b> ${result}
+    `;
+  });
 
 });
 

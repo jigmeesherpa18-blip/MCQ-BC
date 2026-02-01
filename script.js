@@ -8,7 +8,7 @@ function shuffle(arr) {
 }
 /************** TIMER (50 MIN) **************/
 let totalTime = 50 * 60;
-const timerEl = document.getElementById("timer");
+const timerEl = document.getElementById("timer-box");
 
 const timerInterval = setInterval(() => {
   // timer countdown
@@ -1024,7 +1024,29 @@ const questions = [
     "a": 0
   }
 ];
- 
+renderQuestions();
+  function renderQuestions() {
+  const container = document.getElementById("questionsContainer");
+  if (!container) return;
+
+  let html = "";
+
+  questions.forEach((q, i) => {
+    html += `<div class="question">
+      <p><b>${i + 1}. ${q.q}</b></p>`;
+    q.o.forEach((opt, idx) => {
+      html += `
+        <label>
+          <input type="radio" name="q${i}" value="${idx}">
+          ${opt}
+        </label><br>`;
+    });
+    html += `</div>`;
+  });
+
+  container.innerHTML = html;
+}
+
   const quizDiv = document.getElementById("quiz");
 
 questions.forEach((q, i) => {
@@ -1089,6 +1111,7 @@ quizForm.addEventListener("submit", function (e) {
     <b>Result:</b> ${result}
   `;
 });
+
 
 
 

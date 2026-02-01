@@ -222,7 +222,11 @@ const questions = [
 
 {q:"Main objective of customer service in banks is?",o:["Profit only","Regulatory compliance","Customer satisfaction","Loan recovery"],a:2},
 
-{q:"Which forum resolves bank customer complaints?",o:["Civil Court","Consumer Court","Banking Lokpal","Police Station"],a:2}
+{q:"Which forum resolves bank customer complaints?",o:["Civil Court","Consumer Court","Banking Lokpal","Police Station"],a:2},
+
+{q:"Which authority supervises commercial banks in India?",o:["Ministry of Finance","SEBI","Reserve Bank of India","IRDAI"],a:2},
+
+{q:"Primary objective of banking regulation is to ensure?",o:["Higher profits","Customer convenience","Safety and stability of banking system","Rapid branch expansion"],a:2}
 ];
 
 /************** SHUFFLE QUESTIONS **************/
@@ -280,6 +284,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

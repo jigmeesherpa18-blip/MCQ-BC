@@ -99,7 +99,7 @@ const questions = [
     "a": 3
   },
   {
-    "q": "while effective communication is important for financial counselling, it requires which of the following? (i) Structuring the counselling relationship (ii) establishing rapport (iii) dealing with _____ (Select the most appropriate option from among the following.)",
+    "q": "while effective communication is important for financial counselling, it requires which of the following? (i) Structuring the counselling relationship (ii) establishing rapport (iii) dealing with conflict",
     "o": [
       "(i) only",
       "(i) and (ii) only",
@@ -594,7 +594,7 @@ const questions = [
     "a": 0
   },
   {
-    "q": "It is not expected that the Business Correspondent / Business Facilitators will perform _____ to the people residing in its operational area (Select the most appropriate option from among the following.)",
+    "q": "It is not expected that the Business Correspondent / Business Facilitators will perform what to the people residing in its operational area (Select the most appropriate option from among the following.)",
     "o": [
       "Companion",
       "Philosopher",
@@ -744,7 +744,7 @@ const questions = [
     "a": 1
   },
   {
-    "q": "The features of \"Civil Society Organisations (CSO) in the context of Financial Inclusion is (Select the most appropriate option from among the following.)",
+    "q": "The features of Civil Society Organisations (CSO) in the context of Financial Inclusion is (Select the most appropriate option from among the following.)",
     "o": [
       "NGOs",
       "Non State,, not-for-profit, voluntary entities formed by people.",
@@ -1066,6 +1066,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

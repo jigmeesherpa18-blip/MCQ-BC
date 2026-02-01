@@ -26,208 +26,206 @@ const timerInterval = setInterval(() => {
   totalTime--;
 }, 1000);
 
-/************** ALL 100 QUESTIONS **************/
+/************** QUESTIONS 1–50 **************/
 const questions = [
-{q:"What are those assets which cannot be recovered?",o:["Standard assets","Sub-standard assets","Doubtful assets","Loss assets"],a:3},
 
-{q:"SARFAESI Act is applicable on loans of:",o:["Above ₹50,000","Above ₹1 lakh","Above ₹5 lakhs","All loans"],a:1},
+{q:"Which is NOT a feature of financial inclusion?",o:["Informal & formal system","Affordable cost","Low-income groups","Savings, credit & insurance"],a:0},
 
-{q:"Loans up to what amount can be settled through Lok Adalat?",o:["₹10 lakhs","₹15 lakhs","₹20 lakhs","₹25 lakhs"],a:2},
+{q:"Provisioning for standard assets in CRE sector is?",o:["0.25%","0.40%","1.00%","Nil"],a:0},
 
-{q:"Loans to be referred to Debt Recovery Tribunal (DRT) are:",o:["₹10 lakhs and above","₹15 lakhs and above","₹20 lakhs and above","₹25 lakhs and above"],a:2},
+{q:"Central Government stake in PSBs is?",o:["25%","50%","More than 50%","90%"],a:2},
 
-{q:"Does interest applied on NPA affect borrower liability?",o:["Interest stops completely","Interest remains overdue up to 90 days","Interest is waived","Interest is compounded monthly"],a:1},
+{q:"Customer Day is observed on?",o:["1st of month","10th of month","15th of month","Last day"],a:2},
 
-{q:"What are the main issues of a bank?",o:["Profit and growth","Liquidity and solvency","Customer service and satisfaction","Capital adequacy"],a:2},
+{q:"Which was NOT part of early financial liberalisation?",o:["Jan Dhan Yojana","Aadhaar","Mobile","Microfinance"],a:0},
 
-{q:"A letter expressing dissatisfaction by a customer is called:",o:["Request","Suggestion","Complaint","Feedback"],a:2},
+{q:"ONDC is a?",o:["Section 8 company","Govt company","Private bank JV","PPP"],a:0},
 
-{q:"Main complaints of small depositors relate to:",o:["ATM charges only","Interest rates only","Service issues like passbook and account opening","Loan sanctions"],a:2},
+{q:"NEFT through internet banking is available?",o:["7am–5pm","7am–8pm","Bank working hours","24×7"],a:3},
 
-{q:"Main complaints of small borrowers are related to:",o:["Deposit rates","Delay in loans and collateral demand","ATM availability","Branch location"],a:1},
+{q:"Effective financial counselling requires?",o:["Structuring only","Structuring & rapport","Rapport & conflict","All of these"],a:3},
 
-{q:"Policy adopted by banks to address complaints is called:",o:["Recovery policy","Model Policy","Credit policy","Risk policy"],a:1},
+{q:"Early stress in loan accounts is tracked using?",o:["Bad account","Irregular","Special Mention Account","Watch list"],a:2},
 
-{q:"Rules under Model Policy include:",o:["Strict recovery","Polite dealing and timely redressal","Legal action only","Automation"],a:1},
+{q:"Bank will NOT disclose customer info when?",o:["Required by law","Customer consent","Govt official directs","Public interest"],a:2},
 
-{q:"Customer complaints mainly arise due to:",o:["High profits","Poor communication and service gaps","Excess staff","Excess automation"],a:1},
+{q:"Ombudsman under Integrated Ombudsman Scheme is appointed by?",o:["Govt of India","RBI","Banks","Finance Ministry"],a:1},
 
-{q:"If a customer is not satisfied with bank reply, complaint can be made to:",o:["Civil court","Police","Banking Lokpal","Finance Ministry"],a:2},
+{q:"Which statement about MSMEs is incorrect?",o:["Udyam registration mandatory","PSL eligible loans","10% micro sub-target","Regulated by RBI"],a:3},
 
-{q:"Customers should be informed about:",o:["Loan products only","Interest rates only","Where and how to complain","Branch timings"],a:2},
+{q:"Bank-customer dispute amount before Ombudsman can be?",o:["₹50,000","₹1 lakh","₹5 lakhs","Any amount"],a:3},
 
-{q:"Complaint redressal details must be displayed on:",o:["Website only","Branch notice board","Passbook","ATM screen"],a:1},
+{q:"Reserve Bank of India is?",o:["Central Bank","Development Bank","Finance Ministry wing","PSB"],a:0},
 
-{q:"Complaints can be lodged through:",o:["Written only","Oral only","Online only","Written, oral or telephone"],a:3},
+{q:"RBI customer service instructions include?",o:["Unattended counters allowed","Late staff arrival","All customers attended","Selective service"],a:2},
 
-{q:"Time limit for replying to a written complaint is:",o:["3 days","5 days","7 days","15 days"],a:2},
+{q:"FATF is a?",o:["Finance Ministry body","RBI body","International body","ED wing"],a:2},
 
-{q:"Telephone complaints are handled by:",o:["Ignoring","Verbal assurance only","Complaint number and follow-up","Legal notice"],a:2},
+{q:"Which is incorrect about SHGs?",o:["Small formal groups","10–12 members","Homogeneous group","Promote savings"],a:0},
 
-{q:"Complaints should generally be resolved within:",o:["7 days","15 days","21 days","30 days"],a:3},
+{q:"Sub-exposures begin at deposits of?",o:["₹15 lakh","₹50 lakh","₹1 crore","₹2 crore"],a:0},
 
-{q:"Who is responsible for complaint redressal at branch level?",o:["Clerk","Cashier","Branch Manager","Security guard"],a:2},
+{q:"NCFE was set up by?",o:["Govt of India","All banks","PSBs","Financial regulators"],a:3},
 
-{q:"If branch cannot resolve complaint, it is escalated to:",o:["Customer","Police","Regional/Zonal Office","Court"],a:2},
+{q:"PM Jeevan Jyoti Bima Yojana is a?",o:["Term insurance","Endowment","ULIP","Whole life"],a:0},
 
-{q:"If unresolved at Regional Office, complaint goes to:",o:["Branch Manager","Zonal Manager","Bank’s Nodal Officer","RBI Governor"],a:2},
+{q:"Jan Samarth Portal connects?",o:["Deposits","PPF","Lenders & beneficiaries","Bill payments"],a:2},
 
-{q:"Customer Day is observed on:",o:["1st of every month","10th of every month","15th of every month","Last day of month"],a:2},
+{q:"ATM failed cash withdrawal reversal time?",o:["Immediate","7 days","5 working days","10 days"],a:2},
 
-{q:"Customer Service Committee meetings are held at:",o:["Head Office only","Regional Office only","Branches and Regional Offices","RBI offices"],a:2},
+{q:"Mobile wallet is?",o:["Credit based","Debit based","Digital cash","ATM usable"],a:2},
 
-{q:"Banks observe Customer Fortnight:",o:["Every month","Every quarter","Once a year","Once in five years"],a:2},
+{q:"Bank asking customer to use CDM instead of counter is?",o:["Irregular","Lawful","Not permitted","Only for cash shortage"],a:1},
 
-{q:"Complaints at RO level are handled by:",o:["Branch Manager","Clerk","Regional Manager/AGM","RBI"],a:2},
+{q:"DICGC covers deposits of?",o:["All RBI banks","Except cooperatives","Except RRBs","Optional"],a:0},
 
-{q:"Customer Service Section at Head Office works under:",o:["Branch Manager","Regional Manager","General Manager","Chairman only"],a:2},
+{q:"Cardinal principles of lending include?",o:["Safety & liquidity","Liquidity & risk","Risk & security","Safety, liquidity & security"],a:3},
 
-{q:"Branch level complaints should be resolved within:",o:["3 days","5 days","7 days","10 days"],a:2},
+{q:"DFIs mainly provide?",o:["Guidance","Guarantee","Refinance","Tech support"],a:2},
 
-{q:"Mandatory display in banks includes:",o:["Interest rates only","Loan schemes only","Nodal officer and Lokpal details","Staff attendance"],a:2},
+{q:"BC commission changes on voluntary e-enrolment?",o:["No change","Passed to branch","Reduced","Half"],a:0},
 
-{q:"General complaints should be resolved within:",o:["7 days","15 days","21 days","30 days"],a:2},
+{q:"Pink Label ATMs are for?",o:["Shares","Agriculture","Online shopping","Women"],a:3},
 
-{q:"Time limit for complaints received from PMO is:",o:["3 days","5 days","7 days","10 days"],a:2},
+{q:"Which is NOT a cause of customer complaints?",o:["Poor facilities","Bad attitude","Workload","Non-standard procedures"],a:3},
 
-{q:"Banking Lokpal Scheme is implemented by:",o:["Government of India","RBI","SEBI","IRDAI"],a:1},
+{q:"RBI’s Deposit Education Fund is used for?",o:["Interest promotion","Deposit insurance","Financial inclusion","None"],a:2},
 
-{q:"Banking Lokpal is appointed from among:",o:["Judges","Chartered Accountants","Senior Bankers","Civil servants"],a:2},
+{q:"OVDs are for?",o:["Branch licensing","Small loans","KYC","Refinance"],a:2},
 
-{q:"Main function of Banking Lokpal is to:",o:["Issue licences","Resolve customer complaints","Impose penalties","Conduct audits"],a:1},
+{q:"Inoperative account classification considers?",o:["Credits only","Customer debit & credit","Standing instructions","Charges only"],a:1},
 
-{q:"Tenure of Banking Lokpal is:",o:["1 year","2 years","3 years","5 years"],a:2},
+{q:"BC violating privacy laws causes?",o:["Operational risk","Strategic risk","Compliance risk","Reputation risk"],a:2},
 
-{q:"Maximum age limit for Banking Lokpal is:",o:["60 years","62 years","65 years","70 years"],a:2},
+{q:"NFC in mobile can be embedded in?",o:["Storage","RAM","Remittance","SIM"],a:3},
 
-{q:"Maximum compensation awarded by Lokpal is:",o:["₹5 lakhs","₹8 lakhs","₹10 lakhs","₹20 lakhs"],a:2},
+{q:"Interest debited but not overdue for 8 months account is?",o:["Standard","Sub-standard","Doubtful","Loss"],a:0},
 
-{q:"Primary responsibility for resolving complaints lies with:",o:["RBI","Zonal Office","Branch","Court"],a:2},
+{q:"USSD banking does NOT offer?",o:["Money transfer","Bill pay","Merchant pay","Account opening"],a:3},
 
-{q:"Appeal against Lokpal order can be made within:",o:["15 days","30 days","45 days","60 days"],a:1},
+{q:"Kisan Credit Card aims to provide?",o:["Farm credit","Non-farm credit","Flexible credit","All of these"],a:3},
 
-{q:"Sellers and buyers provide information to:",o:["Banks","Government","Market","Stock exchange"],a:2},
+{q:"BC/BF is NOT expected to act as?",o:["Guide","Philosopher","Govt representative","Channel"],a:2},
 
-{q:"System that mobilizes surplus capital is:",o:["Banking system","Financial system","Payment system","Insurance system"],a:1},
+{q:"Financial education includes?",o:["Skills only","Knowledge only","Understanding only","All of these"],a:3},
 
-{q:"Examples of financial intermediaries are:",o:["Banks and mutual funds","Courts and police","Hospitals","Schools"],a:0},
+{q:"PMJJBY annual premium is?",o:["₹114","₹228","₹342","₹436"],a:0},
 
-{q:"Two main roles of RBI are:",o:["Profit and growth","Control inflation and supervise banks","Customer service","Loan recovery"],a:1},
+{q:"Soft skills relate to?",o:["Customer relations","Financial analysis","Tools","Programming"],a:0},
 
-{q:"RBI acts as lender of:",o:["First resort","Last resort","Only resort","Temporary resort"],a:1},
+{q:"Lack of BC oversight causes?",o:["Operational risk","Strategic risk","Compliance risk","Reputation risk"],a:0},
 
-{q:"Commercial banks include:",o:["Only public banks","Only private banks","Public, private and foreign banks","Only cooperative banks"],a:2},
-  
-{q:"Who provides long-term funds to industry and agriculture?",o:["Commercial Banks","Financial Institutions","Cooperative Banks","Primary Dealers"],a:1},
+{q:"BHIM is used for?",o:["Bank payments only","Send & collect money","Bill alerts","SMS alerts"],a:1},
 
-{q:"Urban Cooperative Banks are controlled by:",o:["RBI only","State Government only","RBI and State Government","Central Government"],a:2},
+{q:"Short-duration crop loans become NPA after?",o:["90 days","One season","Two seasons","Three seasons"],a:2},
 
-{q:"CRR stands for:",o:["Cash Reserve Ratio","Credit Reserve Ratio","Central Reserve Ratio","Cash Requirement Ratio"],a:0},
+{q:"Free ATM transactions in metro cities?",o:["3","4","5","7"],a:2},
 
-{q:"SLR stands for:",o:["Statutory Lending Ratio","Standard Liquidity Ratio","Statutory Liquidity Ratio","State Liquidity Ratio"],a:2},
+{q:"Former-survivor FD after death allows payment to?",o:["No one","Survivor","Heirs","Jointly"],a:1},
 
-{q:"Main purpose of insurance is to:",o:["Earn profit","Secure value of life and assets","Encourage savings","Promote investment"],a:1},
+{q:"Credit score range is?",o:["100–700","200–800","300–900","400–1000"],a:2},
+ {q:"Deposit Education & Awareness Fund is used for?",o:["Interest promotion","Deposit insurance","Financial inclusion","None"],a:2},
 
-{q:"Insurance is broadly classified into:",o:["Life and Term","General and Health","Life and Non-life","Public and Private"],a:2},
+{q:"Officially Valid Documents are used for?",o:["Branch licence","Small loans","KYC verification","RBI refinance"],a:2},
 
-{q:"An insurance intermediary is:",o:["Insurer","Agent or Broker","Policy holder","Regulator"],a:1},
+{q:"Inoperative account classification considers?",o:["Credits only","Customer debit & credit","Standing instructions","Charges only"],a:1},
 
-{q:"Till 1999–2000, insurance business in India was handled mainly by:",o:["LIC and GIC","Private insurers","Foreign insurers","Regional insurers"],a:0},
+{q:"BC violating confidentiality causes?",o:["Operational risk","Strategic risk","Compliance risk","Reputation risk"],a:2},
 
-{q:"As per IRDAI data, number of life insurance companies in India is:",o:["20","22","24","30"],a:2},
+{q:"NFC technology can be embedded in?",o:["Phone memory","RAM","Bank server","SIM card"],a:3},
 
-{q:"Total number of insurance companies in India is:",o:["50","55","57","60"],a:2},
+{q:"Interest debited but not overdue account is?",o:["Standard","Sub-standard","Doubtful","Loss"],a:0},
 
-{q:"Insurance sector in India is regulated by:",o:["RBI","SEBI","IRDAI","PFRDA"],a:2},
+{q:"USSD banking does NOT allow?",o:["Money transfer","Bill payment","Merchant payment","Account opening"],a:3},
 
-{q:"Pension Fund Regulatory and Development Authority (PFRDA) was formed in:",o:["2000","2002","2003","2005"],a:2},
+{q:"Kisan Credit Card aims to?",o:["Farm credit","Non-farm credit","Flexible credit","All"],a:3},
 
-{q:"National Pension System (NPS) was introduced in:",o:["2001","2003","2004","2006"],a:2},
+{q:"BC is NOT expected to act as?",o:["Guide","Philosopher","Govt representative","Channel"],a:2},
 
-{q:"Capital market is divided into:",o:["Money and capital market","Primary and secondary market","Debt and equity market","Domestic and foreign market"],a:1},
+{q:"Financial education includes?",o:["Skills","Knowledge","Confidence","All"],a:3},
 
-{q:"Instruments issued in the primary market include:",o:["Shares, bonds and debentures","Derivatives only","Treasury bills only","Certificates of deposit"],a:0},
+{q:"PMJJBY annual premium is?",o:["₹114","₹228","₹342","₹436"],a:0},
 
-{q:"Intermediaries in the primary market are:",o:["Banks and issue managers","Courts and regulators","Depositors","Investors only"],a:0},
+{q:"Soft skills relate to?",o:["Customer relations","Financial analysis","Tools","Programming"],a:0},
 
-{q:"Secondary market deals in:",o:["Issue of new securities","Trading of existing securities","Loan disbursement","Deposit mobilisation"],a:1},
+{q:"Lack of BC oversight leads to?",o:["Operational risk","Strategic risk","Compliance risk","Reputation risk"],a:0},
 
-{q:"Approval for trading of securities is given to:",o:["Banks","Companies","Stock exchanges","Mutual funds"],a:2},
+{q:"BHIM app is used for?",o:["Bank alerts","Digital payments","ATM withdrawals","Loan tracking"],a:1},
 
-{q:"Issuance and advisory services are provided by:",o:["Commercial banks","Investment bankers","Stock brokers","Depositories"],a:1},
+{q:"Short-duration crop loan becomes NPA after?",o:["90 days","One season","Two seasons","Three seasons"],a:2},
 
-{q:"Foreign Institutional Investors are known as:",o:["FDIs","FIIs","NRIs","QFIs"],a:1},
+{q:"Free ATM transactions in metro cities?",o:["3","4","5","7"],a:2},
 
-{q:"A mutual fund is a:",o:["Private investment","Pool of investors’ funds","Bank deposit","Government scheme"],a:1},
+{q:"Former-survivor FD paid to?",o:["Heirs","Survivor","Jointly","None"],a:1},
 
-{q:"IRDAI controls which sector?",o:["Banking","Capital market","Insurance","Pension"],a:2},
+{q:"Credit score range is?",o:["100–700","200–800","300–900","400–1000"],a:2},
 
-{q:"Insurance that protects assets is:",o:["Life insurance","Term insurance","Non-life insurance","Pension insurance"],a:2},
+{q:"Borrower profiling helps in?",o:["Recovery","Follow-up","Activity suitability","KYC"],a:2},
 
-{q:"Securities include:",o:["Shares and bonds","Debentures only","Government notes","Bank deposits"],a:0},
+{q:"Soft skills do NOT include?",o:["Communication","Motivation","Responsibility","Technical knowledge"],a:3},
 
-{q:"Percentage of deposits banks keep with RBI is called:",o:["SLR","CRR","Repo rate","Bank rate"],a:1},
+{q:"Cost of borrowing money is?",o:["Commission","Interest","Charge","Premium"],a:1},
 
-{q:"Lack of access to formal banking is known as:",o:["Financial inclusion","Financial instability","Financial exclusion","Financial literacy"],a:2},
+{q:"Non-advisory banking services are?",o:["Luxury","Essential","Elite","Advisory-based"],a:1},
 
-{q:"Affordable financial services to poor is called:",o:["Micro banking","Priority lending","Financial inclusion","Subsidised banking"],a:2},
+{q:"Civil Society Organisations are?",o:["NGOs","Voluntary non-profit bodies","SHGs","State bodies"],a:1},
 
-{q:"Total number of bank branches in India as on 31.03.2015 was:",o:["1,00,000","1,15,000","1,25,857","1,40,000"],a:2},
+{q:"Who is NOT eligible for PMJJBY?",o:["NRI","49 years age","16 years age","51 yrs continuing"],a:2},
 
-{q:"RBI initiatives under financial inclusion include:",o:["SHGs and simplified KYC","Only SHGs","Only Jan Dhan","Only BC model"],a:0},
+{q:"Incorrect statement about Bharat QR?",o:["P2M payments","UPI secure","Any supported app","Only UPI"],a:3},
 
-{q:"Banking services in unbanked areas are provided through:",o:["ATMs","Mobile vans","BC/BF","Post offices"],a:2},
+{q:"Gift card is a?",o:["Debit card","Credit card","Prepaid card","Charge card"],a:2},
 
-{q:"BF stands for:",o:["Business Finance","Business Facilitator","Banking Facilitator","Branch Facilitator"],a:1},
+{q:"Financial statements include?",o:["Balance sheet","P&L","Notes","All"],a:3},
 
-{q:"BC stands for:",o:["Business Consultant","Banking Correspondent","Business Correspondent","Branch Coordinator"],a:2},
+{q:"Incorrect about NFC contactless tech?",o:["Audit trail","Instant settlement","Stored value","Central accounts"],a:1},
 
-{q:"BC/BF act as a bridge between:",o:["Bank and RBI","Bank and people","Customer and regulator","Bank and government"],a:1},
+{q:"Incorrect about RFID?",o:["Music listening","Goods tracking","Smart cards","Secure"],a:0},
 
-{q:"NPCI stands for:",o:["National Payment Council of India","National Payments Corporation of India","National Processing Centre of India","National Public Clearing Institution"],a:1},
+{q:"Charge card payment is made?",o:["Instant","One-time","Installments","Grace period"],a:1},
 
-{q:"Major banking development in India is:",o:["Branch expansion","Core Banking Solutions","Nationalisation","Privatisation"],a:1},
+{q:"KCC beneficiaries may get?",o:["Smart card","Debit card","GCC","A or B"],a:3},
 
-{q:"CBS stands for:",o:["Central Banking System","Core Banking Solutions","Computerised Banking Software","Central Branch System"],a:1},
+{q:"DDs above ₹10,000 must be?",o:["Bearer","Crossed","Account payee","Cash"],a:2},
 
-{q:"Which schemes are enabled by CBS?",o:["RTGS, NEFT, IMPS","Only NEFT","Only RTGS","Cheque clearing"],a:0},
+{q:"99% banking services via USSD?",o:["Any GSM phone","Smartphone","Android only","iOS only"],a:0},
 
-{q:"Technology helping common man in banking includes:",o:["RTGS and mobile banking","Only ATMs","Only internet banking","Manual registers"],a:0},
+{q:"Digital Rupee helps reduce?",o:["Currency use","Cash cost","Inflation","Physical cash"],a:1},
 
-{q:"RTGS refers to:",o:["Retail Transfer System","Real Time Gross Settlement","Rapid Transfer Gateway","Reserve Transfer Guarantee System"],a:1},
+{q:"Incorrect about virtual cards?",o:["Random number","Prevents fraud","No spend limit","Secure"],a:2},
 
-{q:"NEFT stands for:",o:["National Electronic Funds Transfer","New Electronic Funds Transfer","National Easy Funds Transfer","Net Enabled Funds Transfer"],a:0},
+{q:"Accrual accounting records?",o:["Cash basis","When earned","When paid","Advance only"],a:1},
 
-{q:"CTS stands for:",o:["Cheque Truncation System","Central Transfer System","Cheque Transfer Service","Clearing Transaction System"],a:0},
+{q:"Education loan ₹8 lakh requires?",o:["No security","Parents only","Parents + collateral","Collateral only"],a:2},
 
-{q:"Formal financial system includes:",o:["Savings, credit, insurance and payments","Only deposits","Only loans","Only insurance"],a:0},
+{q:"CRR is calculated on?",o:["NDTL","GDTL","Advances","Deposits"],a:0},
 
-{q:"Banks avoid rural poor mainly due to:",o:["Lack of interest","Low savings","High population","Poor literacy"],a:1},
+{q:"Ethics include?",o:["Values","Guidance","Social protection","All"],a:3},
 
-{q:"Small credit given to individuals is called:",o:["Macro credit","Micro credit","Priority credit","Retail credit"],a:1},
+{q:"White Label ATMs are owned by?",o:["Banks","NBFCs","Non-banks","RBI"],a:2},
 
-{q:"Micro savings and credit arrangement is known as:",o:["Micro banking","Micro lending","Micro finance","Mini finance"],a:2},
+{q:"AePS enables?",o:["Withdrawal","Deposit","Transfer","All"],a:3},
 
-{q:"The concept of microfinance was pioneered by:",o:["Amartya Sen","Raghuram Rajan","Dr. Mohammed Yunus","Muhammad Ali"],a:2},
-  
-{q:"What does NPA stand for?",o:["Non Paid Asset","Non Performing Asset","Net Productive Asset","New Performing Asset"],a:1},
+{q:"APY targets workers of?",o:["Organised sector","Unorganised sector","Govt sector","PSUs"],a:1},
 
-{q:"After how many days overdue does an account become NPA?",o:["60 days","90 days","120 days","180 days"],a:1},
+{q:"Banking sector regulator is?",o:["Govt","NABARD","RBI","Ombudsman"],a:2},
 
-{q:"Which asset category has no recovery value?",o:["Standard","Sub-standard","Doubtful","Loss"],a:3},
+{q:"Financial inclusion steps did NOT include?",o:["Service area","GCC","Simplified KYC","BSBDA"],a:0},
 
-{q:"Who regulates the banking system in India?",o:["Government of India","SEBI","RBI","IRDAI"],a:2},
+{q:"Corporate governance includes?",o:["Objectives","Monitoring","Authority","All except pricing"],a:3},
 
-{q:"Which document proves customer identity and address?",o:["Cheque book","Passbook","KYC documents","ATM card"],a:2},
+{q:"MUDRA loans are given?",o:["With guarantee","With mortgage","Above ₹5 lakh","Without collateral <₹10L"],a:3},
 
-{q:"Main objective of customer service in banks is?",o:["Profit only","Regulatory compliance","Customer satisfaction","Loan recovery"],a:2},
+{q:"Joint account can have nominees?",o:["Two","One only","With consent","None"],a:1},
 
-{q:"Which forum resolves bank customer complaints?",o:["Civil Court","Consumer Court","Banking Lokpal","Police Station"],a:2},
+{q:"Scheduled banks enjoy?",o:["Refinance","Clearing","Currency chest","All"],a:3},
 
-{q:"Which authority supervises commercial banks in India?",o:["Ministry of Finance","SEBI","Reserve Bank of India","IRDAI"],a:2},
+{q:"Business Facilitator cannot?",o:["Handle cash","Verify borrower","Identify activity","Monitor loans"],a:0},
 
-{q:"Primary objective of banking regulation is to ensure?",o:["Higher profits","Customer convenience","Safety and stability of banking system","Rapid branch expansion"],a:2}
+{q:"RRB area of operation is?",o:["Few districts","Unlimited","State decided","Sponsor bank decided"],a:0}
+
 ];
+
 
 /************** SHUFFLE QUESTIONS **************/
 shuffle(questions);
@@ -284,6 +282,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

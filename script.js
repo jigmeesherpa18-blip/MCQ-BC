@@ -139,16 +139,6 @@ const questions = [
     "a": 1
   },
   {
-    "q": "Which one of the following statements is incorrect in respect of Micro, Small and Medium enterprises (MSMEs)?",
-    "o": [
-      "All MSMEs are required to register online on the Udyam Registration Portal and obtain Udyam Registration Certificate.",
-      "All bank loans to MSMEs confirming the laid down guidelines qualify for classification under Priority Sector Lending.",
-      "A sub target of 10% of ANBC or CEOBE which ever is higher towards lending to Micro enterprises under Priority Sector lending has been prescribed for domestic commercial banks.",
-      "D)"
-    ],
-    "a": 3
-  },
-  {
     "q": "The dispute between the bank and the customer that can be brought before the Ombudsman, can be _____ (Select the most appropriate option from among the following.",
     "o": [
       "Not more than the value of Rs 50,000.",
@@ -239,16 +229,11 @@ const questions = [
     "a": 2
   },
   {
-    "q": "If an account holder uses ATM card to withdraw cash, but the system has not dispensed cash but his account is debited. The debit to be reversed _____ by the bank. (Select the most appropriate option from among the following.)",
-    "o": [
-      "D) Making payments of utility bills.",
-      "22 If an account holder uses ATM card to withdraw cash, but the system has not dispensed cash but his account is debited. The debit to be reversed _____ by the bank. (Select the most appropriate option from among the following.)",
-      "no other options, answer not provided",
-      "no other options, answer not provided"
-    ],
-    "a": 2
-  },
-  {
+  "q": "If an account holder uses ATM card to withdraw cash but cash is not dispensed and account is debited, the debit should be reversed by the bank within:",
+  "o": ["Immediately", "Within 7 days", "Within 5 working days", "Within 10 working days"],
+  "a": 2
+},
+{
     "q": "Mobile wallet _____ (Select the most appropriate option from among the following.)",
     "o": [
       "Works on the line of Credit card.",
@@ -688,6 +673,16 @@ const questions = [
     ],
     "a": 2
   },
+   {
+    "q": "RBI has stipulated that banks should offer their savings bank customers free transactions at other Bank's ATMs in a Metro City (Mumbai, New Delhi, Chennai, Kolkata, Bengaluru and Hyderabad in a month. (Select the most appropriate option from among the following.)",
+    "o": [
+      "Minimum of 3 transactions.",
+      "Minimum of 4 transactions.",
+      "Minimum of 5 transactions.",
+      "Minimum of 7 transactions."
+    ],
+    "a": 0
+  },
   {
     "q": "An FDR has been issued in the name of 'A' and 'B' with the operating instructions of 'Former and Survivor'. 'A' has died. Now, 'B' wants its pre-mature payment. The bank will (Select the most appropriate option from among the following.)",
     "o": [
@@ -1071,6 +1066,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

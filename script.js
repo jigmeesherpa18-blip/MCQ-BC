@@ -208,8 +208,21 @@ const questions = [
 
 {q:"Micro savings and credit arrangement is known as:",o:["Micro banking","Micro lending","Micro finance","Mini finance"],a:2},
 
-{q:"The concept of microfinance was pioneered by:",o:["Amartya Sen","Raghuram Rajan","Dr. Mohammed Yunus","Muhammad Ali"],a:2}
+{q:"The concept of microfinance was pioneered by:",o:["Amartya Sen","Raghuram Rajan","Dr. Mohammed Yunus","Muhammad Ali"],a:2},
+  
+{q:"What does NPA stand for?",o:["Non Paid Asset","Non Performing Asset","Net Productive Asset","New Performing Asset"],a:1},
 
+{q:"After how many days overdue does an account become NPA?",o:["60 days","90 days","120 days","180 days"],a:1},
+
+{q:"Which asset category has no recovery value?",o:["Standard","Sub-standard","Doubtful","Loss"],a:3},
+
+{q:"Who regulates the banking system in India?",o:["Government of India","SEBI","RBI","IRDAI"],a:2},
+
+{q:"Which document proves customer identity and address?",o:["Cheque book","Passbook","KYC documents","ATM card"],a:2},
+
+{q:"Main objective of customer service in banks is?",o:["Profit only","Regulatory compliance","Customer satisfaction","Loan recovery"],a:2},
+
+{q:"Which forum resolves bank customer complaints?",o:["Civil Court","Consumer Court","Banking Lokpal","Police Station"],a:2}
 ];
 
 /************** SHUFFLE QUESTIONS **************/
@@ -267,6 +280,7 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 
 

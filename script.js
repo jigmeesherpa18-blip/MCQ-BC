@@ -14,7 +14,9 @@ const timerInterval = setInterval(() => {
   // timer countdown
   let m = Math.floor(totalTime / 60);
   let s = totalTime % 60;
+  if (timerEl) {
   timerEl.innerText = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
+}
 
   if (totalTime <= 0) {
     clearInterval(timerInterval);
@@ -264,4 +266,5 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 

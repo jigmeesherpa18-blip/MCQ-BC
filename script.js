@@ -116,7 +116,8 @@ const questions = [
 
 {q:"RBI acts as lender of:",o:["First resort","Last resort","Only resort","Temporary resort"],a:1},
 
-{q:"Commercial banks include:",o:["Only public banks","Only private banks","Public, private and foreign banks","Only cooperative banks"],a:2}
+{q:"Commercial banks include:",o:["Only public banks","Only private banks","Public, private and foreign banks","Only cooperative banks"],a:2},
+  
 {q:"Who provides long-term funds to industry and agriculture?",o:["Commercial Banks","Financial Institutions","Cooperative Banks","Primary Dealers"],a:1},
 
 {q:"Urban Cooperative Banks are controlled by:",o:["RBI only","State Government only","RBI and State Government","Central Government"],a:2},
@@ -266,5 +267,6 @@ fetch(formURL, {
      <b>Result:</b> ${result}`;
 
 });
+
 
 

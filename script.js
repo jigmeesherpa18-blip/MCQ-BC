@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+  
   const quizForm = document.getElementById("quizForm");
   const nameInput = document.getElementById("studentName");
   const resultDiv = document.getElementById("result");
@@ -1019,6 +1026,10 @@ const questions = [
     "a": 0
   }
 ];
+
+  shuffle(questions);
+questions.forEach(q => shuffle(q.o));
+
 /* ========= RENDER ========= */
   questions.forEach((q, i) => {
     const div = document.createElement("div");
@@ -1051,9 +1062,20 @@ const questions = [
 
     questions.forEach((item, i) => {
       document.getElementsByName(`q${i}`).forEach(o => {
-        if (Number(o.value) === item.a) o.parentElement.style.color = "green";
-        if (o.checked && Number(o.value) === item.a) score++;
-        o.disabled = true;
+        const val = Number(o.value);
+
+if (val === item.a) {
+  o.parentElement.style.color = "green";
+  o.parentElement.style.fontWeight = "bold";
+}
+
+if (o.checked && val !== item.a) {
+  o.parentElement.style.color = "red";
+}
+
+if (o.checked && val === item.a) score++;
+
+o.disabled = true;
       });
     });
 
@@ -1085,6 +1107,7 @@ fetch(formURL, {
   });
 
 });
+
 
 
 

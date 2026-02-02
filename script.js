@@ -1,4 +1,12 @@
-console.log("SCRIPT LOADED");
+cconsole.log("SCRIPT LOADED");
+
+if (typeof questions === "undefined") {
+  console.error("❌ Questions array not found!");
+  return;
+}
+
+console.log("✅ Questions loaded:", questions.length);
+
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -120,3 +128,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+

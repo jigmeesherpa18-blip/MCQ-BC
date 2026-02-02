@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
 }
-  
+  function shuffleQuestion(q) {
+  const correctOptionText = q.o[q.a];
+  shuffle(q.o);
+  q.a = q.o.indexOf(correctOptionText);
+}  
   const quizForm = document.getElementById("quizForm");
   const nameInput = document.getElementById("studentName");
   const resultDiv = document.getElementById("result");
@@ -1027,8 +1031,8 @@ const questions = [
   }
 ];
 
-  shuffle(questions);
-questions.forEach(q => shuffle(q.o));
+ shuffle(questions);
+questions.forEach(q => shuffleQuestion(q));
 
 /* ========= RENDER ========= */
   questions.forEach((q, i) => {
@@ -1107,6 +1111,7 @@ fetch(formURL, {
   });
 
 });
+
 
 
 

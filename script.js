@@ -1087,30 +1087,37 @@ o.disabled = true;
     const result = percent >= 50 ? "PASS" : "FAIL";
 
  
-const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSeqcnSME6H5EFdv16cnKlCRhry5YxcSO0bEpIgcr17fKcAtyA/formResponse";
-
-const formData = new FormData();
-formData.append("entry.846732875", name);
-formData.append("entry.1048864389", score);
-formData.append("entry.821591012", percent);
-formData.append("entry.827534288", result);
-
-fetch(formURL, {
+fetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p3rb2EdKNyz6uRhClqI32lbBHYYzzk-IV3slw/exec", {
   method: "POST",
-  mode: "no-cors",
-  body: formData
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    name: name,
+    score: score,
+    percent: percent,
+    result: result
+  })
+})
+.then(res => res.json())
+.then(data => {
+  console.log("Saved to sheet:", data);
+})
+.catch(err => {
+  console.error("Save failed:", err);
 });
-
+    
  resultDiv.innerHTML = `
       <hr>
       <b>Name:</b> ${name}<br>
       <b>Score:</b> ${score}/${questions.length}<br>
       <b>Percentage:</b> ${percent}%<br>
       <b>Result:</b> ${result}
-    `;
+     ;
   });
 
 });
+
 
 
 

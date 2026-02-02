@@ -1080,14 +1080,18 @@ fetch("https://script.google.com/macros/s/AKfycbx5WvgrMPtU9jMH_XTkeQjtyIIArjYd9d
   })
 });
    
- rresultDiv.innerHTML = `
-      <hr>
-      <b>Name:</b> ${nameInput.value}<br>
-      <b>Score:</b> ${score}/${questions.length}<br>
-      <b>Percentage:</b> ${percent}%<br>
-      <b>Result:</b> ${result}
-    `;
-   // ===== POPUP =====
+ clearInterval(timerInterval);
+
+/* ===== RESULT AT BOTTOM ===== */
+resultDiv.innerHTML = `
+  <hr>
+  <b>Name:</b> ${name}<br>
+  <b>Score:</b> ${score}/${questions.length}<br>
+  <b>Percentage:</b> ${percent}%<br>
+  <b>Result:</b> ${result}
+`;
+
+/* ===== POPUP ===== */
 document.getElementById("pName").textContent = name;
 document.getElementById("pPercent").textContent = percent;
 document.getElementById("pResult").textContent = result;
@@ -1098,8 +1102,3 @@ popup.classList.remove("hidden");
 document.getElementById("closePopup").onclick = () => {
   popup.classList.add("hidden");
 };
-  });
-});
-
-
-

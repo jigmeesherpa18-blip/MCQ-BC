@@ -3,50 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>One GP One BC Mock Test</title>
-  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <div class="container">
-    <h1>One GP One BC Mock Test</h1>
+<h1>One GP One BC Mock Test</h1>
 
-    <!-- TIMER -->
-    <div id="timer-box">
-      <span id="timer">Time Left: 50:00</span>
-    </div>
+<!-- Timer -->
+<div id="timer">Time Left: 50:00</div>
 
-    <!-- QUIZ FORM (NAME MUST BE INSIDE THIS) -->
-    <form id="quizForm">
+<!-- Student name input -->
+<label>
+  Student Name:
+  <input type="text" id="studentName" placeholder="Enter name here">
+</label>
 
-      <!-- STUDENT NAME -->
-      <div style="text-align:center; margin-bottom:20px;">
-        <label><b>Student Name:</b></label><br>
-        <input
-          type="text"
-          id="studentName"
-          placeholder="Enter your name"
-          required
-        >
-      </div>
+<!-- Quiz form -->
+<form id="quizForm">
+  <div id="quiz"></div>
 
-      <!-- QUESTIONS -->
-      <div id="quiz"></div>
+  <button type="submit">Submit Test</button>
+</form>
 
-      <!-- SUBMIT -->
-      <div style="text-align:center; margin-top:20px;">
-        <button type="submit">Submit Test</button>
-      </div>
+<!-- Results appear here -->
+<div id="result"></div>
 
-    </form>
-
-    <!-- RESULT (BOTTOM) -->
-    <div id="result"></div>
-  </div>
-
-  <!-- SCRIPTS (ORDER MATTERS) -->
-  <script src="questions.js"></script>
-  <script src="script.js"></script>
+<!-- Link JS -->
+<script src="questions.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>

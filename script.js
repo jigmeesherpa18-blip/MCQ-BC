@@ -2,16 +2,16 @@ console.log("SCRIPT LOADED");
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  /* ========= SAFETY CHECK ========= */
+  // Safety
   if (!Array.isArray(window.questions)) {
     console.error("❌ Questions array not found!");
-    return; // ✅ LEGAL here
+    return;
   }
 
   const questions = window.questions;
   console.log("✅ Questions loaded:", questions.length);
 
-  /* ========= HELPERS ========= */
+  // Helpers
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -24,18 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
     shuffle(q.o);
     q.a = q.o.indexOf(correctText);
   }
-  /* ========= ELEMENTS ========= */
+
+  // Elements
   const quizForm = document.getElementById("quizForm");
   const quizDiv = document.getElementById("quiz");
   const resultDiv = document.getElementById("result");
   const nameInput = document.getElementById("studentName");
   const timerSpan = document.getElementById("timer");
 
-  /* ========= SHUFFLE ========= */
+  // Shuffle questions & options
   shuffle(questions);
   questions.forEach(q => shuffleQuestion(q));
 
-  /* ========= RENDER ========= */
+  // Render
   questions.forEach((q, i) => {
     const div = document.createElement("div");
     div.className = "question";
@@ -52,75 +53,75 @@ document.addEventListener("DOMContentLoaded", () => {
     quizDiv.appendChild(div);
   });
 
-  /* ========= TIMER ========= */
-let totalTime = 50 * 60;
-let submitted = false;
+  // Timer
+  let totalTime = 50 * 60;
+  let submitted = false;
 
-const timerInterval = setInterval(() => {
-  if (submitted) return;
+  const timerInterval = setInterval(() => {
+    if (submitted) return;
 
-  const m = Math.floor(totalTime / 60);
-  const s = totalTime % 60;
-  timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
+    const m = Math.floor(totalTime / 60);
+    const s = totalTime % 60;
+    timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
 
-  if (totalTime <= 0) {
+    if (totalTime <= 0) {
+      clearInterval(timerInterval);
+      alert("Time is up! Please submit your test.");
+    }
+
+    totalTime--;
+  }, 1000);
+
+  // Submit
+  quizForm.addEventListener("submit", e => {
+    e.preventDefault();
+    if (submitted) return;
+    submitted = true;
+
     clearInterval(timerInterval);
-    alert("Time is up! Please submit your test.");
-  }
 
-  totalTime--;
-}, 1000);
+    const name = nameInput.value.trim();
+    if (!name) {
+      alert("Enter student name");
+      submitted = false;
+      return;
+    }
 
+    let score = 0;
 
- quizForm.addEventListener("submit", e => {
-  e.preventDefault();
-  if (submitted) return;
-  submitted = true;
+    questions.forEach((q, i) => {
+      document.getElementsByName(`q${i}`).forEach(o => {
+        const val = Number(o.value);
 
-  clearInterval(timerInterval);
+        if (val === q.a) {
+          o.parentElement.style.color = "green";
+          o.parentElement.style.fontWeight = "bold";
+        }
 
-  const name = nameInput.value.trim();
-  if (!name) {
-    alert("Enter student name");
-    submitted = false;
-    return;
-  }
+        if (o.checked && val !== q.a) {
+          o.parentElement.style.color = "red";
+        }
 
-  let score = 0;
+        if (o.checked && val === q.a) score++;
 
-  questions.forEach((q, i) => {
-    document.getElementsByName(`q${i}`).forEach(o => {
-      const val = Number(o.value);
-
-      if (val === q.a) {
-        o.parentElement.style.color = "green";
-        o.parentElement.style.fontWeight = "bold";
-      }
-
-      if (o.checked && val !== q.a) {
-        o.parentElement.style.color = "red";
-      }
-
-      if (o.checked && val === q.a) score++;
-
-      o.disabled = true;
+        o.disabled = true;
+      });
     });
+
+    const percent = ((score / questions.length) * 100).toFixed(2);
+    const result = percent >= 50 ? "PASS" : "FAIL";
+
+    // SHOW RESULT
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = `
+      <hr>
+      <b>Name:</b> ${name}<br>
+      <b>Score:</b> ${score}/${questions.length}<br>
+      <b>Percentage:</b> ${percent}%<br>
+      <b>Result:</b> ${result}
+    `;
+
+    resultDiv.scrollIntoView({ behavior: "smooth" });
   });
 
-  const percent = ((score / questions.length) * 100).toFixed(2);
-  const result = percent >= 50 ? "PASS" : "FAIL";
-
-  resultDiv.innerHTML = `
-    <hr>
-    <b>Name:</b> ${name}<br>
-    <b>Score:</b> ${score}/${questions.length}<br>
-    <b>Percentage:</b> ${percent}%<br>
-    <b>Result:</b> ${result}
-  `;
-
-  resultDiv.scrollIntoView({ behavior: "smooth" });
 });
-
-
-
-

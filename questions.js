@@ -1,7 +1,7 @@
 // questions.js
 console.log("questions.js loaded");
 
-const questions = [
+window.questions = [
  {
   q: "Insurance claim documents must be submitted within how many days?",
   o: ["60 days", "30 days", "45 days", "90 days"],

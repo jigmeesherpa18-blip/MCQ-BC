@@ -1087,7 +1087,7 @@ o.disabled = true;
     const result = percent >= 50 ? "PASS" : "FAIL";
 
  
-fetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p3rb2EdKNyz6uRhClqI32lbBHYYzzk-IV3slw/exec", {
+ffetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p3rb2EdKNyz6uRhClqI32lbBHYYzzk-IV3slw/exec", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -1098,8 +1098,14 @@ fetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p
     percent: percent,
     result: result
   })
+})
+.then(res => res.json())
+.then(data => {
+  console.log("Saved to sheet:", data);
+})
+.catch(err => {
+  console.error("Save failed:", err);
 });
-
    
  resultDiv.innerHTML = `
       <hr>
@@ -1111,6 +1117,7 @@ fetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p
   });
 
 });
+
 
 
 

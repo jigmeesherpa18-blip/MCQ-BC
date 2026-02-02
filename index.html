@@ -16,31 +16,35 @@
       <span id="timer">Time Left: 50:00</span>
     </div>
 
-    <!-- STUDENT NAME -->
-    <div style="text-align:center; margin-bottom:20px;">
-      <label><b>Student Name:</b></label><br>
-      <input
-        type="text"
-        id="studentName"
-        placeholder="Enter your name"
-        required
-      >
-    </div>
-
-    <!-- QUIZ FORM -->
+    <!-- QUIZ FORM (NAME MUST BE INSIDE THIS) -->
     <form id="quizForm">
+
+      <!-- STUDENT NAME -->
+      <div style="text-align:center; margin-bottom:20px;">
+        <label><b>Student Name:</b></label><br>
+        <input
+          type="text"
+          id="studentName"
+          placeholder="Enter your name"
+          required
+        >
+      </div>
+
+      <!-- QUESTIONS -->
       <div id="quiz"></div>
 
+      <!-- SUBMIT -->
       <div style="text-align:center; margin-top:20px;">
         <button type="submit">Submit Test</button>
       </div>
+
     </form>
 
-    <!-- RESULT (BOTTOM, KEEP THIS) -->
+    <!-- RESULT (BOTTOM) -->
     <div id="result"></div>
   </div>
 
-  <!-- IMPORTANT: ORDER MATTERS -->
+  <!-- SCRIPTS (ORDER MATTERS) -->
   <script src="questions.js"></script>
   <script src="script.js"></script>
 

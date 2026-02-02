@@ -1060,7 +1060,7 @@ const questions = [
     const percent = ((score / questions.length) * 100).toFixed(2);
     const result = percent >= 50 ? "PASS" : "FAIL";
 
- /*
+ 
 const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSeqcnSME6H5EFdv16cnKlCRhry5YxcSO0bEpIgcr17fKcAtyA/formResponse";
 
 const formData = new FormData();
@@ -1074,7 +1074,7 @@ fetch(formURL, {
   mode: "no-cors",
   body: formData
 });
-*/
+
  resultDiv.innerHTML = `
       <hr>
       <b>Name:</b> ${name}<br>
@@ -1085,6 +1085,7 @@ fetch(formURL, {
   });
 
 });
+
 
 
 

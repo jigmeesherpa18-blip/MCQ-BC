@@ -1,8 +1,4 @@
-/* ===== BASIC RESET ===== */
-* {
-  box-sizing: border-box;
-}
-
+/* ===== GLOBAL ===== */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f4f6f8;
@@ -10,12 +6,12 @@ body {
   padding: 0;
 }
 
-/* ===== MAIN CONTAINER ===== */
+/* ===== CONTAINER ===== */
 .container {
-  width: 70%;
-  margin: 80px auto 40px auto;
+  width: 60%;
+  margin: 40px auto;
   background: #ffffff;
-  padding: 25px 30px;
+  padding: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
@@ -23,75 +19,55 @@ body {
 /* ===== HEADINGS ===== */
 h1 {
   text-align: center;
-  margin-bottom: 25px;
-  color: #222;
-}
-
-/* ===== STUDENT NAME INPUT ===== */
-#studentName {
-  width: 60%;
-  padding: 10px;
-  font-size: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 8px;
-}
-
-#studentName:focus {
-  outline: none;
-  border-color: #007bff;
+  margin-bottom: 20px;
 }
 
 /* ===== QUESTIONS ===== */
 .question {
   margin-bottom: 22px;
-  padding: 12px 15px;
-  border-bottom: 1px solid #eee;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .question p {
-  margin-bottom: 10px;
-  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 /* ===== OPTIONS ===== */
-.question label {
-  display: block;
-  margin-bottom: 6px;
+label {
   cursor: pointer;
-  font-size: 15px;
+  display: block;
+  margin: 4px 0;
 }
 
-.question input[type="radio"] {
+input[type="radio"] {
   margin-right: 8px;
 }
 
-/* ===== SUBMIT BUTTON ===== */
+/* ===== BUTTON ===== */
 button {
-  display: block;
-  margin: 30px auto;
-  padding: 12px 28px;
+  padding: 12px 26px;
   font-size: 16px;
+  cursor: pointer;
   background: #007bff;
-  color: #fff;
+  color: #ffffff;
   border: none;
   border-radius: 6px;
-  cursor: pointer;
 }
 
 button:hover {
   background: #0056b3;
 }
 
-/* ===== RESULT SECTION ===== */
+/* ===== RESULT (BOTTOM) ===== */
 #result {
   margin-top: 30px;
-  padding: 18px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
   border-radius: 6px;
-  background: #f9f9f9;
-  font-size: 17px;
-  line-height: 1.6;
-  display: none;
+  background: #eef4ff;
+  border: 2px solid #007bff;
 }
 
 /* ===== STICKY TIMER ===== */
@@ -100,30 +76,40 @@ button:hover {
   top: 20px;
   right: 20px;
   background: #222;
-  color: #fff;
+  color: #ffffff;
   padding: 12px 18px;
   border-radius: 8px;
   font-size: 16px;
   font-weight: bold;
-  z-index: 999;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* ===== INPUT ===== */
+#studentName {
+  padding: 8px;
+  width: 60%;
+  max-width: 300px;
+  font-size: 16px;
 }
 
 /* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 768px) {
   .container {
-    width: 92%;
+    width: 95%;
+    margin: 20px auto;
     padding: 18px;
-  }
-
-  #studentName {
-    width: 100%;
   }
 
   #timer-box {
     top: auto;
-    bottom: 15px;
-    right: 15px;
+    bottom: 10px;
+    right: 10px;
     font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  #studentName {
+    width: 90%;
   }
 }

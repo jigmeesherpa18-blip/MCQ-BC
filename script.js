@@ -1,20 +1,15 @@
-cconsole.log("SCRIPT LOADED");
-
-if (typeof questions === "undefined") {
-  console.error("❌ Questions array not found!");
-  return;
-}
-
-console.log("✅ Questions loaded:", questions.length);
-
+console.log("SCRIPT LOADED");
 
 document.addEventListener("DOMContentLoaded", () => {
 
   /* ========= SAFETY CHECK ========= */
-  if (!window.questions || !Array.isArray(questions)) {
-    console.error("Questions array not found!");
+  if (!Array.isArray(window.questions)) {
+    console.error("❌ Questions array not found!");
     return;
   }
+
+  const questions = window.questions;
+  console.log("✅ Questions loaded:", questions.length);
 
   /* ========= HELPERS ========= */
   function shuffle(arr) {
@@ -29,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     shuffle(q.o);
     q.a = q.o.indexOf(correctText);
   }
-
   /* ========= ELEMENTS ========= */
   const quizForm = document.getElementById("quizForm");
   const quizDiv = document.getElementById("quiz");
@@ -128,4 +122,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
 

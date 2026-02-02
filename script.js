@@ -1098,15 +1098,9 @@ fetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p
     percent: percent,
     result: result
   })
-})
-.then(res => res.json())
-.then(data => {
-  console.log("Saved to sheet:", data);
-})
-.catch(err => {
-  console.error("Save failed:", err);
 });
-    
+
+   
  resultDiv.innerHTML = `
       <hr>
       <b>Name:</b> ${name}<br>
@@ -1117,6 +1111,7 @@ fetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p
   });
 
 });
+
 
 
 

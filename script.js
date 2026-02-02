@@ -1,3 +1,5 @@
+console.log("SCRIPT LOADED");
+
 document.addEventListener("DOMContentLoaded", () => {
 
   function shuffle(arr) {
@@ -1105,5 +1107,6 @@ const questions = [
     <b>Result:</b> ${result}
   `;
 });
+
 
 

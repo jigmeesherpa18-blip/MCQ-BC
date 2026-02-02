@@ -1087,7 +1087,7 @@ o.disabled = true;
     const result = percent >= 50 ? "PASS" : "FAIL";
 
  
-ffetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKELGu-MLsyK2xkdmETKKTF7Jgy-GXYVLROajgtyg/exec", {
+fetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKELGu-MLsyK2xkdmETKKTF7Jgy-GXYVLROajgtyg/exec", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -1101,15 +1101,17 @@ ffetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKEL
 });
    
  resultDiv.innerHTML = `
-      <hr>
-      <b>Name:</b> ${name}<br>
-      <b>Score:</b> ${score}/${questions.length}<br>
-      <b>Percentage:</b> ${percent}%<br>
-      <b>Result:</b> ${result}
-     ;
+  <hr>
+  <b>Name:</b> ${name}<br>
+  <b>Score:</b> ${score}/${questions.length}<br>
+  <b>Percentage:</b> ${percent}%<br>
+  <b>Result:</b> ${result}
+`;
+
   });
 
 });
+
 
 
 

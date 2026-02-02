@@ -1,16 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
   }
-}
+
   function shuffleQuestion(q) {
-  const correctOptionText = q.o[q.a];
-  shuffle(q.o);
-  q.a = q.o.indexOf(correctOptionText);
-}  
+    const correct = q.o[q.a];
+    shuffle(q.o);
+    q.a = q.o.indexOf(correct);
+  }
+
   const quizForm = document.getElementById("quizForm");
   const nameInput = document.getElementById("studentName");
   const resultDiv = document.getElementById("result");
@@ -1031,61 +1033,42 @@ const questions = [
   }
 ];
 
- shuffle(questions);
-questions.forEach(q => shuffleQuestion(q));
+ if (!Array.isArray(questions) || questions.length === 0) {
+    quizDiv.innerHTML = "<b>Questions failed to load</b>";
+    return;
+  }
+
+  shuffle(questions);
+  questions.forEach(shuffleQuestion);
 
 /* ========= RENDER ========= */
-  questions.forEach((q, i) => {
+ questions.forEach((q, i) => {
     const div = document.createElement("div");
-    div.className = "question";
-
     div.innerHTML =
       `<p><b>${i + 1}. ${q.q}</b></p>` +
-      q.o.map((opt, idx) => `
-        <label>
-          <input type="radio" name="q${i}" value="${idx}">
-          ${opt}
-        </label><br>
-      `).join("");
-
+      q.o.map((opt, idx) =>
+        `<label><input type="radio" name="q${i}" value="${idx}"> ${opt}</label><br>`
+      ).join("");
     quizDiv.appendChild(div);
   });
 
   /* ========= SUBMIT ========= */
-  quizForm.addEventListener("submit", e => {
+ quizForm.addEventListener("submit", e => {
     e.preventDefault();
-    clearInterval(timerInterval);
-
-    const name = nameInput.value.trim();
-    if (!name) {
-      alert("Enter student name");
-      return;
-    }
 
     let score = 0;
-
-    questions.forEach((item, i) => {
+    questions.forEach((q, i) => {
       document.getElementsByName(`q${i}`).forEach(o => {
-        const val = Number(o.value);
-
-if (val === item.a) {
-  o.parentElement.style.color = "green";
-  o.parentElement.style.fontWeight = "bold";
-}
-
-if (o.checked && val !== item.a) {
-  o.parentElement.style.color = "red";
-}
-
-if (o.checked && val === item.a) score++;
-
-o.disabled = true;
+        const v = +o.value;
+        if (v === q.a) o.parentElement.style.color = "green";
+        if (o.checked && v !== q.a) o.parentElement.style.color = "red";
+        if (o.checked && v === q.a) score++;
+        o.disabled = true;
       });
     });
 
     const percent = ((score / questions.length) * 100).toFixed(2);
     const result = percent >= 50 ? "PASS" : "FAIL";
-
  
 fetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKELGu-MLsyK2xkdmETKKTF7Jgy-GXYVLROajgtyg/exec", {
   method: "POST",
@@ -1100,46 +1083,12 @@ fetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKELG
   })
 });
    
- resultDiv.innerHTML = `
-  <hr>
-  <b>Name:</b> ${name}<br>
-  <b>Score:</b> ${score}/${questions.length}<br>
-  <b>Percentage:</b> ${percent}%<br>
-  <b>Result:</b> ${result}
-`;
-
+ rresultDiv.innerHTML = `
+      <hr>
+      <b>Name:</b> ${nameInput.value}<br>
+      <b>Score:</b> ${score}/${questions.length}<br>
+      <b>Percentage:</b> ${percent}%<br>
+      <b>Result:</b> ${result}
+    `;
   });
-
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1055,6 +1055,7 @@ const questions = [
   /* ========= SUBMIT ========= */
  quizForm.addEventListener("submit", e => {
     e.preventDefault();
+    console.log("SUBMIT FIRED");
 
     let score = 0;
     questions.forEach((q, i) => {
@@ -1083,7 +1084,8 @@ fetch("https://script.google.com/macros/s/AKfycbx5WvgrMPtU9jMH_XTkeQjtyIIArjYd9d
  clearInterval(timerInterval);
 
 /* ===== RESULT AT BOTTOM ===== */
-resultDiv.innerHTML = `
+resultDiv.style.display = "block";
+   resultDiv.innerHTML = `
   <hr>
   <b>Name:</b> ${name}<br>
   <b>Score:</b> ${score}/${questions.length}<br>
@@ -1092,6 +1094,7 @@ resultDiv.innerHTML = `
 `;
 
 /* ===== POPUP ===== */
+const popup = document.getElementById("resultPopup");
 document.getElementById("pName").textContent = name;
 document.getElementById("pPercent").textContent = percent;
 document.getElementById("pResult").textContent = result;
@@ -1101,4 +1104,5 @@ popup.classList.remove("hidden");
 
 document.getElementById("closePopup").onclick = () => {
   popup.classList.add("hidden");
-};
+});
+

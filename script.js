@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ========= SAFETY CHECK ========= */
   if (!Array.isArray(window.questions)) {
     console.error("❌ Questions array not found!");
-    return;
+    return; // ✅ LEGAL here
   }
 
   const questions = window.questions;
@@ -122,5 +122,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
 
 

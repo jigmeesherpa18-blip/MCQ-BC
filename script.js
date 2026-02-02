@@ -1087,7 +1087,19 @@ fetch("https://script.google.com/macros/s/AKfycbx5WvgrMPtU9jMH_XTkeQjtyIIArjYd9d
       <b>Percentage:</b> ${percent}%<br>
       <b>Result:</b> ${result}
     `;
+   // ===== POPUP =====
+document.getElementById("pName").textContent = name;
+document.getElementById("pPercent").textContent = percent;
+document.getElementById("pResult").textContent = result;
+
+const popup = document.getElementById("resultPopup");
+popup.classList.remove("hidden");
+
+document.getElementById("closePopup").onclick = () => {
+  popup.classList.add("hidden");
+};
   });
 });
+
 
 

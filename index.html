@@ -3,45 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>One GP One BC Mock Test</title>
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <div class="container">
-
     <h1>One GP One BC Mock Test</h1>
 
-    <!-- Timer -->
-    <div id="timer">Time Left: 50:00</div>
-
-    <!-- Student Name -->
-    <div class="name-box">
-      <label for="studentName">Student Name</label>
-      <input
-        type="text"
-        id="studentName"
-        placeholder="Enter your name"
-        required
-      >
+    <!-- TIMER -->
+    <div id="timer-box">
+      <span id="timer">Time Left: 50:00</span>
     </div>
 
-    <!-- Quiz -->
+    <!-- QUIZ FORM -->
     <form id="quizForm">
+
+      <!-- STUDENT NAME -->
+      <div style="text-align:center; margin-bottom:20px;">
+        <label><b>Student Name:</b></label><br>
+        <input
+          type="text"
+          id="studentName"
+          placeholder="Enter your name"
+          required
+        >
+      </div>
+
+      <!-- QUESTIONS -->
       <div id="quiz"></div>
 
-      <button type="submit" class="submit-btn">
-        Submit Test
-      </button>
+      <div style="text-align:center; margin-top:20px;">
+        <button type="submit">Submit Test</button>
+      </div>
     </form>
 
-    <!-- Result -->
+    <!-- RESULT -->
     <div id="result"></div>
 
   </div>
 
-  <!-- JS (order matters) -->
+  <!-- IMPORTANT: ORDER MATTERS -->
   <script src="questions.js"></script>
   <script src="script.js"></script>
 

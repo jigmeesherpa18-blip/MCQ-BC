@@ -1092,19 +1092,12 @@ ffetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKEL
   headers: {
     "Content-Type": "application/json"
   },
-  body: JSON.stringify({
+ body: JSON.stringify({
     name: name,
     score: score,
     percent: percent,
     result: result
   })
-})
-.then(res => res.json())
-.then(data => {
-  console.log("Saved to sheet:", data);
-})
-.catch(err => {
-  console.error("Save failed:", err);
 });
    
  resultDiv.innerHTML = `
@@ -1117,6 +1110,7 @@ ffetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKEL
   });
 
 });
+
 
 
 

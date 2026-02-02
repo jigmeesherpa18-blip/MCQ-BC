@@ -1070,16 +1070,14 @@ const questions = [
     const percent = ((score / questions.length) * 100).toFixed(2);
     const result = percent >= 50 ? "PASS" : "FAIL";
  
-fetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKELGu-MLsyK2xkdmETKKTF7Jgy-GXYVLROajgtyg/exec", {
+fetch("https://script.google.com/macros/s/AKfycbzcgXo2JZRHNo8ie1N_c-tKaS4i0mE0_PA9TmiEbQg_NKIdU1a-BhQMLVFDO8vvjnQpNA/exec", {
   method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
- body: JSON.stringify({
-    name: name,
-    score: score,
-    percent: percent,
-    result: result
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    name,
+    score,
+    percent,
+    result
   })
 });
    
@@ -1092,3 +1090,4 @@ fetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKELG
     `;
   });
 });
+

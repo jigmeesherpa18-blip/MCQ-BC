@@ -53,75 +53,74 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   /* ========= TIMER ========= */
-  let totalTime = 50 * 60;
-  let submitted = false;
+let totalTime = 50 * 60;
+let submitted = false;
 
-  const timerInterval = setInterval(() => {
-    if (submitted) return;
+const timerInterval = setInterval(() => {
+  if (submitted) return;
 
-    const m = Math.floor(totalTime / 60);
-    const s = totalTime % 60;
-    timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
+  const m = Math.floor(totalTime / 60);
+  const s = totalTime % 60;
+  timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
 
-    if (totalTime <= 0) {
-      clearInterval(timerInterval);
-      quizForm.requestSubmit();
-    }
-    totalTime--;
-  }, 1000);
-
-  /* ========= SUBMIT ========= */
-  quizForm.addEventListener("submit", e => {
-    e.preventDefault();
-    if (submitted) return;
-    submitted = true;
-
+  if (totalTime <= 0) {
     clearInterval(timerInterval);
+    alert("Time is up! Please submit your test.");
+  }
 
-    const name = nameInput.value.trim();
-    if (!name) {
-      alert("Enter student name");
-      submitted = false;
-      return;
-    }
+  totalTime--;
+}, 1000);
 
-    let score = 0;
 
-    questions.forEach((q, i) => {
-      document.getElementsByName(`q${i}`).forEach(o => {
-        const val = Number(o.value);
+ quizForm.addEventListener("submit", e => {
+  e.preventDefault();
+  if (submitted) return;
+  submitted = true;
 
-        if (val === q.a) {
-          o.parentElement.style.color = "green";
-          o.parentElement.style.fontWeight = "bold";
-        }
+  clearInterval(timerInterval);
 
-        if (o.checked && val !== q.a) {
-          o.parentElement.style.color = "red";
-        }
+  const name = nameInput.value.trim();
+  if (!name) {
+    alert("Enter student name");
+    submitted = false;
+    return;
+  }
 
-        if (o.checked && val === q.a) score++;
+  let score = 0;
 
-        o.disabled = true;
-      });
+  questions.forEach((q, i) => {
+    document.getElementsByName(`q${i}`).forEach(o => {
+      const val = Number(o.value);
+
+      if (val === q.a) {
+        o.parentElement.style.color = "green";
+        o.parentElement.style.fontWeight = "bold";
+      }
+
+      if (o.checked && val !== q.a) {
+        o.parentElement.style.color = "red";
+      }
+
+      if (o.checked && val === q.a) score++;
+
+      o.disabled = true;
     });
-
-    const percent = ((score / questions.length) * 100).toFixed(2);
-    const result = percent >= 50 ? "PASS" : "FAIL";
-
-    /* ========= RESULT ========= */
-    resultDiv.innerHTML = `
-      <hr>
-      <b>Name:</b> ${name}<br>
-      <b>Score:</b> ${score}/${questions.length}<br>
-      <b>Percentage:</b> ${percent}%<br>
-      <b>Result:</b> ${result}
-    `;
-
-    resultDiv.scrollIntoView({ behavior: "smooth" });
   });
 
+  const percent = ((score / questions.length) * 100).toFixed(2);
+  const result = percent >= 50 ? "PASS" : "FAIL";
+
+  resultDiv.innerHTML = `
+    <hr>
+    <b>Name:</b> ${name}<br>
+    <b>Score:</b> ${score}/${questions.length}<br>
+    <b>Percentage:</b> ${percent}%<br>
+    <b>Result:</b> ${result}
+  `;
+
+  resultDiv.scrollIntoView({ behavior: "smooth" });
 });
+
 
 
 

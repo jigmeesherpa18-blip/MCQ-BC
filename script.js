@@ -1087,7 +1087,7 @@ o.disabled = true;
     const result = percent >= 50 ? "PASS" : "FAIL";
 
  
-ffetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5p3rb2EdKNyz6uRhClqI32lbBHYYzzk-IV3slw/exec", {
+ffetch("https://script.google.com/macros/s/AKfycbxdGfQCCd-e3_tq9qN1_NiVqWFtCBKELGu-MLsyK2xkdmETKKTF7Jgy-GXYVLROajgtyg/exec", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -1117,6 +1117,7 @@ ffetch("https://script.google.com/macros/s/AKfycbz5hyg41VVfxeE4-zSVy_H5_rasToGV5
   });
 
 });
+
 
 
 

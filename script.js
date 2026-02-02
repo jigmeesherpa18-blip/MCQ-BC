@@ -18,21 +18,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const resultDiv = document.getElementById("result");
   const quizDiv = document.getElementById("quiz");
 
-  /* ========= TIMER ========= */
-  let totalTime = 50 * 60;
-  const timerSpan = document.getElementById("timer");
-
+ /* timer */ 
   const timerInterval = setInterval(() => {
-    const m = Math.floor(totalTime / 60);
-    const s = totalTime % 60;
-    timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
+  if (testSubmitted) return;
 
-    if (totalTime <= 0) {
-      clearInterval(timerInterval);
-      quizForm.requestSubmit();
-    }
-    totalTime--;
-  }, 1000);
+  const m = Math.floor(totalTime / 60);
+  const s = totalTime % 60;
+  timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
+
+  if (totalTime <= 0) {
+    testSubmitted = true;
+    clearInterval(timerInterval);
+    quizForm.requestSubmit();
+  }
+  totalTime--;
+}, 1000);
+
 
   /************** QUESTIONS 1–50 **************/
 const questions = [
@@ -1054,55 +1055,55 @@ const questions = [
 
   /* ========= SUBMIT ========= */
  quizForm.addEventListener("submit", e => {
-    e.preventDefault();
-    console.log("SUBMIT FIRED");
+  e.preventDefault();
+  if (testSubmitted) return;
+  testSubmitted = true;
 
-    let score = 0;
-    questions.forEach((q, i) => {
-      document.getElementsByName(`q${i}`).forEach(o => {
-        const v = +o.value;
-        if (v === q.a) o.parentElement.style.color = "green";
-        if (o.checked && v !== q.a) o.parentElement.style.color = "red";
-        if (o.checked && v === q.a) score++;
-        o.disabled = true;
-      });
+  clearInterval(timerInterval);
+
+  const name = nameInput.value.trim();
+  if (!name) {
+    alert("Enter student name");
+    testSubmitted = false;
+    return;
+  }
+
+  let score = 0;
+
+  questions.forEach((q, i) => {
+    document.getElementsByName(`q${i}`).forEach(o => {
+      const v = +o.value;
+
+      if (v === q.a) o.parentElement.style.color = "green";
+      if (o.checked && v !== q.a) o.parentElement.style.color = "red";
+      if (o.checked && v === q.a) score++;
+
+      o.disabled = true;
     });
+  });
 
-    const percent = ((score / questions.length) * 100).toFixed(2);
-    const result = percent >= 50 ? "PASS" : "FAIL";
- 
-fetch("https://script.google.com/macros/s/AKfycbx5WvgrMPtU9jMH_XTkeQjtyIIArjYd9d9t2nAIMYWE0Ds4k3c98fzrqO0fp2aQLgEgGg/exec", {
-  method: "POST",
+  const percent = ((score / questions.length) * 100).toFixed(2);
+  const result = percent >= 50 ? "PASS" : "FAIL";
+
+  fetch("https://script.google.com/macros/s/AKfycbx5WvgrMPtU9jMH_XTkeQjtyIIArjYd9d9t2nAIMYWE0Ds4k3c98fzrqO0fp2aQLgEgGg/exec", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-    name: name,
-    score: score,
-    percent: percent,
-    result: result
-  })
+      name,
+      score,
+      percent,
+      result
+    })
+  });
+
+  resultDiv.style.display = "block";
+  resultDiv.innerHTML = `
+    <hr>
+    <b>Name:</b> ${name}<br>
+    <b>Score:</b> ${score}/${questions.length}<br>
+    <b>Percentage:</b> ${percent}%<br>
+    <b>Result:</b> ${result}
+  `;
 });
-   
- clearInterval(timerInterval);
 
-/* ===== RESULT AT BOTTOM ===== */
-resultDiv.style.display = "block";
-   resultDiv.innerHTML = `
-  <hr>
-  <b>Name:</b> ${name}<br>
-  <b>Score:</b> ${score}/${questions.length}<br>
-  <b>Percentage:</b> ${percent}%<br>
-  <b>Result:</b> ${result}
-`;
-
-/* ===== POPUP ===== */
-const popup = document.getElementById("resultPopup");
-document.getElementById("pName").textContent = name;
-document.getElementById("pPercent").textContent = percent;
-document.getElementById("pResult").textContent = result;
-
-const popup = document.getElementById("resultPopup");
-popup.classList.remove("hidden");
-
-document.getElementById("closePopup").onclick = () => {
-  popup.classList.add("hidden");
-});
 

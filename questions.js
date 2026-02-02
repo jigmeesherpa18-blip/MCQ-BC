@@ -601,5 +601,190 @@ window.questions = [
     "Pradhan Mantri Gram Kalyan Yojana"
   ],
   a: 0
+},
+ {
+  q: "Monthly pension amount available under Atal Pension Yojana (APY) is:",
+  o: ["₹500–₹2000", "₹1000–₹5000", "₹2000–₹8000", "₹1500–₹6000"],
+  a: 1
+},
+{
+  q: "Eligibility criteria for joining Atal Pension Yojana (APY) is:",
+  o: [
+    "Age 18–40 with bank/post office account",
+    "Age 21–60 with Aadhaar only",
+    "Any age with savings account",
+    "Age 18–50 without bank account"
+  ],
+  a: 0
+},
+{
+  q: "Government co-contribution under APY was provided for how many years?",
+  o: ["3 years", "4 years", "5 years", "10 years"],
+  a: 2
+},
+{
+  q: "Maximum government co-contribution amount under APY was:",
+  o: ["₹500", "₹750", "₹1000", "₹1500"],
+  a: 2
+},
+{
+  q: "Who is NOT eligible for government co-contribution under APY?",
+  o: [
+    "Unorganised sector workers",
+    "Income tax payers",
+    "Self-employed individuals",
+    "Daily wage labourers"
+  ],
+  a: 1
+},
+{
+  q: "Funds under Atal Pension Yojana are invested as per guidelines of:",
+  o: ["RBI", "SEBI", "IRDAI", "PFRDA"],
+  a: 3
+},
+{
+  q: "Age limit under Swavalamban Pension Scheme was:",
+  o: ["21–60 years", "18–40 years", "18–50 years", "25–60 years"],
+  a: 1
+},
+{
+  q: "Purpose of Electronic Benefit Transfer (EBT) is:",
+  o: [
+    "Cash withdrawal facility",
+    "Electronic transfer of subsidies and benefits",
+    "Mobile banking service",
+    "Loan disbursement"
+  ],
+  a: 1
+},
+{
+  q: "POS device is installed at:",
+  o: ["Bank branch", "ATM centre", "Customer residence", "Point of sale"],
+  a: 3
+},
+{
+  q: "ATM stands for:",
+  o: [
+    "Automatic Teller Machine",
+    "Automated Teller Machine",
+    "Advanced Transaction Machine",
+    "Any Time Money"
+  ],
+  a: 1
+},
+{
+  q: "eKYC is primarily used for:",
+  o: [
+    "Opening loan accounts",
+    "Customer data authentication",
+    "Transaction verification",
+    "Mobile number linking"
+  ],
+  a: 1
+},
+{
+  q: "Can a minor open a PMJDY account?",
+  o: [
+    "No, minors are not allowed",
+    "Yes, above 10 years of age",
+    "Yes, any age",
+    "Only with Aadhaar"
+  ],
+  a: 1
+},
+{
+  q: "Life insurance coverage under PMJDY is available for age group:",
+  o: ["18–40 years", "18–50 years", "18–59 years", "21–60 years"],
+  a: 2
+},
+{
+  q: "Life insurance cover amount under PMJDY is:",
+  o: ["₹50,000", "₹1,00,000", "₹30,000", "₹2,00,000"],
+  a: 2
+},
+{
+  q: "Overdraft facility under PMJDY is:",
+  o: [
+    "Fixed permanently",
+    "Available without conditions",
+    "Subject to annual review",
+    "Given to all account holders"
+  ],
+  a: 2
+},
+{
+  q: "MGNREGA was launched on:",
+  o: [
+    "1 April 2005",
+    "2 February 2006",
+    "15 August 2006",
+    "1 January 2007"
+  ],
+  a: 1
+},
+{
+  q: "Key feature of MGNREGA is:",
+  o: [
+    "Skill development",
+    "150 days employment",
+    "100 days guaranteed wage employment",
+    "Monthly pension"
+  ],
+  a: 2
+},
+{
+  q: "In drought-affected areas, employment under MGNREGA can be extended up to:",
+  o: ["120 days", "150 days", "200 days", "180 days"],
+  a: 1
+},
+{
+  q: "PMGSY stands for:",
+  o: [
+    "Pradhan Mantri Gram Sadak Yojana",
+    "Pradhan Mantri Gramin Seva Yojana",
+    "Prime Minister Growth Scheme",
+    "Public Market Growth Scheme"
+  ],
+  a: 0
+},
+{
+  q: "Implementation period of Pradhan Mantri Awas Yojana (PMAY) was:",
+  o: [
+    "2014–2020",
+    "2015–2022",
+    "2016–2021",
+    "2017–2023"
+  ],
+  a: 1
+},
+{
+  q: "Eligibility for PMAY requires that beneficiary:",
+  o: [
+    "Must own a kutcha house",
+    "Must not own a pucca house",
+    "Must have government job",
+    "Must be income tax payer"
+  ],
+  a: 1
+},
+{
+  q: "Interest subsidy rate under PMAY is:",
+  o: ["5.5%", "6%", "6.5%", "7%"],
+  a: 2
+},
+{
+  q: "Maximum interest subsidy amount under PMAY is:",
+  o: ["₹2,00,000", "₹2,50,000", "₹2,67,280", "₹3,00,000"],
+  a: 2
+},
+{
+  q: "PMGKY stands for:",
+  o: [
+    "Pradhan Mantri Garib Kalyan Yojana",
+    "Prime Minister Growth Yojana",
+    "Public Monetary Growth Yojana",
+    "Pradhan Mantri Gram Kalyan Yojana"
+  ],
+  a: 0
 }
 ];

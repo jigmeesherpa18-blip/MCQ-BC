@@ -589,5 +589,356 @@ window.questions = [
     "Observed on 15th of every month"
   ],
   a:0
+},
+  const questions_part3 = [
+
+{ q:"A sub-standard account remains in that category for a maximum period of……",
+  o:[
+    "12 months",
+    "90 days",
+    "3 years",
+    "6 months"
+  ],
+  a:0
+},
+
+{ q:"Unsecured exposures identified as 'substandard' assets under NPA norms will attract total provision of……",
+  o:[
+    "20%",
+    "10%",
+    "25%",
+    "15%"
+  ],
+  a:2
+},
+
+{ q:"If any loss asset is permitted to remain in books for any reason, it should be provided for…… of the outstanding amount.",
+  o:[
+    "60%",
+    "70%",
+    "100%",
+    "50%"
+  ],
+  a:2
+},
+
+{ q:"'Kishore Loan' under Mudra Yojana will be……",
+  o:[
+    "Above Rs.50,000 to Rs.5,00,000",
+    "Above Rs.1,00,000 to Rs.5,00,000",
+    "Up to Rs.50,000",
+    "Above Rs.50,000 to Rs.2,00,000"
+  ],
+  a:1
+},
+
+{ q:"The first year limit for crop cultivation under Kisan Credit Card scheme is calculated as……",
+  o:[
+    "Scale of finance + 20% post-harvest/household + 20% repairs/insurance",
+    "Scale of finance + 10% post-harvest + 10% repairs/insurance",
+    "Scale of finance + 10% post-harvest + 5% repairs/insurance",
+    "Scale of finance + 10% post-harvest + 20% repairs/insurance"
+  ],
+  a:2
+},
+
+{ q:"A micro enterprise is one where the investment in plant and machinery or equipment does not exceed Rs…… and turnover does not exceed Rs……",
+  o:[
+    "50 lakh; 3 crore",
+    "1 crore; 5 crore",
+    "1 crore; 10 crore",
+    "50 lakh; 2 crore"
+  ],
+  a:1
+},
+
+{ q:"A Small Enterprise is one where the investment in plant and machinery or equipment does not exceed Rs…… and turnover does not exceed Rs……",
+  o:[
+    "10 crore; 50 crore",
+    "5 crore; 50 crore",
+    "10 crore; 5 crore",
+    "5 crore; 20 crore"
+  ],
+  a:0
+},
+
+{ q:"The validity period of the Kisan Credit Card is……",
+  o:[
+    "Maximum 4 years",
+    "Maximum 5 years",
+    "At the discretion of the bank",
+    "Maximum 3 years"
+  ],
+  a:1
+},
+
+{ q:"For marginal farmers, a flexi Kisan Credit Card limit may be sanctioned within……",
+  o:[
+    "Rs.20,000 to Rs.1,00,000",
+    "Rs.10,000 to Rs.1,00,000",
+    "Rs.20,000 to Rs.50,000",
+    "Rs.10,000 to Rs.50,000"
+  ],
+  a:1
+},
+
+{ q:"Cash credit is not……",
+  o:[
+    "Given for working capital requirements",
+    "Given against hypothecation of stocks",
+    "Given for repayment of another outstanding term loan",
+    "A short term loan for business"
+  ],
+  a:2
+},
+
+{ q:"All domestic commercial banks are mandated to achieve…… target of Priority Sector Lending as prescribed by RBI.",
+  o:[
+    "25%",
+    "30%",
+    "40%",
+    "20%"
+  ],
+  a:2
+},
+
+{ q:"In accounting rules, 'nominal accounts' are termed as……",
+  o:[
+    "Assets and liabilities",
+    "Expenses (losses) and gains (income)",
+    "Ownership pattern of business",
+    "Goodwill, royalty etc."
+  ],
+  a:1
+},
+{ q:"Cash Reserve Ratio (CRR) indicates the percentage of cash reserve that banks are required to keep with RBI as a proportion of their……",
+  o:[
+    "Total advances minus NPAs",
+    "Net demand and time liabilities",
+    "Total demand deposits",
+    "Gross demand and time liabilities"
+  ],
+  a:1
+},
+
+{ q:"A 'Trial Balance' is a……",
+  o:[
+    "Draft Balance Sheet",
+    "Statement of rectified entries",
+    "List of all general ledger accounts along with balances",
+    "Comparative statement of cash receipts and payments"
+  ],
+  a:2
+},
+
+{ q:"Interest rate linked to inflation rate + margin is known as……",
+  o:[
+    "Differential",
+    "Variable",
+    "Floating",
+    "Inflated"
+  ],
+  a:2
+},
+
+{ q:"If the accountant believes the company is going to be liquidated, assets will be reported……",
+  o:[
+    "At liquidation value",
+    "At last year value",
+    "At purchase price",
+    "At inflated value"
+  ],
+  a:0
+},
+
+{ q:"Banks can issue FDRs where premature payment is not allowed, if the amount of FDR is……",
+  o:[
+    "Rs.15 lakh and more",
+    "Above Rs.1 crore",
+    "Rs.25 lakh and more",
+    "Rs.50 lakh and more"
+  ],
+  a:0
+},
+
+{ q:"Banking hours of a branch……",
+  o:[
+    "Can be determined by banks keeping in view local requirements",
+    "Should not exceed 6 hours with lunch break",
+    "Should not exceed 7 hours with lunch break",
+    "Should not exceed 8 hours with lunch break"
+  ],
+  a:0
+},
+{ q:"The cardinal principles of lending include safety, liquidity, profitability and……",
+  o:[
+    "Adequacy",
+    "Purpose",
+    "Delegation",
+    "Monitoring"
+  ],
+  a:1
+},
+const questions_part4 = [
+
+{ q:"The principle of 'safety' in lending refers to……",
+  o:[
+    "Safety of funds lent by the bank",
+    "Safety of borrower’s business",
+    "Safety of collateral only",
+    "Safety of interest income"
+  ],
+  a:0
+},
+
+{ q:"Liquidity in lending means……",
+  o:[
+    "Loan should earn high interest",
+    "Loan should be repayable on demand",
+    "Loan should be easily convertible into cash",
+    "Loan should be long term"
+  ],
+  a:2
+},
+
+{ q:"Profitability principle of lending means……",
+  o:[
+    "Loan should earn maximum interest",
+    "Loan should generate adequate return covering risk and cost",
+    "Loan should be backed by collateral",
+    "Loan should be for short duration"
+  ],
+  a:1
+},
+
+{ q:"The purpose of loan should be……",
+  o:[
+    "Speculative",
+    "Illegal",
+    "Productive",
+    "Uncertain"
+  ],
+  a:2
+},
+
+{ q:"Which one of the following is not a form of security?",
+  o:[
+    "Hypothecation",
+    "Pledge",
+    "Mortgage",
+    "Assignment of income"
+  ],
+  a:3
+},
+
+{ q:"Primary security is……",
+  o:[
+    "Collateral security offered additionally",
+    "Asset created out of bank finance",
+    "Third party guarantee",
+    "Insurance cover"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following is an example of tangible security?",
+  o:[
+    "Goodwill",
+    "Patent",
+    "Land and building",
+    "Copyright"
+  ],
+  a:2
+},
+
+{ q:"Collateral security refers to……",
+  o:[
+    "Security created out of bank finance",
+    "Additional security offered by borrower",
+    "Security without legal charge",
+    "Security with fluctuating value"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following is not a type of charge?",
+  o:[
+    "Pledge",
+    "Hypothecation",
+    "Mortgage",
+    "Guarantee"
+  ],
+  a:3
+},
+
+{ q:"Assignment is generally used in case of……",
+  o:[
+    "Immovable property",
+    "Movable goods",
+    "Actionable claims",
+    "Stock and stores"
+  ],
+  a:2
+},
+
+{ q:"The Banker–Customer relationship is primarily that of……",
+  o:[
+    "Trustee–Beneficiary",
+    "Debtor–Creditor",
+    "Agent–Principal",
+    "Bailee–Bailor"
+  ],
+  a:1
+},
+
+{ q:"A garnishee order is issued to……",
+  o:[
+    "Attach immovable property",
+    "Recover government dues",
+    "Attach bank deposits of a judgment debtor",
+    "Freeze locker operations"
+  ],
+  a:2
+},
+
+{ q:"Set-off refers to……",
+  o:[
+    "Right of bank to combine accounts",
+    "Right to adjust credit balance against debit balance",
+    "Right to lien",
+    "Right to charge interest"
+  ],
+  a:1
+},
+
+{ q:"Lien is the right of the bank to……",
+  o:[
+    "Sell securities without notice",
+    "Retain goods until dues are paid",
+    "Recover dues from guarantor",
+    "Attach borrower’s property"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following is a statutory lien?",
+  o:[
+    "General lien of banker",
+    "Lien under Contract Act",
+    "Lien under Sale of Goods Act",
+    "Lien created by agreement"
+  ],
+  a:0
+},
+
+{ q:"Right of appropriation means……",
+  o:[
+    "Right to adjust deposits",
+    "Right to decide order of adjustment of payments",
+    "Right to sell securities",
+    "Right to combine accounts"
+  ],
+  a:1
 }
 ];
+

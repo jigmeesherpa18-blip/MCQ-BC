@@ -53,25 +53,25 @@ document.addEventListener("DOMContentLoaded", () => {
     quizDiv.appendChild(div);
   });
 
-  // Timer
-  let totalTime = 50 * 60;
-  let submitted = false;
+ /* ========= TIMER ========= */
+let totalTime = 5976; // 1.66 hrs = 5976 seconds
+let submitted = false;
 
-  const timerInterval = setInterval(() => {
-    if (submitted) return;
+const timerInterval = setInterval(() => {
+  if (submitted) return;
 
-    const m = Math.floor(totalTime / 60);
-    const s = totalTime % 60;
-    timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
+  const m = Math.floor(totalTime / 60);
+  const s = totalTime % 60;
+  timerSpan.textContent = `Time Left: ${m}:${s < 10 ? "0" : ""}${s}`;
 
-    if (totalTime <= 0) {
-      clearInterval(timerInterval);
-      alert("Time is up! Please submit your test.");
-    }
+  if (totalTime <= 0) {
+    clearInterval(timerInterval);
+    alert("Time is up! Your exam will be submitted automatically.");
+    quizForm.requestSubmit(); // auto submit
+  }
 
-    totalTime--;
-  }, 1000);
-
+  totalTime--;
+}, 1000);
   // Submit
   quizForm.addEventListener("submit", e => {
     e.preventDefault();
@@ -125,3 +125,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+

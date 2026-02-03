@@ -2,566 +2,575 @@
 console.log("questions.js loaded");
 
 window.questions = [
-{ q:"A bank will not disclose the affairs of the customer in which one of the following circumstances?",
+{ q:"A banker is under obligation to maintain secrecy of customer accounts. In which one of the following situations is a bank NOT permitted to disclose the affairs of its customer?",
   o:[
-    "When the information is called under law",
-    "When there is express or implied consent of the customer",
-    "When any Central/State Govt. official directs the bank in writing",
-    "When a bank is bound to disclose in public interest"
-  ],
-  a:1
-},
-
-{ q:"Soft skills are nothing but……",
-  o:[
-    "Knowing computer programming",
-    "Knowing tools & techniques",
-    "Knowing financial analysis",
-    "Relationship building towards the customer"
+    "When disclosure is required by law or court order",
+    "When disclosure is made with express or implied consent of the customer",
+    "When disclosure is required in public interest",
+    "When disclosure is made to satisfy curiosity of third parties"
   ],
   a:3
 },
 
-{ q:"The features of good communication do not include……",
+{ q:"Soft skills in banking context primarily relate to which of the following aspects?",
   o:[
-    "Spontaneous reply",
-    "Empathy",
-    "Active listening",
-    "Positivity"
-  ],
-  a:0
-},
-
-{ q:"While disclosing information about a customer, a bank should take precautions to……",
-  o:[
-    "(1) only",
-    "(1) and (2) only",
-    "(2) and (3) only",
-    "(1), (2) and (3)"
+    "Technical knowledge of banking software",
+    "Knowledge of accounting standards",
+    "Ability to build relationships and communicate effectively with customers",
+    "Knowledge of banking regulations only"
   ],
   a:2
 },
 
-{ q:"Which one of the following is not a main cause for customer complaints?",
+{ q:"Which one of the following is NOT considered a feature of effective communication while dealing with customers?",
   o:[
-    "Lack of customer comfort facilities",
-    "Gap standards",
-    "Attitudinal aspects while dealing with customers",
-    "Inadequate arrangements to handle volume of work"
-  ],
-  a:1
-},
-
-{ q:"RBI has made it mandatory for all Credit Information Companies to provide Full Credit Report on request to individuals whose credit history is available……",
-  o:[
-    "At a cost of Rs.200 whenever required",
-    "Free of charge once in a calendar year",
-    "At a cost of Rs.500 whenever required",
-    "At a cost of Rs.100 whenever required"
-  ],
-  a:1
-},
-
-{ q:"The various features of Central Bank Digital Currency (Wholesale) include……",
-  o:[
-    "(1), (2) and (4) only",
-    "(2), (3) and (4) only",
-    "(1), (2), (3) and (4)",
-    "(1) and (2) only"
-  ],
-  a:2
-},
-
-{ q:"A Business Facilitator will undertake the activities which include……",
-  o:[
-    "(1) and (2) only",
-    "(1), (2), (3) and (4)",
-    "(3) only",
-    "(3) and (4) only"
-  ],
-  a:1
-},
-
-{ q:"The basic services which are provided by the Business Correspondents (BCs) do not include……",
-  o:[
-    "Rural credit disbursements",
-    "Delivery of savings and insurance products",
-    "Small value payments and remittances",
-    "Providing training under Govt. sponsored schemes"
+    "Empathy towards customer problems",
+    "Active listening to customer concerns",
+    "Maintaining a positive attitude",
+    "Interrupting customers to respond quickly"
   ],
   a:3
 },
 
-{ q:"Transactions in Central Bank Digital Currency (CBDC) can be……",
+{ q:"Customer complaints in banks generally arise due to which one of the following major reasons?",
   o:[
-    "Person to Merchant (P2M) only",
+    "Frequent changes in banking technology",
+    "Gap between customer expectations and service delivery standards",
+    "Strict regulatory requirements",
+    "Availability of multiple banking channels"
+  ],
+  a:1
+},
+
+{ q:"As per RBI guidelines, an individual whose credit history is available with Credit Information Companies is entitled to receive a full credit report:",
+  o:[
+    "Once every month free of cost",
+    "Once in a calendar year free of cost",
+    "At a nominal charge whenever requested",
+    "Only through the lending bank"
+  ],
+  a:1
+},
+
+{ q:"Central Bank Digital Currency (Retail) transactions can be carried out in which of the following forms?",
+  o:[
+    "Only Person to Person (P2P)",
+    "Only Person to Merchant (P2M)",
     "Both Person to Person (P2P) and Person to Merchant (P2M)",
-    "Only for Rs.1,000 and above",
-    "Person to Person (P2P) only"
+    "Only between banks"
+  ],
+  a:2
+},
+
+{ q:"Business Correspondents are engaged by banks primarily for which of the following purposes?",
+  o:[
+    "To replace physical bank branches",
+    "To provide basic banking services at the doorstep of customers",
+    "To sanction loans independently",
+    "To supervise bank staff"
   ],
   a:1
 },
 
-{ q:"The objectives of Open Network for Digital Commerce (ONDC) do not include……",
+{ q:"Which one of the following activities is NOT permitted to be undertaken by a Business Correspondent?",
   o:[
-    "Digitizing the whole value chain",
-    "Encouraging supplier inclusion",
-    "Increasing customer value",
-    "Enlarging market for multinational brands in India"
+    "Facilitating deposits and withdrawals",
+    "Assisting in opening of bank accounts",
+    "Recovery of small value loans",
+    "Sanctioning and approving loans"
   ],
   a:3
 },
 
-{ q:"The Account Aggregator will replace many hassles for consumers today like……",
+{ q:"The Open Network for Digital Commerce (ONDC) has been launched mainly to:",
   o:[
-    "Sharing physical signed and scanned copies of bank statements",
-    "Running around to notarise or stamping of documents",
-    "Having to share personal username and password",
-    "(1) and (2) only"
-  ],
-  a:3
-},
-
-{ q:"In the case of charge card, payment is made by the user……",
-  o:[
-    "At one go",
-    "In instalments",
-    "In instalments after a grace period",
-    "Instantly"
-  ],
-  a:0
-},
-
-{ q:"Green Label ATMs……",
-  o:[
-    "Are dedicated to promote agriculture banking transactions",
-    "Are used for online purchases",
-    "Are dedicated to promote banking transactions by women",
-    "Are provided for share transactions"
-  ],
-  a:0
-},
-
-{ q:"In the case of White Label ATMs……",
-  o:[
-    "Dispute resolution is done through the agency handling ATM switch",
-    "Cash management is done by banking system",
-    "They are required to pay monthly charge",
-    "They are set up, owned and operated by non-banks"
-  ],
-  a:3
-},
-
-{ q:"The Jan Samarth Portal uses cutting-edge technologies and smart analytics to provide intuitive guidance to citizens……",
-  o:[
-    "(1) only",
-    "(1) and (2) only",
-    "(2) and (3) only",
-    "(1), (2) and (3)"
-  ],
-  a:3
-},
-
-{ q:"Brown Label ATMs are……",
-  o:[
-    "Meant for blind persons only",
-    "Meant only for coin dispensing",
-    "Hardware and lease owned by service provider, cash management by sponsor bank",
-    "Withdrawal without any limit meant for HNIs"
-  ],
-  a:2
-},
-
-{ q:"Orange Label ATMs……",
-  o:[
-    "Are used for online purchase",
-    "Are provided for share transactions",
-    "Are dedicated to promote banking transactions by women",
-    "Are dedicated to promote agriculture banking transactions"
-  ],
-  a:2
-},
-
-{ q:"Which one of the following statements is incorrect in respect of Stored Value Card?",
-  o:[
-    "It is issued by a bank",
-    "The monetary value is stored on the card itself",
-    "No charges are levied on adding value to the card",
-    "The card issuer is a service provider"
-  ],
-  a:2
-},
-
-{ q:"What is Aadhaar-based e-KYC?",
-  o:[
-    "Electronic identity verification using biometrics/OTP with UIDAI",
-    "Uploading scanned Aadhaar card only",
-    "Submitting Aadhaar number physically",
-    "Email request to UIDAI"
-  ],
-  a:0
-},
-
-{ q:"Bharat QR Codes is……",
-  o:[
-    "P2M mobile payment solution",
-    "OTP based payment",
-    "Account to account remittance",
-    "Inter-bank clearing transfer"
-  ],
-  a:0
-},
-
-{ q:"Mobile wallet……",
-  o:[
-    "Works on the line of debit card",
-    "Is a way to carry cash in digital format",
-    "Can be used on ATMs also",
-    "Works on the line of credit card"
+    "Promote monopoly of large e-commerce platforms",
+    "Create an open and inclusive digital commerce ecosystem",
+    "Replace digital payment systems like UPI",
+    "Regulate banking operations"
   ],
   a:1
 },
 
-{ q:"MMID is a 7-digit number issued by the bank to the customer……",
+{ q:"The Account Aggregator framework introduced in India facilitates:",
   o:[
-    "For activation of credit card",
-    "For Immediate Payment System (IMPS)",
-    "For internet banking registration",
-    "For debit card activation"
+    "Sharing of customer data without consent",
+    "Paperless and secure sharing of financial data with customer consent",
+    "Cash-based lending",
+    "Automatic approval of loans"
   ],
   a:1
 },
 
-{ q:"Pink Label ATMs……",
+{ q:"Green Label ATMs are designed primarily to promote:",
   o:[
-    "Are provided for share transactions",
-    "Are dedicated to promote agriculture banking",
-    "Are used for online purchase",
-    "Are dedicated to promote banking transactions by women"
+    "Banking transactions for women customers",
+    "Agricultural and allied sector banking transactions",
+    "Transactions of senior citizens",
+    "Urban retail transactions"
+  ],
+  a:1
+},
+
+{ q:"White Label ATMs are those ATMs which are:",
+  o:[
+    "Owned and operated by RBI",
+    "Owned by public sector banks",
+    "Owned by private sector banks",
+    "Owned and operated by non-bank entities"
   ],
   a:3
 },
 
-{ q:"Which one of the following is incorrect in the case of NFC technology?",
+{ q:"Brown Label ATMs are those ATMs where:",
   o:[
-    "Full traceability and audit trail maintained",
-    "Instant settlement between accounts",
-    "Debit/Credit card cannot be used for transactions",
-    "BC working capital account is centrally held"
+    "Banks own and operate the ATM completely",
+    "Service provider owns hardware while bank manages cash and operations",
+    "RBI controls cash management",
+    "Only NBFCs operate them"
+  ],
+  a:1
+},
+
+{ q:"Pink Label ATMs are established mainly to:",
+  o:[
+    "Promote agricultural lending",
+    "Facilitate MSME transactions",
+    "Promote banking transactions by women customers",
+    "Serve high net-worth individuals"
   ],
   a:2
 },
 
-{ q:"Which one of the following is incorrect regarding a hand-held device with contact card?",
+{ q:"A mobile wallet can best be described as:",
   o:[
-    "It can work uninterrupted in completely offline environment",
-    "It has backward compatibility to support magstripe cards",
-    "It is compact and portable",
-    "It does not have printing facility"
+    "A digital way of carrying cash for payments",
+    "A replacement for credit cards",
+    "An alternative to ATM cards",
+    "A loan account linked to mobile"
   ],
   a:0
 },
 
-{ q:"Which one of the following is incorrect regarding RFID?",
+{ q:"Mobile Money Identifier (MMID) is mainly used for transactions under:",
   o:[
-    "Used for tracking goods using tags",
-    "Used for contactless smart cards",
-    "Has high-end security features",
-    "It is a method of listening songs and music"
-  ],
-  a:3
-},
-
-{ q:"If BC has inadequate financial capacity, it falls under which risk?",
-  o:[
-    "Operational risk",
-    "Strategic risk",
-    "Compliance risk",
-    "Credit risk"
-  ],
-  a:0
-},
-
-{ q:"Considerable exposure to one single service provider is termed as……",
-  o:[
-    "Concentration Risk",
-    "Operational risk",
-    "Credit risk",
-    "Compliance risk"
-  ],
-  a:0
-},
-
-{ q:"Corporate Governance includes……",
-  o:[
-    "(1) and (2) only",
-    "(2) and (4) only",
-    "(3) and (4) only",
-    "(1), (2) and (3) only"
-  ],
-  a:3
-},
-
-{ q:"Talks about ethics may include……",
-  o:[
-    "(2) and (3) only",
-    "(1) and (3) only",
-    "(1), (2) and (3)",
-    "(1) and (2) only"
+    "NEFT",
+    "RTGS",
+    "IMPS",
+    "UPI"
   ],
   a:2
 },
 
-{ q:"Full maximum claim is not payable under PMSBY on death due to……",
+{ q:"Bharat QR Code system enables:",
   o:[
+    "Person to Person (P2P) payments",
+    "Person to Merchant (P2M) digital payments",
+    "International remittances",
+    "Cash withdrawals at ATMs"
+  ],
+  a:1
+},
+
+{ q:"Radio Frequency Identification (RFID) technology is commonly used for:",
+  o:[
+    "Streaming music",
+    "Tracking goods and assets using electronic tags",
+    "Video conferencing",
+    "Sending emails"
+  ],
+  a:1
+},
+
+{ q:"Near Field Communication (NFC) technology primarily enables:",
+  o:[
+    "Long distance wireless communication",
+    "Contactless payment transactions",
+    "Offline banking without devices",
+    "Cheque clearing operations"
+  ],
+  a:1
+},
+
+{ q:"Operational risk in banking generally arises due to:",
+  o:[
+    "Changes in market prices",
+    "Failures in systems, processes or human errors",
+    "Fluctuations in interest rates",
+    "Foreign exchange volatility"
+  ],
+  a:1
+},
+
+{ q:"Concentration risk refers to a situation where:",
+  o:[
+    "Loans are widely diversified",
+    "Exposure is spread across many borrowers",
+    "Exposure is concentrated on a single borrower or sector",
+    "Interest rates are volatile"
+  ],
+  a:2
+},
+
+{ q:"Corporate governance in banks aims at ensuring:",
+  o:[
+    "Only profitability",
+    "Transparency, accountability and ethical conduct",
+    "Government ownership",
+    "Employee dominance in decision making"
+  ],
+  a:1
+},
+
+{ q:"Ethics in banking mainly relates to:",
+  o:[
+    "Compliance with law only",
+    "Profit maximization at any cost",
+    "Moral principles guiding professional conduct",
+    "Marketing strategies"
+  ],
+  a:2
+},
+
+{ q:"Pradhan Mantri Suraksha Bima Yojana (PMSBY) does NOT provide insurance cover in case of death due to:",
+  o:[
+    "Accidental causes",
+    "Natural causes",
     "Suicide",
-    "Murder",
-    "Accident",
-    "Natural calamities"
+    "Permanent disability"
+  ],
+  a:2
+},
+
+{ q:"Under Pradhan Mantri Jan Dhan Yojana (PMJDY), banking facilities should be made available within a distance of:",
+  o:[
+    "2 kilometres",
+    "5 kilometres",
+    "10 kilometres",
+    "15 kilometres"
+  ],
+  a:1
+},
+  { q:"What is the eligible age group for subscribing to Atal Pension Yojana (APY) as per Government of India guidelines?",
+  o:[
+    "18 years to 40 years",
+    "18 years to 50 years",
+    "18 years to 60 years",
+    "21 years to 60 years"
   ],
   a:0
 },
 
-{ q:"Under PMJDY, banking facilities must be available within a distance of……",
+{ q:"Depositor Education and Awareness Fund (DEAF) is maintained and administered by which authority?",
   o:[
-    "12 KM",
-    "10 KM",
-    "5 KM",
-    "8 KM"
+    "Government of India",
+    "Reserve Bank of India",
+    "Scheduled Commercial Banks",
+    "Securities and Exchange Board of India"
+  ],
+  a:1
+},
+
+{ q:"Self Help Groups (SHGs) generally consist of members having which of the following characteristics?",
+  o:[
+    "Members from heterogeneous backgrounds",
+    "Members belonging to similar socio-economic background",
+    "Members appointed by banks",
+    "Members nominated by Government agencies"
+  ],
+  a:1
+},
+
+{ q:"The National Centre for Financial Education (NCFE) has been set up as which type of organization?",
+  o:[
+    "A Trust registered under Indian Trusts Act",
+    "A Section 8 company under the Companies Act",
+    "A Public Sector Undertaking",
+    "A Society registered under Societies Registration Act"
+  ],
+  a:1
+},
+
+{ q:"The basic relationship between a banker and a customer, in the case of deposits, is that of:",
+  o:[
+    "Trustee and beneficiary",
+    "Agent and principal",
+    "Debtor and creditor",
+    "Bailee and bailor"
   ],
   a:2
 },
 
-{ q:"Who will not be eligible for appointment as Bank Mitra?",
+{ q:"The right of lien available to a banker enables the bank to:",
   o:[
-    "Retired SBI employee",
-    "Person running a pharmacy shop",
-    "Retired Ministry of Commerce employee",
-    "Retired Hindustan Unilever employee"
+    "Sell securities without notice",
+    "Retain goods or securities until the dues are paid",
+    "Attach immovable property of the borrower",
+    "Freeze the customer’s account permanently"
   ],
   a:1
 },
 
-{ q:"When shall assurance on life under PMJJBY not be terminated?",
+{ q:"The right of set-off allows a bank to:",
   o:[
-    "Insufficient balance",
-    "On attaining age of 52 years",
-    "Multiple accounts coverage",
-    "Closure of account"
+    "Combine two or more accounts of a customer",
+    "Adjust credit balance in one account against debit balance in another account",
+    "Sell pledged securities",
+    "Charge penal interest"
   ],
   a:1
 },
 
-{ q:"Age eligibility under Atal Pension Yojana is……",
+{ q:"A garnishee order issued by a court directs the bank to:",
   o:[
-    "18–50 years",
-    "18–60 years",
-    "18–65 years",
-    "18–40 years"
-  ],
-  a:3
-},
-
-{ q:"Depositor Education and Awareness Fund can be utilized by RBI for……",
-  o:[
-    "Promotion of depositors’ interest",
-    "Deposit insurance",
-    "Financial inclusion",
-    "None of the above"
+    "Attach and remit the bank balance of a judgment debtor",
+    "Sell the immovable property of the customer",
+    "Recover government dues",
+    "Freeze locker operations of the customer"
   ],
   a:0
 },
 
-{ q:"For DBT, linking Aadhaar with bank account……",
+{ q:"Primary security in a loan transaction refers to:",
   o:[
-    "Written application mandatory",
-    "Joint account application required",
-    "Copies must be verified and kept",
-    "It is compulsory"
-  ],
-  a:3
-},
-
-{ q:"Insurance benefits under PMJJBY is not available for death……",
-  o:[
-    "At age of 54 years",
-    "Due to any reason except accident during first 30 days of re-enrolment",
-    "From heart attack within 90 days",
-    "Within 45 days of enrolment"
+    "Additional collateral offered by the borrower",
+    "The asset created out of bank finance",
+    "Third party guarantee",
+    "Insurance cover taken by the borrower"
   ],
   a:1
 },
 
-{ q:"Which statement is incorrect regarding SHGs?",
+{ q:"Hypothecation as a mode of charge is applicable in respect of:",
   o:[
-    "These are small formal groups",
-    "Promote savings habit",
-    "Consist of 10–12 individuals",
-    "Members are homogeneous"
-  ],
-  a:0
-},
-
-{ q:"The National Centre for Financial Education has been set up as……",
-  o:[
-    "Public Sector Company",
-    "Section 8 company",
-    "Government Company",
-    "Trust"
+    "Immovable property",
+    "Movable goods where possession remains with borrower",
+    "Fixed deposits",
+    "Shares and debentures only"
   ],
   a:1
 },
 
-{ q:"Role of BCs/Business Facilitators is expected as……",
+{ q:"Assignment as a form of security is generally used in the case of:",
   o:[
-    "Guide",
-    "Companion",
-    "Government representative",
-    "Philosopher"
+    "Immovable properties like land and building",
+    "Actionable claims such as insurance policies",
+    "Stock and stores",
+    "Machinery financed by banks"
+  ],
+  a:1
+},
+
+{ q:"Know Your Customer (KYC) norms are primarily intended to:",
+  o:[
+    "Increase bank profitability",
+    "Prevent money laundering and identity fraud",
+    "Reduce the number of customers",
+    "Promote lending activities"
+  ],
+  a:1
+},
+
+{ q:"Cash Reserve Ratio (CRR) refers to the portion of deposits that banks are required to keep with:",
+  o:[
+    "Government of India",
+    "Sponsor bank",
+    "Reserve Bank of India",
+    "Deposit Insurance Corporation"
   ],
   a:2
 },
 
-{ q:"Structured communication in financial counselling does not include……",
+{ q:"As per RBI guidelines, domestic commercial banks are required to lend what percentage of their Adjusted Net Bank Credit to Priority Sector?",
   o:[
-    "Interviewing",
-    "Counselling",
-    "Distributing knowledge materials",
-    "Listening"
-  ],
-  a:2
-},
- { q:"The essential elements of effective counselling include……",
-  o:[
-    "(1) and (2) only",
-    "(1), (2), (3) and (4)",
-    "(2) and (3) only",
-    "(1), (3) and (4) only"
-  ],
-  a:3
-},
-
-{ q:"The features of Civil Society Organisations (CSO) in the context of Financial Inclusion include……",
-  o:[
-    "State owned, not-for-profit entities",
-    "SHGs",
-    "NGOs",
-    "Non-State, not-for-profit, voluntary entities formed by people"
-  ],
-  a:3
-},
-
-{ q:"The objectives of Financial Inclusion do not include……",
-  o:[
-    "Extending financial services to unserved population",
-    "Unlocking growth potential of the country",
-    "Making finance available to the poor",
-    "Developing educational and health facilities in villages"
-  ],
-  a:3
-},
-
-{ q:"Reserve Bank of India is……",
-  o:[
-    "A development bank",
-    "A separate wing of Finance Ministry",
-    "A Public Sector Bank",
-    "The Central Bank of the country"
-  ],
-  a:3
-},
-
-{ q:"Development Financial Institutions (DFIs) provide……",
-  o:[
-    "Guidance to banks in lending operations",
-    "Credit guarantee to banks",
-    "Refinance to banks for lending operations",
-    "Technological system support"
+    "30 percent",
+    "35 percent",
+    "40 percent",
+    "50 percent"
   ],
   a:2
 },
 
-{ q:"The liberalization of financial services in India was triggered by JAM Trinity, which did not comprise……",
+{ q:"As per revised MSME classification, a micro enterprise is one where investment in plant and machinery or equipment does not exceed:",
   o:[
-    "Jan Dhan Yojana",
-    "Aadhaar Database",
-    "Mobile",
-    "Microfinance Institutions"
-  ],
-  a:3
-},
-
-{ q:"A General Purpose Card is used for……",
-  o:[
-    "Office Address Proof",
-    "Personal Identification",
-    "Paying for goods and services",
-    "Home Address Proof"
+    "₹25 lakh",
+    "₹50 lakh",
+    "₹1 crore",
+    "₹5 crore"
   ],
   a:2
 },
 
-{ q:"RBI in its annual policy statement of April 2005 did not include which step for financial inclusion?",
+{ q:"As per revised MSME norms, a small enterprise is one where investment in plant and machinery or equipment does not exceed:",
   o:[
-    "General Credit Card",
-    "Simplified KYC norms",
-    "Basic Savings Bank Deposit Account",
-    "Service Area Approach"
+    "₹5 crore",
+    "₹10 crore",
+    "₹20 crore",
+    "₹50 crore"
+  ],
+  a:1
+},
+
+{ q:"A sub-standard asset under RBI norms remains in that category for a maximum period of:",
+  o:[
+    "6 months",
+    "12 months",
+    "24 months",
+    "36 months"
+  ],
+  a:1
+},
+
+{ q:"If an asset is classified as a loss asset and allowed to remain in the books, banks are required to make provision of:",
+  o:[
+    "25 percent of outstanding amount",
+    "50 percent of outstanding amount",
+    "75 percent of outstanding amount",
+    "100 percent of outstanding amount"
   ],
   a:3
 },
 
-{ q:"The primary function of a bank is……",
+{ q:"The normal validity period of a Kisan Credit Card (KCC) issued to farmers is:",
   o:[
-    "Providing loans to weaker sections",
-    "Providing remittance facilities",
-    "Facilitating currency circulation",
-    "Acceptance of deposits and lending money"
-  ],
-  a:3
-},
-
-{ q:"The area of operations of a Regional Rural Bank is……",
-  o:[
-    "Restricted to a few districts",
-    "Unrestricted",
-    "Depends on State Government",
-    "Depends on sponsor bank"
-  ],
-  a:0
-},
-
-{ q:"Escalation Matrix is used in complaints. It is……",
-  o:[
-    "Procedure to segregate complaints at receiving level",
-    "Used at Dy. Ombudsman level",
-    "A tool used by regulated entities to manage escalation",
-    "Used when complaint is of serious nature"
+    "Three years",
+    "Four years",
+    "Five years",
+    "Ten years"
   ],
   a:2
 },
 
-{ q:"The Appellate Authority under the Integrated Ombudsman Scheme is……",
+{ q:"Under Pradhan Mantri MUDRA Yojana, the ‘Kishore’ category of loans covers loan amounts:",
+  o:[
+    "Up to ₹50,000",
+    "Above ₹50,000 and up to ₹5 lakh",
+    "Above ₹5 lakh and up to ₹10 lakh",
+    "Above ₹10 lakh"
+  ],
+  a:1
+},
+
+{ q:"A Trial Balance prepared by an accountant is essentially a:",
+  o:[
+    "Statement of cash receipts and payments",
+    "List of all ledger account balances",
+    "Final statement of profit and loss",
+    "Statement of assets and liabilities"
+  ],
+  a:1
+},
+
+{ q:"In accounting, nominal accounts relate to:",
+  o:[
+    "Assets of the business",
+    "Liabilities of the business",
+    "Income and expenses of the business",
+    "Capital of the business"
+  ],
+  a:2
+},
+
+{ q:"The cardinal principles of lending include safety, liquidity, profitability and:",
+  o:[
+    "Delegation",
+    "Purpose",
+    "Inspection",
+    "Supervision"
+  ],
+  a:1
+},
+
+{ q:"The principle of liquidity in lending implies that:",
+  o:[
+    "Loans should earn maximum interest",
+    "Loans should be easily convertible into cash",
+    "Loans should be long term in nature",
+    "Loans should always be secured"
+  ],
+  a:1
+},
+
+{ q:"The principle of profitability in lending signifies that:",
+  o:[
+    "Loans should carry the highest possible interest rate",
+    "Loans should generate adequate return after covering cost and risk",
+    "Loans should be given only to large borrowers",
+    "Loans should be short term in nature"
+  ],
+  a:1
+},
+{ q:"A banker’s general lien is best described as a right which arises:",
+  o:[
+    "Only through an express agreement between banker and customer",
+    "Only by an order of the court",
+    "Automatically by operation of law in favour of the banker",
+    "Only when permitted by Reserve Bank of India"
+  ],
+  a:2
+},
+
+{ q:"When a payment is made by a debtor without any specific instruction as to its appropriation, and the creditor also does not appropriate it, the payment shall be appropriated as per:",
+  o:[
+    "The discretion of the banker",
+    "The discretion of the debtor",
+    "The rule in Clayton’s Case",
+    "The provisions of the Indian Contract Act"
+  ],
+  a:3
+},
+
+{ q:"Customers’ Day is observed by banks every month mainly to:",
+  o:[
+    "Promote marketing of bank products",
+    "Enable customers to meet senior officials and give feedback",
+    "Review internal audit findings",
+    "Resolve only loan related complaints"
+  ],
+  a:1
+},
+
+{ q:"A Special Mention Account (SMA-1) is an account where principal or interest payment is overdue for:",
+  o:[
+    "1 to 30 days",
+    "31 to 60 days",
+    "61 to 90 days",
+    "More than 90 days"
+  ],
+  a:1
+},
+
+{ q:"If a bill purchased or discounted by a bank remains unpaid for more than 90 days, it should be classified as:",
+  o:[
+    "Standard asset",
+    "Special Mention Account",
+    "Non-Performing Asset",
+    "Loss asset"
+  ],
+  a:2
+},
+
+{ q:"In the Integrated Ombudsman Scheme, the Appellate Authority is:",
   o:[
     "Chief General Manager of RBI",
     "Executive Director in charge of Consumer Education and Protection",
-    "General Manager of RBI RO",
-    "Deputy Governor of RBI"
+    "Deputy Governor of RBI",
+    "General Manager of RBI Regional Office"
   ],
   a:1
 },
 
-{ q:"If principal or interest payment is not overdue for more than 30 days but showing signs of stress, it is classified as……",
+{ q:"An escalation matrix in grievance redressal mechanism is used to:",
   o:[
-    "SMA-0",
-    "SMA-1",
-    "SMA-2",
-    "None of the above"
+    "Categorize complaints at branch level",
+    "Transfer unresolved complaints to higher authorities within a bank",
+    "Refer complaints directly to RBI",
+    "Close complaints automatically after a fixed period"
   ],
   a:1
 },
 
-{ q:"If a complaint is not resolved at branch level within stipulated period, the regional office should resolve it within……",
+{ q:"If a complaint is not resolved at branch level within the stipulated period, the regional or zonal office should resolve it within:",
   o:[
     "7 days",
     "10 days",
@@ -571,293 +580,167 @@ window.questions = [
   a:1
 },
 
-{ q:"If a bill purchased/discounted by the bank remains unpaid for more than 90 days, it should be treated as……",
+{ q:"Which one of the following is NOT considered a main cause for customer complaints in banks?",
   o:[
-    "Out of order",
-    "Non-performing asset",
-    "Special Mention Account",
-    "None of the above"
-  ],
-  a:1
-},
-
-{ q:"Customers’ Day is observed every month. Which is incorrect?",
-  o:[
-    "Few customers are specially invited for feedback",
-    "Any customer can approach Branch Manager",
-    "Meeting time is 3 PM to 5 PM",
-    "Observed on 15th of every month"
-  ],
-  a:0
-},
-{ q:"A sub-standard account remains in that category for a maximum period of……",
-  o:[
-    "12 months",
-    "90 days",
-    "3 years",
-    "6 months"
-  ],
-  a:0
-},
-
-{ q:"Unsecured exposures identified as 'substandard' assets under NPA norms will attract total provision of……",
-  o:[
-    "20%",
-    "10%",
-    "25%",
-    "15%"
-  ],
-  a:2
-},
-
-{ q:"If any loss asset is permitted to remain in books for any reason, it should be provided for…… of the outstanding amount.",
-  o:[
-    "60%",
-    "70%",
-    "100%",
-    "50%"
-  ],
-  a:2
-},
-
-{ q:"'Kishore Loan' under Mudra Yojana will be……",
-  o:[
-    "Above Rs.50,000 to Rs.5,00,000",
-    "Above Rs.1,00,000 to Rs.5,00,000",
-    "Up to Rs.50,000",
-    "Above Rs.50,000 to Rs.2,00,000"
-  ],
-  a:1
-},
-
-{ q:"The first year limit for crop cultivation under Kisan Credit Card scheme is calculated as……",
-  o:[
-    "Scale of finance + 20% post-harvest/household + 20% repairs/insurance",
-    "Scale of finance + 10% post-harvest + 10% repairs/insurance",
-    "Scale of finance + 10% post-harvest + 5% repairs/insurance",
-    "Scale of finance + 10% post-harvest + 20% repairs/insurance"
-  ],
-  a:2
-},
-
-{ q:"A micro enterprise is one where the investment in plant and machinery or equipment does not exceed Rs…… and turnover does not exceed Rs……",
-  o:[
-    "50 lakh; 3 crore",
-    "1 crore; 5 crore",
-    "1 crore; 10 crore",
-    "50 lakh; 2 crore"
-  ],
-  a:1
-},
-
-{ q:"A Small Enterprise is one where the investment in plant and machinery or equipment does not exceed Rs…… and turnover does not exceed Rs……",
-  o:[
-    "10 crore; 50 crore",
-    "5 crore; 50 crore",
-    "10 crore; 5 crore",
-    "5 crore; 20 crore"
-  ],
-  a:0
-},
-
-{ q:"The validity period of the Kisan Credit Card is……",
-  o:[
-    "Maximum 4 years",
-    "Maximum 5 years",
-    "At the discretion of the bank",
-    "Maximum 3 years"
-  ],
-  a:1
-},
-
-{ q:"For marginal farmers, a flexi Kisan Credit Card limit may be sanctioned within……",
-  o:[
-    "Rs.20,000 to Rs.1,00,000",
-    "Rs.10,000 to Rs.1,00,000",
-    "Rs.20,000 to Rs.50,000",
-    "Rs.10,000 to Rs.50,000"
-  ],
-  a:1
-},
-
-{ q:"Cash credit is not……",
-  o:[
-    "Given for working capital requirements",
-    "Given against hypothecation of stocks",
-    "Given for repayment of another outstanding term loan",
-    "A short term loan for business"
-  ],
-  a:2
-},
-
-{ q:"All domestic commercial banks are mandated to achieve…… target of Priority Sector Lending as prescribed by RBI.",
-  o:[
-    "25%",
-    "30%",
-    "40%",
-    "20%"
-  ],
-  a:2
-},
-
-{ q:"In accounting rules, 'nominal accounts' are termed as……",
-  o:[
-    "Assets and liabilities",
-    "Expenses (losses) and gains (income)",
-    "Ownership pattern of business",
-    "Goodwill, royalty etc."
-  ],
-  a:1
-},
-{ q:"Cash Reserve Ratio (CRR) indicates the percentage of cash reserve that banks are required to keep with RBI as a proportion of their……",
-  o:[
-    "Total advances minus NPAs",
-    "Net demand and time liabilities",
-    "Total demand deposits",
-    "Gross demand and time liabilities"
-  ],
-  a:1
-},
-
-{ q:"A 'Trial Balance' is a……",
-  o:[
-    "Draft Balance Sheet",
-    "Statement of rectified entries",
-    "List of all general ledger accounts along with balances",
-    "Comparative statement of cash receipts and payments"
-  ],
-  a:2
-},
-
-{ q:"Interest rate linked to inflation rate + margin is known as……",
-  o:[
-    "Differential",
-    "Variable",
-    "Floating",
-    "Inflated"
-  ],
-  a:2
-},
-
-{ q:"If the accountant believes the company is going to be liquidated, assets will be reported……",
-  o:[
-    "At liquidation value",
-    "At last year value",
-    "At purchase price",
-    "At inflated value"
-  ],
-  a:0
-},
-
-{ q:"Banks can issue FDRs where premature payment is not allowed, if the amount of FDR is……",
-  o:[
-    "Rs.15 lakh and more",
-    "Above Rs.1 crore",
-    "Rs.25 lakh and more",
-    "Rs.50 lakh and more"
-  ],
-  a:0
-},
-
-{ q:"Banking hours of a branch……",
-  o:[
-    "Can be determined by banks keeping in view local requirements",
-    "Should not exceed 6 hours with lunch break",
-    "Should not exceed 7 hours with lunch break",
-    "Should not exceed 8 hours with lunch break"
-  ],
-  a:0
-},
-{ q:"The cardinal principles of lending include safety, liquidity, profitability and……",
-  o:[
-    "Adequacy",
-    "Purpose",
-    "Delegation",
-    "Monitoring"
-  ],
-  a:1
-},
-{ q:"The principle of 'safety' in lending refers to……",
-  o:[
-    "Safety of funds lent by the bank",
-    "Safety of borrower’s business",
-    "Safety of collateral only",
-    "Safety of interest income"
-  ],
-  a:0
-},
-
-{ q:"Liquidity in lending means……",
-  o:[
-    "Loan should earn high interest",
-    "Loan should be repayable on demand",
-    "Loan should be easily convertible into cash",
-    "Loan should be long term"
-  ],
-  a:2
-},
-
-{ q:"Profitability principle of lending means……",
-  o:[
-    "Loan should earn maximum interest",
-    "Loan should generate adequate return covering risk and cost",
-    "Loan should be backed by collateral",
-    "Loan should be for short duration"
-  ],
-  a:1
-},
-
-{ q:"The purpose of loan should be……",
-  o:[
-    "Speculative",
-    "Illegal",
-    "Productive",
-    "Uncertain"
-  ],
-  a:2
-},
-
-{ q:"Which one of the following is not a form of security?",
-  o:[
-    "Hypothecation",
-    "Pledge",
-    "Mortgage",
-    "Assignment of income"
+    "Lack of customer comfort facilities",
+    "Gap in service standards",
+    "Attitudinal issues while dealing with customers",
+    "High level of customer awareness"
   ],
   a:3
 },
 
-{ q:"Primary security is……",
+{ q:"The primary objective of financial inclusion is to:",
   o:[
-    "Collateral security offered additionally",
-    "Asset created out of bank finance",
-    "Third party guarantee",
-    "Insurance cover"
+    "Increase bank profits",
+    "Provide financial services to unserved and underserved population",
+    "Promote only digital payments",
+    "Eliminate informal financial systems"
   ],
   a:1
 },
 
-{ q:"Which one of the following is an example of tangible security?",
+{ q:"The JAM Trinity, which enabled large scale financial inclusion in India, does NOT include:",
   o:[
-    "Goodwill",
-    "Patent",
-    "Land and building",
-    "Copyright"
+    "Jan Dhan accounts",
+    "Aadhaar identification",
+    "Mobile connectivity",
+    "Microfinance Institutions"
+  ],
+  a:3
+},
+
+{ q:"Which one of the following institutions is regarded as the Central Bank of India?",
+  o:[
+    "State Bank of India",
+    "Reserve Bank of India",
+    "NABARD",
+    "SEBI"
+  ],
+  a:1
+},
+
+{ q:"Development Financial Institutions (DFIs) mainly provide:",
+  o:[
+    "Direct retail loans to customers",
+    "Refinance support to banks and financial institutions",
+    "Deposit facilities to public",
+    "Foreign exchange services"
+  ],
+  a:1
+},
+
+{ q:"The primary function of a commercial bank is:",
+  o:[
+    "Issuing currency",
+    "Accepting deposits and lending money",
+    "Regulating financial markets",
+    "Supervising other banks"
+  ],
+  a:1
+},
+
+{ q:"The area of operation of a Regional Rural Bank (RRB) is:",
+  o:[
+    "Entire country",
+    "Restricted to the state in which it is established",
+    "Restricted to specified districts notified by Government",
+    "Limited to urban areas only"
   ],
   a:2
 },
 
-{ q:"Collateral security refers to……",
+{ q:"A General Credit Card (GCC) scheme introduced by RBI is primarily meant to:",
   o:[
-    "Security created out of bank finance",
-    "Additional security offered by borrower",
-    "Security without legal charge",
-    "Security with fluctuating value"
+    "Provide housing loans",
+    "Provide hassle-free small credit to non-farm entrepreneurs",
+    "Promote credit cards usage",
+    "Replace Kisan Credit Cards"
   ],
   a:1
 },
 
-{ q:"Which one of the following is not a type of charge?",
+{ q:"In the context of priority sector lending, which of the following is NOT included?",
+  o:[
+    "Agriculture",
+    "Micro, Small and Medium Enterprises",
+    "Education loans",
+    "Personal luxury consumption loans"
+  ],
+  a:3
+},
+
+{ q:"Cash Credit facility granted by banks is primarily used for:",
+  o:[
+    "Meeting working capital requirements of business",
+    "Purchasing fixed assets",
+    "Repayment of term loans",
+    "Personal consumption"
+  ],
+  a:0
+},
+
+{ q:"Which one of the following statements is correct regarding micro enterprises under MSME classification?",
+  o:[
+    "Investment up to ₹50 lakh and turnover up to ₹2 crore",
+    "Investment up to ₹1 crore and turnover up to ₹5 crore",
+    "Investment up to ₹5 crore and turnover up to ₹10 crore",
+    "Investment up to ₹10 crore and turnover up to ₹50 crore"
+  ],
+  a:1
+},
+
+{ q:"The Cash Reserve Ratio (CRR) is calculated on the basis of:",
+  o:[
+    "Total advances",
+    "Net demand and time liabilities",
+    "Total assets of the bank",
+    "Total deposits excluding CASA"
+  ],
+  a:1
+},
+
+{ q:"A Trial Balance is prepared mainly to:",
+  o:[
+    "Ascertain the profit or loss of the business",
+    "Check arithmetical accuracy of ledger accounts",
+    "Prepare cash flow statement",
+    "Determine tax liability"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following best describes nominal accounts?",
+  o:[
+    "Accounts relating to assets and liabilities",
+    "Accounts relating to capital",
+    "Accounts relating to income and expenditure",
+    "Accounts relating to debtors and creditors"
+  ],
+  a:2
+},
+
+{ q:"The principle of safety in lending refers to:",
+  o:[
+    "Safety of interest income",
+    "Safety of funds lent by the bank",
+    "Safety of collateral only",
+    "Safety of borrower’s reputation"
+  ],
+  a:1
+},
+
+{ q:"Collateral security in a loan transaction refers to:",
+  o:[
+    "The primary asset created out of bank finance",
+    "Additional security offered to secure the loan",
+    "Security without legal charge",
+    "Security having fluctuating value only"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following is NOT a form of charge created on securities?",
   o:[
     "Pledge",
     "Hypothecation",
@@ -866,73 +749,252 @@ window.questions = [
   ],
   a:3
 },
-
-{ q:"Assignment is generally used in case of……",
+{ q:"Assignment as a mode of creating charge is generally used in respect of which of the following?",
   o:[
-    "Immovable property",
-    "Movable goods",
-    "Actionable claims",
-    "Stock and stores"
+    "Immovable property like land and building",
+    "Actionable claims such as insurance policies and book debts",
+    "Machinery financed under term loan",
+    "Stock and stores hypothecated to the bank"
+  ],
+  a:1
+},
+
+{ q:"The banker–customer relationship in respect of safe custody articles is that of:",
+  o:[
+    "Debtor and creditor",
+    "Trustee and beneficiary",
+    "Bailee and bailor",
+    "Agent and principal"
   ],
   a:2
 },
 
-{ q:"The Banker–Customer relationship is primarily that of……",
+{ q:"The right of set-off differs from the right of lien because the right of set-off relates to:",
   o:[
-    "Trustee–Beneficiary",
-    "Debtor–Creditor",
-    "Agent–Principal",
-    "Bailee–Bailor"
+    "Goods and securities only",
+    "Adjustment of mutual monetary claims",
+    "Retention of property",
+    "Sale of pledged goods"
   ],
   a:1
 },
 
-{ q:"A garnishee order is issued to……",
+{ q:"A garnishee order issued by a competent court directs the bank to:",
   o:[
-    "Attach immovable property",
-    "Recover government dues",
-    "Attach bank deposits of a judgment debtor",
-    "Freeze locker operations"
-  ],
-  a:2
-},
-
-{ q:"Set-off refers to……",
-  o:[
-    "Right of bank to combine accounts",
-    "Right to adjust credit balance against debit balance",
-    "Right to lien",
-    "Right to charge interest"
+    "Attach the immovable property of a borrower",
+    "Attach and remit the balance lying in the account of a judgment debtor",
+    "Recover government dues from customers",
+    "Freeze operation of all customer accounts"
   ],
   a:1
 },
 
-{ q:"Lien is the right of the bank to……",
+{ q:"In banking practice, the right of general lien is considered as:",
   o:[
-    "Sell securities without notice",
-    "Retain goods until dues are paid",
-    "Recover dues from guarantor",
-    "Attach borrower’s property"
+    "A weak right available to banks",
+    "An implied pledge in favour of the banker",
+    "A statutory obligation of banks",
+    "A contractual right created by agreement only"
   ],
   a:1
 },
 
-{ q:"Which one of the following is a statutory lien?",
+{ q:"The rule in Clayton’s Case is applicable in respect of:",
   o:[
-    "General lien of banker",
-    "Lien under Contract Act",
-    "Lien under Sale of Goods Act",
-    "Lien created by agreement"
+    "Appropriation of payments in running accounts",
+    "Calculation of interest on loans",
+    "Classification of assets as NPAs",
+    "Priority sector lending targets"
   ],
   a:0
 },
 
-{ q:"Right of appropriation means……",
+{ q:"When a customer opens more than one account with a bank, the banker’s right to combine such accounts is known as:",
   o:[
-    "Right to adjust deposits",
-    "Right to decide order of adjustment of payments",
-    "Right to sell securities",
-    "Right to combine accounts"
+    "Right of lien",
+    "Right of set-off",
+    "Right of appropriation",
+    "Right of consolidation of accounts"
+  ],
+  a:3
+},
+
+{ q:"The principle of ‘purpose’ in lending implies that:",
+  o:[
+    "Loans should be given only for long-term purposes",
+    "Loans should be granted for productive and lawful purposes",
+    "Loans should earn maximum interest",
+    "Loans should always be secured by collateral"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following is an example of tangible security?",
+  o:[
+    "Goodwill",
+    "Patent rights",
+    "Land and building",
+    "Copyright"
+  ],
+  a:2
+},
+
+{ q:"Which of the following is NOT included under priority sector lending?",
+  o:[
+    "Agriculture",
+    "Micro and Small Enterprises",
+    "Education loans",
+    "Loans for luxury consumption"
+  ],
+  a:3
+},
+
+{ q:"The term ‘Non-Performing Asset’ (NPA) refers to a loan or advance where:",
+  o:[
+    "Interest is overdue for more than 30 days",
+    "Principal or interest remains overdue for more than 90 days",
+    "Account is irregular for one year",
+    "Recovery proceedings have started"
+  ],
+  a:1
+},
+
+{ q:"A loan account classified as ‘sub-standard’ means that:",
+  o:[
+    "It has remained NPA for a period less than or equal to 12 months",
+    "It has remained NPA for more than 12 months",
+    "It is fully secured",
+    "It is identified as a loss asset"
+  ],
+  a:0
+},
+
+{ q:"Which one of the following risks arises due to inadequate systems, processes or human errors?",
+  o:[
+    "Credit risk",
+    "Market risk",
+    "Operational risk",
+    "Liquidity risk"
+  ],
+  a:2
+},
+
+{ q:"Exposure of a bank to a single borrower or group of borrowers results in:",
+  o:[
+    "Operational risk",
+    "Compliance risk",
+    "Concentration risk",
+    "Reputation risk"
+  ],
+  a:2
+},
+
+{ q:"Corporate governance in banks mainly focuses on:",
+  o:[
+    "Maximising profits for shareholders only",
+    "Ensuring transparency, accountability and fairness",
+    "Government control over bank management",
+    "Employee welfare exclusively"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following statements best describes ethics in banking?",
+  o:[
+    "Strict adherence to profitability targets",
+    "Following only statutory laws",
+    "Adhering to moral values and fair practices in dealings",
+    "Aggressive marketing of products"
+  ],
+  a:2
+},
+
+{ q:"Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) provides life insurance cover in case of death due to:",
+  o:[
+    "Accident only",
+    "Natural causes only",
+    "Any reason, subject to scheme conditions",
+    "Only occupational hazards"
+  ],
+  a:2
+},
+
+{ q:"Under Pradhan Mantri Jan Dhan Yojana (PMJDY), the minimum basic savings bank deposit account provided includes:",
+  o:[
+    "No overdraft facility",
+    "Only fixed deposit facility",
+    "Basic banking services including deposit and withdrawal",
+    "Credit card facility only"
+  ],
+  a:2
+},
+
+{ q:"The objective of financial inclusion is best described as:",
+  o:[
+    "Providing loans to rich customers",
+    "Ensuring access to affordable financial services for all sections of society",
+    "Promoting digital payments only",
+    "Replacing informal credit completely"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following is NOT an objective of the Open Network for Digital Commerce (ONDC)?",
+  o:[
+    "Digitising the value chain",
+    "Encouraging small sellers to participate in e-commerce",
+    "Increasing customer choice and value",
+    "Promoting monopoly of large digital platforms"
+  ],
+  a:3
+},
+
+{ q:"The Account Aggregator framework primarily benefits customers by:",
+  o:[
+    "Eliminating the need for bank branches",
+    "Allowing sharing of financial data in a secure and consent-based manner",
+    "Providing instant loans without verification",
+    "Replacing KYC norms"
+  ],
+  a:1
+},
+
+{ q:"Which of the following correctly describes a White Label ATM?",
+  o:[
+    "ATM owned and operated by RBI",
+    "ATM owned and operated by a bank",
+    "ATM owned and operated by a non-bank entity",
+    "ATM operated only in rural areas"
+  ],
+  a:2
+},
+
+{ q:"Near Field Communication (NFC) technology is commonly used for:",
+  o:[
+    "Cheque truncation",
+    "Contactless card and mobile payments",
+    "Long-distance wireless communication",
+    "Core banking operations"
+  ],
+  a:1
+},
+
+{ q:"Radio Frequency Identification (RFID) technology is mainly used for:",
+  o:[
+    "Online banking transactions",
+    "Tracking and identification of objects using tags",
+    "Video conferencing",
+    "Email communication"
+  ],
+  a:1
+},
+
+{ q:"Which one of the following statements correctly describes the role of Business Correspondents?",
+  o:[
+    "They independently sanction and disburse loans",
+    "They provide last-mile banking services on behalf of banks",
+    "They act as auditors of bank branches",
+    "They replace bank staff permanently"
   ],
   a:1
 }

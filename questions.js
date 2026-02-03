@@ -590,8 +590,6 @@ window.questions = [
   ],
   a:0
 },
-  const questions_part3 = [
-
 { q:"A sub-standard account remains in that category for a maximum period of……",
   o:[
     "12 months",

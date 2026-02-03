@@ -2082,6 +2082,16 @@ window.questions = [
     "Describe it in technical words and phrases"
   ],
   a: 0
+},
+  {
+  q: "Which one of the following statements is correct regarding a charge card?",
+  o: [
+    "The outstanding amount can be paid in instalments",
+    "The card holder has to pay the entire outstanding amount in one go",
+    "Interest free credit is available for unlimited period",
+    "It works exactly like a debit card"
+  ],
+  a: 1
 }
 ];
 

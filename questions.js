@@ -2,789 +2,592 @@
 console.log("questions.js loaded");
 
 window.questions = [
- {
-  q: "Insurance claim documents must be submitted within how many days?",
-  o: ["60 days", "30 days", "45 days", "90 days"],
-  a: 0
-},
-{
-  q: "Claim information after how many days is not eligible?",
-  o: ["90 days", "120 days", "60 days", "180 days"],
-  a: 1
-},
-{
-  q: "What is the overdraft limit under PMJDY?",
-  o: ["₹5,000", "₹15,000", "₹20,000", "₹10,000"],
-  a: 3
-},
-{
-  q: "Business Correspondent is also known as:",
-  o: ["Bank Agent", "Bank Mitra", "Bank Sevak", "Bank Sakhi"],
-  a: 1
-},
-{
-  q: "Banks can appoint whom as Business Correspondent?",
-  o: [
-    "Only bank employees",
-    "Only government officials",
-    "Only private staff",
-    "Retired bank staff, teachers and ex-servicemen"
+{ q:"A bank will not disclose the affairs of the customer in which one of the following circumstances?",
+  o:[
+    "When the information is called under law",
+    "When there is express or implied consent of the customer",
+    "When any Central/State Govt. official directs the bank in writing",
+    "When a bank is bound to disclose in public interest"
   ],
-  a: 3
+  a:1
 },
-{
-  q: "Who creates awareness about savings and government schemes?",
-  o: ["RBI", "Branch Manager", "Business Correspondent", "NPCI"],
-  a: 2
-},
-{
-  q: "Role of Business Correspondent in PMJDY includes:",
-  o: [
-    "Issuing debit cards",
-    "Sanctioning loans",
-    "Auditing accounts",
-    "Accepting deposits and allowing withdrawals"
+
+{ q:"Soft skills are nothing but……",
+  o:[
+    "Knowing computer programming",
+    "Knowing tools & techniques",
+    "Knowing financial analysis",
+    "Relationship building towards the customer"
   ],
-  a: 3
+  a:3
 },
-{
-  q: "Which of the following are innovative technology products in banking?",
-  o: [
-    "Cheque, Passbook, Draft",
-    "KVIC, RTGS, AEPS, Mobile Banking",
-    "Cash Credit, Overdraft",
-    "Fixed and Recurring Deposits"
+
+{ q:"The features of good communication do not include……",
+  o:[
+    "Spontaneous reply",
+    "Empathy",
+    "Active listening",
+    "Positivity"
   ],
-  a: 1
+  a:0
 },
-{
-  q: "Which products are enabled by Core Banking Solutions (CBS)?",
-  o: [
-    "ATM withdrawals only",
-    "Cheque clearing only",
-    "NEFT, RTGS, Internet and Mobile Banking",
-    "Loan recovery services"
+
+{ q:"While disclosing information about a customer, a bank should take precautions to……",
+  o:[
+    "(1) only",
+    "(1) and (2) only",
+    "(2) and (3) only",
+    "(1), (2) and (3)"
   ],
-  a: 2
+  a:2
 },
-{
-  q: "KYC in electronic form is called:",
-  o: ["Online KYC", "Smart KYC", "Digital KYC", "eKYC"],
-  a: 3
-},
-{
-  q: "Who started eKYC in India?",
-  o: ["RBI", "UIDAI", "NPCI", "Government of India"],
-  a: 1
-},
-{
-  q: "Which services are available through mobile banking?",
-  o: [
-    "Cheque services only",
-    "Fund transfer, IMPS, balance enquiry, bill payment",
-    "Loan sanction",
-    "Cash deposit"
+
+{ q:"Which one of the following is not a main cause for customer complaints?",
+  o:[
+    "Lack of customer comfort facilities",
+    "Gap standards",
+    "Attitudinal aspects while dealing with customers",
+    "Inadequate arrangements to handle volume of work"
   ],
-  a: 1
+  a:1
 },
-{
-  q: "Immediate Payment Service is known as:",
-  o: ["UPI", "NEFT", "RTGS", "IMPS"],
-  a: 3
-},
-{
-  q: "IMPS was launched on:",
-  o: ["22 November 2010", "1 April 2009", "1 January 2012", "15 August 2014"],
-  a: 0
-},
-{
-  q: "Stakeholders in interbank remittance include:",
-  o: [
-    "Only RBI and Banks",
-    "Only customer and bank",
-    "Sender, Beneficiary, Bank and NFS",
-    "Only NPCI"
+
+{ q:"RBI has made it mandatory for all Credit Information Companies to provide Full Credit Report on request to individuals whose credit history is available……",
+  o:[
+    "At a cost of Rs.200 whenever required",
+    "Free of charge once in a calendar year",
+    "At a cost of Rs.500 whenever required",
+    "At a cost of Rs.100 whenever required"
   ],
-  a: 2
+  a:1
 },
-{
-  q: "How many digits are there in MMID?",
-  o: ["6 digits", "8 digits", "5 digits", "7 digits"],
-  a: 3
-},
-{
-  q: "What is a Micro ATM?",
-  o: [
-    "Mini cash counter",
-    "Digital wallet",
-    "Biometric handheld ATM",
-    "Mobile banking app"
+
+{ q:"The various features of Central Bank Digital Currency (Wholesale) include……",
+  o:[
+    "(1), (2) and (4) only",
+    "(2), (3) and (4) only",
+    "(1), (2), (3) and (4)",
+    "(1) and (2) only"
   ],
-  a: 2
+  a:2
 },
-{
-  q: "USSD stands for:",
-  o: [
-    "Unified Supplementary Service Data",
-    "Unstructured Supplementary Service Data",
-    "Universal Service System Data",
-    "Unique Service System Data"
+
+{ q:"A Business Facilitator will undertake the activities which include……",
+  o:[
+    "(1) and (2) only",
+    "(1), (2), (3) and (4)",
+    "(3) only",
+    "(3) and (4) only"
   ],
-  a: 1
+  a:1
 },
-{
-  q: "Which services are available through USSD banking?",
-  o: [
-    "Only internet banking",
-    "Only cash withdrawal",
-    "Money transfer, bill payment, balance enquiry",
-    "Cheque services"
+
+{ q:"The basic services which are provided by the Business Correspondents (BCs) do not include……",
+  o:[
+    "Rural credit disbursements",
+    "Delivery of savings and insurance products",
+    "Small value payments and remittances",
+    "Providing training under Govt. sponsored schemes"
   ],
-  a: 2
+  a:3
 },
-{
-  q: "Which is a key feature of RuPay debit card?",
-  o: [
-    "High international fees",
-    "Only for rural areas",
-    "Affordable and wide services",
-    "Only for credit cards"
+
+{ q:"Transactions in Central Bank Digital Currency (CBDC) can be……",
+  o:[
+    "Person to Merchant (P2M) only",
+    "Both Person to Person (P2P) and Person to Merchant (P2M)",
+    "Only for Rs.1,000 and above",
+    "Person to Person (P2P) only"
   ],
-  a: 2
+  a:1
 },
-{
-  q: "AEPS stands for:",
-  o: [
-    "Advanced Electronic Payment System",
-    "Aadhaar Enabled Payment System",
-    "Automated Electronic Payment Service",
-    "Aadhaar Electronic Processing System"
+
+{ q:"The objectives of Open Network for Digital Commerce (ONDC) do not include……",
+  o:[
+    "Digitizing the whole value chain",
+    "Encouraging supplier inclusion",
+    "Increasing customer value",
+    "Enlarging market for multinational brands in India"
   ],
-  a: 1
+  a:3
 },
-{
-  q: "AEPS transactions are carried out through:",
-  o: [
-    "Internet banking only",
-    "Bank counters only",
-    "POS/Micro ATM or kiosk banking",
-    "Mobile apps only"
+
+{ q:"The Account Aggregator will replace many hassles for consumers today like……",
+  o:[
+    "Sharing physical signed and scanned copies of bank statements",
+    "Running around to notarise or stamping of documents",
+    "Having to share personal username and password",
+    "(1) and (2) only"
   ],
-  a: 2
+  a:3
 },
-{
-  q: "Which transactions are available under AEPS?",
-  o: [
-    "Only withdrawal",
-    "Only deposit",
-    "Only fund transfer",
-    "Balance enquiry, withdrawal, deposit and transfer"
+
+{ q:"In the case of charge card, payment is made by the user……",
+  o:[
+    "At one go",
+    "In instalments",
+    "In instalments after a grace period",
+    "Instantly"
   ],
-  a: 3
+  a:0
 },
-{
-  q: "APBS stands for:",
-  o: [
-    "Aadhaar Payment Bridge System",
-    "Advanced Payment Banking System",
-    "Automated Payment Bridge Service",
-    "Aadhaar Payment Banking Service"
+
+{ q:"Green Label ATMs……",
+  o:[
+    "Are dedicated to promote agriculture banking transactions",
+    "Are used for online purchases",
+    "Are dedicated to promote banking transactions by women",
+    "Are provided for share transactions"
   ],
-  a: 0
+  a:0
 },
-{
-  q: "APBS enables:",
-  o: [
-    "Cheque clearing",
-    "Loan disbursement",
-    "ATM settlement",
-    "Government payments to Aadhaar-linked accounts"
+
+{ q:"In the case of White Label ATMs……",
+  o:[
+    "Dispute resolution is done through the agency handling ATM switch",
+    "Cash management is done by banking system",
+    "They are required to pay monthly charge",
+    "They are set up, owned and operated by non-banks"
   ],
-  a: 3
+  a:3
 },
-{
-  q: "EBT stands for:",
-  o: [
-    "Electronic Banking Technology",
-    "Extended Banking Transfer",
-    "Electronic Benefit Transfer",
-    "E-Banking Tool"
+
+{ q:"The Jan Samarth Portal uses cutting-edge technologies and smart analytics to provide intuitive guidance to citizens……",
+  o:[
+    "(1) only",
+    "(1) and (2) only",
+    "(2) and (3) only",
+    "(1), (2) and (3)"
   ],
-  a: 2
+  a:3
 },
-{
-  q: "PMJJBY stands for:",
-  o: [
-    "Pradhan Mantri Jan Jeevan Bima Yojana",
-    "Pradhan Mantri Jeevan Jyoti Bima Yojana",
-    "Public Manpower Jeevan Bima Yojana",
-    "Pradhan Mantri Jivan Bima Scheme"
+
+{ q:"Brown Label ATMs are……",
+  o:[
+    "Meant for blind persons only",
+    "Meant only for coin dispensing",
+    "Hardware and lease owned by service provider, cash management by sponsor bank",
+    "Withdrawal without any limit meant for HNIs"
   ],
-  a: 1
+  a:2
 },
-{
-  q: "Annual premium under PMJJBY is:",
-  o: ["₹330", "₹500", "₹436", "₹400"],
-  a: 2
-},
-{
-  q: "Eligibility age for PMJJBY is:",
-  o: ["21–60 years", "18–40 years", "18–50 years", "18–70 years"],
-  a: 2
-},
-{
-  q: "PMSBY stands for:",
-  o: [
-    "Prime Minister Safety Benefit Scheme",
-    "Pradhan Mantri Suraksha Bima Yojana",
-    "Pradhan Mantri Swasthya Bima Yojana",
-    "Public Motor Safety Bima Yojana"
+
+{ q:"Orange Label ATMs……",
+  o:[
+    "Are used for online purchase",
+    "Are provided for share transactions",
+    "Are dedicated to promote banking transactions by women",
+    "Are dedicated to promote agriculture banking transactions"
   ],
-  a: 1
+  a:2
 },
-{
-  q: "Annual premium under PMSBY is:",
-  o: ["₹50", "₹12", "₹20", "₹100"],
-  a: 2
-},
-{
-  q: "Eligibility age for PMSBY is:",
-  o: ["18–50 years", "18–70 years", "21–70 years", "18–60 years"],
-  a: 1
-},
-{
-  q: "APY stands for:",
-  o: [
-    "Advanced Pension Yojana",
-    "Atal Pension Yojana",
-    "Automatic Pension Yojana",
-    "Assured Pension Yojana"
+
+{ q:"Which one of the following statements is incorrect in respect of Stored Value Card?",
+  o:[
+    "It is issued by a bank",
+    "The monetary value is stored on the card itself",
+    "No charges are levied on adding value to the card",
+    "The card issuer is a service provider"
   ],
-  a: 1
+  a:2
 },
-{
-  q: "Atal Pension Yojana is meant for:",
-  o: [
-    "Government employees",
-    "Private sector employees",
-    "Unorganised sector workers",
-    "Bank employees"
+
+{ q:"What is Aadhaar-based e-KYC?",
+  o:[
+    "Electronic identity verification using biometrics/OTP with UIDAI",
+    "Uploading scanned Aadhaar card only",
+    "Submitting Aadhaar number physically",
+    "Email request to UIDAI"
   ],
-  a: 2
+  a:0
 },
-{
-  q: "Pension under APY starts at the age of:",
-  o: ["58 years", "55 years", "65 years", "60 years"],
-  a: 3
-},
-{
-  q: "What is the monthly pension amount under Atal Pension Yojana (APY)?",
-  o: ["₹500–₹3000", "₹1000–₹5000", "₹2000–₹6000", "₹1500–₹4000"],
-  a: 1
-},
-{
-  q: "Who is eligible to join Atal Pension Yojana (APY)?",
-  o: [
-    "Any Indian citizen above 18 years",
-    "Age 21–60 years",
-    "Age 18–40 years with bank/post office account",
-    "Only government employees"
+
+{ q:"Bharat QR Codes is……",
+  o:[
+    "P2M mobile payment solution",
+    "OTP based payment",
+    "Account to account remittance",
+    "Inter-bank clearing transfer"
   ],
-  a: 2
+  a:0
 },
-{
-  q: "For how many years was Government co-contribution provided under APY?",
-  o: ["3 years", "5 years", "7 years", "10 years"],
-  a: 1
-},
-{
-  q: "What was the Government co-contribution amount under APY?",
-  o: [
-    "25% of contribution",
-    "₹500 maximum",
-    "50% up to ₹1000",
-    "₹2000 fixed"
+
+{ q:"Mobile wallet……",
+  o:[
+    "Works on the line of debit card",
+    "Is a way to carry cash in digital format",
+    "Can be used on ATMs also",
+    "Works on the line of credit card"
   ],
-  a: 2
+  a:1
 },
-{
-  q: "Who is NOT eligible for Government co-contribution under APY?",
-  o: [
-    "Daily wage workers",
-    "Unorganised sector workers",
-    "Self-employed persons",
-    "PPF and Provident Fund members"
+
+{ q:"MMID is a 7-digit number issued by the bank to the customer……",
+  o:[
+    "For activation of credit card",
+    "For Immediate Payment System (IMPS)",
+    "For internet banking registration",
+    "For debit card activation"
   ],
-  a: 3
+  a:1
 },
-{
-  q: "APY funds are invested as per guidelines issued by:",
-  o: ["RBI", "SEBI", "PFRDA", "Ministry of Finance"],
-  a: 2
-},
-{
-  q: "What was the age limit under Swavalamban Scheme?",
-  o: ["21–60 years", "18–40 years", "18–50 years", "25–60 years"],
-  a: 1
-},
-{
-  q: "Monthly contribution at age 18 for ₹5000 pension under APY is:",
-  o: ["₹150", "₹180", "₹210", "₹250"],
-  a: 2
-},
-{
-  q: "BSBD accounts allotted through Business Correspondents are tracked using:",
-  o: ["Customer ID", "IFSC code", "Project code", "Account number"],
-  a: 2
-},
-{
-  q: "What is the full form of EBT?",
-  o: [
-    "Electronic Banking Transfer",
-    "Electronic Benefit Transfer",
-    "Extended Benefit Transfer",
-    "Electronic Business Tool"
+
+{ q:"Pink Label ATMs……",
+  o:[
+    "Are provided for share transactions",
+    "Are dedicated to promote agriculture banking",
+    "Are used for online purchase",
+    "Are dedicated to promote banking transactions by women"
   ],
-  a: 1
+  a:3
 },
-{
-  q: "POS device is installed at:",
-  o: ["Bank branch", "Customer residence", "ATM kiosk", "Point of sale"],
-  a: 3
-},
-{
-  q: "ATM stands for:",
-  o: [
-    "Automated Teller Machine",
-    "Advanced Transaction Machine",
-    "Automatic Transfer Machine",
-    "Any Time Money"
+
+{ q:"Which one of the following is incorrect in the case of NFC technology?",
+  o:[
+    "Full traceability and audit trail maintained",
+    "Instant settlement between accounts",
+    "Debit/Credit card cannot be used for transactions",
+    "BC working capital account is centrally held"
   ],
-  a: 0
+  a:2
 },
-{
-  q: "eKYC authenticates which of the following?",
-  o: [
-    "Bank staff credentials",
-    "Customer data",
-    "ATM transactions",
-    "Merchant payments"
+
+{ q:"Which one of the following is incorrect regarding a hand-held device with contact card?",
+  o:[
+    "It can work uninterrupted in completely offline environment",
+    "It has backward compatibility to support magstripe cards",
+    "It is compact and portable",
+    "It does not have printing facility"
   ],
-  a: 1
+  a:0
 },
-{
-  q: "Can a minor open a PMJDY account?",
-  o: [
-    "No, minors are not allowed",
-    "Yes, only above 18 years",
-    "Yes, above 10 years of age",
-    "Yes, only with guardian approval below 18"
+
+{ q:"Which one of the following is incorrect regarding RFID?",
+  o:[
+    "Used for tracking goods using tags",
+    "Used for contactless smart cards",
+    "Has high-end security features",
+    "It is a method of listening songs and music"
   ],
-  a: 2
+  a:3
 },
-{
-  q: "Eligibility age for PMJDY life insurance cover is:",
-  o: ["18–59 years", "18–50 years", "21–60 years", "18–65 years"],
-  a: 0
-},
-{
-  q: "Life insurance cover amount under PMJDY is:",
-  o: ["₹50,000", "₹1,00,000", "₹30,000", "₹2,00,000"],
-  a: 2
-},
-{
-  q: "Overdraft facility under PMJDY is:",
-  o: [
-    "Automatically renewed every year",
-    "Fixed permanently",
-    "Subject to annual review",
-    "Available without conditions"
+
+{ q:"If BC has inadequate financial capacity, it falls under which risk?",
+  o:[
+    "Operational risk",
+    "Strategic risk",
+    "Compliance risk",
+    "Credit risk"
   ],
-  a: 2
+  a:0
 },
-{
-  q: "Which of the following represents State contribution ratios?",
-  o: [
-    "60:40 and 80:20",
-    "75:25 and 90:10",
-    "50:50, 70:30, 75:25, 90:10",
-    "90:10 only"
+
+{ q:"Considerable exposure to one single service provider is termed as……",
+  o:[
+    "Concentration Risk",
+    "Operational risk",
+    "Credit risk",
+    "Compliance risk"
   ],
-  a: 2
+  a:0
 },
-{
-  q: "Which are Central Government schemes?",
-  o: [
-    "PMEGP, NRLM, MGNREGA, PMGSY",
-    "APY, PMSBY, PMJJBY",
-    "KCC, SHG-BLP",
-    "DAY-NRLM only"
+
+{ q:"Corporate Governance includes……",
+  o:[
+    "(1) and (2) only",
+    "(2) and (4) only",
+    "(3) and (4) only",
+    "(1), (2) and (3) only"
   ],
-  a: 0
+  a:3
 },
-{
-  q: "DAY-NRLM stands for:",
-  o: [
-    "Deendayal Antyodaya Yojana – NRLM",
-    "National Rural Livelihood Mission",
-    "Deen Dayal Rural Mission",
-    "National Antyodaya Livelihood Mission"
+
+{ q:"Talks about ethics may include……",
+  o:[
+    "(2) and (3) only",
+    "(1) and (3) only",
+    "(1), (2) and (3)",
+    "(1) and (2) only"
   ],
-  a: 0
+  a:2
 },
-{
-  q: "Main objective of DAY-NRLM is to:",
-  o: [
-    "Provide housing",
-    "Strengthen institutions and eradicate poverty",
-    "Provide pension",
-    "Improve road connectivity"
+
+{ q:"Full maximum claim is not payable under PMSBY on death due to……",
+  o:[
+    "Suicide",
+    "Murder",
+    "Accident",
+    "Natural calamities"
   ],
-  a: 1
+  a:0
 },
-{
-  q: "DAY-NRLM is implemented in:",
-  o: [
-    "All States only",
-    "28 States and 8 UTs",
-    "29 States and 5 UTs",
-    "Only rural districts"
+
+{ q:"Under PMJDY, banking facilities must be available within a distance of……",
+  o:[
+    "12 KM",
+    "10 KM",
+    "5 KM",
+    "8 KM"
   ],
-  a: 2
+  a:2
 },
-{
-  q: "Funding ratio under DAY-NRLM is:",
-  o: [
-    "60:40",
-    "50:50",
-    "75:25 and 90:10",
-    "90:10 only"
+
+{ q:"Who will not be eligible for appointment as Bank Mitra?",
+  o:[
+    "Retired SBI employee",
+    "Person running a pharmacy shop",
+    "Retired Ministry of Commerce employee",
+    "Retired Hindustan Unilever employee"
   ],
-  a: 2
+  a:1
 },
-{
-  q: "Revolving Fund is generally provided for a period of:",
-  o: ["1–2 months", "3–6 months", "6–12 months", "1 year"],
-  a: 1
-},
-{
-  q: "Funding ratio for Union Territories under DAY-NRLM is:",
-  o: ["75:25", "80:20", "60:40", "90:10"],
-  a: 3
-},
-{
-  q: "Primary purpose of Revolving Fund is to:",
-  o: [
-    "Provide subsidy",
-    "Strengthen discipline and capacity of SHGs",
-    "Provide grants",
-    "Finance infrastructure"
+
+{ q:"When shall assurance on life under PMJJBY not be terminated?",
+  o:[
+    "Insufficient balance",
+    "On attaining age of 52 years",
+    "Multiple accounts coverage",
+    "Closure of account"
   ],
-  a: 1
+  a:1
 },
-{
-  q: "CIF stands for:",
-  o: [
-    "Community Investment Fund",
-    "Central Infrastructure Fund",
-    "Credit Inclusion Fund",
-    "Community Insurance Fund"
+
+{ q:"Age eligibility under Atal Pension Yojana is……",
+  o:[
+    "18–50 years",
+    "18–60 years",
+    "18–65 years",
+    "18–40 years"
   ],
-  a: 0
+  a:3
 },
-{
-  q: "Community Investment Fund (CIF) is used for:",
-  o: [
-    "Only savings",
-    "Infrastructure development",
-    "Loans and social/financial needs",
-    "Government grants"
+
+{ q:"Depositor Education and Awareness Fund can be utilized by RBI for……",
+  o:[
+    "Promotion of depositors’ interest",
+    "Deposit insurance",
+    "Financial inclusion",
+    "None of the above"
   ],
-  a: 2
+  a:0
 },
-{
-  q: "Maximum loan limit eligible for interest subsidy is:",
-  o: ["₹1,00,000", "₹2,00,000", "₹3,00,000", "₹5,00,000"],
-  a: 2
-},
-{
-  q: "Women SHGs in 150 districts can avail loan of:",
-  o: [
-    "₹2,00,000 at 9%",
-    "₹3,00,000 at 7%",
-    "₹5,00,000 at 6%",
-    "₹1,00,000 at 8%"
+
+{ q:"For DBT, linking Aadhaar with bank account……",
+  o:[
+    "Written application mandatory",
+    "Joint account application required",
+    "Copies must be verified and kept",
+    "It is compulsory"
   ],
-  a: 1
+  a:3
 },
-{
-  q: "MGNREGA was started on:",
-  o: [
-    "1 April 2005",
-    "15 August 2006",
-    "2 February 2006",
-    "26 January 2006"
+
+{ q:"Insurance benefits under PMJJBY is not available for death……",
+  o:[
+    "At age of 54 years",
+    "Due to any reason except accident during first 30 days of re-enrolment",
+    "From heart attack within 90 days",
+    "Within 45 days of enrolment"
   ],
-  a: 2
+  a:1
 },
-{
-  q: "Key feature of MGNREGA is:",
-  o: [
-    "Skill training",
-    "100 days guaranteed employment",
-    "Free ration",
-    "Housing assistance"
+
+{ q:"Which statement is incorrect regarding SHGs?",
+  o:[
+    "These are small formal groups",
+    "Promote savings habit",
+    "Consist of 10–12 individuals",
+    "Members are homogeneous"
   ],
-  a: 1
+  a:0
 },
-{
-  q: "Maximum employment days in drought-affected areas under MGNREGA is:",
-  o: ["100 days", "120 days", "150 days", "200 days"],
-  a: 2
-},
-{
-  q: "PMGSY stands for:",
-  o: [
-    "Pradhan Mantri Gram Sadak Yojana",
-    "Pradhan Mantri Gram Suraksha Yojana",
-    "Public Motorway Growth Scheme",
-    "Prime Minister Gram Scheme"
+
+{ q:"The National Centre for Financial Education has been set up as……",
+  o:[
+    "Public Sector Company",
+    "Section 8 company",
+    "Government Company",
+    "Trust"
   ],
-  a: 0
+  a:1
 },
-{
-  q: "Implementation period of PMAY was:",
-  o: [
-    "2014–2020",
-    "2015–2022",
-    "2016–2023",
-    "2017–2025"
+
+{ q:"Role of BCs/Business Facilitators is expected as……",
+  o:[
+    "Guide",
+    "Companion",
+    "Government representative",
+    "Philosopher"
   ],
-  a: 1
+  a:2
 },
-{
-  q: "Who is eligible under PMAY?",
-  o: [
-    "Any Indian citizen",
-    "Government employees",
-    "Those without pucca house ownership",
-    "All rural households"
+
+{ q:"Structured communication in financial counselling does not include……",
+  o:[
+    "Interviewing",
+    "Counselling",
+    "Distributing knowledge materials",
+    "Listening"
   ],
-  a: 2
+  a:2
 },
-{
-  q: "Interest subsidy under PMAY for EWS/LIG is available on loan amount of:",
-  o: ["₹2–4 lakhs", "₹3–6 lakhs", "₹6–9 lakhs", "₹10–12 lakhs"],
-  a: 1
-},
-{
-  q: "Interest subsidy rate under PMAY is:",
-  o: ["5.5%", "6%", "6.5%", "7%"],
-  a: 2
-},
-{
-  q: "NPV rate used for PMAY subsidy calculation is:",
-  o: ["8%", "9%", "7.5%", "10%"],
-  a: 1
-},
-{
-  q: "Maximum interest subsidy amount under PMAY is:",
-  o: ["₹2,00,000", "₹2,50,000", "₹2,67,280", "₹3,00,000"],
-  a: 2
-},
-{
-  q: "PMGKY stands for:",
-  o: [
-    "Pradhan Mantri Garib Kalyan Yojana",
-    "Prime Minister Growth Yojana",
-    "Public Monetary Growth Yojana",
-    "Pradhan Mantri Gram Kalyan Yojana"
+ { q:"The essential elements of effective counselling include……",
+  o:[
+    "(1) and (2) only",
+    "(1), (2), (3) and (4)",
+    "(2) and (3) only",
+    "(1), (3) and (4) only"
   ],
-  a: 0
+  a:3
 },
- {
-  q: "Monthly pension amount available under Atal Pension Yojana (APY) is:",
-  o: ["₹500–₹2000", "₹1000–₹5000", "₹2000–₹8000", "₹1500–₹6000"],
-  a: 1
-},
-{
-  q: "Eligibility criteria for joining Atal Pension Yojana (APY) is:",
-  o: [
-    "Age 18–40 with bank/post office account",
-    "Age 21–60 with Aadhaar only",
-    "Any age with savings account",
-    "Age 18–50 without bank account"
+
+{ q:"The features of Civil Society Organisations (CSO) in the context of Financial Inclusion include……",
+  o:[
+    "State owned, not-for-profit entities",
+    "SHGs",
+    "NGOs",
+    "Non-State, not-for-profit, voluntary entities formed by people"
   ],
-  a: 0
+  a:3
 },
-{
-  q: "Government co-contribution under APY was provided for how many years?",
-  o: ["3 years", "4 years", "5 years", "10 years"],
-  a: 2
-},
-{
-  q: "Maximum government co-contribution amount under APY was:",
-  o: ["₹500", "₹750", "₹1000", "₹1500"],
-  a: 2
-},
-{
-  q: "Who is NOT eligible for government co-contribution under APY?",
-  o: [
-    "Unorganised sector workers",
-    "Income tax payers",
-    "Self-employed individuals",
-    "Daily wage labourers"
+
+{ q:"The objectives of Financial Inclusion do not include……",
+  o:[
+    "Extending financial services to unserved population",
+    "Unlocking growth potential of the country",
+    "Making finance available to the poor",
+    "Developing educational and health facilities in villages"
   ],
-  a: 1
+  a:3
 },
-{
-  q: "Funds under Atal Pension Yojana are invested as per guidelines of:",
-  o: ["RBI", "SEBI", "IRDAI", "PFRDA"],
-  a: 3
-},
-{
-  q: "Age limit under Swavalamban Pension Scheme was:",
-  o: ["21–60 years", "18–40 years", "18–50 years", "25–60 years"],
-  a: 1
-},
-{
-  q: "Purpose of Electronic Benefit Transfer (EBT) is:",
-  o: [
-    "Cash withdrawal facility",
-    "Electronic transfer of subsidies and benefits",
-    "Mobile banking service",
-    "Loan disbursement"
+
+{ q:"Reserve Bank of India is……",
+  o:[
+    "A development bank",
+    "A separate wing of Finance Ministry",
+    "A Public Sector Bank",
+    "The Central Bank of the country"
   ],
-  a: 1
+  a:3
 },
-{
-  q: "POS device is installed at:",
-  o: ["Bank branch", "ATM centre", "Customer residence", "Point of sale"],
-  a: 3
-},
-{
-  q: "ATM stands for:",
-  o: [
-    "Automatic Teller Machine",
-    "Automated Teller Machine",
-    "Advanced Transaction Machine",
-    "Any Time Money"
+
+{ q:"Development Financial Institutions (DFIs) provide……",
+  o:[
+    "Guidance to banks in lending operations",
+    "Credit guarantee to banks",
+    "Refinance to banks for lending operations",
+    "Technological system support"
   ],
-  a: 1
+  a:2
 },
-{
-  q: "eKYC is primarily used for:",
-  o: [
-    "Opening loan accounts",
-    "Customer data authentication",
-    "Transaction verification",
-    "Mobile number linking"
+
+{ q:"The liberalization of financial services in India was triggered by JAM Trinity, which did not comprise……",
+  o:[
+    "Jan Dhan Yojana",
+    "Aadhaar Database",
+    "Mobile",
+    "Microfinance Institutions"
   ],
-  a: 1
+  a:3
 },
-{
-  q: "Can a minor open a PMJDY account?",
-  o: [
-    "No, minors are not allowed",
-    "Yes, above 10 years of age",
-    "Yes, any age",
-    "Only with Aadhaar"
+
+{ q:"A General Purpose Card is used for……",
+  o:[
+    "Office Address Proof",
+    "Personal Identification",
+    "Paying for goods and services",
+    "Home Address Proof"
   ],
-  a: 1
+  a:2
 },
-{
-  q: "Life insurance coverage under PMJDY is available for age group:",
-  o: ["18–40 years", "18–50 years", "18–59 years", "21–60 years"],
-  a: 2
-},
-{
-  q: "Life insurance cover amount under PMJDY is:",
-  o: ["₹50,000", "₹1,00,000", "₹30,000", "₹2,00,000"],
-  a: 2
-},
-{
-  q: "Overdraft facility under PMJDY is:",
-  o: [
-    "Fixed permanently",
-    "Available without conditions",
-    "Subject to annual review",
-    "Given to all account holders"
+
+{ q:"RBI in its annual policy statement of April 2005 did not include which step for financial inclusion?",
+  o:[
+    "General Credit Card",
+    "Simplified KYC norms",
+    "Basic Savings Bank Deposit Account",
+    "Service Area Approach"
   ],
-  a: 2
+  a:3
 },
-{
-  q: "MGNREGA was launched on:",
-  o: [
-    "1 April 2005",
-    "2 February 2006",
-    "15 August 2006",
-    "1 January 2007"
+
+{ q:"The primary function of a bank is……",
+  o:[
+    "Providing loans to weaker sections",
+    "Providing remittance facilities",
+    "Facilitating currency circulation",
+    "Acceptance of deposits and lending money"
   ],
-  a: 1
+  a:3
 },
-{
-  q: "Key feature of MGNREGA is:",
-  o: [
-    "Skill development",
-    "150 days employment",
-    "100 days guaranteed wage employment",
-    "Monthly pension"
+
+{ q:"The area of operations of a Regional Rural Bank is……",
+  o:[
+    "Restricted to a few districts",
+    "Unrestricted",
+    "Depends on State Government",
+    "Depends on sponsor bank"
   ],
-  a: 2
+  a:0
 },
-{
-  q: "In drought-affected areas, employment under MGNREGA can be extended up to:",
-  o: ["120 days", "150 days", "200 days", "180 days"],
-  a: 1
-},
-{
-  q: "PMGSY stands for:",
-  o: [
-    "Pradhan Mantri Gram Sadak Yojana",
-    "Pradhan Mantri Gramin Seva Yojana",
-    "Prime Minister Growth Scheme",
-    "Public Market Growth Scheme"
+
+{ q:"Escalation Matrix is used in complaints. It is……",
+  o:[
+    "Procedure to segregate complaints at receiving level",
+    "Used at Dy. Ombudsman level",
+    "A tool used by regulated entities to manage escalation",
+    "Used when complaint is of serious nature"
   ],
-  a: 0
+  a:2
 },
-{
-  q: "Implementation period of Pradhan Mantri Awas Yojana (PMAY) was:",
-  o: [
-    "2014–2020",
-    "2015–2022",
-    "2016–2021",
-    "2017–2023"
+
+{ q:"The Appellate Authority under the Integrated Ombudsman Scheme is……",
+  o:[
+    "Chief General Manager of RBI",
+    "Executive Director in charge of Consumer Education and Protection",
+    "General Manager of RBI RO",
+    "Deputy Governor of RBI"
   ],
-  a: 1
+  a:1
 },
-{
-  q: "Eligibility for PMAY requires that beneficiary:",
-  o: [
-    "Must own a kutcha house",
-    "Must not own a pucca house",
-    "Must have government job",
-    "Must be income tax payer"
+
+{ q:"If principal or interest payment is not overdue for more than 30 days but showing signs of stress, it is classified as……",
+  o:[
+    "SMA-0",
+    "SMA-1",
+    "SMA-2",
+    "None of the above"
   ],
-  a: 1
+  a:1
 },
-{
-  q: "Interest subsidy rate under PMAY is:",
-  o: ["5.5%", "6%", "6.5%", "7%"],
-  a: 2
-},
-{
-  q: "Maximum interest subsidy amount under PMAY is:",
-  o: ["₹2,00,000", "₹2,50,000", "₹2,67,280", "₹3,00,000"],
-  a: 2
-},
-{
-  q: "PMGKY stands for:",
-  o: [
-    "Pradhan Mantri Garib Kalyan Yojana",
-    "Prime Minister Growth Yojana",
-    "Public Monetary Growth Yojana",
-    "Pradhan Mantri Gram Kalyan Yojana"
+
+{ q:"If a complaint is not resolved at branch level within stipulated period, the regional office should resolve it within……",
+  o:[
+    "7 days",
+    "10 days",
+    "15 days",
+    "21 days"
   ],
-  a: 0
+  a:1
+},
+
+{ q:"If a bill purchased/discounted by the bank remains unpaid for more than 90 days, it should be treated as……",
+  o:[
+    "Out of order",
+    "Non-performing asset",
+    "Special Mention Account",
+    "None of the above"
+  ],
+  a:1
+},
+
+{ q:"Customers’ Day is observed every month. Which is incorrect?",
+  o:[
+    "Few customers are specially invited for feedback",
+    "Any customer can approach Branch Manager",
+    "Meeting time is 3 PM to 5 PM",
+    "Observed on 15th of every month"
+  ],
+  a:0
 }
 ];

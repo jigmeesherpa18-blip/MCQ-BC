@@ -777,8 +777,6 @@ window.questions = [
   ],
   a:1
 },
-const questions_part4 = [
-
 { q:"The principle of 'safety' in lending refers to……",
   o:[
     "Safety of funds lent by the bank",

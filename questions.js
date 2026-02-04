@@ -143,15 +143,15 @@ window.questions = [
     a: 2
   },
   {
-    q: "Which of the following salient features of the Basic Savings Bank Deposit Account (BSBDA) are correct?",
-    o: [
-      "Only (ii), (iii) and (iv)",
-      "Only (i), (ii) and (iv)",
-      "Only (i) and (ii)",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    a: 3
-  },
+  q: "Which of the following salient features of the Basic Savings Bank Deposit Account (BSBDA) are correct?\n\n(i) It is a kind of Demand Deposit account.\n(ii) It is opened to extend normal banking facilities with no minimum balance, no bank charges and with ATM (Debit) card facility.\n(iii) Withdrawal from this account, including through ATM, in a month is restricted.\n(iv) While opening BSBDA, no other Saving Bank Account is permitted to be maintained in the bank. If there is any other SB account, the same is to be closed within 30 days.",
+  o: [
+    "Only (ii), (iii) and (iv)",
+    "Only (i), (ii) and (iv)",
+    "Only (i) and (ii)",
+    "(i), (ii), (iii) and (iv)"
+  ],
+  a: 3
+},
   {
     q: "Which one of the following statements about Microfinance programme is not correct?",
     o: [
@@ -162,26 +162,26 @@ window.questions = [
     ],
     a: 2
   },
-  {
-    q: "There is difference between the functions of Payments Banks (PB) and Small Finance Banks (SFB). Which of the following statements is/are not true?",
-    o: [
-      "Only (i)",
-      "Only (ii) and (iv)",
-      "Only (i) and (iii)",
-      "Only (iii)"
-    ],
-    a: 2
-  },
-  {
-    q: "Which of the following can be attended by Business Correspondents Agent?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii), (iii) and (iv)",
-      "Only (i) and (iii)",
-      "Only (i), (ii) and (iii)"
-    ],
-    a: 3
-  },
+ {
+  q: "There is difference between the functions of Payments Banks (PB) and Small Finance Banks (SFB). Which of the following statements is/are not true?\n\n(i) Both can accept deposit from public but PB can deposit with a ceiling of Rs. 2.00 lakh per customer.\n(ii) Both can lend money within the ceilings of priority sector i.e. to low income group farmers and weaker sections.\n(iii) Both can facilitate remittance facilities and utility bills to their customers.\n(iv) PB can invest in Bonds and other market instruments with RBI permission for earning profits to pass on to their customers.",
+  o: [
+    "Only (i)",
+    "Only (ii) and (iv)",
+    "Only (i) and (iii)",
+    "Only (iii)"
+  ],
+  a: 2
+},
+ {
+  q: "Which of the following activities can be attended by Business Correspondents Agent?\n\n(i) Collection and filling up of account opening forms.\n(ii) Collection and processing of loan application forms.\n(iii) Collection and payment of small deposits and withdrawals.\n(iv) Collection and filling up of safe deposit locker opening forms.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii), (iii) and (iv)",
+    "Only (i) and (iii)",
+    "Only (i), (ii) and (iii)"
+  ],
+  a: 3
+},
   {
     q: "Which of the following statements is/are the important guidelines to be implemented by banks for providing banking facilities to sick/old/disabled persons?",
     o: [
@@ -267,16 +267,16 @@ window.questions = [
     ],
     a: 1
   },
-  {
-    q: "Which one of the following is the correct sequence of steps in the function of a Hand held device with a contact card?",
-    o: [
-      "(i), (iii), (iv), (ii)",
-      "(i), (iv), (iii), (ii)",
-      "(iii), (ii), (iv), (i)",
-      "(iii), (i), (ii), (iv)"
-    ],
-    a: 0
-  },
+ {
+  q: "Which one of the following is the correct sequence of steps in the function of a Hand Held Device with a contact card?\n\n(i) Based on the customer's choice of financial transaction, the agent selects the appropriate option in the application.\n(ii) The agent's mobile application prints a receipt on which the customer signs or puts a thumb impression.\n(iii) The server processes the transaction online after validating the agent and the customer.\n(iv) When the customer is satisfied with the transaction details, he/she places his/her thumb on fingerprint scanner to proceed with the transaction.",
+  o: [
+    "(i), (iii), (iv), (ii)",
+    "(i), (iv), (iii), (ii)",
+    "(iii), (ii), (iv), (i)",
+    "(iii), (i), (ii), (iv)"
+  ],
+  a: 0
+},
   {
     q: "An 'account payee' crossed cheque bears endorsements on the back of it collecting Bank should ____.",
     o: [
@@ -327,16 +327,16 @@ window.questions = [
     ],
     a: 0
   },
-  {
-    q: "As per PMJDY scheme, overdraft facility can be extended in SB accounts. Which statement is correct?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iv)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 2
-  },
+ {
+  q: "As per PMJDY scheme, overdraft facility can be extended in SB accounts. Which of the following statements is correct?\n\n(i) One account holder per household is eligible after 6 months of satisfactory conduct.\n(ii) Aadhaar Card number should be recorded to avoid duplication of the facility.\n(iii) Overdraft facility can be extended simultaneously in accounts with other banks.\n(iv) Even if Aadhaar card is not available or not issued, the facility has to be extended.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iv)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 2
+},
   {
     q: "Which one of the following steps is not required for carrying out a deposit transaction by a Customer Service Point (CSP)?",
     o: [
@@ -477,16 +477,16 @@ window.questions = [
     ],
     a: 2
   },
-  {
-    q: "What requirements are needed for carrying out a biometric card transaction?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iii)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 0
-  },
+ {
+  q: "Which of the following statements are correct about Immediate Payment Service (IMPS)?\n\n(i) It is available all through the year and time, including public holidays.\n(ii) Pre-registration is required when used through internet or ATM or mobile.\n(iii) MMID is a 7-digit code and mPIN is transaction password.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 2
+},
   {
     q: "As per extant instructions, interest on savings bank can be paid ____.",
     o: [
@@ -527,16 +527,16 @@ window.questions = [
     ],
     a: 2
   },
-  {
-    q: "Which statements are incorrect about 'x2x' Service Code in a RuPay Card?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iii)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 2
-  },
+ {
+  q: "From the perspective of banking operations, linking/seeding of Aadhaar number in the account facilitates which of the following major benefits?\n\n(i) Credit of various Government sponsored subsidy schemes such as DBT/DBTL/MGNREGA directly into bank accounts.\n(ii) Used as KYC in account opening through e-KYC process at branch and BC network.\n(iii) Banking services and transactions using Aadhaar Payment Bridge System (APBS) through BC network on the basis of biometric authentication.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 3
+},
   {
     q: "If any person not directly concerned with a bank's customer solicits information on his account, the request from such person is ____ and hence the banker ____ make disclosure.",
     o: [
@@ -582,16 +582,16 @@ window.questions = [
     o: ["Increase", "Decrease", "Remain same", "Have no impact"],
     a: 0
   },
-  {
-    q: "In order to improve effectiveness, BCA has to imbibe certain qualities. Identify the incorrect statement(s).",
-    o: [
-      "(i) and (iv) only",
-      "(iii) and (iv) only",
-      "Only (iv)",
-      "(ii) and (iv) only"
-    ],
-    a: 2
-  },
+ {
+  q: "In order to improve effectiveness, a Business Correspondents Agent (BCA) has to imbibe certain qualities. Identify the incorrect statement(s).\n\n(i) A BCA should have good communication skills and ability to interact with customers politely.\n(ii) A BCA should have basic knowledge of banking products and services being offered.\n(iii) A BCA should focus only on completing transactions and need not explain products to customers.\n(iv) A BCA should give personal guarantees to customers for solving their banking issues.",
+  o: [
+    "(i) and (iv) only",
+    "(iii) and (iv) only",
+    "Only (iv)",
+    "(ii) and (iv) only"
+  ],
+  a: 2
+},
   {
     q: "As a BCA, how will you identify an indecisive customer?",
     o: [
@@ -623,15 +623,15 @@ window.questions = [
     a: 3
   },
   {
-    q: "Which of the following services is provided through Internet Banking?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iii)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 2
-  },
+  q: "Which of the following services is provided through Internet Banking?\n\n(i) Viewing of account balance and transaction history.\n(ii) Transfer of funds between own accounts and to third party accounts.\n(iii) Request for cheque book and demand draft online.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 2
+},
   {
     q: "Which one of the following is not the duty of a Bank?",
     o: [
@@ -643,15 +643,15 @@ window.questions = [
     a: 2
   },
   {
-    q: "Which of the following can be termed as effective strategies for debt recovery?",
-    o: [
-      "(i), (ii) and (iii) only",
-      "(i), (iii) and (iv) only",
-      "(i) and (ii) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    a: 0
-  },
+  q: "Which of the following can be termed as effective strategies for debt recovery?\n\n(i) Regular follow-up with borrowers and timely reminders before due dates.\n(ii) Restructuring or rescheduling of loans in deserving cases.\n(iii) Persuasion and counselling of borrowers to repay dues through ethical recovery practices.\n(iv) Use of coercive or threatening methods to force repayment.",
+  o: [
+    "(i), (ii) and (iii) only",
+    "(i), (iii) and (iv) only",
+    "(i) and (ii) only",
+    "(i), (ii), (iii) and (iv)"
+  ],
+  a: 0
+},
   {
     q: "An ATM card can be used ____.",
     o: [
@@ -687,16 +687,16 @@ window.questions = [
     ],
     a: 1
   },
-  {
-    q: "Bank's Policy for the customer's grievance redressal should cover which of the following aspects?",
-    o: [
-      "(i), (ii), (iii) and (iv)",
-      "(i), (iii) and (iv) only",
-      "(i), (ii) and (iv) only",
-      "(i), (ii) and (iii) only"
-    ],
-    a: 3
-  },
+ {
+  q: "Bank's Policy for the customer's grievance redressal should cover which of the following aspects?\n\n(i) The name and contact details of the grievance redressal officer.\n(ii) The procedure for lodging complaints and the time frame for resolution.\n(iii) Escalation mechanism if the complaint is not resolved at branch level.\n(iv) Penalties or punitive action against customers for lodging repeated complaints.",
+  o: [
+    "(i), (ii), (iii) and (iv)",
+    "(i), (iii) and (iv) only",
+    "(i), (ii) and (iv) only",
+    "(i), (ii) and (iii) only"
+  ],
+  a: 3
+},
   {
     q: "Depositor Education and Awareness Fund has been created by RBI and all banks have been advised to transfer inoperative deposit which have not been claimed or operated for a period of ____ years or more, to the fund.",
     o: ["Five", "Ten", "Eight", "Fifteen"],
@@ -723,15 +723,15 @@ window.questions = [
     a: 2
   },
   {
-    q: "In line with the RBI scheme, many Banks have launched Credit Counselling Centers. The functions of such centers are ____.",
-    o: [
-      "(i), (iii) and (iv) only",
-      "(i), (ii) and (iv) only",
-      "(ii), (iii) and (iv) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    a: 0
-  },
+  q: "In line with the RBI scheme, many banks have launched Credit Counselling Centres. The functions of such centres are ____.\n\n(i) Educating borrowers on responsible borrowing, budgeting and financial planning.\n(ii) Providing direct financial assistance or loans to borrowers.\n(iii) Advising borrowers on managing debt and resolving repayment difficulties.\n(iv) Creating awareness about banking products, credit discipline and credit history.",
+  o: [
+    "(i), (iii) and (iv) only",
+    "(i), (ii) and (iv) only",
+    "(ii), (iii) and (iv) only",
+    "(i), (ii), (iii) and (iv)"
+  ],
+  a: 0
+},
   {
     q: "Which one of the following statements correctly describes a Business Correspondents Agent (BCA)?",
     o: [
@@ -772,26 +772,26 @@ window.questions = [
     ],
     a: 3
   },
+ {
+  q: "Which of the following statements are correct about Immediate Payment Service (IMPS)?\n\n(i) IMPS provides instant interbank electronic fund transfer service, available 24×7 including holidays.\n(ii) IMPS transactions can be initiated only during bank working hours.\n(iii) IMPS can be used for person-to-person (P2P) and person-to-merchant (P2M) payments through mobile and internet banking.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 2
+},
   {
-    q: "Which of the following statements are correct about Immediate Payment Service (IMPS)?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iii)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 2
-  },
-  {
-    q: "From the perspective of banking operations, linking/seeding of Aadhaar number in the account facilitates which of the following major benefits?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iii)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 3
-  },
+  q: "From the perspective of banking operations, linking/seeding of Aadhaar number in the account facilitates which of the following major benefits?\n\n(i) Direct credit of Government benefits and subsidies such as DBT, LPG subsidy, MGNREGA wages, etc., into the beneficiary’s bank account.\n(ii) Use of Aadhaar as an officially valid document for KYC through e-KYC process, reducing paperwork and turnaround time.\n(iii) Enabling Aadhaar Enabled Payment System (AEPS) transactions through biometric authentication at BC/CSP outlets.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 3
+},
   {
     q: "What can be a likely strategy to deal with an impatient customer?",
     o: [
@@ -932,16 +932,16 @@ window.questions = [
     ],
     a: 0
   },
-  {
-    q: "Which one of the following checks the criteria for appointment of a Customer Service Point (CSP) by the BCs?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iii)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 3
-  },
+ {
+  q: "Which one of the following checks the criteria for appointment of a Customer Service Point (CSP) by the Business Correspondents (BCs)?\n\n(i) Verification of the proposed CSP’s identity, address and background.\n(ii) Assessment of the CSP’s infrastructure such as premises, power supply and connectivity.\n(iii) Approval of the CSP by the bank after due diligence and verification by the BC.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 3
+},
   {
     q: "Which one of the following statements is incorrect in terms of the importance of financial education for banks?",
     o: [

@@ -183,15 +183,15 @@ window.questions = [
   a: 3
 },
   {
-    q: "Which of the following statements is/are the important guidelines to be implemented by banks for providing banking facilities to sick/old/disabled persons?",
-    o: [
-      "Only (i) is correct",
-      "Only (ii) and (iii) are correct",
-      "Only (i) and (iii) are correct",
-      "(i), (ii) and (iv) are correct"
-    ],
-    a: 3
-  },
+  q: "Which of the following statements is/are the important guidelines to be implemented by banks for providing banking facilities to sick / old / disabled persons?\n\n(i) If the customer is unable to be physically present at the branch, a mark/thumb impression on the cheque or withdrawal slip should be obtained and duly identified by two independent witnesses.\n(ii) If such customer indicates a person to withdraw money on his/her behalf, the bank should obtain the signature and identity proof of such person.\n(iii) Banks should insist on thumb impression only for such customers and not accept signatures.\n(iv) Banks should provide basic infrastructural facilities such as ramps and easy access at branches and ATMs for persons with disabilities.",
+  o: [
+    "Only (i) is correct",
+    "Only (ii) and (iii) are correct",
+    "Only (i) and (iii) are correct",
+    "(i), (ii) and (iv) are correct"
+  ],
+  a: 3
+},
   {
     q: "Which one of the following is not a measure generally taken by a bank for mitigating risk in the process of engagement of Business Correspondents?",
     o: [
@@ -497,16 +497,16 @@ window.questions = [
     ],
     a: 2
   },
-  {
-    q: "What is the transaction terminal?",
-    o: [
-      "Only (i) and (ii)",
-      "Only (ii) and (iii)",
-      "Only (i) and (iii)",
-      "(i), (ii) and (iii)"
-    ],
-    a: 0
-  },
+ {
+  q: "What is the transaction terminal?\n\n(i) A device used by Business Correspondents / Customer Service Points to conduct basic banking transactions such as cash deposit, cash withdrawal, balance enquiry and fund transfer.\n(ii) A hardware device integrated with components like card reader, biometric scanner and printer for customer authentication and transaction processing.\n(iii) A core banking server located at the bank’s data centre which authorises and settles transactions.",
+  o: [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "(i), (ii) and (iii)"
+  ],
+  a: 0
+},
   {
     q: "Which statement is correct about Hand Held Device (HHD)?",
     o: [

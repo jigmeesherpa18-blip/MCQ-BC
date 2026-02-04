@@ -751,6 +751,226 @@ window.questions = [
       "Selling one product of the bank in exchange for another product."
     ],
     a: 0
+  },
+     {
+    q: "Under which one of the following Acts, bank is not required to statutorily disclose any information about the customer's account?",
+    o: [
+      "Income-Tax Act, 1961",
+      "Companies Act, 2013",
+      "Bankers Book Evidence Act, 1891",
+      "Sale of Goods Act, 1930"
+    ],
+    a: 2
+  },
+  {
+    q: "Which one of the following statements is correct about e-KYC?",
+    o: [
+      "The account is opened after obtaining an implicit form the customer",
+      "It enables bank to get physical copy of customer identity and address details",
+      "Identity hacking and document forging is prevalent under this process",
+      "It is an alternative to traditional paper based KYC process, reduces cost, time and effort and adds confidentiality, easy data reliability"
+    ],
+    a: 3
+  },
+  {
+    q: "Which of the following statements are correct about Immediate Payment Service (IMPS)?",
+    o: [
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (iii)",
+      "(i), (ii) and (iii)"
+    ],
+    a: 2
+  },
+  {
+    q: "From the perspective of banking operations, linking/seeding of Aadhaar number in the account facilitates which of the following major benefits?",
+    o: [
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (iii)",
+      "(i), (ii) and (iii)"
+    ],
+    a: 3
+  },
+  {
+    q: "What can be a likely strategy to deal with an impatient customer?",
+    o: [
+      "Attend the customer as early as possible. Delays should be avoided.",
+      "Take time and ask the customer to wait till you finish your work",
+      "Assert your authority by countering him/her",
+      "Ask the customer to come back tomorrow"
+    ],
+    a: 0
+  },
+  {
+    q: "Active listening is an important aspect of good communication for a BCA. Identify an advantage of active listening.",
+    o: [
+      "It helps to confuse the customer and promote selling",
+      "It helps to understand the customer's actual financial need",
+      "It convinces the customer about the BCA's financial health",
+      "It convinces the customer about the BCA's oratory skills"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following statements is not correct in respect of guidelines about obtaining photographs for account opening?",
+    o: [
+      "Photographs should be obtained of all persons related to the account",
+      "Banks should also obtain photographs of 'Pardanashin' women",
+      "The Officially Valid Documents have photographs affixed on it, so banks may not insist on submission of photographs",
+      "Fresh photographs need not be obtained when an additional account is desired to be opened by the account holder"
+    ],
+    a: 2
+  },
+  {
+    q: "A cheque issued by a director of a Limited Company is presented for payment after death of the director. How will the bank deal with this situation?",
+    o: [
+      "Bank cannot pay the cheque as the drawer expired",
+      "Bank can pay the cheque as the company is still legally competent",
+      "Bank should contact the company because loss will be of the company",
+      "Both (b) and (c)"
+    ],
+    a: 0
+  },
+  {
+    q: "How do we best explain the relationship between compliance with regulatory norms and collection skills and strategy in terms of debt recovery?",
+    o: [
+      "They are complementary to each other",
+      "They are in contradiction with each other",
+      "They are incompatible with each other",
+      "They are unrelated to each other"
+    ],
+    a: 0
+  },
+  {
+    q: "NABARD, in 1982, has started 'VVV' programme to propagate the five principles of 'Development through Credit'. What does VVV stand for?",
+    o: [
+      "Vikas Vahini Vidya",
+      "Vikas Volunteer Vahini",
+      "Volunteer Vehicle for Verification",
+      "None of the above"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following is a sign of a 'Wilful Defaulter' from a behavioural perspective?",
+    o: [
+      "They would avoid responding to the calls of the recovery agent",
+      "They would meet the recovery agent and explain inability to pay",
+      "They would share medical records and promise to meet later",
+      "They would meet the recovery agent and promise to pay"
+    ],
+    a: 0
+  },
+  {
+    q: "Which one of the following is not a 'Soft Skill' for a Business Correspondents Agent (BCA)?",
+    o: [
+      "Active listening",
+      "10 years of experience",
+      "Positivity",
+      "Confidence"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following statements is not correct about negotiated settlement of a 'doubtful debt'?",
+    o: [
+      "The extent of authority and parameters of compromise are adhered to",
+      "Formal approval may be required before final settlement",
+      "The agent is given a fixed fee from the amount collected",
+      "The fees will be lower than normal recovery cases"
+    ],
+    a: 3
+  },
+  {
+    q: "Which one of the following best describes the Farmer's Club programme started by NABARD?",
+    o: [
+      "Grass root informal clubs organised by Human Rights bodies",
+      "Grass root informal clubs organised by rural bank branches, NGOs and KVKs with NABARD support",
+      "Grass root informal clubs organised by local politicians",
+      "Cooperative societies managed by State Governments"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following is not an IT enabled outreach model being utilized by some banks?",
+    o: [
+      "Hand held device with a contact card",
+      "Near Field Communication with a contact less card",
+      "Near Field Communication with a contact card",
+      "Kiosk Banking"
+    ],
+    a: 3
+  },
+  {
+    q: "A charge card is similar to a ______.",
+    o: [
+      "Stored Value Card",
+      "Prepaid Card",
+      "Credit Card",
+      "Debit Card"
+    ],
+    a: 2
+  },
+  {
+    q: "IMPS is one of the digital modes for financial transaction. IMPS stands for ______.",
+    o: [
+      "Instant Payment Service",
+      "Immediate Payment Service",
+      "Immediate Payment System",
+      "Instant Money Payment Service"
+    ],
+    a: 1
+  },
+  {
+    q: "Business Correspondents enact many banking activities. Which one of the following is incorrect?",
+    o: [
+      "Recovery of EMIs/instalments",
+      "Facilitating small value withdrawals and deposits",
+      "Opening of CD accounts and authentication of OVDs",
+      "Opening of SB accounts with Aadhaar authentication"
+    ],
+    a: 0
+  },
+  {
+    q: "Which one of the following checks the criteria for appointment of a Customer Service Point (CSP) by the BCs?",
+    o: [
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (iii)",
+      "(i), (ii) and (iii)"
+    ],
+    a: 3
+  },
+  {
+    q: "Which one of the following statements is incorrect in terms of the importance of financial education for banks?",
+    o: [
+      "All ill-informed customers are attracted to well packaged loan products",
+      "Improved financial literacy improves understanding of financial products",
+      "Knowledgeable consumers tend to speculate more",
+      "The existing formal education system does not cover aspects of family budgeting and savings"
+    ],
+    a: 3
+  },
+  {
+    q: "If BC/BF is an individual person, which eligibility criteria is correct?",
+    o: [
+      "Minimum Educational Qualification – Graduate",
+      "Age between 25 to 60 years",
+      "Permanent resident of village/area of operation for past 3 years",
+      "Minimum personal income of Rs. 25,000 per month"
+    ],
+    a: 2
+  },
+  {
+    q: "Interaction with customers at structured meets helps in reducing occasions of customer complaints by ______.",
+    o: [
+      "Improving understanding of banking services among them",
+      "Building better rapport with them",
+      "Extending generous hospitality",
+      "None of the above"
+    ],
+    a: 0
   }
 ];
 

@@ -730,6 +730,36 @@ window.questions = [
     q: "If sales = ₹2,00,000 and net profit margin = 10%, net profit is",
     o: ["₹10,000", "₹15,000", "₹20,000", "₹25,000"],
     a: 2
+  },
+     {
+    q: "A business plan is mainly prepared for",
+    o: [
+      "Entertainment purpose",
+      "Getting loan and planning business properly",
+      "Increasing salary",
+      "Avoiding competition"
+    ],
+    a: 1
+  },
+  {
+    q: "Which of the following is an example of direct cost?",
+    o: [
+      "Factory rent",
+      "Electricity bill",
+      "Raw material cost",
+      "Office salary"
+    ],
+    a: 2
+  },
+  {
+    q: "Which is the most important quality of an entrepreneur?",
+    o: [
+      "Fear of failure",
+      "Hard work and confidence",
+      "Avoiding responsibility",
+      "Dependence on others"
+    ],
+    a: 1
   }
 ];
 

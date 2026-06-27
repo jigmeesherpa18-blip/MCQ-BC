@@ -110,7 +110,7 @@ window.questions = [
     "Person to Person (P2P) only"
   ],
   a: 1
-}
+},
 {
   q: "The objectives of Open Network for Digital Commerce (ONDC) do not include ______.",
   o: [

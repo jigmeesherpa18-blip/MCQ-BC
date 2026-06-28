@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
  /* ========= TIMER ========= */
-let totalTime = 5976; // 1.66 hrs = 5976 seconds
+let totalTime = 3000; // 50 minutes = 3000 seconds
 let submitted = false;
 
 const timerInterval = setInterval(() => {

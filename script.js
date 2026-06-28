@@ -8,8 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  /* ========= CLEAN DUPLICATES HERE ========= */
+  // This looks at window.questions and drops any entry with matching text
+  window.questions = window.questions.filter((question, index, self) =>
+    index === self.findIndex((q) => q.q.trim() === question.q.trim())
+  );
+
   const questions = window.questions;
-  console.log("✅ Questions loaded:", questions.length);
+  console.log("✅ Unique questions loaded:", questions.length);
 
   // Helpers
   function shuffle(arr) {
@@ -72,6 +78,7 @@ const timerInterval = setInterval(() => {
 
   totalTime--;
 }, 1000);
+
   // Submit
   quizForm.addEventListener("submit", e => {
     e.preventDefault();
@@ -125,4 +132,3 @@ const timerInterval = setInterval(() => {
   });
 
 });
-

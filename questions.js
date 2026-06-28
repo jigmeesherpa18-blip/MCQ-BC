@@ -2,7 +2,6 @@
 console.log("questions.js loaded");
 
 window.questions = [
- window.questions = [
   {
     q: "In the case of a Public Sector Bank - (Select the most appropriate option from among the following.)",
     o: [

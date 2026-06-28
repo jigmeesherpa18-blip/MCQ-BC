@@ -2,999 +2,991 @@
 console.log("questions.js loaded");
 
 window.questions = [
-  {
-    q: "In the case of a Public Sector Bank - (Select the most appropriate option from among the following.)",
+   {
+    q: "Small Finance Banks are required to provide at least 50% of loans whose amount per borrower ... (Select the most appropriate option from among the following)",
     o: [
-      "atleast 50% stake of the bank is held by Central/State Governments",
-      "more than 50% stake of the bank is held by Central Government",
-      "more than 50% stake of the bank is held by RBI",
-      "atleast 25% stake of the bank is held by Central Government"
-    ],
-    a: 1
-  },
-  {
-    q: "The organizational structure and management structure of cooperative banks are based on-. (Select the most appropriate option from among the following.)",
-    o: [
-      "the pattern adopted by public sector banks",
-      "cooperative principles",
-      "the pattern adopted by private sector banks",
-      "the pattern adopted by regional rural banks"
-    ],
-    a: 1
-  },
-  {
-    q: "Now-a-days banking services are----- (Select the most appropriate option from among the following)",
-    o: [
-      "Costly and luxurious",
-      "Used by rich people only",
-      "Necessity of life for everyone",
-      "Used only by economically middle/lower middle class persons"
-    ],
-    a: 2
-  },
-  {
-    q: "A scheduled bank enjoys certain special status which include -----. (i) Availing refinance facilities from RBI (ii) becoming member of the Clearing House (iii) having currency chest facility (Select the most appropriate option from among the following.)",
-    o: [
-      "(i) and (iii) only",
-      "(i) and (ii) only",
-      "(i), (ii) and (iii)",
-      "(ii) and (iii)"
-    ],
-    a: 2
-  },
-  {
-    q: "The operational area of a Local Area Bank may be. (Select the most appropriate option from among the following.)",
-    o: [
-      "maximum of three geographically contiguous districts",
-      "maximum any three districts of the concerned State",
-      "the districts approved by the concerned State Government",
-      "the whole State in which it has its Head Quarter"
+      "Does not exceed Rs. 25 lakh",
+      "Does not exceed Rs. 30 lakh",
+      "Does not exceed Rs. 35 lakh",
+      "Does not exceed Rs. 50 lakh"
     ],
     a: 0
   },
   {
-    q: "Banks act as financial intermediaries between the. (Select the most appropriate option from among the following.)",
+    q: "There are various varieties of co-operative banks in our country. Which one of the following is not one of them? (Select the most appropriate option from among the following.)",
     o: [
-      "rich and poor people",
-      "savers and Central/State governments",
-      "money lenders and farmers",
-      "savers or investors of funds and the users of funds"
+      "Urban Co-operative Bank",
+      "Regional Rural Bank",
+      "Land Development Bank",
+      "District Central Co-operative Bank"
+    ],
+    a: 1
+  },
+  {
+    q: "SBI is a ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "Private Sector Bank",
+      "Co-operative Bank",
+      "Public Sector Bank",
+      "Regional Rural Bank"
+    ],
+    a: 2
+  },
+  {
+    q: "A fixed deposit is classified as ---- (Select the most appropriate option from among the following.)",
+    o: [
+      "Demand deposit",
+      "Loan product",
+      "Term deposit",
+      "None of the above"
+    ],
+    a: 2
+  },
+  {
+    q: "A Payment Bank ------- (Select the most appropriate option from among the following)",
+    o: [
+      "cannot accept deposits",
+      "can accept deposits in a savings bank account only",
+      "can accept deposits in a savings bank account and current account only",
+      "can accept any type of deposits but not exceeding Rs. One lakh per customer"
     ],
     a: 3
   },
   {
-    q: "Bulk Deposits of Scheduled Commercial banks (excluding Regional Rural Banks) and Small Finance Banks means (Select the most appropriate option from among the following.)",
+    q: "The market of financially excluded is ----- volume ---- turnover and ---- number. (Select the most appropriate option from among the following.)",
     o: [
-      "single term deposit of Rs. 15 lakh or more",
-      "single term deposit of Rs. 50 lakh or more",
-      "single term deposit of Rs. 2 crore and above",
-      "single term deposit of Rs 1 crore or more"
+      "low ; high ; high",
+      "low ; low ; high",
+      "high ; low ; low",
+      "high ; low ; high"
     ],
-    a: 2
+    a: 3
   },
   {
-    q: "Retail Direct Scheme is (Select the most appropriate option from among the following.)",
+    q: "Which one of the following has hugely changed the banking culture? (Select the most appropriate option from among the following.)",
     o: [
-      "for investment in Government Securities",
-      "for investment in mutual funds",
-      "for investment in equity markets",
-      "for investment in company deposits"
+      "More operational freedom available with banks.",
+      "Spread of banking to the remote corners of the country.",
+      "Merger of the strong banks with the weak banks.",
+      "Increased use and adoption of technology in banking"
+    ],
+    a: 3
+  },
+  {
+    q: "The bank is an institution which has to accept deposits from and lend money to -----. (Select the most appropriate option from among the following.)",
+    o: [
+      "All members of society or public",
+      "Middle class of society",
+      "Rich Class of society",
+      "Poor Class of society"
     ],
     a: 0
   },
   {
-    q: "Deposits of the public with banks are insured. (Select the most appropriate option from among the following)",
+    q: "Which one of the following services is not among the miscellaneous services provided by banks? (Select the most appropriate option from among the following.)",
     o: [
-      "upto Rs 5 lakh per depositor",
-      "upto Rs 1 lakh per depositor",
-      "upto Rs 7 lakh per depositor",
-      "upto Rs 2 lakh per depositor"
+      "Escrow services.",
+      "Safe custody services.",
+      "Trusteeship and executor services.",
+      "Real estate agency services."
     ],
-    a: 0
+    a: 3
   },
   {
-    q: "*99* service of banks can be availed by a customer. (Select the most appropriate option from among the following.)",
+    q: "Which one of the following statements describes the basic functions of a bank? (Select the most appropriate option from among the following.)",
     o: [
-      "with USSD solution through any mobile on GSM network",
-      "with USSD solution through smart mobile phone having iOS on GSM network",
-      "In USSD solution through smart mobile phone on GSM network",
-      "with USSD solution through smart mobile phone having Android system on GSM network"
-    ],
-    a: 0
-  },
-{
-    q: "Deposit Insurance and Credit Guarantee Corporation (DICGC) provides deposit insurance cover for depositors (Select the most appropriate option from among the following.)",
-    o: [
-      "of all the banks regulated by RBI",
-      "which is voluntary for banks to take it or not",
-      "of all banks excepting Cooperative banks",
-      "of all banks excepting cooperative banks and regional rural banks"
-    ],
-    a: 0
-  },
-  {
-    q: "The minimum amount to be remitted through Real Time Gross Settlement (RTGS) system is. (Select the most appropriate option from among the following.)",
-    o: [
-      "Rs.50,000",
-      "Rs.1,00,000",
-      "Rs.2,00,000",
-      "Rs.5,00,000"
-    ],
-    a: 2
-  },
-  {
-    q: "RBI has prescribed that. (i) no branch counter should remain un-attended during business hours (ii) employees should reach branch atleast 15 minutes before the commencement of working hours (iii) all the customers entering the banking hall before the close of business hours should be attended to (Select the most appropriate option from among the following.)",
-    o: [
-      "(i) and (ii) only",
-      "(i) and (iii) only",
-      "(i), (ii) and (iii)"
+      "To lend money and to appoint recovery agents to recover it.",
+      "To accept money in the form of deposits and to lend it for investment/loans."
     ],
     a: 1
   },
   {
-    q: "The business hours for banking transactions other than cash, should be till. (Select the most appropriate option from among the following.)",
+    q: "Which one of the following is true in regard to Fixed Deposit Receipts?",
     o: [
-      "three hours before close of working hours",
-      "two hour before close of working hours",
-      "one hour before close of working hours",
-      "the banks desires and convenient to it"
+      "It is transferable like a cheque.",
+      "It is a negotiable instrument",
+      "It is payable only on its due date.",
+      "It is payable at the branch of issue"
     ],
-    a: 2
+    a: 3
   },
   {
-    q: "If a bank refuses to accept cash over the counter and asks the customer to deposit it in ATM/Cash deposit machine, (Select the most appropriate option from among the following.)",
+    q: "Which of the following is not one of the categories of deposit classification? (Select the most appropriate option from among the following.)",
     o: [
-      "it is irregular for the bank",
-      "it is lawful",
-      "the bank can do so only citing reasons of non-space in cash storages",
-      "no banking law prohibits or permits the bank to do so"
+      "Recurring deposits.",
+      "Term deposits.",
+      "Demand deposits.",
+      "Hybrid deposits."
+    ],
+    a: 3
+  },
+  {
+    q: "Which one of the following is the use of the Query Service Aadhaar Mapper (QSAM)? (Select the most appropriate option from among the following.)",
+    o: [
+      "To know account opening status with bank.",
+      "To know Aadhaar seeding status with bank.",
+      "To know account balance with the bank.",
+      "To know cheque issued status with bank."
+    ],
+    a: 1
+  },
+  {
+    q: "Current accounts and savings accounts are also known as (Select the most most appropriate option from among the following)",
+    o: [
+      "Fixed deposits",
+      "Demand deposits",
+      "Term deposits",
+      "All of the above"
+    ],
+    a: 1
+  },
+  {
+    q: "In a normal recurring deposit for two years, the depositor makes ------",
+    o: [
+      "Monthly deposit of a fixed sum for two years",
+      "Deposit of the entire amount at the beginning",
+      "Yearly deposit of a fixed sum for two years",
+      "None of the above"
     ],
     a: 0
   },
   {
-    q: "Banking services under \"Doorstep Banking\" include- (i) Pick up of cash and instruments against receipt (ii) Delivery of cash against withdrawal from bank (iii) Delivery of demand drafts (iv) Submission of Life certificate/KYC documents (Select the most appropriate option from among the following.)",
+    q: "A Bank can accept fixed deposit for a maximum period of -------",
+    o: [
+      "30 years",
+      "20 years",
+      "10 years",
+      "Any time"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following statements is not true in respect of current accounts?",
+    o: [
+      "Individuals can open current accounts.",
+      "Banks can pay interest on current accounts all their discretion",
+      "Overdraft facility can be granted on a current account.",
+      "There is no restriction on the number of transactions in a current account."
+    ],
+    a: 1
+  },
+  {
+    q: "Which of the following is an important feature of a Savings Bank Deposits account in Banks? (Select the most appropriate option from among the following.)",
+    o: [
+      "Convenience of depositing",
+      "Easy to withdraw in times of need",
+      "Nomination facility",
+      "All of the above"
+    ],
+    a: 3
+  },
+  {
+    q: "A Recurring deposit is classified as ------",
+    o: [
+      "Demand deposit",
+      "Hybrid deposit",
+      "Flexi deposit",
+      "Term deposit"
+    ],
+    a: 3
+  },
+  {
+    q: "For opening an account of a Self Help Group (SHG) KYC Verification of ------ of the SHG is required. (Select the most appropriate option from among the following.)",
+    o: [
+      "only the office bearers",
+      "all the members",
+      "at least half the members",
+      "all the office bearers and at least one-third of the remaining members"
+    ],
+    a: 0
+  },
+  {
+    q: "KYC means ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "Know Your Clients",
+      "Keep Your Customers",
+      "Know Your Customer"
+    ],
+    a: 2
+  },
+  {
+    q: "Where the officially valid document furnished by the customer does not have updated address, the customer is required to submit any one of the officially valid documents, with current address, within time. (Select the most appropriate option from among the following.)",
+    o: [
+      "60 days",
+      "45 days",
+      "Three months",
+      "One month"
+    ],
+    a: 2
+  },
+  {
+    q: "In banking transactions, a customer is generally recognized by his/her -------. (Select the most appropriate option from among the following.)",
+    o: [
+      "Signature on record with the bank",
+      "Photograph",
+      "Hand writing",
+      "Voice"
+    ],
+    a: 0
+  },
+  {
+    q: "An account holder who is not only unable to be physically present in the bank but is also not even able to put his/her thumb impression on the cheque/withdrawal form due to certain physical incapacity, wants to take cash payment. The bank will -------. (Select the most appropriate option from among the following.)",
+    o: [
+      "Refuse payment and advise to close down the account",
+      "Obtain a mark on the cheque/withdrawal form in the presence of two independent witnesses of which one should be bank official",
+      "Obtain a mark on the cheque/withdrawal form in the presence of any two independent witnesses known to the bank",
+      "Advise to obtain a medical certificate from Govt. hospital indicating the stage of physical incapacity and add name of his close relative in the account for the purpose of operation."
+    ],
+    a: 1
+  },
+  {
+    q: "An account opening form based on which a bank account is opened is essentially ---------. (Select the most appropriate option from among the following.)",
+    o: [
+      "a memorandum",
+      "a requisition",
+      "a contract",
+      "none of the above"
+    ],
+    a: 1
+  },
+  {
+    q: "Those persons who do not have any of the 'officially valid documents' can open \"Small Accounts\" with banks where balance in accounts should not be more than ----- at any point of time. (Select the most appropriate option from among the following.)",
+    o: [
+      "Rs. 10,000",
+      "Rs. 25,000",
+      "Rs. 50,000",
+      "Rs. 20,000"
+    ],
+    a: 2
+  },
+  {
+    q: "The term Bank's Customer does not include ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "Anyone coming to the bank with the intention of opening his account",
+      "Anyone conducting a banking transaction with the bank",
+      "An individual borrower of the bank",
+      "Any legal entity having a deposit account with the bank"
+    ],
+    a: 0
+  },
+  {
+    q: "Which is the correct sequence of three stages of Money Laundering? (Select the most appropriate option from among the following.)",
+    o: [
+      "Placement, Layering, Integration",
+      "Layering, Cleansing, Placement.",
+      "Integration, Layering, Placement.",
+      "Placement, Laundering, Cleansing."
+    ],
+    a: 0
+  },
+  {
+    q: "In case of 'Small Accounts' an account is opened based on ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "a letter issued by any local government authority",
+      "an introduction by an existing customer of the bank",
+      "an introduction by two independent persons.",
+      "self-declaration by the customer in the presence of a designated officer of the bank"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following statements regarding the KYC requirements is correct? (Select the most appropriate option from among the following.)",
+    o: [
+      "KYC verification is required to be done every time a customer opens another account with the bank.",
+      "For opening an account of a student of Pakistani nationality prior approval of RBI is required",
+      "KYC verification done once for a customer is valid for always.",
+      "KYC verification is not required for opening an account of bank's own staff."
+    ],
+    a: 1
+  },
+  {
+    q: "KYC process is intended to establish identity and ------- of a customer through documentary evidence. (Select the most appropriate option from among the following.)",
+    o: [
+      "Address",
+      "income",
+      "occupation",
+      "all the above"
+    ],
+    a: 0
+  },
+  {
+    q: "Floating rate of interest is changed during the tenor of loan as per the ------- in the loan agreement. (Select the most appropriate option from among the following.)",
+    o: [
+      "Regulatory clause",
+      "Interest clause",
+      "Reset clause",
+      "None of the above"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following statements is correct in respect of interest on money? (Select the most appropriate option from among the following.)",
+    o: [
+      "Interest is the price paid by a person for temporary use of someone else's funds.",
+      "Interest is the share in profit given by a person to the person who provided funds.",
+      "Interest is a gratuitous payment made by a person to the person who provided funds.",
+      "Interest is compensation paid by a person to the provider of funds for erosion in value due to inflation."
+    ],
+    a: 0
+  },
+  {
+    q: "Rate of interest is expressed as ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "a percentage of principal",
+      "a percentage of the principal for a year",
+      "the amount for a year",
+      "the amount on the principal"
+    ],
+    a: 1
+  },
+  {
+    q: "Your customer has deposited Rs. 50,000 for two years at 7% per annum with quarterly compounded interest which is reinvested in the account. The maturity amount of this deposit is ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "Rs. 57,000",
+      "Rs. 57,444",
+      "Rs. 57,490",
+      "None of the above"
+    ],
+    a: 3
+  },
+  {
+    q: "When in Housing loans banks offer lower EMI in the initial years and higher EMI in the later years, the concept is known as -------",
+    o: [
+      "Step down repayment",
+      "Variable EMI",
+      "Step up repayment",
+      "Adjusted loan"
+    ],
+    a: 2
+  },
+  {
+    q: "Banks extend loans for various purposes mainly out of ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "market borrowings in the form of bonds",
+      "capital funds of shareholders",
+      "major portion of funds mobilised from deposits",
+      "funds borrowed from RBI"
+    ],
+    a: 0
+  },
+  {
+    q: "Which of the following elements is/are considered for diversification principle of lending? (i) Purposes (ii) Geographical area (iii) Customers (iv) Concentration (Select the most appropriate option from among the following.)",
+    o: [
+      "(i) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    a: 3
+  },
+  {
+    q: "Which of the following persons are not eligible for Kisan Credit Card facility? (Select the most appropriate option from among the following.)",
+    o: [
+      "Oral lessees",
+      "Tenant farmers",
+      "Corporate farmers",
+      "Share croppers"
+    ],
+    a: 2
+  },
+  {
+    q: "The maximum loan limit permitted for Kisan Credit Card is ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "the estimated short term loan limit for the 5th year plus estimated long term loans limit",
+      "the estimated short term loan limit plus estimated long term loan limit",
+      "the estimated short term loan limit for the 3rd year plus estimated long term loan limit",
+      "none of the above"
+    ],
+    a: 0
+  },
+  {
+    q: "One of the measures adopted for grievance redressal of the customers in several banks is observing a day every month as the Customer's Day. On this day ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "gifts are distributed to the customers visiting the branches",
+      "the customers can meet the branch managers",
+      "the customers can meet the branch managers and the heads of controlling offices during fixed hours",
+      "the customers are visited personally by the bank staff"
+    ],
+    a: 2
+  },
+  {
+    q: "Lender of the last resort to banks means ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "Capital infusion by Central Govt. to comply with the capital adequacy norms under BASEL agreements",
+      "Liquidity support by RBI to banks on a temporary basis through Repo",
+      "RBI lends to banks for maintaining adequate SLR",
+      "Fund support by Central Government when any bank's position is in turmoil"
+    ],
+    a: 2
+  },
+  {
+    q: "Payment and settlement systems are under the supervision of -------. (Select the most appropriate option from among the following.)",
+    o: [
+      "National Payments Corporation of India",
+      "Securities Exchange Board of India",
+      "Clearing Corporation of India",
+      "Reserve Bank of India"
+    ],
+    a: 3
+  },
+  {
+    q: "A business facilitator/ correspondent acts as ------- of the bank. (Select the most appropriate option from among the following.)",
+    o: [
+      "a subsidiary",
+      "a branch",
+      "an extended arm",
+      "a partner"
+    ],
+    a: 2
+  },
+  {
+    q: "One of the major initiatives of the Reserve Bank of India for financial inclusion is -------. (Select the most appropriate option from among the following.)",
+    o: [
+      "Higher interest rate on deposits in rural areas",
+      "Basic Savings Bank Deposit Account",
+      "Higher interest rates on deposits of senior citizens",
+      "Atal Pension Yojana"
+    ],
+    a: 1
+  },
+  {
+    q: "BPL means -------.",
+    o: [
+      "Banana Plantation Loan",
+      "Bank Plan for Lending",
+      "Beyond Poverty Line",
+      "Below Poverty Line"
+    ],
+    a: 3
+  },
+  {
+    q: "Which of the following Self Help Groups is permissible without registration as per the prescribed norms? (Select the most appropriate option from among the following.)",
+    o: [
+      "SHG with 5 members from a single family in a village with population of 15000 persons all below poverty line.",
+      "SHG with 15 members of whom 3 members (being neighbours of 7 other members) are marginally above poverty line, and none of these are office bearers.",
+      "SHG with 25 members with 2 persons above poverty line.",
+      "SHG with 10 members with 2 members marginally above poverty line of whom one is the Group Leader."
+    ],
+    a: 1
+  },
+  {
+    q: "Which of the following are the main features of Micro Finance? (i) Finance is for short and medium term. (ii) Loans given are of small amount (iii) It is targeted at low income group. (iv) The credit is secured by assets.",
     o: [
       "(i) and (ii) only",
       "(i), (ii) and (iii) only",
       "(ii) and (iii) only",
-      "(i), (ii), (iii) and (iv)"
+      "(iii) and (iv) only"
     ],
-    a: 3
+    a: 1
   },
   {
-    q: "For the purpose of classifying an account as inoperative the following (Select the most appropriate option from among)",
+    q: "Microfinance is extending financial services to ...... (Select the most appropriate option from among the following.)",
     o: [
-      "Both the type of transactions i.e. debit as well as credit transactions induced at the instance of customer are taken into consideration",
-      "Transactions on account of standing instructions are not considered",
-      "Transactions in regard to the service charges or interest debited to the account are taken into consideration",
-      "Only credit transactions are taken into consideration"
+      "the poor",
+      "the farmers only",
+      "the socially excluded only",
+      "the agricultural labourers only"
     ],
     a: 0
   },
   {
-    q: "Financial Action Task Force (FATF) is (Select the most appropriate option from among the following.)",
+    q: "Which of the following actions is not appropriate for a Business Correspondent? (Select the most appropriate option from among the following.)",
     o: [
-      "formed by RBI to handle money laundering cases",
-      "an international inter-governmental body",
-      "a wing of Enforcement Directorate (ED) who handles money laundering cases",
-      "formed by the Union Finance Ministry"
+      "Protecting the privacy of the customer even if disclosing his business may attract more customers.",
+      "Giving the customer complete, factual and truthful information about the bank's products even if it may lead to missing the business.",
+      "Treating all customers alike even though favouring customers from a particular group may attract substantial business.",
+      "All the above actions are appropriate"
+    ],
+    a: 2
+  },
+  {
+    q: "Which of the following activities may not be undertaken by a business correspondent as per extant guidelines? (Select the most appropriate option from among the following.)",
+    o: [
+      "Sale of mutual fund products",
+      "Exchange of mutilated currency notes",
+      "Distribution of bank notes",
+      "Distribution of coins"
     ],
     a: 1
   },
   {
-    q: "The definition of \"Person\" for the purpose of KYC norms includes -----. (i) an individual (ii) a company (iii) a firm (iv) a Hindu Undivided Family (Select the most appropriate option from among the following.)",
+    q: "Which one of the following statements is true in respect of the association of business correspondents with ultra-small branches? (Select the most appropriate option from among the following.)",
     o: [
-      "(i) only",
-      "(i) and (iv) only",
-      "(i), (ii) and (iv) only",
-      "(i), (ii), (iii) and (iv)"
+      "Business correspondents cannot operate from ultra-small branches.",
+      "Business correspondents can operate from ultra-small branches",
+      "Business correspondents should cater only to the customers of the ultra-small branches.",
+      "Where business correspondents operate from ultra-small branches, no bank employee or officer may be posted."
+    ],
+    a: 1
+  },
+  {
+    q: "Relationship between the banker and customer can be of various types depending on the type of transaction. Which one of the following does not result in the Banker-Customer relationship? (Select the most appropriate option from among the following.)",
+    o: [
+      "Keeping goods in safe custody with the bank.",
+      "Remitting money to relatives through the bank",
+      "Borrowing money from the bank.",
+      "Working for the bank as its business correspondents"
     ],
     a: 3
   },
   {
-    q: "A Nominee after death of the account holder becomes (Select the most appropriate option from among the following.)",
+    q: "Do's for BFs include ------ (i) Maintain secrecy of the customer information (ii) Non-indulgence in local politics (iii) Caste Bias (Select the most appropriate option from among the following.)",
     o: [
-      "full owner of the amount lying in the account",
-      "a joint holder along with the legal heirs",
-      "a trustee of the fund on behalf of the legal heirs",
-      "a partial owner if the legal heirs approaches the bank for its payment"
+      "Only (i) is correct",
+      "Only (ii) is correct",
+      "Only (i) and (ii) is correct",
+      "Only (iii) is correct"
     ],
     a: 2
   },
   {
-    q: "When a money launderer engages in a series of conversion of the dirty money to distance from their source, it is called (Select the most appropriate option from among the following.)",
+    q: "Under Pradhan Mantri Suraksha Bima Yojana the cover available in case of loss of one eye is ------ (Select the most appropriate option from among the following.)",
     o: [
-      "Integration",
-      "Conversion",
-      "Layering",
-      "Placement"
+      "Rs.50,000/-",
+      "Rs.5 lakh",
+      "Rs.2 lakh",
+      "Rs. 1 lakh"
     ],
-    a: 2
+    a: 3
   },
   {
-    q: "RBI has stipulated \"Officially Valid Documents\" for the purpose of -- (Select the most appropriate option from among the following.)",
+    q: "Which of the following are main objectives of Atal Pension Yojna? (i) Aimed at organised sector (ii) Inculcate habit of savings (iii) Provide social security (iv) Open to people of all ages (Select the most appropriate option from among the following.)",
     o: [
-      "small loans",
-      "verifying identity and residential/office address of a customer",
-      "taking refinance from RBI",
-      "branch licensing"
-    ],
-    a: 1
-  },
-  {
-    q: "For opening an account of a trust, certified copies of which of the following documents need to be obtained? (i) Registration Certificate (ii) Trust Deed (iii) PAN or Form No.60 of the trust (iv) KYC documents of trustees authorized to transact on behalf of the trust (Select the most appropriate option from among the following.)",
-    o: [
-      "(i), (ii) and (iv) only",
-      "(i), (ii), (iii) and (iv)",
-      "(i), (iii) and (iv) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
       "(ii), (iii) and (iv) only"
     ],
     a: 1
   },
   {
-    q: "What is the cost of money borrowed from a bank known as? (Select the most appropriate option from among the following.)",
+    q: "The maximum age limit for availing OD facility under Pradhan Mantri Jan Dhan Yojana is ------ (Select the most appropriate option from among the following.)",
     o: [
-      "Interest",
-      "charges",
-      "premium",
-      "commission"
+      "62 years",
+      "58 years",
+      "65 years",
+      "60 years"
+    ],
+    a: 2
+  },
+  {
+    q: "Which one of the following is the full form of PIN required for using the RuPay Debit Card? (Select the most appropriate option from among the following.)",
+    o: [
+      "People Identity Numeral",
+      "People Identity Number",
+      "Personal Idea Number",
+      "Personal Identification Number"
+    ],
+    a: 3
+  },
+  {
+    q: "Which one of the following is an improvement under PMJDY for using mobile banking? (Select the most appropriate option from among the following.)",
+    o: [
+      "Customer can avail mobile banking service through a normal phone",
+      "SMS initiated mobile banking is more secure than other modes of mobile banking.",
+      "It replaces all existing channels of banking.",
+      "None of the above."
     ],
     a: 0
   },
   {
-    q: "In accounting terms a \"Journal\" means. (Select the most appropriate option from the following.)",
+    q: "Which one of the following is a must for getting the benefit of subsidy under DBTL? (Select the most appropriate option from among the following.)",
     o: [
-      "a book of final entry",
-      "a daily record of all business transactions",
-      "a reconciliation statement",
-      "a monthly statement of all accounts balances"
+      "Bank account",
+      "PAN Number",
+      "Ration card",
+      "Telephone bill"
     ],
-    a: 1
+    a: 0
   },
   {
-    q: "Financial statements include (i) Balance Sheet (ii) Profit and Loss Account (iii) Accounting policies (iv) Notes to the account (Select the most appropriate option from among the following.)",
+    q: "SSA stands for ----- (Select the most appropriate option from among the following.)",
     o: [
-      "(i), (ii) and (iv) only",
-      "(i), (ii), (iii) and (iv)",
-      "(i) only",
-      "(i) and (ii) only"
+      "Service Sub Area",
+      "Sub Service Authority",
+      "Service Sub Authority",
+      "Sub Service Area"
     ],
-    a: 1
+    a: 3
   },
   {
-    q: "Accrual concept of accounting denotes that (Select the most appropriate option from among the following)",
+    q: "The accident cover under PMSBY shall terminate on the member attaining the age of ------ (Select the most appropriate option from among the following.)",
     o: [
-      "Income is recorded as per accrual value whereas expense is shown as per actual payment",
-      "Income is recorded as per actual receipt whereas expense is shown as per accrual date",
-      "Income and expenses are recorded as and when they become due, and not when these are actually received paid",
-      "The unrecoverable charges on advances should not be written off as because they were taken into income in the previous balance sheet whenever they were accrued."
-    ],
-    a: 2
-  },
-  {
-    q: "Cash Reserve Ratio (CRR) indicates the percentage of cash reserve that banks are required to keep with Reserve Bank of India as a proportion of their - (Select the most appropriate option from among the following.)",
-    o: [
-      "Total demand deposits",
-      "Total advances minus non-performing assets",
-      "Net demand and time liabilities",
-      "Gross demand and time liabilities"
+      "60 years",
+      "65 years",
+      "70 years",
+      "75 years"
     ],
     a: 2
   },
   {
-    q: "The cardinal principles of lending include (i) safety of funds (ii) liquidity (iii) diversification of risk (iv) security (Select the most appropriate option from among the following.)",
+    q: "For making remittance through mobile banking using IMPS, the remitter has to obtain ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "Mobile Money Identifier and Mobile Banking Pin",
+      "Mobile Money identifier only",
+      "Mobile Banking PIN only",
+      "Unique Customer Identifier only"
+    ],
+    a: 0
+  },
+  {
+    q: "Which of the following account/s is/are eligible to be opened under PMJDY? (Select the most appropriate option from among the following.)",
+    o: [
+      "Accounts in the name of illiterate persons",
+      "Joint Accounts",
+      "Individual Accounts",
+      "All of the above"
+    ],
+    a: 2
+  },
+  {
+    q: "Which one of the following is the device at BC centres for facilitating cashless purchases to customers? (Select the most appropriate option from among the following.)",
+    o: [
+      "Biometric",
+      "POS machine",
+      "ATM",
+      "Kiosk"
+    ],
+    a: 1
+  },
+  {
+    q: "If the PMJDY account-holder wishes to get cheque book, he/she ------. (Select the most appropriate option from among the following.)",
+    o: [
+      "will have to fulfil minimum balance criteria, if any, of the bank",
+      "will not have to fulfil minimum balance requirement of the bank",
+      "will have to convert PMJDY account into saving bank account",
+      "will not get cheque book as PMJDY account has no provision for that"
+    ],
+    a: 0
+  },
+  {
+    q: "When was the PMJDY launched in the country? (Select the most appropriate option from among the following.)",
+    o: [
+      "2010",
+      "2011",
+      "2014",
+      "2012"
+    ],
+    a: 2
+  },
+  {
+    q: "What is the minimum balance to be maintained in bank accounts opened under PMJDY? (Select the most appropriate option from among the following.)",
+    o: [
+      "There is no minimum balance stipulation",
+      "Rs.5",
+      "Rs.10",
+      "Rs.100"
+    ],
+    a: 0
+  },
+  {
+    q: "Which one of the following statements is correct regarding PMJDY? (Select the most appropriate option from among the following.)",
+    o: [
+      "Bank account can be opened outside of a bank branch premises.",
+      "Bank account can be opened in single name only",
+      "Bank account can be opened with minimum deposit only.",
+      "Bank account can be opened on fixed days only."
+    ],
+    a: 1
+  },
+  {
+    q: "Pradhan Mantri Suraksha Bima Yojana is available to ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "All depositors of the bank",
+      "Only the depositors who have opened accounts under PMJDY",
+      "Only persons living below poverty line",
+      "All individual bank account holders in the age of 18 to 70"
+    ],
+    a: 3
+  },
+  {
+    q: "The participating banks in the life insurance scheme under Pradhan Mantri Jeevan Jyoti Bima Yojana are ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "Administrators",
+      "Master Policy Holders",
+      "Principal Policy Holders",
+      "Insurers"
+    ],
+    a: 1
+  },
+  {
+    q: "The insurance cover under Pradhan Mantri Jeevan Jyoti Bima Yojana is renewable periodically on payment of renewal premium preferably through ------ (Select the most appropriate option from among the following.)",
+    o: [
+      "NEFT remittance before the due date",
+      "Payment at the bank holding the bank account",
+      "IMPS remittance before the due date",
+      "Auto-debit mandate on the savings account"
+    ],
+    a: 3
+  },
+  {
+    q: "Which one of the following facilities is being extended to people under the DBTL scheme? (Select the most appropriate option from among the following.)",
+    o: [
+      "Direct Benefit Token of LPG Subsidy",
+      "Direct Benefit Transfer of LPG Subsidy",
+      "Direct Bills Transfer of LPG Subsidy",
+      "Direct Bills Token of LPG Subsidy"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following is correct regarding the security for the Overdraft facility under PMJDY? (Select the most appropriate option from among the following.)",
+    o: [
+      "Mortgage of house",
+      "Pledge of life policy",
+      "Charge on assets",
+      "No security"
+    ],
+    a: 3
+  },
+  {
+    q: "When a customer swipes the debit card on a handheld device with contact card -------. (Select the most appropriate option from among the following.)",
+    o: [
+      "the device announces the customer details",
+      "the device screen displays the customer details",
+      "the customer's details are flashed on the agent's mobile screen",
+      "none of the above"
+    ],
+    a: 1
+  },
+  {
+    q: "A hand held device can typically store finger prints of ------- customers. (Select the most appropriate option from among the following.)",
+    o: [
+      "600",
+      "100",
+      "250",
+      "100"
+    ],
+    a: 3
+  },
+  {
+    q: "The local operators of Customer Service Points -------. (Select the most appropriate option from among the following.)",
+    o: [
+      "deposit some working capital in the current account with Banks",
+      "deposit some working capital in the Business Correspondent's account and also hold some cash in hand",
+      "deposit some working capital in an aggregator account in their name",
+      "deposit some working capital in an aggregator account in their name and also hold some cash in hand"
+    ],
+    a: 3
+  },
+  {
+    q: "The Customer Service Points are ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "appointed by the bank as bank's agent and work under the Business Correspondent",
+      "selected by the bank to work as the agent of the Business Correspondent",
+      "selected by the Business Correspondent to work as the bank's agent",
+      "appointed by the Business Correspondent as his/her agent"
+    ],
+    a: 3
+  },
+  {
+    q: "ATM means ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "Automated Time Money",
+      "Automated Teller Machine",
+      "Any Teller Money",
+      "All Teller Machine"
+    ],
+    a: 1
+  },
+  {
+    q: "ATMs, where a third party owns and operates the ATM machine, including payment of rents/bills, etc. and a bank provides the connectivity with a network system and the cash, are called as ATMs. (Select the most appropriate option from among the following.)",
+    o: [
+      "hired",
+      "outsourced",
+      "brown label",
+      "white label"
+    ],
+    a: 3
+  },
+  {
+    q: "There are ------- types of ATMs. (Select the most appropriate option from among the following.)",
+    o: [
+      "two (on-site and off-site)",
+      "three (on-site, off-site and mobile)",
+      "four (on-site, off-site, worksite and mobile)",
+      "three (on-site, off-site and worksite)"
+    ],
+    a: 2
+  },
+  {
+    q: "A charge card is similar to a -------. (Select the most appropriate option from among the following.)",
+    o: [
+      "Stored Value Card",
+      "Prepaid Card",
+      "Credit Card",
+      "Debit Card"
+    ],
+    a: 2
+  },
+  {
+    q: "Which one of the following statements relates to the meaning of \"Aadhaar Seeding\" in an account? (Select the most appropriate option from among the following.)",
+    o: [
+      "Opening the account through Business Correspondent.",
+      "Obtaining Aadhaar card as a document for account opening.",
+      "Linking the Aadhaar card details with the account opened.",
+      "Receiving the application for Aadhaar card."
+    ],
+    a: 2
+  },
+  {
+    q: "Which one of the following categories is not a type of Prepaid Payment Instrument? (Select the most appropriate option from among the following.)",
+    o: [
+      "Semi-open",
+      "Closed",
+      "Semi-closed",
+      "Open"
+    ],
+    a: 0
+  },
+  {
+    q: "Immediate Payment Service is available ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "for 24 hours on all working days",
+      "all the time",
+      "for 24 hours except on Sundays.",
+      "for 12 hours on all working days"
+    ],
+    a: 0
+  },
+  {
+    q: "Which of the following is not a direct benefit of linking of Aadhar to the bank account of the customer? (Select the most appropriate option from among the following.)",
+    o: [
+      "Serves as identity and address proof to enable banking transactions.",
+      "Bank account can be opened through the electronic mode.",
+      "Facilitates the quick processing and sanction of credit facilities.",
+      "Enables credit of Govt. subsidy/benefit schemes directly to account."
+    ],
+    a: 2
+  },
+  {
+    q: "In SMS based channel for carrying out a transaction the customer should know ------- (i) the short code (ii) the exact syntax of SMS (iii) the mobile number of the bank (Select the most appropriate option from among the following.)",
     o: [
       "(i) and (ii) only",
       "(ii) and (iii) only",
-      "(i), (ii), (iii) and (iv)",
-      "(iii) and (iv) only"
-    ],
-    a: 2
-  },
-  {
-    q: "All domestic commercial banks are mandated to achieve---- target of Priority Sector lending as prescribed by RBI (Select the most appropriate option from among the following.)",
-    o: [
-      "25%",
-      "30%",
-      "40%",
-      "20%"
-    ],
-    a: 2
-  },
-  {
-    q: "What is the form of security that banks obtain when they extend vehicle loans for taxis? (Select the most appropriate option from among the following.)",
-    o: [
-      "Mortgage of immovable property.",
-      "Hypothecation of vehicle purchased in favour of the bank and third party guarantee.",
-      "Third party guarantee.",
-      "Only Hypothecation of vehicle purchased in favour of the bank"
-    ],
-    a: 1
-  },
-  {
-    q: "Banks will grant loans under MUDRA scheme. (Select the most appropriate option from among the following)",
-    o: [
-      "After obtaining third party guarantee only",
-      "Without insisting for collateral security if the loan amount is less than Rs. 10 lakh",
-      "After obtaining group guarantee",
-      "After obtaining mortgage of immovable property if the amount of loan is above Rs.5 lakh"
-    ],
-    a: 1
-  },
-  {
-    q: "The repayment of term loan component under Kisan Credit Card Scheme may be done ---- depending upon the type of activity/investment (Select the most appropriate option from among the following.)",
-    o: [
-      "maximum 5 years",
-      "normally within 5 years",
-      "maximum 10 years",
-      "maximum 3 years"
-    ],
-    a: 1
-  },
-  {
-    q: "A student has been sanctioned education loan of Rs.8 lakh for studies in India. What type of securities can bank demand to secure the loan? (Select the most appropriate option from among the following.)",
-    o: [
-      "Only co-obligation of parents.",
-      "Co-obligation of parents and tangible collateral security/third-party guarantee",
-      "Only collateral security/third party guarantee",
-      "No collateral is needed"
-    ],
-    a: 1
-  },
-  {
-    q: "The credit score given by a Credit Information Company which is a 'snapshot' of a consumer's credit report calculated through advanced analytics, turns the information into a three digit number ranging from (Select the most appropriate option from among the following.)",
-    o: [
-      "100 to 700",
-      "400 to 900",
-      "200 to 800",
-      "300 to 900"
+      "(i) and (iii) only",
+      "(i), (ii) and (iii)"
     ],
     a: 3
   },
   {
-    q: "Kisan Credit Cards Scheme aims at (Select the most appropriate option from among the following.)",
+    q: "Which one of the technologies is associated with \"Anytime Anywhere\" banking? (Select the most appropriate option from among the following.)",
     o: [
-      "providing need based and timely credit support to farmers",
-      "providing credit to non-farm activities",
-      "providing credit at flexible and cost effective manner",
-      "all of the above"
+      "Foreign Banking Network.",
+      "Private Banking Network.",
+      "Systems Banking Space.",
+      "Core Banking Solution"
     ],
     a: 3
   },
   {
-    q: "Which one of the following statements is incorrect in respect of Micro, Small and Medium enterprises (MSMEs)?",
+    q: "Which of the following types of transactions are supported by Micro-ATMs with BCs? (Select the most appropriate option from among the following.)",
     o: [
-      "All MSMEs are required to register online on the Udyam Registration portal and obtain Udyam Registration certificate.",
-      "All bank loans to MSMEs conforming to the laid down guidelines qualify for classification under priority sector lending.",
-      "A sub-target of 10% of ANBC or CEOBE, whichever is higher, towards lending to Micro-enterprises under overall priority sector lending has been prescribed for domestic commercial banks"
+      "Deposit, Withdrawal, Funds Transfer and Balance Enquiry.",
+      "Deposit, Funds Transfer, Lockers and Balance Enquiry.",
+      "Deposit, Withdrawal, Funds Transfer and Loan Enquiry.",
+      "Deposit, Lending, Funds Transfer and Balance Enquiry."
     ],
     a: 0
   },
   {
-    q: "In cash credit account in the name of XYZ, the interest has been debited regularly for 8 months but not paid, although the account is within the limit and drawing power. The account will be classified as -. (Select the most appropriate option from among the following.)",
-    o: [
-      "Standard",
-      "Loss",
-      "Sub-standard",
-      "Doubtful"
-    ],
-    a: 2
-  },
-  {
-    q: "Before a loan account turns into an NPA, banks are required to identify incipient stress in the account by creating (Select the most appropriate option from among the following.)",
-    o: [
-      "a \"bad account\" category",
-      "an \"irregular\" category",
-      "the \"special mention account\" category",
-      "a \"look after\" category"
-    ],
-    a: 2
-  },
-  {
-    q: "Banks should, classify an account as NPA only if the interest due and charged during any quarter is not serviced fully within from the (Select the most appropriate option from among the following.)",
-    o: [
-      "More than 90 days, date of debit",
-      "More than 90 days, end of the quarter",
-      "90 days date of debit",
-      "90 days, end of the quarter"
-    ],
-    a: 3
-  },
-  {
-    q: "If principal or interest payment is not overdue between 61-90 days, it should be categorized as-- (Select the most appropriate option from among the following.)",
-    o: [
-      "SMA-0",
-      "SMA-1",
-      "SMA-2",
-      "None of the above"
-    ],
-    a: 2
-  },
-  {
-    q: "Provisioning for Standard Assets under IRAC norms in the case of loans to Commercial Real Estate (CRE) -1 Sector should be made by banks at the rate of (Select the most appropriate option from among the following)",
-    o: [
-      "0.25%",
-      "No provisioning is required for Standard Assets",
-      "0.40%",
-      "1.00%"
-    ],
-    a: 2
-  },
-  {
-    q: "Escalation Matrix is used in complaints. It is (Select the most appropriate option from among the following)",
-    o: [
-      "A tool used by regulated entities, to manage the escalation process",
-      "Used when the complaint is of a serious nature",
-      "Used at Dy. Ombudsman level when he is unable to solve the issue of complainant",
-      "A procedure to segregate the complaints subject-wise at the receiving level"
-    ],
-    a: 0
-  },
-  {
-    q: "The dispute between the bank and the customer that can be brought before the Ombudsman, can be (Select the most appropriate option from among the following.)",
-    o: [
-      "Not more than the value of Rs.50,000",
-      "Of any amount",
-      "Not more than the value of Rs.1 lakh",
-      "Not more than the value of Rs.5 lakh"
-    ],
-    a: 1
-  },
-  {
-    q: "The Ombudsman under the Integrated Ombudsman Scheme is -----. (Select the most appropriate option from among the following.)",
-    o: [
-      "A quasi-judicial authority",
-      "Appointed for a period not exceeding two years at a time",
-      "Empowered to pass an Award directing payment by way of compensation, an amount which is not more than the consequential loss suffered by the complainant or Rupees 10 lakh whichever is lower",
-      "Anointed by Govt of India"
-    ],
-    a: 0
-  },
-  {
-    q: "A customer's day should be observed at every bank. In this connection, select the correct statement from the fallowing in respect of Customers' Day.",
-    o: [
-      "The Branch Manager should be available for customers in his office on that day between 2.00 p.m. to 4.00 p.m.",
-      "Customer Service Committee at the branch has the responsibility of noting down all the complaints.",
-      "A customer can meet the Managing Director of the Bank on Customers' Day with prior appointment.",
-      "It is observed on 15th of every month."
-    ],
-    a: 0
-  },
-  {
-    q: "The area of operations of a Regional Rural Bank (Select the most appropriate option from among the Following)",
-    o: [
-      "Is unrestricted",
-      "Depends upon the wishes of the respective State Governments",
-      "Depends upon the business viability and consent of the respective sponsor bank",
-      "Is restricted to a few districts"
-    ],
-    a: 3
-  },
-  {
-    q: "Reserve Bank of India is (Select the most appropriate option from among the following.)",
-    o: [
-      "A separate wing of Finance Ministry of the Central Government",
-      "The Central Bank of the country",
-      "A Public Sector Bank",
-      "A Development Bank"
-    ],
-    a: 1
-  },
-  {
-    q: "The primary function of a bank is (Select the most appropriate option from among the following.)",
-    o: [
-      "to provide loans to the weaker sections of the society",
-      "to provide remittance and payment facilities to individuals/business enterprise/Governments",
-      "facilitate currency circulation in the country",
-      "acceptance of deposits and lending money"
-    ],
-    a: 3
-  },
-  {
-    q: "Development Financial Institutions (DFIs) provide --- (Select the most appropriate option from among the following.)",
-    o: [
-      "Refinance to banks for its lending operations",
-      "Guidance to the banks in its lending operations",
-      "Technological system support to banks",
-      "Credit guarantee to the banks for its lending operations"
-    ],
-    a: 0
-  },
-   {
-    q: "General Purpose Card is used for - (Select the most appropriate option from among the following)",
-    o: [
-      "Home Address Proof",
-      "Office Address Proof",
-      "Paying for goods and services",
-      "Personal Identification"
-    ],
-    a: 2
-  },
-  {
-    q: "The Reserve Bank of India in its annual policy statement of April, 2005 recognized the problem of financial exclusion and initiated several steps aimed at promotion of financial inclusion, which however did not include (Select the most appropriate option from among the following.)",
-    o: [
-      "Service Area Approach",
-      "Basic Savings Bank Deposit Account",
-      "General Credit Card",
-      "Simplified KYC norms"
-    ],
-    a: 0
-  },
-  {
-    q: "The definition of financial inclusion currently in use includes delivery of financial services. Which one of the following is not a feature of delivery of financial services? (Select the most appropriate option from among the following)",
-    o: [
-      "By the informal as well as formal financial system.",
-      "At an affordable cost.",
-      "The services include the provision of savings, loans, insurance, payments and remittance facilities.",
-      "To vast sections of disadvantaged and low-income groups."
-    ],
-    a: 0
-  },
-  {
-    q: "The uberization of financial services in India was triggered by JAM trinity, which did not comprise ---- (Select the most appropriate option from among the following.)",
-    o: [
-      "Jan Dhan Yojana",
-      "Microfinance Institutions",
-      "Aadhaar Database",
-      "Mobile"
-    ],
-    a: 1
-  },
-  {
-    q: "It is not expected that the Business Correspondent/Business Facilitators will perform the role of a to the people residing in its operational area. (Select the most appropriate option from among the following.)",
-    o: [
-      "Guide",
-      "Companion",
-      "Government representative",
-      "Philosopher"
-    ],
-    a: 3
-  },
-  {
-    q: "The features of \"Civil Society Organisations\" (CSO) in the context of Financial Inclusion include -. (Select the most appropriate option from among the following.)",
-    o: [
-      "Non-State, not-for-profit, voluntary entities formed by people",
-      "SHGS",
-      "State-owned, not-for-profit entities",
-      "NGOS"
-    ],
-    a: 0
-  },
-  {
-    q: "Borrower Profiling Technique (Select the most appropriate option from among the following.)",
-    o: [
-      "helps in recovery of overdues",
-      "helps in complying with KYC requirements",
-      "helps in post disbursement follow up",
-      "helps in determining the suitability of the activities chosen by a prospective borrower"
-    ],
-    a: 3
-  },
-  {
-    q: "The Depositor Education and Awareness Fund can be utilized by RBI (Select the most appropriate option from among the following)",
-    o: [
-      "For promotion of depositors' interest",
-      "Deposit Insurance",
-      "Financial Inclusion",
-      "None of the above"
-    ],
-    a: 0
-  },
-  {
-    q: "Which of the following statements is incorrect in respect of Self-Help Groups (SHGs)?",
-    o: [
-      "These are small formal groups.",
-      "Each group consists of 10-12 individuals.",
-      "Its members join the group voluntarily and they should be homogenous with respect to social and economic background",
-      "The main aim of the group is to promote savings habit among members and manage resources for the benefit of the group members."
-    ],
-    a: 0
-  },
-  {
-    q: "The National Centre for Financial Education has been set up by (Select the most appropriate option from among the following.)",
-    o: [
-      "Govt. of India",
-      "All the financial sector regulators",
-      "All Scheduled Banks",
-      "All Public Sector Banks"
-    ],
-    a: 1
-  },
-  {
-    q: "While effective communication is important for financial counselling, it requires which of the following? (i) structuring the counselling relationship (ii) establishing rapport (iii) dealing with egos (Select the most appropriate option from among the following.)",
-    o: [
-      "(i)only",
-      "(i) (ii) and (iii)",
-      "(i) and (ii) only",
-      "Only (ii) and (iii)"
-    ],
-    a: 2
-  },
-  {
-    q: "The delivery of Financial Education comprises of (i) building skills (ii) increasing knowledge (iii) developing understanding (iv) building confidence (Select the most appropriate option from among the following)",
+    q: "A debit card can be used for ------- (i) cash withdrawal at ATM (ii) for payment to a merchant through point of sales device (iii) for online shopping payments (Select the most appropriate option from among the following.)",
     o: [
       "(i) and (ii) only",
-      "(i), (ii), (iii) and (iv)",
-      "(i), (ii) and (iii) only",
-      "(i), (ii) and (iv) only"
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and (iii)"
     ],
-    a: 1
+    a: 3
   },
   {
-    q: "If an account holder gets enrolled voluntarily through electronic means, then. (Select the most appropriate option from among the following.)",
+    q: "Financial education of customers is useful to the banks as it results in better ------- (Select the most appropriate option from among the following.)",
     o: [
-      "The commission payable to Business Correspondents would not change",
-      "The commission payable to Business Correspondents will be passed on to the branch",
-      "The commission payable to the Business Correspondents will be reduced from the total premium and thus the account holder saves this amount",
-      "The Business Correspondent will net half of the prescribed commission"
+      "understanding among customers of both asset and liability products",
+      "realisation among customers of the constraints faced by banks",
+      "understanding among customers of asset products",
+      "understanding among customers of risks"
     ],
     a: 0
   },
   {
-    q: "Who among the following customers is not eligible for availing the benefits of Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)? (Select the most appropriate option from among the following.)",
+    q: "When giving an opinion on the financial status of a customer, bank may use a term like ------- (Select the most appropriate option from among the following.)",
     o: [
-      "NRI customers.",
-      "Customer who enrolled at the age of 45 years and paying regularly but now his age is 51 years.",
-      "Customers attaining the age of 49 years.",
-      "Customer at the age of 16 years."
+      "has very huge turnover in the in the accounts",
+      "maintains huge balances",
+      "highly indebted",
+      "satisfactory"
+    ],
+    a: 3
+  },
+  {
+    q: "The best way to explain a banking aspect to a customer is ------- (Select the most appropriate option from among the following.)",
+    o: [
+      "to tell about it in a simple manner",
+      "to describe it in a regulatory manner",
+      "to describe it as given in the product manual",
+      "to describe it in technical words and phrases"
     ],
     a: 0
   },
   {
-    q: "Prime Minister Jeevan Jyoti Bima Yojana is a/an . - (Select the most appropriate option from among the following.)",
+    q: "Farmers Clubs are informal forums at grass roots organised by -------",
     o: [
-      "Endowment life insurance policy",
-      "Unit-linked Insurance policy",
-      "Whole life insurance policy",
-      "Term Life Insurance policy"
-    ],
-    a: 3
-  },
-  {
-    q: "For claiming accident insurance cover linked with the RuPay debit card, all supporting documents relating to the claim must be submitted within from the date of claim intimation. (Select the most appropriate option from among the following.)",
-    o: [
-      "45 days",
-      "90 days",
-      "30 days",
-      "60 days"
-    ],
-    a: 1
-  },
-  {
-    q: "Atal Pension Yojana (APY) is mainly focused on the workers of among the following) - (Select the most appropriate option from",
-    o: [
-      "Quasi- Government companies",
-      "Central Government Corporations",
-      "Bate Government Corporations",
-      "Unorganized sector"
-    ],
-    a: 3
-  },
-  {
-    q: "A subscriber under the Atal Pension Yojana can opt to decrease or increase pension amount during the course of accumulation phase (Select the most appropriate option among the following.)",
-    o: [
-      "In April and September only",
-      "Once in a year in the month of April only",
-      "Once in every month",
-      "In April, July, October and January"
-    ],
-    a: 1
-  },
-  {
-    q: "USSD (Unstructured Supplementary Service Data) based mobile banking does not offer (Select the most appropriate option from among the following)",
-    o: [
-      "Money Transfer",
-      "Bill Payments",
-      "Merchant Payments",
-      "On-boarding of new accounts"
-    ],
-    a: 3
-  },
-  {
-    q: "The concept of ethics may include (i) it is a set of moral standards and values acceptable in a society guides human behaviour (ii) it holds people from taking decisions that may be harmful to others or the society (iii) its principles may differ according to the circumstances (Select the most appropriate option from among the following.)",
-    o: [
-      "(i) Only",
-      "(i) and (ii) only",
-      "(i) and (iii) only"
-    ],
-    a: 1
-  },
-  {
-    q: "If a Business Correspondent does not comply with confidentiality aspects and related privacy laws, it is termed as (Select the most appropriate option from among the following.)",
-    o: [
-      "Operational risk",
-      "Reputational risk",
-      "Strategic risk",
-      "Compliance risk"
-    ],
-    a: 3
-  },
-  {
-    q: "If the outsourcing bank fails to implement appropriate oversight with regard to the activities out-sourced to the Business Correspondent and its sub-agents, it is termed as ----. (Select the most appropriate option from among the following.)",
-    o: [
-      "Operational risk",
-      "Reputational risk",
-      "Strategic risk",
-      "Compliance risk"
-    ],
-    a: 0
-  },
-  {
-    q: "Corporate Governance includes (i) the structure through which objectives of a company are set and means of attaining the objectives (ii) monitoring performance of the company (iii) defines the way authority as well as responsibilities are allocated (iv) setting pricing policy of products and services to ensure company's growth (Select the most appropriate option from among the following.)",
-    o: [
-      "(iii) and (iv) only",
-      "(i) and (ii) only",
-      "(i), (ii) and (iii) only"
+      "District Level Authorities",
+      "Affluent Farmers in the area",
+      "Rural branches of banks",
+      "Business Correspondents"
     ],
     a: 2
   },
   {
-    q: "Which one of the following is incorrect in the case of Near Field Communications (NFC) mobile contact-less card technology?",
+    q: "If PMJDY account-holder wishes to get cheque book, he/she ------.",
     o: [
-      "Deposit and withdrawal transactions are instantly settled between the customer account and Business Correspondent's account as both accounts are in the same system.",
-      "Debit/Credit card cannot be used for transactions.",
-      "Customer account and Business Correspondent's working capital account is centrally held with the bank.",
-      "Full traceability and audit trail of the transaction is maintained."
-    ],
-    a: 1
-  },
-  {
-    q: "When NFC technology is included in a mobile phone, (Select the most appropriate option from among the following.)",
-    o: [
-      "It's storing capacity is enhanced",
-      "It's RAM is enhanced drastically",
-      "It can enable remittance to any customer of any bank",
-      "It can be embedded within the SIM Card"
-    ],
-    a: 2
-  },
-  {
-    q: "Pink Label ATMS - (Select the most appropriate option from among the following .)",
-    o: [
-      "Are provided for share transactions",
-      "Are dedicated to promote agriculture banking transactions",
-      "Are dedicated to promote banking transactions by women",
-      "Are used for online purchase"
-    ],
-    a: 2
-  },
-  {
-    q: "Which one of the following statements is incorrect in respect of Virtual Cards?",
-    o: [
-      "No limit of spending is fixed in virtual card",
-      "A virtual Debit/Credit/Prepaid card is a randomly-generated card number associated with the user's actual card, for use online",
-      "Its use is convenient, flexible and secure",
-      "It eliminates the risk of physical theft, counterfeiting, skimming, phishing etc"
+      "will have to fulfil minimum balance criteria, if any, of the bank",
+      "will not have to fulfil minimum balance requirement of the bank",
+      "will have to convert PMJDY account into saving bank account",
+      "will not get cheque book as PMJDY account has no provision for that"
     ],
     a: 0
   },
   {
-    q: "Mobile wallet (Select the most appropriate option from among the following.)",
+    q: "Which one of the following facilities is being extended to people under the DBTL scheme?",
     o: [
-      "Works on the line of debit card",
-      "Is a way to carry cash in digital format",
-      "Can be used on ATMs also",
-      "Works on the line of credit card"
+      "Direct Benefits Token on LPG Subsidy",
+      "Direct Benefit Transfer for LPG Subsidy",
+      "Direct Bills Transfer of LPG Subsidy",
+      "Direct Bills Token of LPG Subsidy"
     ],
     a: 1
   },
   {
-    q: "Which one of the following statements is incorrect in respect of Stored value card?",
+    q: "Which one of the following is correct regarding the security for the Overdraft facility under PMJDY?",
     o: [
-      "No charges are levied on adding value to the card.",
-      "It is issued by a bank.",
-      "The monetary value is stored on the card itself.",
-      "The card issuer is a service provider."
-    ],
-    a: 1
-  },
-  {
-    q: "If an account holder uses ATM card and his account is debited without cash being dispensed, the debit should be reversed, by the bank. (Select the most appropriate option from among the following.)",
-    o: [
-      "Within a maximum of T+2 days",
-      "Within a maximum of T+ 3 days",
-      "Within a maximum of T+4 days",
-      "Within a maximum of T+5 days"
+      "Mortgage of house",
+      "Pledge of life policy",
+      "Charge on assets",
+      "No security"
     ],
     a: 3
   },
   {
-    q: "RBI has stipulated that banks should offer their savings bank customers free transactions at Bank's own ATMs in a Metro City (Mumbai, New Delhi, Chennai, Kolkata, Bengaluru and Hyderabad) - in a month. (Select the most appropriate option from among the following.)",
+    q: "A loan of Rs One lakh has been given under Pradhan Mantri MUDRA Yojana, it will be categorized under ------",
     o: [
-      "Minimum of 3 transactions",
-      "Minimum of 4 transactions,",
-      "Minimum of 5 transactions",
-      "Minimum of 7 transactions"
-    ],
-    a: 2
-  },
-  {
-    q: "Which one of the following statements is incorrect in respect of Bharat QR Code?",
-    o: [
-      "It can be used to P2M (Person to Merchant) digital payments.",
-      "It is as secure as making a payment via UPI",
-      "One can use any of apps that support the Bharat QR.",
-      "The payment mode in QR is only through UPI"
-    ],
-    a: 3
-  },
-  {
-    q: "In the case of charge card, payment is made by the user - (Select the most appropriate option from among the following)",
-    o: [
-      "At one go",
-      "In instalments",
-      "In instalments after a grace period",
-      "Instantly"
-    ],
-    a: 0
-  },
-  {
-    q: "Bharat Interface for Money is (Select the most appropriate option from among the following.)",
-    o: [
-      "Meant only for making direct bank to bank payments instantly",
-      "For sending and collecting money to any person, paying bills, recharging mobile phone, etc.",
-      "Meant only for making payment of utility bills and recharge of mobile phone",
-      "used by banks for sending \"alert messages\""
+      "Shishu Scheme",
+      "Kishore Scheme",
+      "Tarun Scheme",
+      "Artisan Scheme"
     ],
     a: 1
   },
   {
-    q: "In the case of White Label ATMs, - (Select the most appropriate option from among the following.)",
+    q: "Under the DBTL Scheme, one of the key agencies involved in the process is ------",
     o: [
-      "They are those which are set up, owned and operated by non-banks",
-      "User is required to pay a nominal charge on every hit",
-      "The dispute resolution is done through the agency which handles ATM switch",
-      "Cash management is done by the banking system"
-    ],
-    a: 0
-  },
-  {
-    q: "A gift card is a type of... (Select the most appropriate option from among the following.)",
-    o: [
-      "Debit card",
-      "Credit card",
-      "Prepaid card",
-      "Charge card"
-    ],
-    a: 2
-  },
-  {
-    q: "The data received by an Account Aggregator is, (Select the most appropriate option from among the following.)",
-    o: [
-      "NBFC specific",
-      "Bank specific",
-      "Security Broking Company specific",
-      "Interoperable"
-    ],
-    a: 3
-  },
-  {
-    q: "Digital Rupee (eRupee-R) may play a big role in. (i) providing a safe and reliable means of payment for direct transfer programs of Government welfare programmes (ii) promoting inclusive and innovative payments (iii) reducing cost of cash management (iv) reducing inflation significantly (Select the most appropriate option from among the following.)",
-    o: [
-      "(i), (ii) and (iii) only",
-      "(i) and (iv) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    a: 0
-  },
-  {
-    q: "There are several benefits of Central Bank Digital Currency (CBDC) including ----- (i) Less cash circulation (ii) Financial Inclusion (iii) Authorised digital payment system (iv) Efficient payment system (Select the most appropriate option from among the following.)",
-    o: [
-      "(i), (iii) and (iv) only",
-      "(iii) and (iv) only",
-      "(i), (ii), (iii) and (iv)",
-      "(ii), (iii) and (iv)"
-    ],
-    a: 2
-  },
-  {
-    q: "Jan Samarth Portal is an online platform for -(Select the most appropriate option from among the following.)",
-    o: [
-      "Opening new PPF account",
-      "Directly connecting lenders with beneficiaries",
-      "Making payments of utility bills",
-      "Opening new deposit account"
+      "Village Panchayat",
+      "LPG Distributor",
+      "Primary School",
+      "All of the above"
     ],
     a: 1
-  },
-  {
-    q: "Registering with an Account Aggregator (AA) is for consumers. (Select the most appropriate option from among the following.)",
-    o: [
-      "Irrevocable",
-      "Mandatory",
-      "Statutory",
-      "Fully voluntary"
-    ],
-    a: 3
-  },
-  {
-    q: "A Business Facilitator cannot do which of the following? (Select the most appropriate option from among the following.)",
-    o: [
-      "Handling of cash on behalf of bank",
-      "Identification of borrowers and fitment of activities.",
-      "Preliminary verification of primary information about the loan applicant.",
-      "Post sanctions monitoring."
-    ],
-    a: 0
-  },
-  {
-    q: "The Kisan Credit Card beneficiaries can be issued - (Select the most appropriate option from among the following.)",
-    o: [
-      "Smart card",
-      "Debit card",
-      "General Credit Card",
-      "Any of (a) and (b) or both"
-    ],
-    a: 3
-  },
-  {
-    q: "Persuasive skill in recovery of loan is built on (Select the most appropriate option from among the followings)",
-    o: [
-      "Putting heavy pressure on the defaulting borrower through his relatives and known persons",
-      "Establishing a good rapport and winning the trust of the defaulting borrower",
-      "The principle of creating a scene of artificial threatening",
-      "Visiting the residence of defaulting borrower continuously after a gap of two or three days"
-    ],
-    a: 1
-  },
-  {
-    q: "Which one of the following is not a main cause for Customer complaints? (Select the most appropriate option from among the following.)",
-    o: [
-      "Lack of customer comfort facilities like sitting arrangement, filtered drinking water, cooling.",
-      "Attitudinal aspects while dealing with the customers.",
-      "Inadequate arrangements made to handle the volume of the work.",
-      "Gap standards"
-    ],
-    a: 0
-  },
-  {
-    q: "A bank will not disclose the affairs of the customer in one of the following circumstances?",
-    o: [
-      "When the information is called under law.",
-      "When there is express or implied consent of the customer.",
-      "When any Central/State Govt. official directs the bank in writing to do so.",
-      "When a bank is bound to disclose in public interest."
-    ],
-    a: 1
-  },
-    {
-    q: "Soft skills do not include---- (Select the most appropriate option from among the following.)",
-    o: [
-      "Communication",
-      "Self-motivation",
-      "Responsibility",
-      "Technical knowledge"
-    ],
-    a: 3
-  },
-  {
-    q: "The features of good communication do not include (Select the most appropriate option from among the following )",
-    o: [
-      "Empathy",
-      "Active listening",
-      "Spontaneous reply",
-      "Positivity"
-    ],
-    a: 2
-  },
-  {
-    q: "Soft skills are nothing but --- (Select the most appropriate option from among the following.)",
-    o: [
-      "Relationship building towards the customer",
-      "Knowing computer programming",
-      "Knowing financial analysis,",
-      "Knowing tools & techniques"
-    ],
-    a: 0
-  },
-  {
-    q: "What is the name of the core banking solution platform of the Reserve Bank of India (RBI)?",
-    o: [
-      "E-Kuber",
-      "E-Lakshmi",
-      "Digital Rupee Engine",
-      "RBI-Connect"
-    ],
-    a: 0
   }
 ];

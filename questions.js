@@ -789,5 +789,224 @@ window.questions = [
       "Knowing tools & techniques"
     ],
     a: 0
-  }
+  },
+  {
+    q: "Which one of the following statements is incorrect in respect of Stored value card?",
+    o: [
+      "No charges are levied on adding value to the card.",
+      "It is issued by a bank.",
+      "The monetary value is stored on the card itself.",
+      "The card issuer is a service provider."
+    ],
+    a: 1
+  },
+  {
+    q: "If an account holder uses ATM card and his account is debited without cash being dispensed, the debit should be reversed, by the bank. (Select the most appropriate option from among the following.)",
+    o: [
+      "Within a maximum of T+2 days",
+      "Within a maximum of T+ 3 days",
+      "Within a maximum of T+4 days",
+      "Within a maximum of T+5 days"
+    ],
+    a: 3
+  },
+  {
+    q: "RBI has stipulated that banks should offer their savings bank customers free transactions at Bank's own ATMs in a Metro City (Mumbai, New Delhi, Chennai, Kolkata, Bengaluru and Hyderabad) - in a month. (Select the most appropriate option from among the following.)",
+    o: [
+      "Minimum of 3 transactions",
+      "Minimum of 4 transactions,",
+      "Minimum of 5 transactions",
+      "Minimum of 7 transactions"
+    ],
+    a: 2
+  },
+  {
+    q: "Which one of the following statements is incorrect in respect of Bharat QR Code?",
+    o: [
+      "It can be used to P2M (Person to Merchant) digital payments.",
+      "It is as secure as making a payment via UPI",
+      "One can use any of apps that support the Bharat QR.",
+      "The payment mode in QR is only through UPI"
+    ],
+    a: 3
+  },
+  {
+    q: "In the case of charge card, payment is made by the user - (Select the most appropriate option from among the following)",
+    o: [
+      "At one go",
+      "In instalments",
+      "In instalments after a grace period",
+      "Instantly"
+    ],
+    a: 0
+  },
+  {
+    q: "Bharat Interface for Money is (Select the most appropriate option from among the following.)",
+    o: [
+      "Meant only for making direct bank to bank payments instantly",
+      "For sending and collecting money to any person, paying bills, recharging mobile phone, etc.",
+      "Meant only for making payment of utility bills and recharge of mobile phone",
+      "used by banks for sending \"alert messages\""
+    ],
+    a: 1
+  },
+  {
+    q: "In the case of White Label ATMs, - (Select the most appropriate option from among the following.)",
+    o: [
+      "They are those which are set up, owned and operated by non-banks",
+      "User is required to pay a nominal charge on every hit",
+      "The dispute resolution is done through the agency which handles ATM switch",
+      "Cash management is done by the banking system"
+    ],
+    a: 0
+  },
+  {
+    q: "A gift card is a type of... (Select the most appropriate option from among the following.)",
+    o: [
+      "Debit card",
+      "Credit card",
+      "Prepaid card",
+      "Charge card"
+    ],
+    a: 2
+  },
+  {
+    q: "The data received by an Account Aggregator is, (Select the most appropriate option from among the following.)",
+    o: [
+      "NBFC specific",
+      "Bank specific",
+      "Security Broking Company specific",
+      "Interoperable"
+    ],
+    a: 3
+  },
+  {
+    q: "Digital Rupee (eRupee-R) may play a big role in. (i) providing a safe and reliable means of payment for direct transfer programs of Government welfare programmes (ii) promoting inclusive and innovative payments (iii) reducing cost of cash management (iv) reducing inflation significantly (Select the most appropriate option from among the following.)",
+    o: [
+      "(i), (ii) and (iii) only",
+      "(i) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    a: 0
+  },
+  {
+    q: "There are several benefits of Central Bank Digital Currency (CBDC) including ----- (i) Less cash circulation (ii) Financial Inclusion (iii) Authorised digital payment system (iv) Efficient payment system (Select the most appropriate option from among the following.)",
+    o: [
+      "(i), (iii) and (iv) only",
+      "(iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)",
+      "(ii), (iii) and (iv)"
+    ],
+    a: 2
+  },
+  {
+    q: "Jan Samarth Portal is an online platform for -(Select the most appropriate option from among the following.)",
+    o: [
+      "Opening new PPF account",
+      "Directly connecting lenders with beneficiaries",
+      "Making payments of utility bills",
+      "Opening new deposit account"
+    ],
+    a: 1
+  },
+  {
+    q: "Registering with an Account Aggregator (AA) is for consumers. (Select the most appropriate option from among the following.)",
+    o: [
+      "Irrevocable",
+      "Mandatory",
+      "Statutory",
+      "Fully voluntary"
+    ],
+    a: 3
+  },
+  {
+    q: "A Business Facilitator cannot do which of the following? (Select the most appropriate option from among the following.)",
+    o: [
+      "Handling of cash on behalf of bank",
+      "Identification of borrowers and fitment of activities.",
+      "Preliminary verification of primary information about the loan applicant.",
+      "Post sanctions monitoring."
+    ],
+    a: 0
+  },
+  {
+    q: "The Kisan Credit Card beneficiaries can be issued - (Select the most appropriate option from among the following.)",
+    o: [
+      "Smart card",
+      "Debit card",
+      "General Credit Card",
+      "Any of (a) and (b) or both"
+    ],
+    a: 3
+  },
+  {
+    q: "Persuasive skill in recovery of loan is built on (Select the most appropriate option from among the followings)",
+    o: [
+      "Putting heavy pressure on the defaulting borrower through his relatives and known persons",
+      "Establishing a good rapport and winning the trust of the defaulting borrower",
+      "The principle of creating a scene of artificial threatening",
+      "Visiting the residence of defaulting borrower continuously after a gap of two or three days"
+    ],
+    a: 1
+  },
+  {
+    q: "Which one of the following is not a main cause for Customer complaints? (Select the most appropriate option from among the following.)",
+    o: [
+      "Lack of customer comfort facilities like sitting arrangement, filtered drinking water, cooling.",
+      "Attitudinal aspects while dealing with the customers.",
+      "Inadequate arrangements made to handle the volume of the work.",
+      "Gap standards"
+    ],
+    a: 0
+  },
+  {
+    q: "A bank will not disclose the affairs of the customer in one of the following circumstances? (Select the most appropriate option from among the following)",
+    o: [
+      "When there is express or implied consent of the customer",
+      "When any central/State Govt. official directs the bank in writing to do",
+      "When a bank is bound disclose in public interest.",
+      "When the information is called under law."
+    ],
+    a: 0
+  },
+  {
+    q: "Soft skills do not include---- (Select the most appropriate option from among the following.)",
+    o: [
+      "Communication",
+      "Self-motivation",
+      "Responsibility",
+      "Technical knowledge"
+    ],
+    a: 3
+  },
+  {
+    q: "The features of good communication do not include (Select the most appropriate option from among the following )",
+    o: [
+      "Empathy",
+      "Active listening",
+      "Spontaneous reply",
+      "Positivity"
+    ],
+    a: 2
+  },
+  {
+    q: "Soft skills are nothing but --- (Select the most appropriate option from among the following.)",
+    o: [
+      "Relationship building towards the customer",
+      "Knowing computer programming",
+      "Knowing financial analysis,",
+      "Knowing tools & techniques"
+    ],
+    a: 0
+  },
+  {
+  q: "What is the name of the core banking solution platform of the Reserve Bank of India (RBI)?",
+  o: [
+    "E-Kuber",
+    "E-Lakshmi",
+    "Digital Rupee Engine",
+    "RBI-Connect"
+  ],
+  a: 0
+}
 ];

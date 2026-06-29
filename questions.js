@@ -1002,4 +1002,504 @@ window.questions = [
   ],
   a: 1
 },
+{
+  q: "The Reserve Bank of India was established on:",
+  o: [
+    "1 April 1935",
+    "1 January 1949",
+    "15 August 1947",
+    "26 January 1950"
+  ],
+  a: 0
+},
+{
+  q: "NABARD was established in:",
+  o: [
+    "1969",
+    "1975",
+    "1982",
+    "1991"
+  ],
+  a: 2
+},
+{
+  q: "Which account normally provides cheque book facilities for businesses?",
+  o: [
+    "Savings Account",
+    "Current Account",
+    "Recurring Deposit",
+    "Fixed Deposit"
+  ],
+  a: 1
+},
+{
+  q: "The minimum government ownership required for a Public Sector Bank is:",
+  o: [
+    "49%",
+    "50%",
+    "51%",
+    "74%"
+  ],
+  a: 2
+},
+{
+  q: "Which organization introduced Financial Inclusion as a major banking objective?",
+  o: [
+    "SEBI",
+    "RBI",
+    "IRDAI",
+    "NITI Aayog"
+  ],
+  a: 1
+},
+{
+  q: "Mobile wallet services became popular in India around:",
+  o: [
+    "2005",
+    "2008",
+    "2012",
+    "2018"
+  ],
+  a: 2
+},
+{
+  q: "The validity of a Demand Draft is generally:",
+  o: [
+    "30 days",
+    "60 days",
+    "3 months",
+    "1 year"
+  ],
+  a: 2
+},
+{
+  q: "The shortest tenure for a Fixed Deposit is usually:",
+  o: [
+    "1 day",
+    "3 days",
+    "7 days",
+    "30 days"
+  ],
+  a: 2
+},
+{
+  q: "The maximum tenure for a Fixed Deposit is generally:",
+  o: [
+    "5 years",
+    "7 years",
+    "10 years",
+    "15 years"
+  ],
+  a: 2
+},
+{
+  q: "Submission of Form 15G/15H helps eligible customers avoid:",
+  o: [
+    "GST",
+    "Loan Processing Fee",
+    "TDS",
+    "Service Tax"
+  ],
+  a: 2
+},
+{
+  q: "Illiterate customers generally authenticate bank transactions using:",
+  o: [
+    "Passport",
+    "Thumb Impression",
+    "PAN Card",
+    "Driving Licence"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is NOT a type of accounting year?",
+  o: [
+    "Calendar Year",
+    "Financial Year",
+    "Academic Year",
+    "Fiscal Year"
+  ],
+  a: 2
+},
+{
+  q: "According to traditional accounting, Cash Account is a:",
+  o: [
+    "Personal Account",
+    "Real Account",
+    "Nominal Account",
+    "Fictitious Account"
+  ],
+  a: 1
+},
+{
+  q: "Salary Account belongs to which category of account?",
+  o: [
+    "Real Account",
+    "Personal Account",
+    "Nominal Account",
+    "Cash Account"
+  ],
+  a: 2
+},
+{
+  q: "Under the rule of Real Accounts:",
+  o: [
+    "Debit the Receiver",
+    "Credit What Comes In",
+    "Debit What Comes In",
+    "Credit All Expenses"
+  ],
+  a: 2
+},
+{
+  q: "The formula for Simple Interest is:",
+  o: [
+    "P × R × T /100",
+    "P + R + T",
+    "P × T²",
+    "P × R²"
+  ],
+  a: 0
+},
+{
+  q: "Compound Interest differs from Simple Interest because:",
+  o: [
+    "Interest is calculated only once",
+    "Interest is earned on previous interest also",
+    "Rate is always fixed at 10%",
+    "Principal decreases every year"
+  ],
+  a: 1
+},
+{
+  q: "A loan taken for seasonal farming activities is generally:",
+  o: [
+    "Long-term Loan",
+    "Medium-term Loan",
+    "Short-term Crop Loan",
+    "Housing Loan"
+  ],
+  a: 2
+},
+{
+  q: "Loans for irrigation and dairy development are generally classified as:",
+  o: [
+    "Short-term Loans",
+    "Medium-term Loans",
+    "Bridge Loans",
+    "Emergency Loans"
+  ],
+  a: 1
+},
+{
+  q: "A 25-year home loan is best classified as:",
+  o: [
+    "Short-term",
+    "Medium-term",
+    "Long-term",
+    "Demand Loan"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following is NOT included under Priority Sector Lending?",
+  o: [
+    "Agriculture",
+    "MSME",
+    "Education",
+    "Luxury Resort Construction"
+  ],
+  a: 3
+},
+{
+  q: "The main objective of collateral is to:",
+  o: [
+    "Reduce interest rates",
+    "Protect the bank against default",
+    "Increase deposits",
+    "Avoid documentation"
+  ],
+  a: 1
+},
+{
+  q: "A customer who frequently deposits and withdraws large amounts should prefer:",
+  o: [
+    "Recurring Deposit",
+    "Current Account",
+    "Tax Saver FD",
+    "Fixed Deposit"
+  ],
+  a: 1
+},
+{
+  q: "Which banking principle focuses on ensuring funds are available when required?",
+  o: [
+    "Liquidity",
+    "Popularity",
+    "Expansion",
+    "Competition"
+  ],
+  a: 0
+},
+{
+  q: "The largest retail loan portfolio of Indian banks generally consists of:",
+  o: [
+    "Vehicle Loans",
+    "Housing Loans",
+    "Education Loans",
+    "Personal Loans"
+  ],
+  a: 1
+},
+{
+  q: "Which account generally earns no interest?",
+  o: [
+    "Savings Account",
+    "Current Account",
+    "Recurring Deposit",
+    "Fixed Deposit"
+  ],
+  a: 1
+},
+{
+  q: "The main function of a General Ledger is to:",
+  o: [
+    "Store cash",
+    "Maintain classified financial accounts",
+    "Print passbooks",
+    "Issue cheque books"
+  ],
+  a: 1
+},
+{
+  q: "The accounting equation remains balanced because:",
+  o: [
+    "Only debit entries are recorded",
+    "Every transaction has dual effect",
+    "Cash is always available",
+    "Interest is compounded"
+  ],
+  a: 1
+},
+{
+  q: "Which institution mainly regulates commercial banking operations in India?",
+  o: [
+    "SEBI",
+    "RBI",
+    "NABARD",
+    "SIDBI"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following best defines a Financial Institution?",
+  o: [
+    "A company that manufactures currency",
+    "An organization dealing with financial services",
+    "A tax collection office",
+    "A stock exchange only"
+  ],
+  a: 1
+},
+{
+  q: "A Business Facilitator differs from a Business Correspondent because:",
+  o: [
+    "BF generally does not handle cash transactions",
+    "BF prints currency",
+    "BF approves loans independently",
+    "There is no difference"
+  ],
+  a: 0
+},
+{
+  q: "Which of the following is an example of Financial Inclusion?",
+  o: [
+    "Opening a bank account in a remote village",
+    "Buying company shares",
+    "Paying customs duty",
+    "Trading cryptocurrencies"
+  ],
+  a: 0
+},
+{
+  q: "The term 'banking correspondent model' was mainly introduced to:",
+  o: [
+    "Close urban branches",
+    "Expand banking access",
+    "Increase bank taxes",
+    "Reduce ATM usage"
+  ],
+  a: 1
+},
+{
+  q: "Which account is most suitable for parking money for a fixed period?",
+  o: [
+    "Current Account",
+    "Savings Account",
+    "Fixed Deposit",
+    "Cash Credit"
+  ],
+  a: 2
+},
+{
+  q: "The primary source of funds for commercial banks is:",
+  o: [
+    "Deposits from customers",
+    "Government grants",
+    "Stock market profits",
+    "Income tax collections"
+  ],
+  a: 0
+},
+{
+  q: "A borrower with strong repayment history is considered:",
+  o: [
+    "High Credit Risk",
+    "Low Credit Risk",
+    "Loan Defaulter",
+    "Ineligible Borrower"
+  ],
+  a: 1
+},
+{
+  q: "Which banking service enables customers to transfer funds without visiting a branch?",
+  o: [
+    "Locker Service",
+    "Net Banking",
+    "Safe Deposit",
+    "Demand Draft"
+  ],
+  a: 1
+},
+{
+  q: "The objective of maintaining KYC records is to:",
+  o: [
+    "Increase customer interest",
+    "Prevent identity fraud",
+    "Increase FD rates",
+    "Reduce EMI"
+  ],
+  a: 1
+},
+{
+  q: "Which customer is most likely to require a Current Account?",
+  o: [
+    "College Student",
+    "Shopkeeper",
+    "Retired Pensioner",
+    "School Child"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is an example of secured lending?",
+  o: [
+    "Credit Card without security",
+    "Housing Loan with Mortgage",
+    "Personal Loan without collateral",
+    "Salary Advance"
+  ],
+  a: 1
+},
+{
+  q: "Which banking product combines safety with fixed returns?",
+  o: [
+    "Current Account",
+    "Fixed Deposit",
+    "Cash Credit",
+    "Overdraft"
+  ],
+  a: 1
+},
+{
+  q: "A customer wants regular savings every month for a fixed period. Which product is most suitable?",
+  o: [
+    "Current Account",
+    "Recurring Deposit",
+    "Cash Credit",
+    "Overdraft"
+  ],
+  a: 1
+},
+{
+  q: "Which banking principle ensures diversification of lending to reduce overall risk?",
+  o: [
+    "Risk Spread",
+    "Inflation",
+    "Liquidity Trap",
+    "Cash Reserve"
+  ],
+  a: 0
+},
+{
+  q: "Which of the following is the best example of a productive loan?",
+  o: [
+    "Loan for gambling",
+    "Loan for business expansion",
+    "Loan for luxury vacation",
+    "Loan for entertainment"
+  ],
+  a: 1
+},
+{
+  q: "A cheque without sufficient balance is generally:",
+  o: [
+    "Automatically converted into cash",
+    "Returned unpaid",
+    "Converted into a DD",
+    "Accepted by every bank"
+  ],
+  a: 1
+},
+{
+  q: "The main objective of bookkeeping is to:",
+  o: [
+    "Record financial transactions systematically",
+    "Increase profits",
+    "Reduce taxes",
+    "Approve loans"
+  ],
+  a: 0
+},
+{
+  q: "Financial literacy mainly helps customers to:",
+  o: [
+    "Take informed financial decisions",
+    "Print currency",
+    "Avoid banks",
+    "Trade only in shares"
+  ],
+  a: 0
+},
+{
+  q: "Which institution acts as the lender of last resort in India?",
+  o: [
+    "SBI",
+    "RBI",
+    "NABARD",
+    "SEBI"
+  ],
+  a: 1
+},
+{
+  q: "Which type of customer generally benefits the most from Financial Inclusion initiatives?",
+  o: [
+    "Only large corporations",
+    "People without access to formal banking",
+    "Foreign investors only",
+    "Stock brokers only"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is the best example of banking outreach?",
+  o: [
+    "Opening a BC outlet in a remote village",
+    "Increasing gold prices",
+    "Building a shopping mall",
+    "Opening a cinema hall"
+  ],
+  a: 0
+},
 ];

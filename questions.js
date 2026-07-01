@@ -2,1504 +2,1404 @@
 console.log("questions.js loaded");
 
 window.questions = [
-    {
-  q: "Government ownership in a Public Sector Bank must be at least:",
+  {
+  q: "Which of the following loan accounts can be proceeded against under the SARFAESI Act?",
   o: [
-    "49%",
-    "50%",
-    "51%",
-    "74%"
+    "Loan of ₹80,000",
+    "Loan of ₹1,00,000",
+    "Loan above ₹1,00,000",
+    "Any loan regardless of amount"
   ],
   a: 2
 },
 {
-  q: "Which banking institution is primarily responsible for rural refinance?",
+  q: "A loan dispute involving ₹25 lakh should normally be referred to which authority?",
   o: [
-    "SIDBI",
-    "NABARD",
-    "SEBI",
-    "LIC"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is NOT a traditional function of a commercial bank?",
-  o: [
-    "Accepting deposits",
-    "Granting loans",
-    "Printing currency",
-    "Providing remittance services"
+    "Lok Adalat",
+    "District Court",
+    "Debt Recovery Tribunal (DRT)",
+    "Banking Lokpal"
   ],
   a: 2
 },
 {
-  q: "A Business Correspondent mainly helps banks by:",
+  q: "Which asset classification indicates that recovery is practically impossible?",
   o: [
-    "Approving loans independently",
-    "Providing banking services in unbanked areas",
-    "Printing passbooks",
-    "Auditing branches"
+    "Sub-standard Asset",
+    "Standard Asset",
+    "Doubtful Asset",
+    "Loss Asset"
+  ],
+  a: 3
+},
+{
+  q: "Which of the following is NOT generally settled through Lok Adalat?",
+  o: [
+    "Loan of ₹8 lakh",
+    "Loan of ₹15 lakh",
+    "Loan of ₹20 lakh",
+    "Loan of ₹25 lakh"
+  ],
+  a: 3
+},
+{
+  q: "What is considered the primary objective of every commercial bank?",
+  o: [
+    "Maximizing penalties",
+    "Customer service and satisfaction",
+    "Increasing branch size",
+    "Reducing employees"
   ],
   a: 1
 },
 {
-  q: "Cheque truncation primarily reduces:",
+  q: "A customer submits a written complaint to the branch. According to the model policy, the bank should reply within:",
   o: [
-    "Interest rates",
-    "Physical movement of cheques",
-    "Bank branches",
-    "Cash withdrawals"
-  ],
-  a: 1
-},
-{
-  q: "A Current Account generally offers:",
-  o: [
-    "High interest",
-    "No interest",
-    "Compound interest only",
-    "Quarterly bonus interest"
-  ],
-  a: 1
-},
-{
-  q: "Which document is mainly required to establish customer identity under KYC?",
-  o: [
-    "Movie ticket",
-    "Restaurant bill",
-    "Official identity document",
-    "Library card"
-  ],
-  a: 2
-},
-{
-  q: "A crossed cheque is mainly intended to:",
-  o: [
-    "Increase cheque validity",
-    "Ensure safer payment through a bank",
-    "Avoid signatures",
-    "Convert it into cash instantly"
-  ],
-  a: 1
-},
-{
-  q: "Which payment system settles transactions individually in real time?",
-  o: [
-    "NEFT",
-    "RTGS",
-    "UPI",
-    "IMPS"
-  ],
-  a: 1
-},
-{
-  q: "The minimum tenure of a Fixed Deposit is generally:",
-  o: [
-    "1 day",
     "3 days",
     "7 days",
-    "15 days"
+    "15 days",
+    "30 days"
+  ],
+  a: 1
+},
+{
+  q: "The overall grievance should normally be redressed within:",
+  o: [
+    "15 days",
+    "21 days",
+    "30 days",
+    "45 days"
   ],
   a: 2
 },
 {
-  q: "Demand deposits are characterized by:",
+  q: "If a customer is not satisfied with the branch's reply, the next external authority is:",
   o: [
-    "Fixed maturity period",
-    "Withdrawal on demand",
-    "No withdrawal allowed",
-    "Compulsory lock-in"
+    "District Magistrate",
+    "Banking Lokpal",
+    "Police Department",
+    "Finance Ministry"
   ],
   a: 1
 },
 {
-  q: "The main purpose of KYC norms is to:",
+  q: "Complaint redressal information must compulsorily be displayed on the:",
   o: [
-    "Increase bank profits",
-    "Verify customer identity",
-    "Reduce loan interest",
-    "Increase ATM limits"
-  ],
-  a: 1
-},
-{
-  q: "Money laundering refers to:",
-  o: [
-    "Depositing salary",
-    "Converting illegal money into legal money",
-    "Exchanging foreign currency",
-    "Opening multiple accounts"
-  ],
-  a: 1
-},
-{
-  q: "Which book contains the final classified accounts of customers?",
-  o: [
-    "Cash Book",
-    "Ledger",
-    "Journal",
-    "Voucher Register"
-  ],
-  a: 1
-},
-{
-  q: "In the dual entry system, every transaction affects:",
-  o: [
-    "One account",
-    "Two accounts",
-    "Three accounts",
-    "Unlimited accounts"
-  ],
-  a: 1
-},
-{
-  q: "A Balance Sheet mainly shows:",
-  o: [
-    "Profit earned",
-    "Income only",
-    "Assets and liabilities",
-    "Daily cash expenses"
+    "Cheque book",
+    "ATM screen",
+    "Branch notice board",
+    "Passbook"
   ],
   a: 2
 },
 {
-  q: "EMI consists of:",
+  q: "Who is primarily responsible for resolving complaints at the branch level?",
   o: [
-    "Interest only",
-    "Principal only",
-    "Principal and interest",
-    "Penalty only"
+    "Cashier",
+    "Regional Manager",
+    "Branch Manager",
+    "Chief General Manager"
   ],
   a: 2
 },
 {
-  q: "Which security is commonly used for a vehicle loan?",
+  q: "Customer Day is generally observed by banks on:",
   o: [
-    "Mortgage",
-    "Hypothecation",
-    "Lien",
-    "Pledge"
-  ],
-  a: 1
-},
-{
-  q: "Priority Sector Lending target for banks is generally:",
-  o: [
-    "20%",
-    "30%",
-    "40%",
-    "50%"
+    "1st of every month",
+    "10th of every month",
+    "15th of every month",
+    "Last working day"
   ],
   a: 2
 },
 {
-  q: "Which principle of lending ensures that a bank can recover its money with minimum risk?",
+  q: "If a complaint cannot be resolved at the branch, it is escalated to:",
   o: [
-    "Popularity",
-    "Safety",
-    "Advertisement",
-    "Expansion"
+    "Income Tax Department",
+    "Regional/Zonal/Head Office",
+    "Supreme Court",
+    "Insurance Company"
   ],
   a: 1
 },
 {
-  q: "Which institution is known as the 'Banker's Bank' in India?",
+  q: "PMO complaints are expected to be resolved within:",
+  o: [
+    "30 days",
+    "15 days",
+    "10 days",
+    "7 days"
+  ],
+  a: 3
+},
+{
+  q: "Who implements the Banking Lokpal Project?",
   o: [
     "NABARD",
-    "State Bank of India",
-    "Reserve Bank of India",
-    "SIDBI"
-  ],
-  a: 2
-},
-{
-  q: "Which account is best suited for frequent business transactions?",
-  o: [
-    "Savings Account",
-    "Recurring Deposit",
-    "Current Account",
-    "Fixed Deposit"
-  ],
-  a: 2
-},
-{
-  q: "Which banking service allows customers to withdraw cash without visiting a branch?",
-  o: [
-    "Demand Draft",
-    "ATM",
-    "Locker",
-    "Passbook Printing"
-  ],
-  a: 1
-},
-{
-  q: "The primary objective of Financial Inclusion is to:",
-  o: [
-    "Increase bank profits",
-    "Provide affordable banking to all sections",
-    "Reduce taxes",
-    "Increase exports"
-  ],
-  a: 1
-},
-{
-  q: "Which institution mainly supervises Regional Rural Banks along with RBI?",
-  o: [
-    "LIC",
-    "NABARD",
-    "IRDAI",
+    "RBI",
+    "SIDBI",
     "SEBI"
   ],
   a: 1
 },
 {
-  q: "A Demand Draft is considered safer than cash because:",
+  q: "The maximum tenure of a Banking Lokpal is:",
   o: [
-    "It earns interest",
-    "It is prepaid by the purchaser",
-    "It can never expire",
-    "Anyone can encash it without verification"
+    "2 years",
+    "3 years",
+    "5 years",
+    "6 years"
   ],
   a: 1
 },
 {
-  q: "Which type of loan is generally secured by a mortgage?",
+  q: "The maximum compensation award that can be granted by the Banking Lokpal is:",
   o: [
-    "Personal Loan",
-    "Education Loan",
-    "Housing Loan",
-    "Gold Loan"
+    "₹5 lakh",
+    "₹7 lakh",
+    "₹10 lakh",
+    "₹20 lakh"
   ],
   a: 2
 },
 {
-  q: "A customer submits Form 15G or 15H mainly to:",
+  q: "An appeal against the Banking Lokpal's decision can be made within:",
   o: [
-    "Open a current account",
-    "Avoid TDS deduction if eligible",
-    "Increase interest rate",
-    "Apply for a loan"
+    "15 days",
+    "21 days",
+    "30 days",
+    "45 days"
+  ],
+  a: 2
+},
+{
+  q: "Which institution is known as the lender of last resort?",
+  o: [
+    "SIDBI",
+    "SEBI",
+    "RBI",
+    "NABARD"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following requires a valid licence from RBI to operate?",
+  o: [
+    "Mutual Fund",
+    "NBFC",
+    "Insurance Broker",
+    "Stock Exchange"
   ],
   a: 1
 },
 {
-  q: "Which of the following is an example of a demand deposit?",
+  q: "Primary Dealers mainly deal in:",
   o: [
-    "Fixed Deposit",
-    "Recurring Deposit",
-    "Savings Account",
-    "Tax Saving FD"
+    "Corporate Shares",
+    "Mutual Funds",
+    "Government Securities",
+    "Insurance Policies"
   ],
   a: 2
 },
 {
-  q: "The validity of a cheque is generally:",
+  q: "NPCI stands for:",
+  o: [
+    "National Payment Council of India",
+    "National Payments Corporation of India",
+    "National Public Corporation of India",
+    "National Processing Corporation of India"
+  ],
+  a: 1
+},
+{
+  q: "Core Banking Solutions (CBS) primarily enables:",
+  o: [
+    "Manual banking",
+    "Anywhere banking",
+    "Offline banking only",
+    "International taxation"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following services is enabled through CBS?",
+  o: [
+    "NEFT",
+    "IMPS",
+    "Mobile Banking",
+    "All of the above"
+  ],
+  a: 3
+},
+{
+  q: "NEFT stands for:",
+  o: [
+    "National Electronic Fund Transfer",
+    "National Electronic Funds Transfer",
+    "National Exchange Fund Transfer",
+    "New Electronic Funds Transfer"
+  ],
+  a: 1
+},
+{
+  q: "CTS is mainly associated with:",
+  o: [
+    "Cheque clearing",
+    "Cash withdrawal",
+    "Insurance claims",
+    "Mutual funds"
+  ],
+  a: 0
+},
+{
+  q: "Microfinance mainly refers to:",
+  o: [
+    "Large industrial loans",
+    "Micro savings and micro credit",
+    "Foreign investment",
+    "Corporate banking"
+  ],
+  a: 1
+},
+{
+  q: "Who is regarded as the pioneer of the microfinance concept?",
+  o: [
+    "Dr. B. R. Ambedkar",
+    "Dr. Mohammed Yunus",
+    "Verghese Kurien",
+    "M. S. Swaminathan"
+  ],
+  a: 1
+},
+{
+  q: "A Business Correspondent is popularly known as:",
+  o: [
+    "Bank Sakhi",
+    "Bank Mitra",
+    "Loan Mitra",
+    "Gram Sevak"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following can be appointed as a Business Correspondent?",
+  o: [
+    "Retired bank employees",
+    "Ex-servicemen",
+    "Teachers",
+    "All of the above"
+  ],
+  a: 3
+},
+{
+  q: "The primary role of a Business Correspondent in PMJDY is to:",
+  o: [
+    "Issue PAN cards",
+    "Accept deposits and facilitate withdrawals",
+    "Approve housing loans",
+    "Conduct audits"
+  ],
+  a: 1
+},
+{
+  q: "Electronic Know Your Customer is commonly known as:",
+  o: [
+    "iKYC",
+    "eKYC",
+    "mKYC",
+    "dKYC"
+  ],
+  a: 1
+},
+{
+  q: "Which organization introduced eKYC using Aadhaar authentication?",
+  o: [
+    "NPCI",
+    "RBI",
+    "UIDAI",
+    "SEBI"
+  ],
+  a: 2
+},
+{
+  q: "IMPS is best described as:",
+  o: [
+    "A cheque clearing system",
+    "A real-time retail payment system",
+    "A pension scheme",
+    "An insurance policy"
+  ],
+  a: 1
+},
+{
+  q: "IMPS was launched on:",
+  o: [
+    "22 November 2010",
+    "1 January 2011",
+    "15 August 2010",
+    "26 January 2012"
+  ],
+  a: 0
+},
+{
+  q: "MMID used in IMPS consists of:",
+  o: [
+    "5 digits",
+    "6 digits",
+    "7 digits",
+    "8 digits"
+  ],
+  a: 2
+},
+{
+  q: "A Micro ATM is essentially a:",
+  o: [
+    "Mini branch building",
+    "Biometric handheld device",
+    "Cheque scanner",
+    "Passbook printer"
+  ],
+  a: 1
+},
+{
+  q: "USSD-based banking is especially useful because it:",
+  o: [
+    "Requires broadband internet",
+    "Works without internet connectivity",
+    "Needs only Wi-Fi",
+    "Can only be used on smartphones"
+  ],
+  a: 1
+},
+{
+  q: "AEPS stands for:",
+  o: [
+    "Aadhaar Enabled Payment System",
+    "Automatic Electronic Payment Service",
+    "Advanced Electronic Payment Scheme",
+    "Aadhaar Electronic Processing Service"
+  ],
+  a: 0
+},
+{
+  q: "APBS is primarily used for:",
+  o: [
+    "Cheque clearing",
+    "Government payments to Aadhaar-linked accounts",
+    "Credit card settlements",
+    "Foreign remittances"
+  ],
+  a: 1
+},
+{
+  q: "Direct Benefit Transfer (DBT) mainly ensures:",
+  o: [
+    "Paper-based subsidy distribution",
+    "Cash payments through post offices only",
+    "Direct transfer of benefits into beneficiaries' bank accounts",
+    "Loan waiver processing"
+  ],
+  a: 2
+},
+{
+  q: "PMJJBY primarily provides:",
+  o: [
+    "Health insurance",
+    "Life insurance",
+    "Crop insurance",
+    "Pension benefits"
+  ],
+  a: 1
+},
+{
+  q: "The validity of PMJJBY is:",
+  o: [
+    "6 months",
+    "One year (renewable)",
+    "Three years",
+    "Five years"
+  ],
+  a: 1
+},
+{
+  q: "Under PMJJBY, the life insurance cover is:",
+  o: [
+    "₹1 lakh",
+    "₹1.5 lakh",
+    "₹2 lakh",
+    "₹5 lakh"
+  ],
+  a: 2
+},
+{
+  q: "The waiting period under PMJJBY before full risk coverage begins is:",
   o: [
     "30 days",
-    "90 days",
-    "6 months",
-    "1 year"
+    "45 days",
+    "60 days",
+    "90 days"
   ],
   a: 1
 },
 {
-  q: "A customer wants instant transfer of high-value funds. Which system should be used?",
+  q: "The annual premium for PMJJBY is:",
+  o: [
+    "₹20",
+    "₹200",
+    "₹330",
+    "₹436"
+  ],
+  a: 3
+},
+{
+  q: "Who is eligible to enroll under PMJJBY?",
+  o: [
+    "18–40 years",
+    "18–50 years",
+    "18–60 years",
+    "21–65 years"
+  ],
+  a: 1
+},
+{
+  q: "Even if multiple PMJJBY premiums are deducted from different banks, the maximum insurance benefit payable is:",
+  o: [
+    "₹1 lakh",
+    "₹2 lakh",
+    "₹4 lakh",
+    "Depends on the number of accounts"
+  ],
+  a: 1
+},
+{
+  q: "PMSBY is mainly an:",
+  o: [
+    "Life insurance scheme",
+    "Accident insurance scheme",
+    "Pension scheme",
+    "Health insurance scheme"
+  ],
+  a: 1
+},
+{
+  q: "The insurance benefit under PMSBY for accidental death is:",
+  o: [
+    "₹1 lakh",
+    "₹1.5 lakh",
+    "₹2 lakh",
+    "₹5 lakh"
+  ],
+  a: 2
+},
+{
+  q: "The annual premium payable under PMSBY is:",
+  o: [
+    "₹12",
+    "₹20",
+    "₹100",
+    "₹436"
+  ],
+  a: 1
+},
+{
+  q: "Who can enroll under PMSBY?",
+  o: [
+    "18–40 years",
+    "18–50 years",
+    "18–70 years",
+    "21–65 years"
+  ],
+  a: 2
+},
+{
+  q: "PMSBY coverage normally terminates when the subscriber:",
+  o: [
+    "Attains 50 years",
+    "Attains 60 years",
+    "Attains 70 years",
+    "Retires from employment"
+  ],
+  a: 2
+},
+{
+  q: "APY stands for:",
+  o: [
+    "Atal Pension Yojana",
+    "Advanced Pension Yojana",
+    "Aadhaar Pension Yojana",
+    "All People Pension Yojana"
+  ],
+  a: 0
+},
+{
+  q: "Atal Pension Yojana is mainly meant for:",
+  o: [
+    "Government officers only",
+    "Private companies only",
+    "Unorganised sector workers",
+    "Students"
+  ],
+  a: 2
+},
+{
+  q: "Under APY, pension normally starts at the age of:",
+  o: [
+    "55 years",
+    "58 years",
+    "60 years",
+    "65 years"
+  ],
+  a: 2
+},
+{
+  q: "The guaranteed monthly pension available under APY ranges from:",
+  o: [
+    "₹500–₹3000",
+    "₹1000–₹5000",
+    "₹2000–₹7000",
+    "₹5000–₹10000"
+  ],
+  a: 1
+},
+{
+  q: "The eligible entry age for APY is:",
+  o: [
+    "18–35 years",
+    "18–40 years",
+    "21–50 years",
+    "25–45 years"
+  ],
+  a: 1
+},
+{
+  q: "The Government's co-contribution under APY was available for:",
+  o: [
+    "2 years",
+    "3 years",
+    "5 years",
+    "10 years"
+  ],
+  a: 2
+},
+{
+  q: "APY is regulated by:",
+  o: [
+    "RBI",
+    "IRDAI",
+    "PFRDA",
+    "SEBI"
+  ],
+  a: 2
+},
+{
+  q: "A person joining APY at the age of 18 contributes the least because:",
+  o: [
+    "Government pays the full amount",
+    "The contribution period is the longest",
+    "Banks provide subsidies",
+    "Interest is not charged"
+  ],
+  a: 1
+},
+{
+  q: "Electronic Benefit Transfer (EBT) is mainly used for:",
+  o: [
+    "Cheque clearing",
+    "Electronic transfer of government benefits",
+    "International remittance",
+    "Corporate salary processing"
+  ],
+  a: 1
+},
+{
+  q: "A Point of Sale (POS) device is primarily installed at:",
+  o: [
+    "Bank headquarters",
+    "Sale points or merchant establishments",
+    "RBI offices",
+    "Government treasury"
+  ],
+  a: 1
+},
+{
+  q: "ATM stands for:",
+  o: [
+    "Automatic Transfer Machine",
+    "Automated Teller Machine",
+    "Automated Transaction Module",
+    "Automatic Teller Module"
+  ],
+  a: 1
+},
+{
+  q: "eKYC is mainly used to authenticate:",
+  o: [
+    "Bank employees",
+    "Customer identity and data",
+    "Debit cards",
+    "ATM transactions"
+  ],
+  a: 1
+},
+{
+  q: "A minor can open a PMJDY account after attaining the age of:",
+  o: [
+    "8 years",
+    "10 years",
+    "12 years",
+    "14 years"
+  ],
+  a: 1
+},
+{
+  q: "The life insurance cover available under PMJDY is:",
+  o: [
+    "₹10,000",
+    "₹20,000",
+    "₹30,000",
+    "₹50,000"
+  ],
+  a: 2
+},
+{
+  q: "The overdraft facility under PMJDY is:",
+  o: [
+    "Permanent once sanctioned",
+    "Subject to annual review",
+    "Available only after five years",
+    "Limited to government employees"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is NOT a common Centre-State funding ratio for government schemes?",
+  o: [
+    "50:50",
+    "70:30",
+    "75:25",
+    "80:40"
+  ],
+  a: 3
+},
+{
+  q: "Which of the following is a Central Government welfare scheme?",
+  o: [
+    "PMEGP",
+    "MGNREGA",
+    "PMGSY",
+    "All of the above"
+  ],
+  a: 3
+},
+{
+  q: "DAY-NRLM stands for:",
+  o: [
+    "Deendayal Antyodaya Yojana – National Rural Livelihoods Mission",
+    "Digital Agriculture Yojana – National Resource Livelihood Mission",
+    "Development and Youth National Rural Livelihood Mission",
+    "Deendayal Antyodaya Yojana – National Revenue Livelihood Mission"
+  ],
+  a: 0
+},
+{
+  q: "The primary objective of DAY-NRLM is to:",
+  o: [
+    "Construct highways",
+    "Strengthen institutions and eradicate poverty",
+    "Promote exports",
+    "Increase industrial production"
+  ],
+  a: 1
+},
+{
+  q: "The Revolving Fund under DAY-NRLM is generally provided for a period of:",
+  o: [
+    "1–2 months",
+    "3–6 months",
+    "6–12 months",
+    "12–18 months"
+  ],
+  a: 1
+},
+{
+  q: "CIF under NRLM stands for:",
+  o: [
+    "Central Investment Fund",
+    "Community Investment Fund",
+    "Common Infrastructure Fund",
+    "Credit Inclusion Fund"
+  ],
+  a: 1
+},
+{
+  q: "Community Investment Fund (CIF) is mainly used for:",
+  o: [
+    "Building highways",
+    "Loans and social/financial needs",
+    "Import financing",
+    "Corporate taxation"
+  ],
+  a: 1
+},
+{
+  q: "The interest subsidy loan limit for eligible SHGs under NRLM is:",
+  o: [
+    "₹1 lakh",
+    "₹2 lakh",
+    "₹3 lakh",
+    "₹5 lakh"
+  ],
+  a: 2
+},
+{
+  q: "MGNREGA guarantees employment for at least:",
+  o: [
+    "50 days",
+    "75 days",
+    "100 days",
+    "150 days"
+  ],
+  a: 2
+},
+{
+  q: "In notified drought-affected areas, employment under MGNREGA may be extended up to:",
+  o: [
+    "120 days",
+    "130 days",
+    "150 days",
+    "200 days"
+  ],
+  a: 2
+},
+{
+  q: "PMGSY is mainly associated with:",
+  o: [
+    "Housing",
+    "Rural roads",
+    "Insurance",
+    "Pension"
+  ],
+  a: 1
+},
+{
+  q: "A person owning a pucca house is generally:",
+  o: [
+    "Eligible under PMAY",
+    "Eligible only in rural areas",
+    "Not eligible under PMAY",
+    "Automatically eligible for subsidy"
+  ],
+  a: 2
+},
+{
+  q: "The interest subsidy rate under PMAY (EWS/LIG) is:",
+  o: [
+    "4%",
+    "5%",
+    "6.5%",
+    "8%"
+  ],
+  a: 2
+},
+{
+  q: "The maximum interest subsidy ceiling available under PMAY is:",
+  o: [
+    "₹2,00,000",
+    "₹2,67,280",
+    "₹3,00,000",
+    "₹3,67,280"
+  ],
+  a: 1
+},
+{
+  q: "PMAY was reorganised from which earlier housing scheme?",
+  o: [
+    "Rajiv Awas Yojana",
+    "Indira Awas Yojana",
+    "Jawaharlal Housing Scheme",
+    "Bharat Nirman Yojana"
+  ],
+  a: 1
+},
+{
+  q: "The primary objective of PMAY is:",
+  o: [
+    "Employment for all",
+    "Housing for All through pucca houses",
+    "Universal health insurance",
+    "Universal pension"
+  ],
+  a: 1
+},
+{
+  q: "Which additional provision is included under PMAY for sanitation?",
+  o: [
+    "₹5,000 toilet grant",
+    "₹10,000 toilet grant",
+    "₹12,000 toilet provision",
+    "Free water connection"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following beneficiaries gets priority under PMAY?",
+  o: [
+    "Income tax payers",
+    "Owners of pucca houses",
+    "Homeless and destitute persons",
+    "Owners of four-wheelers"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following is NOT eligible under PMAY?",
+  o: [
+    "Homeless family",
+    "Pucca house owner",
+    "Destitute person",
+    "Manual scavenger"
+  ],
+  a: 1
+},
+{
+  q: "The Loan Risk Guarantee Scheme mainly supports:",
+  o: [
+    "Agricultural exports",
+    "Low-income housing loans",
+    "Corporate lending",
+    "Gold loans"
+  ],
+  a: 1
+},
+{
+  q: "PMGKY stands for:",
+  o: [
+    "Pradhan Mantri Gramin Kisan Yojana",
+    "Pradhan Mantri Garib Kalyan Yojana",
+    "Pradhan Mantri Gram Kalyan Yojana",
+    "Pradhan Mantri Growth Kalyan Yojana"
+  ],
+  a: 1
+},
+{
+  q: "Insurance claims should normally be submitted within:",
+  o: [
+    "30 days",
+    "45 days",
+    "60 days",
+    "90 days"
+  ],
+  a: 2
+},
+{
+  q: "Claim information submitted after ____ days is generally not eligible.",
+  o: [
+    "90",
+    "100",
+    "120",
+    "180"
+  ],
+  a: 2
+},
+{
+  q: "The overdraft limit available under PMJDY is:",
+  o: [
+    "₹5,000",
+    "₹8,000",
+    "₹10,000",
+    "₹15,000"
+  ],
+  a: 2
+},
+{
+  q: "Which person is LEAST likely to be appointed as a Business Correspondent?",
+  o: [
+    "Retired bank employee",
+    "Ex-serviceman",
+    "Teacher",
+    "Fresh engineering student with no appointment"
+  ],
+  a: 3
+},
+{
+  q: "One of the important responsibilities of a Business Correspondent is:",
+  o: [
+    "Conducting board meetings",
+    "Financial literacy and awareness",
+    "Printing currency",
+    "Approving RBI licences"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is NOT typically a mobile banking service?",
+  o: [
+    "Balance enquiry",
+    "Fund transfer",
+    "Bill payment",
+    "Passport issuance"
+  ],
+  a: 3
+},
+{
+  q: "RuPay debit cards are best known for being:",
+  o: [
+    "Foreign-only cards",
+    "Affordable domestic payment cards",
+    "Credit cards only",
+    "Used only by government employees"
+  ],
+  a: 1
+},
+{
+  q: "AEPS transactions can be carried out using:",
+  o: [
+    "Micro ATM/POS device",
+    "Only internet banking",
+    "Only cheque books",
+    "Only passbooks"
+  ],
+  a: 0
+},
+{
+  q: "Which of the following is NOT an AEPS transaction?",
+  o: [
+    "Cash withdrawal",
+    "Balance enquiry",
+    "Fund transfer",
+    "Income tax filing"
+  ],
+  a: 3
+},
+{
+  q: "USSD banking is particularly useful because it:",
+  o: [
+    "Requires high-speed internet",
+    "Works on GSM phones without internet",
+    "Needs a laptop",
+    "Works only on Wi-Fi"
+  ],
+  a: 1
+},
+{
+  q: "Which payment system routes government benefits to Aadhaar-linked bank accounts?",
+  o: [
+    "RTGS",
+    "AEPS",
+    "APBS",
+    "CTS"
+  ],
+  a: 2
+},
+{
+  q: "Which scheme provides accidental insurance while PMJJBY provides life insurance?",
+  o: [
+    "APY",
+    "PMSBY",
+    "PMAY",
+    "MGNREGA"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following correctly matches the scheme with its benefit?",
+  o: [
+    "PMJJBY – Accident Insurance",
+    "PMSBY – Life Insurance",
+    "APY – Pension",
+    "PMAY – Crop Insurance"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following has the highest upper age limit for enrollment?",
+  o: [
+    "PMJJBY",
+    "APY",
+    "PMSBY",
+    "PMJDY Life Cover"
+  ],
+  a: 2
+},
+{
+  q: "A person aged 55 years can enroll in:",
+  o: [
+    "PMJJBY only",
+    "APY only",
+    "PMSBY only",
+    "Both PMJJBY and APY"
+  ],
+  a: 2
+},
+{
+  q: "A person aged 45 years is eligible for:",
+  o: [
+    "PMJJBY only",
+    "PMJJBY and PMSBY",
+    "APY only",
+    "None of these"
+  ],
+  a: 1
+},
+{
+  q: "Which scheme has a waiting period before full coverage begins?",
+  o: [
+    "PMSBY",
+    "APY",
+    "PMJJBY",
+    "PMJDY"
+  ],
+  a: 2
+},
+{
+  q: "The regulator of the pension sector in India is:",
+  o: [
+    "RBI",
+    "IRDAI",
+    "PFRDA",
+    "SEBI"
+  ],
+  a: 2
+},
+{
+  q: "Which regulator is responsible for insurance companies?",
+  o: [
+    "PFRDA",
+    "IRDAI",
+    "NPCI",
+    "RBI"
+  ],
+  a: 1
+},
+{
+  q: "Which institution is known as the 'Lender of Last Resort'?",
+  o: [
+    "NABARD",
+    "SIDBI",
+    "RBI",
+    "SEBI"
+  ],
+  a: 2
+},
+{
+  q: "Which organization operates India's retail payment systems such as IMPS?",
+  o: [
+    "IRDAI",
+    "NPCI",
+    "PFRDA",
+    "UIDAI"
+  ],
+  a: 1
+},
+{
+  q: "Which organization issues Aadhaar and introduced eKYC?",
+  o: [
+    "NPCI",
+    "UIDAI",
+    "RBI",
+    "NABARD"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is a monetary policy tool of RBI?",
+  o: [
+    "CRR",
+    "PMJJBY",
+    "MGNREGA",
+    "PMAY"
+  ],
+  a: 0
+},
+{
+  q: "Which ratio requires banks to maintain cash with RBI?",
+  o: [
+    "SLR",
+    "CRR",
+    "Repo Ratio",
+    "Capital Ratio"
+  ],
+  a: 1
+},
+{
+  q: "Which ratio requires banks to maintain liquid assets?",
+  o: [
+    "CRR",
+    "SLR",
+    "MMR",
+    "CLR"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is an example of financial inclusion?",
+  o: [
+    "Closing rural branches",
+    "Providing banking services through BCs",
+    "Increasing minimum balance charges",
+    "Reducing ATM availability"
+  ],
+  a: 1
+},
+{
+  q: "Business Correspondents mainly help in:",
+  o: [
+    "Stock trading",
+    "Last-mile banking services",
+    "Income tax collection",
+    "Foreign exchange trading"
+  ],
+  a: 1
+},
+{
+  q: "Financial exclusion refers to:",
+  o: [
+    "Access to affordable financial services",
+    "Lack of access to formal banking services",
+    "Closure of stock exchanges",
+    "Increase in digital payments"
+  ],
+  a: 1
+},
+{
+  q: "Microfinance generally combines:",
+  o: [
+    "Insurance and pensions",
+    "Micro savings and micro credit",
+    "Housing and education loans",
+    "Only savings accounts"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is NOT part of the formal financial system?",
+  o: [
+    "Savings",
+    "Insurance",
+    "Payments",
+    "Unofficial money lending"
+  ],
+  a: 3
+},
+{
+  q: "Which banking technology made 'Anywhere Banking' possible?",
+  o: [
+    "CBS",
+    "CTS",
+    "USSD",
+    "MMID"
+  ],
+  a: 0
+},
+{
+  q: "Which electronic fund transfer system settles transactions in real time?",
   o: [
     "NEFT",
     "RTGS",
-    "Demand Draft",
-    "Cheque"
+    "CTS",
+    "USSD"
   ],
   a: 1
 },
 {
-  q: "Which banking principle focuses on the borrower's ability to repay?",
+  q: "Which of the following payment systems is batch-based rather than real-time?",
   o: [
-    "Liquidity",
-    "Safety",
-    "Capacity",
-    "Profitability"
+    "RTGS",
+    "IMPS",
+    "NEFT",
+    "AEPS"
   ],
   a: 2
 },
 {
-  q: "The major purpose of collateral is to:",
+  q: "Which of the following systems is primarily used for cheque clearing?",
   o: [
-    "Increase interest",
-    "Reduce repayment period",
-    "Provide security against default",
-    "Increase loan amount automatically"
+    "CTS",
+    "RTGS",
+    "IMPS",
+    "APBS"
   ],
-  a: 2
+  a: 0
 },
 {
-  q: "A Fixed Deposit usually offers:",
+  q: "Which identifier is specifically associated with IMPS transactions through mobile banking?",
   o: [
-    "Unlimited withdrawals",
-    "Higher interest than savings account",
-    "No interest",
-    "Daily interest withdrawal"
+    "IFSC",
+    "MMID",
+    "MICR",
+    "Aadhaar Number"
   ],
   a: 1
 },
 {
-  q: "Which of the following is NOT a retail banking product?",
+  q: "Which of the following does NOT require an internet connection to perform basic banking transactions?",
   o: [
-    "Housing Loan",
-    "Vehicle Loan",
-    "Personal Loan",
-    "Inter-bank Refinance"
+    "USSD",
+    "Internet Banking",
+    "Mobile Banking App",
+    "UPI App"
+  ],
+  a: 0
+},
+{
+  q: "Which technology is primarily dependent on Aadhaar biometric authentication?",
+  o: [
+    "NEFT",
+    "AEPS",
+    "CTS",
+    "RTGS"
+  ],
+  a: 1
+},
+{
+  q: "Which organization primarily routes Direct Benefit Transfers using Aadhaar linkage?",
+  o: [
+    "CTS",
+    "APBS",
+    "MMID",
+    "CBS"
+  ],
+  a: 1
+},
+{
+  q: "A Business Correspondent mainly contributes towards:",
+  o: [
+    "Financial Inclusion",
+    "Financial Exclusion",
+    "Capital Formation",
+    "Stock Trading"
+  ],
+  a: 0
+},
+{
+  q: "Which scheme guarantees a monthly pension after the subscriber reaches 60 years of age?",
+  o: [
+    "PMJJBY",
+    "PMSBY",
+    "APY",
+    "PMJDY"
+  ],
+  a: 2
+},
+{
+  q: "Which insurance scheme has the lowest annual premium among the following?",
+  o: [
+    "PMJJBY",
+    "PMSBY",
+    "APY",
+    "PMJDY Life Cover"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is correctly matched?",
+  o: [
+    "PMJJBY - Pension",
+    "PMSBY - Accident Insurance",
+    "APY - Life Insurance",
+    "PMAY - Health Insurance"
+  ],
+  a: 1
+},
+{
+  q: "Which scheme specifically targets workers in the unorganised sector?",
+  o: [
+    "APY",
+    "PMGSY",
+    "PMAY",
+    "MGNREGA"
+  ],
+  a: 0
+},
+{
+  q: "Which of the following is NOT a responsibility of a Business Correspondent?",
+  o: [
+    "Accepting deposits",
+    "Facilitating withdrawals",
+    "Financial literacy",
+    "Printing currency notes"
   ],
   a: 3
 },
 {
-  q: "The dual aspect concept of accounting requires:",
+  q: "The primary purpose of the Banking Lokpal Scheme is to:",
   o: [
-    "One debit entry",
-    "One credit entry",
-    "Both debit and credit entries",
-    "Only cash entries"
-  ],
-  a: 2
-},
-{
-  q: "The book primarily used to record small day-to-day expenses is:",
-  o: [
-    "General Ledger",
-    "Cash Register",
-    "Petty Cash Book",
-    "Balance Sheet"
-  ],
-  a: 2
-},
-{
-  q: "Which account reflects the financial position of a business on a particular date?",
-  o: [
-    "Profit and Loss Account",
-    "Cash Book",
-    "Balance Sheet",
-    "Journal"
-  ],
-  a: 2
-},
-{
-  q: "Which of the following is considered a long-term retail loan?",
-  o: [
-    "Crop Loan",
-    "Housing Loan",
-    "Cash Credit",
-    "Overdraft"
-  ],
-  a: 1
-},
-{
-  q: "Which of these is NOT normally accepted as collateral security?",
-  o: [
-    "Gold",
-    "Land",
-    "Building",
-    "Monthly electricity consumption"
-  ],
-  a: 3
-},
-{
-  q: "Which loan is generally intended to finance seasonal agricultural operations?",
-  o: [
-    "Housing Loan",
-    "Vehicle Loan",
-    "Short-term Crop Loan",
-    "Education Loan"
-  ],
-  a: 2
-},
-{
-  q: "The main purpose of a Profit and Loss Account is to determine:",
-  o: [
-    "Assets",
-    "Liabilities",
-    "Profit or Loss",
-    "Cash Balance"
-  ],
-  a: 2
-},
-{
-  q: "Which banking channel is considered self-service banking?",
-  o: [
-    "Branch Banking",
-    "Net Banking",
-    "Doorstep Collection",
-    "Bank Mitra Visit"
-  ],
-  a: 1
-},
-{
-  q: "A Business Correspondent is primarily appointed to:",
-  o: [
-    "Print currency",
-    "Expand banking outreach",
-    "Conduct statutory audits",
-    "Approve large corporate loans"
-  ],
-  a: 1
-},
-{
-  q: "The repayment of a loan mainly depends upon the borrower's:",
-  o: [
-    "Popularity",
-    "Capacity and willingness",
-    "Age only",
-    "Educational qualification"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is NOT a principle of sound lending?",
-  o: [
-    "Safety",
-    "Liquidity",
-    "Productive purpose",
-    "Political influence"
-  ],
-  a: 3
-},
-{
-  q: "The maximum tenure of a Fixed Deposit is generally:",
-  o: [
-    "5 years",
-    "7 years",
-    "10 years",
-    "15 years"
-  ],
-  a: 2
-},
-{
-  q: "Which banking term refers to converting illegal money into legitimate funds?",
-  o: [
-    "Hypothecation",
-    "Money Laundering",
-    "Collateralization",
-    "Foreclosure"
-  ],
-  a: 1
-},
-{
-  q: "Which banking document restricts payment only through a bank account?",
-  o: [
-    "Bearer Cheque",
-    "Crossed Cheque",
-    "Demand Draft",
-    "Pay Order"
-  ],
-  a: 1
-},
-{
-  q: "The primary objective of NABARD is to:",
-  o: [
-    "Issue currency",
-    "Promote rural and agricultural development",
-    "Regulate insurance companies",
-    "Manage stock exchanges"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following accounts generally permits unlimited deposits and withdrawals for business purposes?",
-  o: [
-    "Recurring Deposit",
-    "Current Account",
-    "Fixed Deposit",
-    "Salary Deposit"
-  ],
-  a: 1
-},
-{
-  q: "A bank primarily earns income through:",
-  o: [
-    "Interest on loans",
-    "Printing currency",
-    "Selling shares only",
-    "Collecting taxes"
-  ],
-  a: 0
-},
-{
-  q: "Which banking product is specifically designed for long-term savings with a fixed maturity?",
-  o: [
-    "Current Account",
-    "Savings Account",
-    "Fixed Deposit",
-    "Cash Credit"
-  ],
-  a: 2
-},
-{
-  q: "The regulator of commercial banks in India is:",
-  o: [
-    "SEBI",
-    "RBI",
-    "NABARD",
-    "IRDAI"
-  ],
-  a: 1
-},
-{
-  q: "Which customer identification process is mandatory before opening an account?",
-  o: [
-    "GST",
-    "KYC",
-    "EMI",
-    "PANA"
-  ],
-  a: 1
-},
-{
-  q: "Which payment instrument is issued only after receiving payment in advance?",
-  o: [
-    "Cheque",
-    "Demand Draft",
-    "Bill of Exchange",
-    "Promissory Note"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is NOT a demand deposit?",
-  o: [
-    "Savings Account",
-    "Current Account",
-    "Fixed Deposit",
-    "Basic Savings Account"
-  ],
-  a: 2
-},
-{
-  q: "The expansion of banking services to rural areas is mainly achieved through:",
-  o: [
-    "Merchant Bankers",
-    "Business Correspondents",
-    "Stock Brokers",
-    "NBFC Auditors"
-  ],
-  a: 1
-},
-{
-  q: "Which account usually provides the highest liquidity?",
-  o: [
-    "Fixed Deposit",
-    "Current Account",
-    "Tax Saver FD",
-    "Recurring Deposit"
-  ],
-  a: 1
-},
-{
-  q: "RTGS is most suitable when the customer wants:",
-  o: [
-    "Cheque clearing",
-    "Real-time high-value transfer",
-    "Cash withdrawal",
-    "Loan repayment only"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is a liability for a bank?",
-  o: [
-    "Loans given",
-    "Deposits accepted",
-    "Furniture",
-    "Cash in hand"
-  ],
-  a: 1
-},
-{
-  q: "Banks verify KYC mainly to:",
-  o: [
-    "Increase profit",
-    "Prevent fraud and money laundering",
-    "Reduce staff",
-    "Increase ATM limits"
-  ],
-  a: 1
-},
-{
-  q: "Which of these is considered a negotiable instrument?",
-  o: [
-    "Invoice",
-    "Cheque",
-    "Receipt",
-    "Balance Sheet"
-  ],
-  a: 1
-},
-{
-  q: "A borrower pledges gold ornaments to obtain which type of loan?",
-  o: [
-    "Vehicle Loan",
-    "Gold Loan",
-    "Crop Loan",
-    "Education Loan"
-  ],
-  a: 1
-},
-{
-  q: "The full form of EMI is:",
-  o: [
-    "Equal Monthly Installment",
-    "Electronic Money Interface",
-    "Emergency Monetary Index",
-    "Equal Money Interest"
-  ],
-  a: 0
-},
-{
-  q: "The main objective of Priority Sector Lending is to:",
-  o: [
-    "Support important sectors of the economy",
-    "Increase luxury spending",
-    "Promote imports",
-    "Reduce bank branches"
-  ],
-  a: 0
-},
-{
-  q: "Housing loans are generally secured through:",
-  o: [
-    "Hypothecation",
-    "Mortgage",
-    "Lien",
-    "Guarantee only"
-  ],
-  a: 1
-},
-{
-  q: "A customer who needs daily business transactions should preferably open:",
-  o: [
-    "Fixed Deposit",
-    "Current Account",
-    "Recurring Deposit",
-    "Tax Saver Deposit"
-  ],
-  a: 1
-},
-{
-  q: "Which banking term refers to the ability to convert assets into cash quickly?",
-  o: [
-    "Liquidity",
-    "Profitability",
-    "Mortgage",
-    "Hypothecation"
-  ],
-  a: 0
-},
-{
-  q: "Which of the following is NOT generally considered a retail banking product?",
-  o: [
-    "Housing Loan",
-    "Personal Loan",
-    "Corporate Project Finance",
-    "Vehicle Loan"
-  ],
-  a: 2
-},
-{
-  q: "Which accounting statement shows the financial position of a business?",
-  o: [
-    "Trial Balance",
-    "Profit & Loss Account",
-    "Balance Sheet",
-    "Cash Book"
-  ],
-  a: 2
-},
-{
-  q: "The purpose of a Cash Book is to record:",
-  o: [
-    "Only credit sales",
-    "Cash receipts and payments",
-    "Inventory",
-    "Depreciation"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is an unsecured loan?",
-  o: [
-    "Housing Loan",
-    "Vehicle Loan",
-    "Personal Loan without collateral",
-    "Gold Loan"
-  ],
-  a: 2
-},
-{
-  q: "Which lending principle emphasizes easy conversion of assets into cash if required?",
-  o: [
-    "Liquidity",
-    "Profitability",
-    "Publicity",
-    "Diversification"
-  ],
-  a: 0
-},
-{
-  q: "The customer profitability analysis mainly helps a bank to:",
-  o: [
-    "Analyze customer value",
-    "Print passbooks",
-    "Increase ATM cash",
-    "Issue currency"
-  ],
-  a: 0
-},
-{
-  q: "Which banking service enables customers to access their accounts 24×7 through the internet?",
-  o: [
-    "Locker Facility",
-    "Net Banking",
-    "Demand Draft",
-    "Cash Credit"
-  ],
-  a: 1
-},
-{
-  q: "The main purpose of accepting deposits is to:",
-  o: [
-    "Provide locker facilities",
-    "Mobilize public savings",
-    "Issue shares",
+    "Issue bank licences",
+    "Resolve customer complaints",
+    "Sanction loans",
     "Collect taxes"
   ],
   a: 1
 },
 {
-  q: "Which of the following can generally be withdrawn without prior notice?",
+  q: "Who is the first point of contact for complaint resolution inside a bank branch?",
   o: [
-    "Fixed Deposit",
-    "Recurring Deposit",
-    "Savings Account",
-    "Tax Saver FD"
-  ],
-  a: 2
-},
-{
-  q: "A borrower fails to repay a secured loan. The bank may recover dues by:",
-  o: [
-    "Printing more currency",
-    "Selling the pledged security",
-    "Closing all bank branches",
-    "Cancelling all customer accounts"
+    "Regional Manager",
+    "Branch Manager",
+    "Banking Lokpal",
+    "General Manager"
   ],
   a: 1
 },
 {
-  q: "The primary purpose of maintaining a Balance Sheet is to show:",
+  q: "Which of the following promotes customer awareness and interaction every year?",
   o: [
-    "Daily transactions",
-    "Financial position",
-    "Monthly sales",
-    "Employee attendance"
-  ],
-  a: 1
-},
-{
-  q: "The interest earned on a Fixed Deposit is generally:",
-  o: [
-    "Higher than a Savings Account",
-    "Lower than a Savings Account",
-    "Always zero",
-    "Fixed by the customer"
+    "Customer Fortnight",
+    "Insurance Week",
+    "Financial Literacy Month",
+    "Savings Festival"
   ],
   a: 0
 },
 {
-  q: "Which organization primarily promotes agricultural and rural credit?",
+  q: "Which institution regulates pension funds in India?",
   o: [
-    "SEBI",
-    "NABARD",
-    "IRDAI",
-    "PFRDA"
-  ],
-  a: 1
-},
-{
-  q: "The book in which final classified accounts are maintained is called:",
-  o: [
-    "Journal",
-    "Ledger",
-    "Invoice Register",
-    "Voucher Book"
-  ],
-  a: 1
-},
-{
-  q: "Which type of banking aims to serve individual customers rather than businesses?",
-  o: [
-    "Merchant Banking",
-    "Retail Banking",
-    "Investment Banking",
-    "Wholesale Banking"
-  ],
-  a: 1
-},
-{
-  q: "The main advantage of cheque truncation is:",
-  o: [
-    "Higher interest",
-    "Faster cheque clearing",
-    "Longer cheque validity",
-    "No need for signatures"
-  ],
-  a: 1
-},
-{
-  q: "A loan granted without collateral is known as:",
-  o: [
-    "Secured Loan",
-    "Mortgage Loan",
-    "Unsecured Loan",
-    "Hypothecation Loan"
-  ],
-  a: 2
-},
-{
-  q: "Which document is commonly used to verify both identity and address during KYC?",
-  o: [
-    "Movie Ticket",
-    "Official Government ID",
-    "Shopping Receipt",
-    "Bus Pass"
-  ],
-  a: 1
-},
-{
-  q: "Which principle of lending focuses on earning reasonable returns for the bank?",
-  o: [
-    "Liquidity",
-    "Profitability",
-    "Identity",
-    "Nationality"
-  ],
-  a: 1
-},
-{
-  q: "The full form of KYC is:",
-  o: [
-    "Know Your Customer",
-    "Keep Your Cash",
-    "Know Your Credit",
-    "Keep Your Customer"
-  ],
-  a: 0
-},
-{
-  q: "Which of the following is most suitable for salary savings?",
-  o: [
-    "Savings Account",
-    "Current Account",
-    "Cash Credit",
-    "Overdraft"
-  ],
-  a: 0
-},
-{
-  q: "Which of these is NOT a basic banking function?",
-  o: [
-    "Accepting Deposits",
-    "Providing Loans",
-    "Manufacturing Currency Notes",
-    "Fund Transfer"
-  ],
-  a: 2
-},
-{
-  q: "A mortgage is most commonly associated with:",
-  o: [
-    "Vehicle Loan",
-    "Housing Loan",
-    "Education Loan",
-    "Crop Loan"
-  ],
-  a: 1
-},
-{
-  q: "Which accounting rule is followed under the dual-entry system?",
-  o: [
-    "Every transaction has only one effect",
-    "Every transaction affects at least two accounts",
-    "Only cash transactions are recorded",
-    "Only debit entries are made"
-  ],
-  a: 1
-},
-{
-  q: "The main objective of a Profit and Loss Account is to determine:",
-  o: [
-    "Assets",
-    "Liabilities",
-    "Profit or Loss",
-    "Net Worth"
-  ],
-  a: 2
-},
-{
-  q: "Which of the following is considered the safest method for transferring large sums electronically?",
-  o: [
-    "Cheque",
-    "RTGS",
-    "Cash",
-    "Demand Draft by Post"
-  ],
-  a: 1
-},
-{
-  q: "A bank customer wants guaranteed payment to a third party. Which instrument is most appropriate?",
-  o: [
-    "Bearer Cheque",
-    "Demand Draft",
-    "Savings Passbook",
-    "Deposit Slip"
-  ],
-  a: 1
-},
-{
-  q: "Which type of account generally does NOT have a fixed maturity period?",
-  o: [
-    "Savings Account",
-    "Fixed Deposit",
-    "Recurring Deposit",
-    "Tax Saver Deposit"
-  ],
-  a: 0
-},
-{
-  q: "The term 'financial inclusion' mainly emphasizes:",
-  o: [
-    "Expanding stock markets",
-    "Providing banking access to everyone",
-    "Increasing exports",
-    "Reducing inflation"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is a prerequisite for opening most bank accounts?",
-  o: [
-    "Income Tax Return",
-    "Completion of KYC",
-    "Owning Property",
-    "Having a Loan"
-  ],
-  a: 1
-},
-{
-  q: "A borrower with a strong repayment capacity is generally considered:",
-  o: [
-    "Higher Risk",
-    "Lower Credit Risk",
-    "Ineligible for Loans",
-    "Unable to Obtain Credit"
-  ],
-  a: 1
-},
-{
-  q: "The Reserve Bank of India was established on:",
-  o: [
-    "1 April 1935",
-    "1 January 1949",
-    "15 August 1947",
-    "26 January 1950"
-  ],
-  a: 0
-},
-{
-  q: "NABARD was established in:",
-  o: [
-    "1969",
-    "1975",
-    "1982",
-    "1991"
-  ],
-  a: 2
-},
-{
-  q: "Which account normally provides cheque book facilities for businesses?",
-  o: [
-    "Savings Account",
-    "Current Account",
-    "Recurring Deposit",
-    "Fixed Deposit"
-  ],
-  a: 1
-},
-{
-  q: "The minimum government ownership required for a Public Sector Bank is:",
-  o: [
-    "49%",
-    "50%",
-    "51%",
-    "74%"
-  ],
-  a: 2
-},
-{
-  q: "Which organization introduced Financial Inclusion as a major banking objective?",
-  o: [
-    "SEBI",
     "RBI",
+    "SEBI",
+    "PFRDA",
+    "IRDAI"
+  ],
+  a: 2
+},
+{
+  q: "Which institution regulates insurance companies in India?",
+  o: [
+    "NPCI",
+    "PFRDA",
     "IRDAI",
-    "NITI Aayog"
-  ],
-  a: 1
-},
-{
-  q: "Mobile wallet services became popular in India around:",
-  o: [
-    "2005",
-    "2008",
-    "2012",
-    "2018"
+    "SIDBI"
   ],
   a: 2
 },
 {
-  q: "The validity of a Demand Draft is generally:",
+  q: "Which of the following is an example of a financial intermediary?",
   o: [
-    "30 days",
-    "60 days",
-    "3 months",
-    "1 year"
-  ],
-  a: 2
-},
-{
-  q: "The shortest tenure for a Fixed Deposit is usually:",
-  o: [
-    "1 day",
-    "3 days",
-    "7 days",
-    "30 days"
-  ],
-  a: 2
-},
-{
-  q: "The maximum tenure for a Fixed Deposit is generally:",
-  o: [
-    "5 years",
-    "7 years",
-    "10 years",
-    "15 years"
-  ],
-  a: 2
-},
-{
-  q: "Submission of Form 15G/15H helps eligible customers avoid:",
-  o: [
-    "GST",
-    "Loan Processing Fee",
-    "TDS",
-    "Service Tax"
-  ],
-  a: 2
-},
-{
-  q: "Illiterate customers generally authenticate bank transactions using:",
-  o: [
-    "Passport",
-    "Thumb Impression",
-    "PAN Card",
-    "Driving Licence"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is NOT a type of accounting year?",
-  o: [
-    "Calendar Year",
-    "Financial Year",
-    "Academic Year",
-    "Fiscal Year"
-  ],
-  a: 2
-},
-{
-  q: "According to traditional accounting, Cash Account is a:",
-  o: [
-    "Personal Account",
-    "Real Account",
-    "Nominal Account",
-    "Fictitious Account"
-  ],
-  a: 1
-},
-{
-  q: "Salary Account belongs to which category of account?",
-  o: [
-    "Real Account",
-    "Personal Account",
-    "Nominal Account",
-    "Cash Account"
-  ],
-  a: 2
-},
-{
-  q: "Under the rule of Real Accounts:",
-  o: [
-    "Debit the Receiver",
-    "Credit What Comes In",
-    "Debit What Comes In",
-    "Credit All Expenses"
-  ],
-  a: 2
-},
-{
-  q: "The formula for Simple Interest is:",
-  o: [
-    "P × R × T /100",
-    "P + R + T",
-    "P × T²",
-    "P × R²"
-  ],
-  a: 0
-},
-{
-  q: "Compound Interest differs from Simple Interest because:",
-  o: [
-    "Interest is calculated only once",
-    "Interest is earned on previous interest also",
-    "Rate is always fixed at 10%",
-    "Principal decreases every year"
-  ],
-  a: 1
-},
-{
-  q: "A loan taken for seasonal farming activities is generally:",
-  o: [
-    "Long-term Loan",
-    "Medium-term Loan",
-    "Short-term Crop Loan",
-    "Housing Loan"
-  ],
-  a: 2
-},
-{
-  q: "Loans for irrigation and dairy development are generally classified as:",
-  o: [
-    "Short-term Loans",
-    "Medium-term Loans",
-    "Bridge Loans",
-    "Emergency Loans"
-  ],
-  a: 1
-},
-{
-  q: "A 25-year home loan is best classified as:",
-  o: [
-    "Short-term",
-    "Medium-term",
-    "Long-term",
-    "Demand Loan"
-  ],
-  a: 2
-},
-{
-  q: "Which of the following is NOT included under Priority Sector Lending?",
-  o: [
-    "Agriculture",
-    "MSME",
-    "Education",
-    "Luxury Resort Construction"
+    "Mutual Fund",
+    "Bank",
+    "Financial Institution",
+    "All of the above"
   ],
   a: 3
 },
 {
-  q: "The main objective of collateral is to:",
+  q: "Which market facilitates the buying and selling of existing securities?",
   o: [
-    "Reduce interest rates",
-    "Protect the bank against default",
-    "Increase deposits",
-    "Avoid documentation"
+    "Primary Market",
+    "Secondary Market",
+    "Money Market",
+    "Commodity Market"
   ],
   a: 1
 },
 {
-  q: "A customer who frequently deposits and withdraws large amounts should prefer:",
+  q: "Which of the following best describes Financial Inclusion?",
   o: [
-    "Recurring Deposit",
-    "Current Account",
-    "Tax Saver FD",
-    "Fixed Deposit"
-  ],
-  a: 1
-},
-{
-  q: "Which banking principle focuses on ensuring funds are available when required?",
-  o: [
-    "Liquidity",
-    "Popularity",
-    "Expansion",
-    "Competition"
+    "Providing affordable financial services to everyone, especially weaker sections",
+    "Restricting banking services to urban areas",
+    "Providing loans only to industries",
+    "Increasing bank service charges"
   ],
   a: 0
-},
-{
-  q: "The largest retail loan portfolio of Indian banks generally consists of:",
-  o: [
-    "Vehicle Loans",
-    "Housing Loans",
-    "Education Loans",
-    "Personal Loans"
-  ],
-  a: 1
-},
-{
-  q: "Which account generally earns no interest?",
-  o: [
-    "Savings Account",
-    "Current Account",
-    "Recurring Deposit",
-    "Fixed Deposit"
-  ],
-  a: 1
-},
-{
-  q: "The main function of a General Ledger is to:",
-  o: [
-    "Store cash",
-    "Maintain classified financial accounts",
-    "Print passbooks",
-    "Issue cheque books"
-  ],
-  a: 1
-},
-{
-  q: "The accounting equation remains balanced because:",
-  o: [
-    "Only debit entries are recorded",
-    "Every transaction has dual effect",
-    "Cash is always available",
-    "Interest is compounded"
-  ],
-  a: 1
-},
-{
-  q: "Which institution mainly regulates commercial banking operations in India?",
-  o: [
-    "SEBI",
-    "RBI",
-    "NABARD",
-    "SIDBI"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following best defines a Financial Institution?",
-  o: [
-    "A company that manufactures currency",
-    "An organization dealing with financial services",
-    "A tax collection office",
-    "A stock exchange only"
-  ],
-  a: 1
-},
-{
-  q: "A Business Facilitator differs from a Business Correspondent because:",
-  o: [
-    "BF generally does not handle cash transactions",
-    "BF prints currency",
-    "BF approves loans independently",
-    "There is no difference"
-  ],
-  a: 0
-},
-{
-  q: "Which of the following is an example of Financial Inclusion?",
-  o: [
-    "Opening a bank account in a remote village",
-    "Buying company shares",
-    "Paying customs duty",
-    "Trading cryptocurrencies"
-  ],
-  a: 0
-},
-{
-  q: "The term 'banking correspondent model' was mainly introduced to:",
-  o: [
-    "Close urban branches",
-    "Expand banking access",
-    "Increase bank taxes",
-    "Reduce ATM usage"
-  ],
-  a: 1
-},
-{
-  q: "Which account is most suitable for parking money for a fixed period?",
-  o: [
-    "Current Account",
-    "Savings Account",
-    "Fixed Deposit",
-    "Cash Credit"
-  ],
-  a: 2
-},
-{
-  q: "The primary source of funds for commercial banks is:",
-  o: [
-    "Deposits from customers",
-    "Government grants",
-    "Stock market profits",
-    "Income tax collections"
-  ],
-  a: 0
-},
-{
-  q: "A borrower with strong repayment history is considered:",
-  o: [
-    "High Credit Risk",
-    "Low Credit Risk",
-    "Loan Defaulter",
-    "Ineligible Borrower"
-  ],
-  a: 1
-},
-{
-  q: "Which banking service enables customers to transfer funds without visiting a branch?",
-  o: [
-    "Locker Service",
-    "Net Banking",
-    "Safe Deposit",
-    "Demand Draft"
-  ],
-  a: 1
-},
-{
-  q: "The objective of maintaining KYC records is to:",
-  o: [
-    "Increase customer interest",
-    "Prevent identity fraud",
-    "Increase FD rates",
-    "Reduce EMI"
-  ],
-  a: 1
-},
-{
-  q: "Which customer is most likely to require a Current Account?",
-  o: [
-    "College Student",
-    "Shopkeeper",
-    "Retired Pensioner",
-    "School Child"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is an example of secured lending?",
-  o: [
-    "Credit Card without security",
-    "Housing Loan with Mortgage",
-    "Personal Loan without collateral",
-    "Salary Advance"
-  ],
-  a: 1
-},
-{
-  q: "Which banking product combines safety with fixed returns?",
-  o: [
-    "Current Account",
-    "Fixed Deposit",
-    "Cash Credit",
-    "Overdraft"
-  ],
-  a: 1
-},
-{
-  q: "A customer wants regular savings every month for a fixed period. Which product is most suitable?",
-  o: [
-    "Current Account",
-    "Recurring Deposit",
-    "Cash Credit",
-    "Overdraft"
-  ],
-  a: 1
-},
-{
-  q: "Which banking principle ensures diversification of lending to reduce overall risk?",
-  o: [
-    "Risk Spread",
-    "Inflation",
-    "Liquidity Trap",
-    "Cash Reserve"
-  ],
-  a: 0
-},
-{
-  q: "Which of the following is the best example of a productive loan?",
-  o: [
-    "Loan for gambling",
-    "Loan for business expansion",
-    "Loan for luxury vacation",
-    "Loan for entertainment"
-  ],
-  a: 1
-},
-{
-  q: "A cheque without sufficient balance is generally:",
-  o: [
-    "Automatically converted into cash",
-    "Returned unpaid",
-    "Converted into a DD",
-    "Accepted by every bank"
-  ],
-  a: 1
-},
-{
-  q: "The main objective of bookkeeping is to:",
-  o: [
-    "Record financial transactions systematically",
-    "Increase profits",
-    "Reduce taxes",
-    "Approve loans"
-  ],
-  a: 0
-},
-{
-  q: "Financial literacy mainly helps customers to:",
-  o: [
-    "Take informed financial decisions",
-    "Print currency",
-    "Avoid banks",
-    "Trade only in shares"
-  ],
-  a: 0
-},
-{
-  q: "Which institution acts as the lender of last resort in India?",
-  o: [
-    "SBI",
-    "RBI",
-    "NABARD",
-    "SEBI"
-  ],
-  a: 1
-},
-{
-  q: "Which type of customer generally benefits the most from Financial Inclusion initiatives?",
-  o: [
-    "Only large corporations",
-    "People without access to formal banking",
-    "Foreign investors only",
-    "Stock brokers only"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is the best example of banking outreach?",
-  o: [
-    "Opening a BC outlet in a remote village",
-    "Increasing gold prices",
-    "Building a shopping mall",
-    "Opening a cinema hall"
-  ],
-  a: 0
-},
+}
 ];

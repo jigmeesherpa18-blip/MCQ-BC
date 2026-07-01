@@ -2,1404 +2,1004 @@
 console.log("questions.js loaded");
 
 window.questions = [
-  {
-  q: "Which of the following loan accounts can be proceeded against under the SARFAESI Act?",
+ {
+  q: "A customer provides explicit consent to a bank for sharing account information with a third-party financial service provider through an Account Aggregator. Which principle primarily governs such sharing?",
   o: [
-    "Loan of ₹80,000",
-    "Loan of ₹1,00,000",
-    "Loan above ₹1,00,000",
-    "Any loan regardless of amount"
-  ],
-  a: 2
-},
-{
-  q: "A loan dispute involving ₹25 lakh should normally be referred to which authority?",
-  o: [
-    "Lok Adalat",
-    "District Court",
-    "Debt Recovery Tribunal (DRT)",
-    "Banking Lokpal"
-  ],
-  a: 2
-},
-{
-  q: "Which asset classification indicates that recovery is practically impossible?",
-  o: [
-    "Sub-standard Asset",
-    "Standard Asset",
-    "Doubtful Asset",
-    "Loss Asset"
-  ],
-  a: 3
-},
-{
-  q: "Which of the following is NOT generally settled through Lok Adalat?",
-  o: [
-    "Loan of ₹8 lakh",
-    "Loan of ₹15 lakh",
-    "Loan of ₹20 lakh",
-    "Loan of ₹25 lakh"
-  ],
-  a: 3
-},
-{
-  q: "What is considered the primary objective of every commercial bank?",
-  o: [
-    "Maximizing penalties",
-    "Customer service and satisfaction",
-    "Increasing branch size",
-    "Reducing employees"
+    "Banker's General Lien",
+    "Customer Confidentiality with Explicit Consent",
+    "Doctrine of Indoor Management",
+    "Right of Set-off"
   ],
   a: 1
 },
 {
-  q: "A customer submits a written complaint to the branch. According to the model policy, the bank should reply within:",
+  q: "Which of the following combinations would MOST likely amount to a violation of KYC norms?",
   o: [
-    "3 days",
-    "7 days",
-    "15 days",
-    "30 days"
+    "Using e-KYC through Aadhaar authentication",
+    "Opening an account without verifying Officially Valid Documents despite exemption not applying",
+    "Periodic updation of customer records",
+    "Obtaining PAN before opening a current account"
   ],
   a: 1
 },
 {
-  q: "The overall grievance should normally be redressed within:",
+  q: "A Business Correspondent accepts cash from a customer but delays updating the Core Banking System for several hours without authorization. The bank is primarily exposed to:",
   o: [
-    "15 days",
-    "21 days",
-    "30 days",
-    "45 days"
+    "Market Risk",
+    "Liquidity Risk",
+    "Operational Risk",
+    "Interest Rate Risk"
   ],
   a: 2
 },
 {
-  q: "If a customer is not satisfied with the branch's reply, the next external authority is:",
+  q: "Which of the following is the strongest reason why the Business Correspondent model was introduced?",
   o: [
-    "District Magistrate",
-    "Banking Lokpal",
-    "Police Department",
-    "Finance Ministry"
+    "To replace all rural branches",
+    "To eliminate ATMs",
+    "To extend banking services where opening branches is not economically viable",
+    "To reduce CRR requirements"
+  ],
+  a: 2
+},
+{
+  q: "A customer has both a savings account and a loan account in the same bank. Without prior notice, the bank adjusts the balance in the savings account against the overdue loan. This is an example of:",
+  o: [
+    "General Lien",
+    "Banker's Right of Set-off",
+    "Hypothecation",
+    "Assignment"
   ],
   a: 1
 },
 {
-  q: "Complaint redressal information must compulsorily be displayed on the:",
+  q: "Which statement correctly differentiates AEPS from UPI?",
   o: [
-    "Cheque book",
-    "ATM screen",
-    "Branch notice board",
-    "Passbook"
-  ],
-  a: 2
-},
-{
-  q: "Who is primarily responsible for resolving complaints at the branch level?",
-  o: [
-    "Cashier",
-    "Regional Manager",
-    "Branch Manager",
-    "Chief General Manager"
-  ],
-  a: 2
-},
-{
-  q: "Customer Day is generally observed by banks on:",
-  o: [
-    "1st of every month",
-    "10th of every month",
-    "15th of every month",
-    "Last working day"
-  ],
-  a: 2
-},
-{
-  q: "If a complaint cannot be resolved at the branch, it is escalated to:",
-  o: [
-    "Income Tax Department",
-    "Regional/Zonal/Head Office",
-    "Supreme Court",
-    "Insurance Company"
+    "Both require biometric authentication",
+    "AEPS is Aadhaar-based whereas UPI primarily operates through VPA/account credentials",
+    "UPI cannot be used for merchant payments",
+    "AEPS requires internet banking registration"
   ],
   a: 1
 },
 {
-  q: "PMO complaints are expected to be resolved within:",
+  q: "If RBI increases both CRR and Repo Rate simultaneously, the immediate likely impact would be:",
   o: [
-    "30 days",
-    "15 days",
-    "10 days",
-    "7 days"
-  ],
-  a: 3
-},
-{
-  q: "Who implements the Banking Lokpal Project?",
-  o: [
-    "NABARD",
-    "RBI",
-    "SIDBI",
-    "SEBI"
+    "Increase in lending capacity and lower interest rates",
+    "Reduced liquidity with costlier borrowing",
+    "Higher inflation due to easy credit",
+    "Increase in bank profits without affecting lending"
   ],
   a: 1
 },
 {
-  q: "The maximum tenure of a Banking Lokpal is:",
+  q: "Which customer would require Enhanced Due Diligence (EDD) rather than normal Customer Due Diligence?",
   o: [
-    "2 years",
-    "3 years",
-    "5 years",
-    "6 years"
-  ],
-  a: 1
-},
-{
-  q: "The maximum compensation award that can be granted by the Banking Lokpal is:",
-  o: [
-    "₹5 lakh",
-    "₹7 lakh",
-    "₹10 lakh",
-    "₹20 lakh"
+    "Student opening first savings account",
+    "Government employee opening salary account",
+    "Politically Exposed Person (PEP)",
+    "Minor operating through guardian"
   ],
   a: 2
 },
 {
-  q: "An appeal against the Banking Lokpal's decision can be made within:",
+  q: "A transaction routed through APBS differs from NEFT because APBS primarily:",
   o: [
-    "15 days",
-    "21 days",
-    "30 days",
-    "45 days"
-  ],
-  a: 2
-},
-{
-  q: "Which institution is known as the lender of last resort?",
-  o: [
-    "SIDBI",
-    "SEBI",
-    "RBI",
-    "NABARD"
-  ],
-  a: 2
-},
-{
-  q: "Which of the following requires a valid licence from RBI to operate?",
-  o: [
-    "Mutual Fund",
-    "NBFC",
-    "Insurance Broker",
-    "Stock Exchange"
+    "Transfers funds internationally",
+    "Routes Aadhaar-linked benefit payments",
+    "Requires IFSC only",
+    "Operates only during banking hours"
   ],
   a: 1
 },
 {
-  q: "Primary Dealers mainly deal in:",
+  q: "Which sequence correctly represents the money laundering process?",
   o: [
-    "Corporate Shares",
-    "Mutual Funds",
-    "Government Securities",
-    "Insurance Policies"
-  ],
-  a: 2
-},
-{
-  q: "NPCI stands for:",
-  o: [
-    "National Payment Council of India",
-    "National Payments Corporation of India",
-    "National Public Corporation of India",
-    "National Processing Corporation of India"
+    "Integration → Placement → Layering",
+    "Placement → Layering → Integration",
+    "Layering → Integration → Placement",
+    "Placement → Integration → Layering"
   ],
   a: 1
 },
 {
-  q: "Core Banking Solutions (CBS) primarily enables:",
+  q: "A BC agent knowingly performs transactions without authenticating the customer. Which principle is violated FIRST?",
   o: [
-    "Manual banking",
-    "Anywhere banking",
-    "Offline banking only",
-    "International taxation"
+    "Customer Service",
+    "Authentication and Risk Control",
+    "Priority Sector Lending",
+    "Financial Inclusion"
   ],
   a: 1
 },
 {
-  q: "Which of the following services is enabled through CBS?",
+  q: "Which of the following payment systems is best suited for immediate high-value fund transfers?",
   o: [
     "NEFT",
-    "IMPS",
-    "Mobile Banking",
-    "All of the above"
-  ],
-  a: 3
-},
-{
-  q: "NEFT stands for:",
-  o: [
-    "National Electronic Fund Transfer",
-    "National Electronic Funds Transfer",
-    "National Exchange Fund Transfer",
-    "New Electronic Funds Transfer"
-  ],
-  a: 1
-},
-{
-  q: "CTS is mainly associated with:",
-  o: [
-    "Cheque clearing",
-    "Cash withdrawal",
-    "Insurance claims",
-    "Mutual funds"
-  ],
-  a: 0
-},
-{
-  q: "Microfinance mainly refers to:",
-  o: [
-    "Large industrial loans",
-    "Micro savings and micro credit",
-    "Foreign investment",
-    "Corporate banking"
-  ],
-  a: 1
-},
-{
-  q: "Who is regarded as the pioneer of the microfinance concept?",
-  o: [
-    "Dr. B. R. Ambedkar",
-    "Dr. Mohammed Yunus",
-    "Verghese Kurien",
-    "M. S. Swaminathan"
-  ],
-  a: 1
-},
-{
-  q: "A Business Correspondent is popularly known as:",
-  o: [
-    "Bank Sakhi",
-    "Bank Mitra",
-    "Loan Mitra",
-    "Gram Sevak"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following can be appointed as a Business Correspondent?",
-  o: [
-    "Retired bank employees",
-    "Ex-servicemen",
-    "Teachers",
-    "All of the above"
-  ],
-  a: 3
-},
-{
-  q: "The primary role of a Business Correspondent in PMJDY is to:",
-  o: [
-    "Issue PAN cards",
-    "Accept deposits and facilitate withdrawals",
-    "Approve housing loans",
-    "Conduct audits"
-  ],
-  a: 1
-},
-{
-  q: "Electronic Know Your Customer is commonly known as:",
-  o: [
-    "iKYC",
-    "eKYC",
-    "mKYC",
-    "dKYC"
-  ],
-  a: 1
-},
-{
-  q: "Which organization introduced eKYC using Aadhaar authentication?",
-  o: [
-    "NPCI",
-    "RBI",
-    "UIDAI",
-    "SEBI"
-  ],
-  a: 2
-},
-{
-  q: "IMPS is best described as:",
-  o: [
-    "A cheque clearing system",
-    "A real-time retail payment system",
-    "A pension scheme",
-    "An insurance policy"
-  ],
-  a: 1
-},
-{
-  q: "IMPS was launched on:",
-  o: [
-    "22 November 2010",
-    "1 January 2011",
-    "15 August 2010",
-    "26 January 2012"
-  ],
-  a: 0
-},
-{
-  q: "MMID used in IMPS consists of:",
-  o: [
-    "5 digits",
-    "6 digits",
-    "7 digits",
-    "8 digits"
-  ],
-  a: 2
-},
-{
-  q: "A Micro ATM is essentially a:",
-  o: [
-    "Mini branch building",
-    "Biometric handheld device",
-    "Cheque scanner",
-    "Passbook printer"
-  ],
-  a: 1
-},
-{
-  q: "USSD-based banking is especially useful because it:",
-  o: [
-    "Requires broadband internet",
-    "Works without internet connectivity",
-    "Needs only Wi-Fi",
-    "Can only be used on smartphones"
-  ],
-  a: 1
-},
-{
-  q: "AEPS stands for:",
-  o: [
-    "Aadhaar Enabled Payment System",
-    "Automatic Electronic Payment Service",
-    "Advanced Electronic Payment Scheme",
-    "Aadhaar Electronic Processing Service"
-  ],
-  a: 0
-},
-{
-  q: "APBS is primarily used for:",
-  o: [
-    "Cheque clearing",
-    "Government payments to Aadhaar-linked accounts",
-    "Credit card settlements",
-    "Foreign remittances"
-  ],
-  a: 1
-},
-{
-  q: "Direct Benefit Transfer (DBT) mainly ensures:",
-  o: [
-    "Paper-based subsidy distribution",
-    "Cash payments through post offices only",
-    "Direct transfer of benefits into beneficiaries' bank accounts",
-    "Loan waiver processing"
-  ],
-  a: 2
-},
-{
-  q: "PMJJBY primarily provides:",
-  o: [
-    "Health insurance",
-    "Life insurance",
-    "Crop insurance",
-    "Pension benefits"
-  ],
-  a: 1
-},
-{
-  q: "The validity of PMJJBY is:",
-  o: [
-    "6 months",
-    "One year (renewable)",
-    "Three years",
-    "Five years"
-  ],
-  a: 1
-},
-{
-  q: "Under PMJJBY, the life insurance cover is:",
-  o: [
-    "₹1 lakh",
-    "₹1.5 lakh",
-    "₹2 lakh",
-    "₹5 lakh"
-  ],
-  a: 2
-},
-{
-  q: "The waiting period under PMJJBY before full risk coverage begins is:",
-  o: [
-    "30 days",
-    "45 days",
-    "60 days",
-    "90 days"
-  ],
-  a: 1
-},
-{
-  q: "The annual premium for PMJJBY is:",
-  o: [
-    "₹20",
-    "₹200",
-    "₹330",
-    "₹436"
-  ],
-  a: 3
-},
-{
-  q: "Who is eligible to enroll under PMJJBY?",
-  o: [
-    "18–40 years",
-    "18–50 years",
-    "18–60 years",
-    "21–65 years"
-  ],
-  a: 1
-},
-{
-  q: "Even if multiple PMJJBY premiums are deducted from different banks, the maximum insurance benefit payable is:",
-  o: [
-    "₹1 lakh",
-    "₹2 lakh",
-    "₹4 lakh",
-    "Depends on the number of accounts"
-  ],
-  a: 1
-},
-{
-  q: "PMSBY is mainly an:",
-  o: [
-    "Life insurance scheme",
-    "Accident insurance scheme",
-    "Pension scheme",
-    "Health insurance scheme"
-  ],
-  a: 1
-},
-{
-  q: "The insurance benefit under PMSBY for accidental death is:",
-  o: [
-    "₹1 lakh",
-    "₹1.5 lakh",
-    "₹2 lakh",
-    "₹5 lakh"
-  ],
-  a: 2
-},
-{
-  q: "The annual premium payable under PMSBY is:",
-  o: [
-    "₹12",
-    "₹20",
-    "₹100",
-    "₹436"
-  ],
-  a: 1
-},
-{
-  q: "Who can enroll under PMSBY?",
-  o: [
-    "18–40 years",
-    "18–50 years",
-    "18–70 years",
-    "21–65 years"
-  ],
-  a: 2
-},
-{
-  q: "PMSBY coverage normally terminates when the subscriber:",
-  o: [
-    "Attains 50 years",
-    "Attains 60 years",
-    "Attains 70 years",
-    "Retires from employment"
-  ],
-  a: 2
-},
-{
-  q: "APY stands for:",
-  o: [
-    "Atal Pension Yojana",
-    "Advanced Pension Yojana",
-    "Aadhaar Pension Yojana",
-    "All People Pension Yojana"
-  ],
-  a: 0
-},
-{
-  q: "Atal Pension Yojana is mainly meant for:",
-  o: [
-    "Government officers only",
-    "Private companies only",
-    "Unorganised sector workers",
-    "Students"
-  ],
-  a: 2
-},
-{
-  q: "Under APY, pension normally starts at the age of:",
-  o: [
-    "55 years",
-    "58 years",
-    "60 years",
-    "65 years"
-  ],
-  a: 2
-},
-{
-  q: "The guaranteed monthly pension available under APY ranges from:",
-  o: [
-    "₹500–₹3000",
-    "₹1000–₹5000",
-    "₹2000–₹7000",
-    "₹5000–₹10000"
-  ],
-  a: 1
-},
-{
-  q: "The eligible entry age for APY is:",
-  o: [
-    "18–35 years",
-    "18–40 years",
-    "21–50 years",
-    "25–45 years"
-  ],
-  a: 1
-},
-{
-  q: "The Government's co-contribution under APY was available for:",
-  o: [
-    "2 years",
-    "3 years",
-    "5 years",
-    "10 years"
-  ],
-  a: 2
-},
-{
-  q: "APY is regulated by:",
-  o: [
-    "RBI",
-    "IRDAI",
-    "PFRDA",
-    "SEBI"
-  ],
-  a: 2
-},
-{
-  q: "A person joining APY at the age of 18 contributes the least because:",
-  o: [
-    "Government pays the full amount",
-    "The contribution period is the longest",
-    "Banks provide subsidies",
-    "Interest is not charged"
-  ],
-  a: 1
-},
-{
-  q: "Electronic Benefit Transfer (EBT) is mainly used for:",
-  o: [
-    "Cheque clearing",
-    "Electronic transfer of government benefits",
-    "International remittance",
-    "Corporate salary processing"
-  ],
-  a: 1
-},
-{
-  q: "A Point of Sale (POS) device is primarily installed at:",
-  o: [
-    "Bank headquarters",
-    "Sale points or merchant establishments",
-    "RBI offices",
-    "Government treasury"
-  ],
-  a: 1
-},
-{
-  q: "ATM stands for:",
-  o: [
-    "Automatic Transfer Machine",
-    "Automated Teller Machine",
-    "Automated Transaction Module",
-    "Automatic Teller Module"
-  ],
-  a: 1
-},
-{
-  q: "eKYC is mainly used to authenticate:",
-  o: [
-    "Bank employees",
-    "Customer identity and data",
-    "Debit cards",
-    "ATM transactions"
-  ],
-  a: 1
-},
-{
-  q: "A minor can open a PMJDY account after attaining the age of:",
-  o: [
-    "8 years",
-    "10 years",
-    "12 years",
-    "14 years"
-  ],
-  a: 1
-},
-{
-  q: "The life insurance cover available under PMJDY is:",
-  o: [
-    "₹10,000",
-    "₹20,000",
-    "₹30,000",
-    "₹50,000"
-  ],
-  a: 2
-},
-{
-  q: "The overdraft facility under PMJDY is:",
-  o: [
-    "Permanent once sanctioned",
-    "Subject to annual review",
-    "Available only after five years",
-    "Limited to government employees"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is NOT a common Centre-State funding ratio for government schemes?",
-  o: [
-    "50:50",
-    "70:30",
-    "75:25",
-    "80:40"
-  ],
-  a: 3
-},
-{
-  q: "Which of the following is a Central Government welfare scheme?",
-  o: [
-    "PMEGP",
-    "MGNREGA",
-    "PMGSY",
-    "All of the above"
-  ],
-  a: 3
-},
-{
-  q: "DAY-NRLM stands for:",
-  o: [
-    "Deendayal Antyodaya Yojana – National Rural Livelihoods Mission",
-    "Digital Agriculture Yojana – National Resource Livelihood Mission",
-    "Development and Youth National Rural Livelihood Mission",
-    "Deendayal Antyodaya Yojana – National Revenue Livelihood Mission"
-  ],
-  a: 0
-},
-{
-  q: "The primary objective of DAY-NRLM is to:",
-  o: [
-    "Construct highways",
-    "Strengthen institutions and eradicate poverty",
-    "Promote exports",
-    "Increase industrial production"
-  ],
-  a: 1
-},
-{
-  q: "The Revolving Fund under DAY-NRLM is generally provided for a period of:",
-  o: [
-    "1–2 months",
-    "3–6 months",
-    "6–12 months",
-    "12–18 months"
-  ],
-  a: 1
-},
-{
-  q: "CIF under NRLM stands for:",
-  o: [
-    "Central Investment Fund",
-    "Community Investment Fund",
-    "Common Infrastructure Fund",
-    "Credit Inclusion Fund"
-  ],
-  a: 1
-},
-{
-  q: "Community Investment Fund (CIF) is mainly used for:",
-  o: [
-    "Building highways",
-    "Loans and social/financial needs",
-    "Import financing",
-    "Corporate taxation"
-  ],
-  a: 1
-},
-{
-  q: "The interest subsidy loan limit for eligible SHGs under NRLM is:",
-  o: [
-    "₹1 lakh",
-    "₹2 lakh",
-    "₹3 lakh",
-    "₹5 lakh"
-  ],
-  a: 2
-},
-{
-  q: "MGNREGA guarantees employment for at least:",
-  o: [
-    "50 days",
-    "75 days",
-    "100 days",
-    "150 days"
-  ],
-  a: 2
-},
-{
-  q: "In notified drought-affected areas, employment under MGNREGA may be extended up to:",
-  o: [
-    "120 days",
-    "130 days",
-    "150 days",
-    "200 days"
-  ],
-  a: 2
-},
-{
-  q: "PMGSY is mainly associated with:",
-  o: [
-    "Housing",
-    "Rural roads",
-    "Insurance",
-    "Pension"
-  ],
-  a: 1
-},
-{
-  q: "A person owning a pucca house is generally:",
-  o: [
-    "Eligible under PMAY",
-    "Eligible only in rural areas",
-    "Not eligible under PMAY",
-    "Automatically eligible for subsidy"
-  ],
-  a: 2
-},
-{
-  q: "The interest subsidy rate under PMAY (EWS/LIG) is:",
-  o: [
-    "4%",
-    "5%",
-    "6.5%",
-    "8%"
-  ],
-  a: 2
-},
-{
-  q: "The maximum interest subsidy ceiling available under PMAY is:",
-  o: [
-    "₹2,00,000",
-    "₹2,67,280",
-    "₹3,00,000",
-    "₹3,67,280"
-  ],
-  a: 1
-},
-{
-  q: "PMAY was reorganised from which earlier housing scheme?",
-  o: [
-    "Rajiv Awas Yojana",
-    "Indira Awas Yojana",
-    "Jawaharlal Housing Scheme",
-    "Bharat Nirman Yojana"
-  ],
-  a: 1
-},
-{
-  q: "The primary objective of PMAY is:",
-  o: [
-    "Employment for all",
-    "Housing for All through pucca houses",
-    "Universal health insurance",
-    "Universal pension"
-  ],
-  a: 1
-},
-{
-  q: "Which additional provision is included under PMAY for sanitation?",
-  o: [
-    "₹5,000 toilet grant",
-    "₹10,000 toilet grant",
-    "₹12,000 toilet provision",
-    "Free water connection"
-  ],
-  a: 2
-},
-{
-  q: "Which of the following beneficiaries gets priority under PMAY?",
-  o: [
-    "Income tax payers",
-    "Owners of pucca houses",
-    "Homeless and destitute persons",
-    "Owners of four-wheelers"
-  ],
-  a: 2
-},
-{
-  q: "Which of the following is NOT eligible under PMAY?",
-  o: [
-    "Homeless family",
-    "Pucca house owner",
-    "Destitute person",
-    "Manual scavenger"
-  ],
-  a: 1
-},
-{
-  q: "The Loan Risk Guarantee Scheme mainly supports:",
-  o: [
-    "Agricultural exports",
-    "Low-income housing loans",
-    "Corporate lending",
-    "Gold loans"
-  ],
-  a: 1
-},
-{
-  q: "PMGKY stands for:",
-  o: [
-    "Pradhan Mantri Gramin Kisan Yojana",
-    "Pradhan Mantri Garib Kalyan Yojana",
-    "Pradhan Mantri Gram Kalyan Yojana",
-    "Pradhan Mantri Growth Kalyan Yojana"
-  ],
-  a: 1
-},
-{
-  q: "Insurance claims should normally be submitted within:",
-  o: [
-    "30 days",
-    "45 days",
-    "60 days",
-    "90 days"
-  ],
-  a: 2
-},
-{
-  q: "Claim information submitted after ____ days is generally not eligible.",
-  o: [
-    "90",
-    "100",
-    "120",
-    "180"
-  ],
-  a: 2
-},
-{
-  q: "The overdraft limit available under PMJDY is:",
-  o: [
-    "₹5,000",
-    "₹8,000",
-    "₹10,000",
-    "₹15,000"
-  ],
-  a: 2
-},
-{
-  q: "Which person is LEAST likely to be appointed as a Business Correspondent?",
-  o: [
-    "Retired bank employee",
-    "Ex-serviceman",
-    "Teacher",
-    "Fresh engineering student with no appointment"
-  ],
-  a: 3
-},
-{
-  q: "One of the important responsibilities of a Business Correspondent is:",
-  o: [
-    "Conducting board meetings",
-    "Financial literacy and awareness",
-    "Printing currency",
-    "Approving RBI licences"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is NOT typically a mobile banking service?",
-  o: [
-    "Balance enquiry",
-    "Fund transfer",
-    "Bill payment",
-    "Passport issuance"
-  ],
-  a: 3
-},
-{
-  q: "RuPay debit cards are best known for being:",
-  o: [
-    "Foreign-only cards",
-    "Affordable domestic payment cards",
-    "Credit cards only",
-    "Used only by government employees"
-  ],
-  a: 1
-},
-{
-  q: "AEPS transactions can be carried out using:",
-  o: [
-    "Micro ATM/POS device",
-    "Only internet banking",
-    "Only cheque books",
-    "Only passbooks"
-  ],
-  a: 0
-},
-{
-  q: "Which of the following is NOT an AEPS transaction?",
-  o: [
-    "Cash withdrawal",
-    "Balance enquiry",
-    "Fund transfer",
-    "Income tax filing"
-  ],
-  a: 3
-},
-{
-  q: "USSD banking is particularly useful because it:",
-  o: [
-    "Requires high-speed internet",
-    "Works on GSM phones without internet",
-    "Needs a laptop",
-    "Works only on Wi-Fi"
-  ],
-  a: 1
-},
-{
-  q: "Which payment system routes government benefits to Aadhaar-linked bank accounts?",
-  o: [
     "RTGS",
     "AEPS",
-    "APBS",
-    "CTS"
-  ],
-  a: 2
-},
-{
-  q: "Which scheme provides accidental insurance while PMJJBY provides life insurance?",
-  o: [
-    "APY",
-    "PMSBY",
-    "PMAY",
-    "MGNREGA"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following correctly matches the scheme with its benefit?",
-  o: [
-    "PMJJBY – Accident Insurance",
-    "PMSBY – Life Insurance",
-    "APY – Pension",
-    "PMAY – Crop Insurance"
-  ],
-  a: 2
-},
-{
-  q: "Which of the following has the highest upper age limit for enrollment?",
-  o: [
-    "PMJJBY",
-    "APY",
-    "PMSBY",
-    "PMJDY Life Cover"
-  ],
-  a: 2
-},
-{
-  q: "A person aged 55 years can enroll in:",
-  o: [
-    "PMJJBY only",
-    "APY only",
-    "PMSBY only",
-    "Both PMJJBY and APY"
-  ],
-  a: 2
-},
-{
-  q: "A person aged 45 years is eligible for:",
-  o: [
-    "PMJJBY only",
-    "PMJJBY and PMSBY",
-    "APY only",
-    "None of these"
-  ],
-  a: 1
-},
-{
-  q: "Which scheme has a waiting period before full coverage begins?",
-  o: [
-    "PMSBY",
-    "APY",
-    "PMJJBY",
-    "PMJDY"
-  ],
-  a: 2
-},
-{
-  q: "The regulator of the pension sector in India is:",
-  o: [
-    "RBI",
-    "IRDAI",
-    "PFRDA",
-    "SEBI"
-  ],
-  a: 2
-},
-{
-  q: "Which regulator is responsible for insurance companies?",
-  o: [
-    "PFRDA",
-    "IRDAI",
-    "NPCI",
-    "RBI"
-  ],
-  a: 1
-},
-{
-  q: "Which institution is known as the 'Lender of Last Resort'?",
-  o: [
-    "NABARD",
-    "SIDBI",
-    "RBI",
-    "SEBI"
-  ],
-  a: 2
-},
-{
-  q: "Which organization operates India's retail payment systems such as IMPS?",
-  o: [
-    "IRDAI",
-    "NPCI",
-    "PFRDA",
-    "UIDAI"
-  ],
-  a: 1
-},
-{
-  q: "Which organization issues Aadhaar and introduced eKYC?",
-  o: [
-    "NPCI",
-    "UIDAI",
-    "RBI",
-    "NABARD"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is a monetary policy tool of RBI?",
-  o: [
-    "CRR",
-    "PMJJBY",
-    "MGNREGA",
-    "PMAY"
-  ],
-  a: 0
-},
-{
-  q: "Which ratio requires banks to maintain cash with RBI?",
-  o: [
-    "SLR",
-    "CRR",
-    "Repo Ratio",
-    "Capital Ratio"
-  ],
-  a: 1
-},
-{
-  q: "Which ratio requires banks to maintain liquid assets?",
-  o: [
-    "CRR",
-    "SLR",
-    "MMR",
-    "CLR"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is an example of financial inclusion?",
-  o: [
-    "Closing rural branches",
-    "Providing banking services through BCs",
-    "Increasing minimum balance charges",
-    "Reducing ATM availability"
-  ],
-  a: 1
-},
-{
-  q: "Business Correspondents mainly help in:",
-  o: [
-    "Stock trading",
-    "Last-mile banking services",
-    "Income tax collection",
-    "Foreign exchange trading"
-  ],
-  a: 1
-},
-{
-  q: "Financial exclusion refers to:",
-  o: [
-    "Access to affordable financial services",
-    "Lack of access to formal banking services",
-    "Closure of stock exchanges",
-    "Increase in digital payments"
-  ],
-  a: 1
-},
-{
-  q: "Microfinance generally combines:",
-  o: [
-    "Insurance and pensions",
-    "Micro savings and micro credit",
-    "Housing and education loans",
-    "Only savings accounts"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is NOT part of the formal financial system?",
-  o: [
-    "Savings",
-    "Insurance",
-    "Payments",
-    "Unofficial money lending"
-  ],
-  a: 3
-},
-{
-  q: "Which banking technology made 'Anywhere Banking' possible?",
-  o: [
-    "CBS",
-    "CTS",
-    "USSD",
-    "MMID"
-  ],
-  a: 0
-},
-{
-  q: "Which electronic fund transfer system settles transactions in real time?",
-  o: [
-    "NEFT",
-    "RTGS",
-    "CTS",
     "USSD"
   ],
   a: 1
 },
 {
-  q: "Which of the following payment systems is batch-based rather than real-time?",
+  q: "Which of the following is NOT an objective of Financial Inclusion?",
   o: [
-    "RTGS",
-    "IMPS",
-    "NEFT",
-    "AEPS"
+    "Affordable financial services",
+    "Universal banking access",
+    "Exclusive banking for high-income customers",
+    "Formal financial participation"
   ],
   a: 2
 },
 {
-  q: "Which of the following systems is primarily used for cheque clearing?",
+  q: "A dormant account suddenly receives multiple high-value inward remittances from unrelated entities. The bank should primarily:",
   o: [
-    "CTS",
-    "RTGS",
-    "IMPS",
-    "APBS"
-  ],
-  a: 0
-},
-{
-  q: "Which identifier is specifically associated with IMPS transactions through mobile banking?",
-  o: [
-    "IFSC",
-    "MMID",
-    "MICR",
-    "Aadhaar Number"
+    "Ignore since credits are allowed",
+    "Treat it as a suspicious transaction requiring monitoring",
+    "Immediately freeze the account permanently",
+    "Convert it into a current account"
   ],
   a: 1
 },
 {
-  q: "Which of the following does NOT require an internet connection to perform basic banking transactions?",
+  q: "Which of the following best explains why customer confidentiality is not absolute?",
   o: [
-    "USSD",
-    "Internet Banking",
-    "Mobile Banking App",
-    "UPI App"
-  ],
-  a: 0
-},
-{
-  q: "Which technology is primarily dependent on Aadhaar biometric authentication?",
-  o: [
-    "NEFT",
-    "AEPS",
-    "CTS",
-    "RTGS"
+    "Banks own customer information",
+    "Disclosure is permitted under legal obligation, public duty, bank interest, or customer consent",
+    "RBI permits disclosure without restriction",
+    "Banks may disclose whenever requested verbally"
   ],
   a: 1
 },
 {
-  q: "Which organization primarily routes Direct Benefit Transfers using Aadhaar linkage?",
+  q: "Which institution primarily regulates insurance companies in India?",
   o: [
-    "CTS",
-    "APBS",
-    "MMID",
-    "CBS"
-  ],
-  a: 1
-},
-{
-  q: "A Business Correspondent mainly contributes towards:",
-  o: [
-    "Financial Inclusion",
-    "Financial Exclusion",
-    "Capital Formation",
-    "Stock Trading"
-  ],
-  a: 0
-},
-{
-  q: "Which scheme guarantees a monthly pension after the subscriber reaches 60 years of age?",
-  o: [
-    "PMJJBY",
-    "PMSBY",
-    "APY",
-    "PMJDY"
-  ],
-  a: 2
-},
-{
-  q: "Which insurance scheme has the lowest annual premium among the following?",
-  o: [
-    "PMJJBY",
-    "PMSBY",
-    "APY",
-    "PMJDY Life Cover"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following is correctly matched?",
-  o: [
-    "PMJJBY - Pension",
-    "PMSBY - Accident Insurance",
-    "APY - Life Insurance",
-    "PMAY - Health Insurance"
-  ],
-  a: 1
-},
-{
-  q: "Which scheme specifically targets workers in the unorganised sector?",
-  o: [
-    "APY",
-    "PMGSY",
-    "PMAY",
-    "MGNREGA"
-  ],
-  a: 0
-},
-{
-  q: "Which of the following is NOT a responsibility of a Business Correspondent?",
-  o: [
-    "Accepting deposits",
-    "Facilitating withdrawals",
-    "Financial literacy",
-    "Printing currency notes"
-  ],
-  a: 3
-},
-{
-  q: "The primary purpose of the Banking Lokpal Scheme is to:",
-  o: [
-    "Issue bank licences",
-    "Resolve customer complaints",
-    "Sanction loans",
-    "Collect taxes"
-  ],
-  a: 1
-},
-{
-  q: "Who is the first point of contact for complaint resolution inside a bank branch?",
-  o: [
-    "Regional Manager",
-    "Branch Manager",
-    "Banking Lokpal",
-    "General Manager"
-  ],
-  a: 1
-},
-{
-  q: "Which of the following promotes customer awareness and interaction every year?",
-  o: [
-    "Customer Fortnight",
-    "Insurance Week",
-    "Financial Literacy Month",
-    "Savings Festival"
-  ],
-  a: 0
-},
-{
-  q: "Which institution regulates pension funds in India?",
-  o: [
-    "RBI",
     "SEBI",
-    "PFRDA",
-    "IRDAI"
-  ],
-  a: 2
-},
-{
-  q: "Which institution regulates insurance companies in India?",
-  o: [
-    "NPCI",
-    "PFRDA",
+    "RBI",
     "IRDAI",
-    "SIDBI"
+    "PFRDA"
   ],
   a: 2
 },
 {
-  q: "Which of the following is an example of a financial intermediary?",
+  q: "A Business Correspondent is permitted to perform all of the following EXCEPT:",
   o: [
-    "Mutual Fund",
-    "Bank",
-    "Financial Institution",
-    "All of the above"
+    "Cash deposits",
+    "Cash withdrawals",
+    "Sanctioning loans independently",
+    "Balance enquiry"
   ],
-  a: 3
+  a: 2
 },
 {
-  q: "Which market facilitates the buying and selling of existing securities?",
+  q: "CBDC (Wholesale) is primarily intended for:",
   o: [
-    "Primary Market",
-    "Secondary Market",
-    "Money Market",
-    "Commodity Market"
+    "Retail grocery payments",
+    "Inter-bank settlements",
+    "International tourism",
+    "Salary payments only"
   ],
   a: 1
 },
 {
-  q: "Which of the following best describes Financial Inclusion?",
+  q: "Which combination of technologies together enables paperless, presence-less and cashless service delivery?",
   o: [
-    "Providing affordable financial services to everyone, especially weaker sections",
-    "Restricting banking services to urban areas",
-    "Providing loans only to industries",
-    "Increasing bank service charges"
+    "CBS, CTS and MICR",
+    "Aadhaar, e-KYC and Digital Payments",
+    "SWIFT, RTGS and DD",
+    "Cheque truncation and Passbook Printing"
+  ],
+  a: 1
+},
+{
+  q: "A bank fails to supervise its Business Correspondent adequately, resulting in customer fraud. Ultimately, responsibility rests with:",
+  o: [
+    "Only the BC",
+    "Only the customer",
+    "The sponsoring bank",
+    "NPCI"
+  ],
+  a: 2
+},
+{
+  q: "A bank accepts deposits from the public and uses those funds for lending. Which banking principle is MOST directly reflected in this activity?",
+  o: [
+    "Credit Creation",
+    "Financial Intermediation",
+    "Universal Banking",
+    "Risk Diversification"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following situations is MOST likely to require filing a Suspicious Transaction Report (STR)?",
+  o: [
+    "A salaried employee deposits ₹25,000 every month",
+    "A customer repeatedly deposits cash just below the reporting threshold without economic justification",
+    "A pensioner withdraws his monthly pension",
+    "A student opens a savings account"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following best distinguishes a Small Finance Bank from a Payments Bank?",
+  o: [
+    "Only Small Finance Banks can issue debit cards",
+    "Payments Banks cannot undertake lending activities like Small Finance Banks",
+    "Small Finance Banks cannot accept deposits",
+    "Payments Banks are regulated by SEBI"
+  ],
+  a: 1
+},
+{
+  q: "A cheque deposited at a branch is processed digitally without physical movement of the instrument. Which system enables this?",
+  o: [
+    "RTGS",
+    "CTS",
+    "AEPS",
+    "USSD"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following would NOT normally qualify as an Officially Valid Document (OVD) for KYC?",
+  o: [
+    "Passport",
+    "Driving Licence",
+    "Employee Identity Card issued by a private company",
+    "Aadhaar"
+  ],
+  a: 2
+},
+{
+  q: "The primary objective of Customer Due Diligence (CDD) is to:",
+  o: [
+    "Increase bank profits",
+    "Identify customers and assess associated risks",
+    "Reduce CRR requirements",
+    "Increase loan disbursement"
+  ],
+  a: 1
+},
+{
+  q: "Which banking function is most directly affected if a customer intentionally provides forged identity documents?",
+  o: [
+    "Treasury Management",
+    "KYC Compliance",
+    "Asset Liability Management",
+    "Merchant Banking"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is an example of operational risk rather than credit risk?",
+  o: [
+    "Borrower defaults on repayment",
+    "Interest rates increase sharply",
+    "Cash is stolen due to weak internal controls",
+    "Share prices decline"
+  ],
+  a: 2
+},
+{
+  q: "A depositor has ₹8 lakh in one bank under the same ownership category. If the bank fails, the maximum deposit insurance payable would generally be:",
+  o: [
+    "₹2 lakh",
+    "₹5 lakh",
+    "₹8 lakh",
+    "Entire balance with interest"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following statements regarding FATF is correct?",
+  o: [
+    "It regulates Indian commercial banks directly",
+    "It is an international body setting AML/CFT standards",
+    "It sanctions retail loans",
+    "It is a subsidiary of RBI"
+  ],
+  a: 1
+},
+{
+  q: "A Business Correspondent opens an account without obtaining customer consent for Aadhaar authentication. This primarily violates:",
+  o: [
+    "Financial Inclusion Guidelines",
+    "Customer Consent Principles",
+    "Priority Sector Lending Norms",
+    "Deposit Insurance Rules"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following best describes the 'Layering' stage of money laundering?",
+  o: [
+    "Introducing illegal money into the financial system",
+    "Creating multiple complex transactions to hide the source of funds",
+    "Investing money into legitimate businesses after cleaning",
+    "Depositing salary into a savings account"
+  ],
+  a: 1
+},
+{
+  q: "Which banking technology allows customers to access their accounts from any branch of the same bank?",
+  o: [
+    "MICR",
+    "CBS",
+    "CTS",
+    "POS"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following statements about Nomination is MOST accurate?",
+  o: [
+    "A nominee automatically becomes the legal owner of the money",
+    "A nominee acts as a trustee until legal heirs establish their claim",
+    "Nomination is compulsory for every account",
+    "Only current accounts can have nominees"
+  ],
+  a: 1
+},
+{
+  q: "Which type of banking risk arises when a bank cannot meet its payment obligations on time?",
+  o: [
+    "Liquidity Risk",
+    "Market Risk",
+    "Operational Risk",
+    "Compliance Risk"
   ],
   a: 0
+},
+{
+  q: "A customer deliberately splits a ₹20 lakh cash deposit into several smaller deposits over different days. This practice is commonly intended to:",
+  o: [
+    "Earn higher interest",
+    "Avoid regulatory reporting",
+    "Increase insurance coverage",
+    "Reduce GST liability"
+  ],
+  a: 1
+},
+{
+  q: "Which institution is primarily responsible for implementing India's monetary policy?",
+  o: [
+    "SEBI",
+    "RBI",
+    "IRDAI",
+    "NABARD"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following best explains the purpose of Priority Sector Lending?",
+  o: [
+    "To maximize bank profits",
+    "To ensure adequate institutional credit reaches neglected sectors",
+    "To replace cooperative banks",
+    "To eliminate informal lending"
+  ],
+  a: 1
+},
+{
+  q: "A customer uses AEPS for cash withdrawal. Which factor is essential for authentication?",
+  o: [
+    "IFSC Code",
+    "Debit Card PIN",
+    "Aadhaar-linked biometric authentication",
+    "Cheque Number"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following statements about Business Correspondents is FALSE?",
+  o: [
+    "They improve last-mile banking access",
+    "They work on behalf of sponsoring banks",
+    "They independently formulate RBI regulations",
+    "They assist in financial inclusion initiatives"
+  ],
+  a: 2
+},
+{
+  q: "A bank discovers that a customer has maintained multiple accounts under slightly different spellings of the same name to avoid transaction monitoring. This primarily indicates:",
+  o: [
+    "Credit Risk",
+    "Structuring to evade AML controls",
+    "Liquidity Management",
+    "Normal Banking Practice"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following principles is MOST directly violated when a bank employee shares customer account details with a friend without authorization?",
+  o: [
+    "Priority Sector Lending",
+    "Banker's Duty of Confidentiality",
+    "Financial Inclusion",
+    "Universal Banking"
+  ],
+  a: 1
+},
+{
+  q: "If RBI reduces CRR while simultaneously increasing the Repo Rate, the immediate impact on liquidity is MOST likely to be:",
+  o: [
+    "Both measures increase liquidity",
+    "Both measures reduce liquidity",
+    "The measures work in opposite directions",
+    "Neither affects banking liquidity"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following is the BEST example of 'Integration' in money laundering?",
+  o: [
+    "Depositing illegal cash into several accounts",
+    "Converting cash into demand drafts repeatedly",
+    "Investing laundered money into a legitimate hotel business",
+    "Splitting deposits into multiple branches"
+  ],
+  a: 2
+},
+{
+  q: "Which customer would normally be classified as High Risk under KYC norms?",
+  o: [
+    "College student with scholarship account",
+    "Retired government employee",
+    "Politically Exposed Person (PEP)",
+    "Minor operating through guardian"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following is the strongest reason for periodic KYC updation?",
+  o: [
+    "To increase bank charges",
+    "To ensure customer information remains current and risk-appropriate",
+    "To reduce ATM transactions",
+    "To increase loan recovery"
+  ],
+  a: 1
+},
+{
+  q: "A customer reports an unauthorized UPI transaction. The FIRST responsibility of the bank is to:",
+  o: [
+    "Close the customer's account",
+    "Ignore the complaint until police verification",
+    "Follow the prescribed grievance redressal and fraud reporting procedure",
+    "Recover money from NPCI immediately"
+  ],
+  a: 2
+},
+{
+  q: "A Business Correspondent is permitted to authenticate customers using biometrics primarily because of:",
+  o: [
+    "CBS",
+    "AEPS infrastructure",
+    "CTS",
+    "MICR"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following risks is MOST likely if a bank fails to perform Customer Due Diligence?",
+  o: [
+    "Market Risk",
+    "Reputational and Compliance Risk",
+    "Interest Rate Risk",
+    "Exchange Rate Risk"
+  ],
+  a: 1
+},
+{
+  q: "Which statement about Deposit Insurance is correct?",
+  o: [
+    "Insurance is provided separately for every account held by the same customer in the same bank",
+    "Deposit insurance covers eligible deposits up to the prescribed limit per depositor per bank",
+    "Only savings accounts are insured",
+    "Current accounts are never covered"
+  ],
+  a: 1
+},
+{
+  q: "A customer intentionally refuses to disclose the beneficial owner of a company account. The bank should primarily:",
+  o: [
+    "Open the account without further questions",
+    "Treat it as a KYC deficiency and proceed according to regulations",
+    "Accept a verbal declaration",
+    "Ignore the issue if PAN is available"
+  ],
+  a: 1
+},
+{
+  q: "Which banking service contributes MOST directly toward Financial Inclusion in remote villages?",
+  o: [
+    "Merchant Banking",
+    "Business Correspondent Model",
+    "Treasury Operations",
+    "Investment Banking"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is NOT generally considered a stage of Money Laundering?",
+  o: [
+    "Placement",
+    "Layering",
+    "Integration",
+    "Capitalization"
+  ],
+  a: 3
+},
+{
+  q: "The relationship between banker and customer changes from Debtor-Creditor to Creditor-Debtor when:",
+  o: [
+    "The customer opens a savings account",
+    "The customer takes a loan from the bank",
+    "The customer deposits cash",
+    "The customer receives interest"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following situations is MOST likely to trigger Enhanced Due Diligence?",
+  o: [
+    "Opening a student savings account",
+    "A low-value PMJDY account",
+    "Complex ownership structure with overseas entities",
+    "Opening a recurring deposit"
+  ],
+  a: 2
+},
+{
+  q: "The primary purpose of Core Banking Solution (CBS) is to:",
+  o: [
+    "Increase cheque printing speed",
+    "Enable centralized real-time banking across branches",
+    "Replace ATMs",
+    "Eliminate KYC requirements"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following best describes 'Operational Risk'?",
+  o: [
+    "Loss due to borrower default",
+    "Loss arising from failed processes, people, systems or external events",
+    "Loss due to inflation",
+    "Loss due to foreign exchange fluctuations"
+  ],
+  a: 1
+},
+{
+  q: "Which banking function is MOST closely associated with the prevention of terrorist financing?",
+  o: [
+    "Asset Liability Management",
+    "AML/CFT Compliance",
+    "Merchant Banking",
+    "Treasury Operations"
+  ],
+  a: 1
+},
+{
+  q: "A customer insists on making frequent cash transactions despite having access to digital channels and provides no economic justification. The bank should primarily:",
+  o: [
+    "Close the account immediately",
+    "Ignore because cash transactions are legal",
+    "Monitor the account under risk-based AML procedures",
+    "Convert the account into a current account"
+  ],
+  a: 2
+},
+{
+  q: "Which statement BEST explains the objective of Financial Literacy?",
+  o: [
+    "To maximize investment returns",
+    "To enable people to make informed financial decisions",
+    "To eliminate taxation",
+    "To increase interest rates"
+  ],
+  a: 1
+},
+{
+  q: "A borrower defaults despite having sufficient income because of an intentional refusal to repay. Which 'C' of credit is MOST directly affected?",
+  o: [
+    "Capacity",
+    "Character",
+    "Capital",
+    "Collateral"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is the strongest indicator of a suspicious transaction under a Risk-Based Approach?",
+  o: [
+    "A customer deposits salary every month",
+    "Transactions inconsistent with the customer's declared profile",
+    "Opening a recurring deposit",
+    "Using internet banking frequently"
+  ],
+  a: 1
+},
+{
+  q: "A customer transfers money through RTGS. Before execution, the branch verifies beneficiary details and authorization. This control primarily mitigates:",
+  o: [
+    "Credit Risk",
+    "Operational Risk",
+    "Market Risk",
+    "Liquidity Risk"
+  ],
+  a: 1
+},
+{
+  q: "A bank employee intentionally bypasses dual authorization while processing a high-value transaction. Which internal control has primarily failed?",
+  o: [
+    "Segregation of Duties",
+    "Cash Reserve Ratio",
+    "Priority Sector Lending",
+    "Capital Adequacy"
+  ],
+  a: 0
+},
+{
+  q: "Which statement regarding Business Correspondents is MOST accurate?",
+  o: [
+    "They function independently of banks.",
+    "They are agents acting on behalf of sponsoring banks.",
+    "They can sanction loans without bank approval.",
+    "They are regulated directly by SEBI."
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is the BEST example of identity theft?",
+  o: [
+    "Using your own Aadhaar to open an account",
+    "Opening an account using forged documents belonging to another person",
+    "Updating mobile number in the bank",
+    "Closing a dormant account"
+  ],
+  a: 1
+},
+{
+  q: "The purpose of Enhanced Due Diligence (EDD) is primarily to:",
+  o: [
+    "Reduce paperwork",
+    "Apply additional scrutiny to higher-risk customers",
+    "Increase loan sanctions",
+    "Eliminate KYC verification"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following transactions is MOST likely to attract additional AML scrutiny?",
+  o: [
+    "Monthly pension credit",
+    "Frequent cash deposits followed by immediate outward transfers",
+    "Interest credit by the bank",
+    "Utility bill payment"
+  ],
+  a: 1
+},
+{
+  q: "A customer insists on opening multiple PMJDY accounts in different branches of the same bank. The bank should primarily:",
+  o: [
+    "Allow unlimited accounts",
+    "Verify eligibility and prevent misuse of the scheme",
+    "Convert all accounts into current accounts",
+    "Automatically sanction overdraft in every account"
+  ],
+  a: 1
+},
+{
+  q: "The primary purpose of periodic risk classification of customers is to:",
+  o: [
+    "Increase banking charges",
+    "Ensure monitoring matches the customer's risk profile",
+    "Reduce staff workload",
+    "Increase CRR compliance"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following best describes a 'Beneficial Owner'?",
+  o: [
+    "The person operating the ATM",
+    "The individual who ultimately owns or controls the customer/entity",
+    "The branch manager",
+    "The nominee in every account"
+  ],
+  a: 1
+},
+{
+  q: "If a customer refuses to provide information regarding the source of funds for unusually large transactions, the bank should:",
+  o: [
+    "Ignore the issue",
+    "Accept the explanation verbally",
+    "Apply enhanced monitoring and act according to AML regulations",
+    "Immediately approve all transactions"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following BEST demonstrates the principle of Financial Inclusion?",
+  o: [
+    "Increasing minimum balance requirements",
+    "Providing affordable banking access to underserved populations",
+    "Restricting banking to urban areas",
+    "Reducing branch timings"
+  ],
+  a: 1
+},
+{
+  q: "A customer opens an account using genuine documents but on behalf of another undisclosed person. This primarily raises concerns regarding:",
+  o: [
+    "Liquidity Risk",
+    "Beneficial Ownership",
+    "Interest Rate Risk",
+    "Credit Appraisal"
+  ],
+  a: 1
+},
+{
+  q: "Which payment system is MOST suitable for government benefit transfers linked with Aadhaar?",
+  o: [
+    "RTGS",
+    "APBS",
+    "CTS",
+    "MICR"
+  ],
+  a: 1
+},
+{
+  q: "The principal objective of the FATF recommendations is to:",
+  o: [
+    "Increase foreign investment",
+    "Combat money laundering and terrorist financing",
+    "Promote exports",
+    "Regulate stock exchanges"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following banking risks may arise from poor cybersecurity practices?",
+  o: [
+    "Market Risk",
+    "Operational Risk",
+    "Interest Rate Risk",
+    "Credit Risk"
+  ],
+  a: 1
+},
+{
+  q: "A customer's transaction pattern suddenly changes from low-value domestic payments to frequent high-value international transfers. The bank should:",
+  o: [
+    "Treat it as routine activity",
+    "Review the account under risk-based transaction monitoring",
+    "Automatically close the account",
+    "Ignore if the account balance is sufficient"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following best represents the objective of Customer Acceptance Policy?",
+  o: [
+    "Accept every customer without verification",
+    "Lay down criteria for accepting customers based on risk",
+    "Increase loan disbursement",
+    "Reduce deposit mobilization"
+  ],
+  a: 1
+},
+{
+  q: "A Business Correspondent knowingly allows another unauthorized person to operate his biometric device. This is primarily a violation of:",
+  o: [
+    "Authentication and Operational Security",
+    "Cash Reserve Ratio",
+    "Priority Sector Lending",
+    "Capital Adequacy Norms"
+  ],
+  a: 0
+},
+{
+  q: "A customer maintains frequent transactions just below the threshold that would normally trigger regulatory reporting. This practice is commonly known as:",
+  o: [
+    "Layering",
+    "Structuring (Smurfing)",
+    "Integration",
+    "Diversification"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following would MOST likely require filing an STR even if the transaction amount is relatively small?",
+  o: [
+    "Monthly salary credit",
+    "Repeated unexplained transactions inconsistent with the customer's profile",
+    "Interest credited by the bank",
+    "Fixed Deposit maturity proceeds"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following BEST reflects the principle of 'Know Your Customer'?",
+  o: [
+    "Knowing only the customer's address",
+    "Understanding customer identity, occupation, source of funds and expected account activity",
+    "Collecting PAN only",
+    "Opening accounts immediately without verification"
+  ],
+  a: 1
+},
+{
+  q: "A Business Correspondent notices that a customer is being forced by another individual to withdraw DBT benefits. What should the BC do FIRST?",
+  o: [
+    "Ignore the matter",
+    "Assist the suspected person",
+    "Follow bank procedures and report the suspicious activity",
+    "Close the customer's account immediately"
+  ],
+  a: 2
+},
+{
+  q: "Which of the following BEST describes a shell company in the context of AML?",
+  o: [
+    "A company manufacturing shells",
+    "A company with little or no genuine business activity used to hide ownership or funds",
+    "A government-owned enterprise",
+    "A cooperative society"
+  ],
+  a: 1
+},
+{
+  q: "A bank employee deliberately accesses a celebrity's account without any business purpose. This primarily violates:",
+  o: [
+    "Liquidity Management",
+    "Customer Confidentiality and Privacy",
+    "Financial Inclusion",
+    "Priority Sector Lending"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following banking risks can arise due to failure of servers during peak transaction hours?",
+  o: [
+    "Credit Risk",
+    "Operational Risk",
+    "Market Risk",
+    "Country Risk"
+  ],
+  a: 1
+},
+{
+  q: "The primary objective of transaction monitoring is to:",
+  o: [
+    "Increase deposits",
+    "Identify unusual or suspicious financial activity",
+    "Increase loan recovery",
+    "Reduce CRR"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following would generally be considered the LOWEST risk customer?",
+  o: [
+    "Politically Exposed Person",
+    "Company with complex overseas ownership",
+    "Government department",
+    "Customer dealing heavily in cash-intensive businesses"
+  ],
+  a: 2
+},
+{
+  q: "Which banking principle requires employees to perform only those functions specifically assigned to them?",
+  o: [
+    "Segregation of Duties",
+    "Financial Inclusion",
+    "Universal Banking",
+    "Capital Formation"
+  ],
+  a: 0
+},
+{
+  q: "The main purpose of Aadhaar authentication in AEPS is to:",
+  o: [
+    "Calculate interest",
+    "Verify customer identity securely",
+    "Issue debit cards",
+    "Increase transaction limits"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following situations poses the GREATEST reputational risk to a bank?",
+  o: [
+    "Delay in branch renovation",
+    "Major customer data breach",
+    "Opening a new branch",
+    "Installing additional ATMs"
+  ],
+  a: 1
+},
+{
+  q: "A bank refuses to open an account because the applicant declines to complete mandatory KYC requirements. The bank's action is:",
+  o: [
+    "Improper customer service",
+    "Consistent with regulatory compliance",
+    "A violation of financial inclusion",
+    "A criminal offence"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following BEST represents cyber fraud through social engineering?",
+  o: [
+    "Cheque truncation",
+    "Phishing attack asking for OTP and credentials",
+    "RTGS settlement",
+    "Interest calculation"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is the strongest indicator that a customer account should be reviewed under Enhanced Due Diligence?",
+  o: [
+    "Opening a savings account with ₹500",
+    "Large unexplained cross-border transactions",
+    "Receiving pension every month",
+    "Paying electricity bills online"
+  ],
+  a: 1
+},
+{
+  q: "A Business Correspondent must protect biometric devices primarily to:",
+  o: [
+    "Increase internet speed",
+    "Prevent identity fraud and unauthorized transactions",
+    "Reduce CRR",
+    "Increase branch profitability"
+  ],
+  a: 1
+},
+{
+  q: "Which of the following is the BEST example of operational resilience?",
+  o: [
+    "Maintaining backup systems to continue banking during system failures",
+    "Increasing loan interest rates",
+    "Reducing branch staff",
+    "Closing rural branches"
+  ],
+  a: 0
+},
+{
+  q: "Which of the following transactions is LEAST likely to be considered suspicious?",
+  o: [
+    "A salaried employee receiving regular monthly salary",
+    "Large unexplained cash deposits by a dormant account holder",
+    "Immediate transfer of newly deposited cash to multiple beneficiaries",
+    "Frequent cash deposits inconsistent with business profile"
+  ],
+  a: 0
+},
+{
+  q: "Which of the following BEST defines Financial Literacy?",
+  o: [
+    "Knowledge that enables individuals to make informed financial decisions",
+    "Knowledge of stock market trading only",
+    "Ability to sanction loans",
+    "Maintaining multiple bank accounts"
+  ],
+  a: 0
+},
+{
+  q: "The ultimate responsibility for compliance with RBI guidelines in a BC-operated outlet rests with:",
+  o: [
+    "The Business Correspondent alone",
+    "The sponsoring bank",
+    "The customer",
+    "NPCI"
+  ],
+  a: 1
 }
 ];
